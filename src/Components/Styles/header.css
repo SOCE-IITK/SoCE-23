@@ -1,0 +1,17 @@
+#menubar{
+    background-color: #fff !important;
+  }
+  
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .nav-link,.dropdown-item{
+    text-align: center !important;
+  }
+
+  .sticky-nav {
+    position: sticky;
+    top: 0;
+  }
+  
