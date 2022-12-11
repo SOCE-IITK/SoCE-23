@@ -1,4 +1,53 @@
 #home{
     display: block;
-    height: 100vh;
+    /* height: 100vh; */
+}
+.slider-content img{
+    height: 100%;
+    width: 100%;
+}
+#img{
+    border-radius: 5%;
+}
+.slider-parent{
+    margin-top:2%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+/* .slider-content-col,.slider-content .row{
+    height: 50vh;
+} */
+.slider-content{
+    text-align: justify;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    transition: opacity 1s;
+}
+.slider-content .row{
+    padding: 1% 5%;
+}
+.sl{
+    padding: 5% 1%;
+}
+#p,#f{
+    margin-top: 1%;
+    font-size: 1.5rem;
+}
+#p{margin-right: 5%;}
+#f{margin-left: 5%;}
+#p,#f:hover{
+    cursor: pointer;
+}
+
+.indicators{
+    margin: 1%;
+}
+.indicators:hover{
+    cursor: pointer;
+}
+.read-more{
+    text-align: center;
+}
+#read-more{
+    margin-top:5%;
 }

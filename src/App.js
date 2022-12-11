@@ -10,12 +10,8 @@ function App() {
     <div className="App">
       <Menubar/>
       <Routes>
-        <Route path="/" element={<Home/>}>
-
-        </Route>
-        <Route path="/team" element={<Team/>}>
-
-        </Route>
+        <Route path="/" element={<Home/>}></Route>
+        <Route path="/team" element={<Team/>}></Route>
       </Routes>
       <Footer/>
     </div>
