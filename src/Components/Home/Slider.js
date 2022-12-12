@@ -1,27 +1,25 @@
 import $ from 'jquery'
-
-const content = [
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
-    "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
-    "typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
-]
-  
-const img=[
-    "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
-    "https://images.pexels.com/photos/15286/pexels-photo.jpg",
-    "https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=1024x1024&w=is&k=20&c=9Qfj9S124ojed7s4OWu3a3vbbMC76QYkqczg4L4M-Sc="
-]
+import {content,img} from '../../Data/slider_data';
 
 
 var a = 0;
 function universal(i){
     $('#y').animate({'opacity':0},400,function(){
-        $(this).html(content[i]).animate({'opacity':1},200)
+        $(this).html(content[i][0]).animate({'opacity':1},200)
+    })
+    $('#slider-heading').animate({'opacity':0},400,function(){
+        $(this).html(content[i][1]).animate({'opacity':1},200)
+    })
+    $('#slider-date').animate({'opacity':0},400,function(){
+        $(this).html(content[i][2]).animate({'opacity':1},200)
     })
     // document.getElementById('img').src=img[j];
     $('#img').animate({'opacity':0},400,function(){
         $(this).attr('src',img[i]).animate({'opacity':1},300)
     })
+    // ********** see later for a tag property
+    $('a').attr('href',content[i][3]);
+    // console.log('#slider-l')
     let h = document.getElementsByClassName('indicators');
     for(var k=0;k<3;k++){
         h[k].classList.remove('fa-circle')
@@ -63,8 +61,20 @@ export default function Slider() {
                                 <img id='img' src='https://images.pexels.com/photos/15286/pexels-photo.jpg'></img>
                             </div>
                             <div className="col-lg-8 sl">
-                               <div id='y'>{content[1]} </div> 
-                               <button id='read-more' className='btn btn-primary'>Read More</button>
+                                <div className='container-fluid'>
+                                    <div className='row'>
+                                        <div className='col'><h1 id='slider-heading'>{content[0][1]}</h1></div>
+                                    </div>
+                                    <div className='row'>
+                                        <div className='col'><h5 id='slider-date'>{content[0][2]}</h5></div>
+                                    </div>
+                                    <div className='row'>
+                                        <div className='col'><div id='y'>{content[0][0]} </div> </div>
+                                    </div>
+                                    <div className='row'>
+                                        <div className='col' ><a href='/'><button id='read-more' className='btn btn-primary'>Read More</button></a></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
