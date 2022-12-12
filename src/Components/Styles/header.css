@@ -1,5 +1,7 @@
 #menubar{
-    background-color: #fff !important;
+    /* background-color: #fff !important; */
+    background-color: #D9D9D9 !important;
+    padding: 1%;
   }
   
   .nav-item.dropdown:hover .dropdown-menu {
@@ -10,8 +12,8 @@
     text-align: center !important;
   }
 
-  .sticky-nav {
+  /* .sticky-nav {
     position: sticky;
     top: 0;
-  }
+  } */
   
