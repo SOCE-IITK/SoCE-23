@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
 #about{
     height: 100vh;
-    background-image: url('./mainbg.png');
+    background-image: url('../Assets/mainbg.png');
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
