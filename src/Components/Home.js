@@ -5,6 +5,7 @@ import Message from './Home/Message'
 export default function Home(){
     return(
         <div id='home'>
+           
             <About/>
             <Slider/>
             <Message/>
