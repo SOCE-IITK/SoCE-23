@@ -1,0 +1,56 @@
+#StudentSec{
+    display: block;
+    /* height: 100vh; */
+}
+.stu{
+    background-color: #D9D9D9;
+    padding: 17px;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+.stud{
+    background-color: #D9D9D9;
+    padding: 17px;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    float: left;
+    width:50%;
+}
+.sec{
+    background-color: #D9D9D9;
+    padding: 17px;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    float: right;
+    width:50%;
+}
+.btn{
+    margin-left: 30%;
+    border: none;
+    background-color: #b7b6b6;
+    padding: 6px 28px;
+    border-radius: 30px;
+    float:right;
+}
+@media screen and (max-width: 768px) {
+    .btn{
+        margin-left: -70%;
+        margin-top: 35px;
+    }
+    
+}
+#student-col{
+    text-align: center;
+    /* height: 80vh; */
+}
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
