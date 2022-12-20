@@ -1,41 +1,15 @@
+import Template from "./Template";
+const data =
+{
+  head1: "Sessions",
+  text1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a",
+  head2: "Merchandises",
+  text2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a"
+}
 export default function Session() {
   return (
-    <div className="container">
-      <div className="container Container" id="session">
-        <div className="row">
-          <div className="col-sm-1"></div>
-          <div className="col-sm-4 stud">
-            <h1>Sessions</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of type
-              and scrambled it to make a
-            </p>
-            <div className="row">
-              <div className="col">
-                <button type="button" className="btn Btn">Read more</button>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-2"></div>
-          <div className="col-sm-4 stud">
-            <h1>Merchandises</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of type
-              and scrambled it to make a
-            </p>
-            <div className="row">
-              <div className="col">
-                <button type="button" className="btn Btn">Read more</button>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-1"></div>
-        </div>
-      </div>
-    </div>
+    <>
+      <Template props={data} />
+    </>
   );
 }
