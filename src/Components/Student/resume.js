@@ -11,7 +11,7 @@ export default function Resume() {
               and scrambled it to make a
             </p>
             <dv className="col-3">
-            <button type="button" class="btn">Read more</button>
+            <button type="button" class="btn Btn">Read more</button>
         </dv>
           </div>
         </div>
@@ -25,7 +25,7 @@ export default function Resume() {
               and scrambled it to make a
             </p>
             <dv className="col-3">
-            <button type="button" class="btn">Read more</button>
+            <button type="button" class="btn Btn">Read more</button>
         </dv>
           </div>
         </div>

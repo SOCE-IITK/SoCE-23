@@ -10,7 +10,7 @@ export default function About() {
             </div>
             <div className='row'>
                 <div className='col' id='about-col'>
-                    <button type='button' className='btn btn-light'>About Us</button>
+                    <button id='about-btn' type='button' className='btn btn-light'>About Us</button>
                 </div>
             </div>
         </div>
