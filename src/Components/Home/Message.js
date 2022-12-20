@@ -23,9 +23,9 @@ export default function Message() {
         <div className="col-9">
             <h5>Get in touch with any questions, ideas, or feedback you may have.</h5>
         </div>
-        <dv className="col-3">
-            <button type="button" class="mybtn">Contact</button>
-        </dv>
+        <div className="col-3">
+            <button type="button" className="mybtn">Contact</button>
+        </div>
       </div>
     </div>
   );

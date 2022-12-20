@@ -21,10 +21,9 @@
 .site-footer h6
 {
   color:#fff;
-  font-size:16px;
+  font-size:15px;
   text-transform:uppercase;
   margin-top:5px;
-  letter-spacing:2px
 }
 .site-footer a
 {
@@ -46,7 +45,8 @@
 }
 .footer-links a
 {
-  color:#737373
+  color:#737373;
+  font-size: 12px;
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
@@ -59,15 +59,14 @@
 }
 .site-footer .social-icons
 {
-  text-align:right
+  text-align:center
 }
 .site-footer .social-icons a
 {
   width:40px;
   height:40px;
   line-height:40px;
-  margin-left:6px;
-  margin-right:0;
+  margin: 0 15px;
   border-radius:100%;
   background-color:#33353d
 }
@@ -113,6 +112,7 @@
   font-size:13px
 }
 .social-icons a{
+  font-size: 12px;
   background-color:#eceeef;
   color:#818a91;
   font-size:16px;
@@ -163,4 +163,17 @@
     margin-right:0;
     font-weight:600
   }
+}
+
+#footer-icon{
+  width: 100% !important;
+}
+
+.footer-p{
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.Divs{
+  text-align: center;
 }

@@ -53,10 +53,14 @@ export default function Slider() {
     return (
         <div>
             {/* <h1>Recent Activities</h1> */}
-            <div className='container-fluid slider-parent'>
-                <div className='row'><h1 id='recent'>Recent Activities</h1></div>
+            <div className='container slider-parent'>
+                <div className='row'>
+                    <div className='col'>
+                        <h1 id='recent'>Recent Activities</h1>
+                    </div>
+                </div>
                 <div className='row slider-row'>
-                    {/* <div className='col-0.5'></div> */}
+                   
                     <div className="col-12 slider-content-col">
                         <div className="container slider-content">
                             <div className="row">

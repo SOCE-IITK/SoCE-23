@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Styles/header.css'
+import logo from './logo.png'
 const items = [
     {
         name: ["Home"],
@@ -58,7 +59,9 @@ function Menubar() {
     return (
         <Navbar sticky="top" bg="light" expand="lg" id="menubar">
             <Container>
-                <Navbar.Brand href="/">SOCE-IITK</Navbar.Brand>
+                <Navbar.Brand href="/">
+                    <img id='soce-logo' src={logo} alt='Logo'></img>
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto justify-content-center">

@@ -9,6 +9,7 @@
     border-radius: 25px;
     margin-top: 15px;
     margin-bottom: 60px;
+  
 }
 .stud{
     background-color: #D9D9D9;
@@ -17,8 +18,8 @@
     border-radius: 25px;
     margin-top: 15px;
     margin-bottom: 60px;
-    float: left;
-    width:50%;
+    /* float: left; */
+    /* width:50%; */
 }
 .sec{
     background-color: #D9D9D9;
@@ -39,7 +40,7 @@
     float:right;
 }
 @media screen and (max-width: 768px) {
-    .btn{
+    .Btn{
         margin-left: -70%;
         margin-top: 35px;
     }
@@ -49,7 +50,7 @@
     text-align: center;
     /* height: 80vh; */
 }
-.container:after {
+.Container:after {
     content: "";
     display: table;
     clear: both;
