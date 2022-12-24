@@ -1,4 +1,4 @@
-export default function Ankit() {
+export default function Ankit2() {
     return (
         <div class="a-box">
         <div class="img-container">
@@ -22,7 +22,7 @@ export default function Ankit() {
     type and scrambled it to make a
     </p>
     <dv className="col-3">
-              <button type="button" class="p but">Read more</button>
+              <button type="button" class="but">Read more</button>
           </dv>
         </div>
       </div>

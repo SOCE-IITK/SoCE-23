@@ -16,7 +16,7 @@ const items = [
     },
     {
         name: ["Student Section"],
-        subitems: [["Student Section","/student","0.3"],["Intern Chats", "#", "3.1"], ["Career Choices", "#", "3.2"], ["Placement Postulates", "#", "3.3"], ["TTP", "#", "3.4"], ["Summer Projects", "#", "3.5"], ["Competition", "#", "3.6"], ["Informal Session", "#", "3.7"], ["Resumes", "#", "3.8"], ["Alumnus", "#", "3.9"], ["Merchs.", "#", "3.10"]]
+        subitems: [["Student Section","/student","0.3"],["Intern Chats", "#", "3.1"], ["Career Choices", "#", "3.2"], ["Placement Postulates", "/place", "3.3"], ["TTP", "#", "3.4"], ["Summer Projects", "#", "3.5"], ["Competition", "#", "3.6"], ["Informal Session", "#", "3.7"], ["Resumes", "#", "3.8"], ["Alumnus", "#", "3.9"], ["Merchs.", "#", "3.10"]]
     },
     {
         name: ["Team"],

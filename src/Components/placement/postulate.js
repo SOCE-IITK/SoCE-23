@@ -1,11 +1,9 @@
-export default function postulate() {
+export default function Postulate() {
     return (
       <div className="container" id="message">
-        <div className="row my-2">
-          <h1>Placement Postulates</h1>
-        </div>
         <div className="row mes">
           <div className="col">
+          <h1>Placement Postulates</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -15,10 +13,10 @@ export default function postulate() {
               remaining .
             </p>
             <dv className="col-3">
-              <button type="button" class="mybtn">Y19</button>
-              <button type="button" class="mybtn">Y18</button>
-              <button type="button" class="mybtn">Y17</button>
-              <button type="button" class="mybtn">Y16</button>
+              <button type="button" class="p btn">Y19</button>
+              <button type="button" class="p btn">Y18</button>
+              <button type="button" class="p btn">Y17</button>
+              <button type="button" class="p btn">Y16</button>
           </dv>
           </div>
         </div>

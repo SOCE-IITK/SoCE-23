@@ -1,4 +1,4 @@
-export default function Ankit() {
+export default function Ankit3() {
     return (
         <div class="a-box">
         <div class="img-container">

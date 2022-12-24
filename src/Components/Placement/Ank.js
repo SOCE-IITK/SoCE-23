@@ -1,4 +1,4 @@
-export default function Ankit() {
+export default function Ank() {
     return (
         <div class="a-box">
         <div class="img-container">
@@ -11,8 +11,7 @@ export default function Ankit() {
         <div class="text-container">
             <h3>Ankit Verma</h3>
             <h4>Product Analyst, Myntra</h4>
-          <div>
-            <p>
+          <p>
             Lorem Ipsum is simply dummy text
     of the printing and typesetting
     industry. Lorem Ipsum has been the
@@ -20,11 +19,10 @@ export default function Ankit() {
     ever since the 1500s, when an
     unknown printer took a galley of
     type and scrambled it to make a
-    </p>
-    <dv className="col-3">
+        </p>
+        <dv className="col-3">
               <button type="button" class="p but">Read more</button>
           </dv>
-        </div>
       </div>
     </div>
     );
