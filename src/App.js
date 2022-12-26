@@ -8,6 +8,7 @@ import StudentSec from './Components/Student_Section'
 import Strength from './Components/Strength'
 import Portal from './Components/Portal'
 import Team from './Components/Team';
+import Postu from './Components/Placement/postu';
 import Contact from './Components/Contact';
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/team" element={<Team/>}></Route>
         <Route path="/strength" element={<Strength/>}></Route>
         <Route path="/portal" element={<Portal/>}></Route>
+        <Route path="/place" element={<Postu/>}></Route>
         <Route path="/contact-us" element={<Contact/>}></Route>
       </Routes>
       <Footer/>
