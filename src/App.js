@@ -10,7 +10,6 @@ import Portal from './Components/Portal'
 import Team from './Components/Team';
 import Contact from './Components/Contact';
 import Postu from './Components/Placement/postu';
-
 function App() {
   return (
     <div className="App">
@@ -23,6 +22,7 @@ function App() {
         <Route path="/portal" element={<Portal/>}></Route>
         <Route path="/place" element={<Postu/>}></Route>
         <Route path="/contact-us" element={<Contact/>}></Route>
+        <Route path="/postulates" element={<Postu/>}></Route>
       </Routes>
       <Footer/>
     </div>
