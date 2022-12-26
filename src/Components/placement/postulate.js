@@ -1,6 +1,6 @@
 export default function Postulate() {
     return (
-      <div className="container" id="message">
+      <div className="container" id="place">
         <div className="row mes">
           <div className="col">
           <h1>Placement Postulates</h1>
@@ -13,10 +13,10 @@ export default function Postulate() {
               remaining .
             </p>
             <dv className="col-3">
-              <button type="button" class="p btn">Y19</button>
-              <button type="button" class="p btn">Y18</button>
-              <button type="button" class="p btn">Y17</button>
-              <button type="button" class="p btn">Y16</button>
+              <button type="button" class="btn">Y19</button>
+              <button type="button" class="btn">Y18</button>
+              <button type="button" class="btn">Y17</button>
+              <button type="button" class="btn">Y16</button>
           </dv>
           </div>
         </div>

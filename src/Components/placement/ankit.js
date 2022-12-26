@@ -4,7 +4,7 @@ export default function Ankit() {
         <div class="img-container">
           <div class="img-inner">
             <div class="inner-skew">
-            <img src='../Assets/mainbg.png' alt="img"></img>
+            img
             </div>
           </div>
         </div>
@@ -13,16 +13,10 @@ export default function Ankit() {
             <h4>Product Analyst, Myntra</h4>
           <div>
             <p>
-            Lorem Ipsum is simply dummy text
-    of the printing and typesetting
-    industry. Lorem Ipsum has been the
-    industry's standard dummy text
-    ever since the 1500s, when an
-    unknown printer took a galley of
-    type and scrambled it to make a
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
     </p>
     <dv className="col-3">
-              <button type="button" class="p but">Read more</button>
+              <button type="button" class="but">Read more</button>
           </dv>
         </div>
       </div>
