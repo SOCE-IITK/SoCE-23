@@ -1,7 +1,9 @@
 import $ from 'jquery'
 import { content, img } from '../../Data/slider_data';
-
-
+import {useState} from 'react'
+// let head = content[0][1]
+// let date = content[0][2]
+// let text = content[0][0]
 var a = 0;
 function universal(i) {
     $('#y').animate({ 'opacity': 0 }, 400, function () {
@@ -50,9 +52,12 @@ function i3() {
     universal(2);
 }
 export default function Slider() {
+    const [head,setHead] = useState(content[0][1])
+    const [date,setDate] = useState(content[0][2])
+    const [text,setText] = useState(content[0][0])
     return (
         <div>
-            {/* <h1>Recent Activities</h1> */}
+            
             <div className='container slider-parent'>
                 <div className='row'>
                     <div className='col'>
@@ -70,13 +75,13 @@ export default function Slider() {
                                 <div className="col-lg-8 sl">
                                     <div className='container-fluid'>
                                         <div className='row'>
-                                            <div className='col'><h1 id='slider-heading'>{content[0][1]}</h1></div>
+                                            <div className='col'><h1 id='slider-heading'>{head}</h1></div>
                                         </div>
                                         <div className='row'>
-                                            <div className='col'><h5 id='slider-date'>{content[0][2]}</h5></div>
+                                            <div className='col'><h5 id='slider-date'>{date}</h5></div>
                                         </div>
                                         <div className='row'>
-                                            <div className='col'><div id='y'>{content[0][0]} </div> </div>
+                                            <div className='col'><div id='y'>{text} </div> </div>
                                         </div>
                                         <div className='row'>
                                             <div className='col' ><a href='/'><button id='read-more' className='btn btn-primary'>Read More</button></a></div>
