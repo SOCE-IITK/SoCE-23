@@ -1,4 +1,8 @@
 import './Styles/contact.css'
+import location from './Assets/location.png'
+import email from './Assets/email.png'
+import shape from './Assets/shape.png'
+import phone from './Assets/phone.png'
 
 const inputs = document.querySelectorAll(".input");
 
@@ -25,7 +29,7 @@ export default function Contact() {
         <>
             <div class="contact-container">
                 <span class="big-circle"></span>
-                <img src="img/shape.png" class="square" alt="" />
+                <img src={shape} class="square" alt="" />
                 <div class="form">
                     <div class="contact-info">
                         <h3 class="title">Let's get in touch</h3>
@@ -36,15 +40,15 @@ export default function Contact() {
 
                         <div class="info">
                             <div class="information">
-                                <img src="Assets/location.png" class="icon" alt="" />
+                                <img src={location} class="icon" alt="" />
                                 <p>92 Cherry Drive Uniondale, NY 11553</p>
                             </div>
                             <div class="information">
-                                <img src="Assets/mainbg.png" class="icon" alt="" />
+                                <img src={email} class="icon" alt="" />
                                 <p>lorem@ipsum.com</p>
                             </div>
                             <div class="information">
-                                <img src="Assets/phone.png" class="icon" alt="" />
+                                <img src={phone} class="icon" alt="" />
                                 <p>123-456-789</p>
                             </div>
                         </div>

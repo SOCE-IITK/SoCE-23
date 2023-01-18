@@ -1,22 +1,23 @@
-import Coordi from "../../database/coordi.json";
+import Secy from "../../database/secretary.json";
 
-export default function CoordieCard() {
+export default function SecyCard() {
   return (
     <div className="postulates-card">
-      {Coordi.map((data) => {
+      {Secy.map((data) => {
         return (
           <div className="a-box">
             <div className="img-container">
               <div className="img-inner">
                 <div className="inner-skew">
-                  <img src={data.image} alt="" />
+                    <img src={data.image} alt="" />
                 </div>
               </div>
             </div>
             <div className="team-container">
               <h3>{data.name}</h3>
+              <h3>{data.post}</h3>
               <ul className="team-social-icons">
-                <li>
+              <li>
                   <a className="facebook" href={data.fb}>
                     <i className="fa fa-facebook"></i>
                   </a>

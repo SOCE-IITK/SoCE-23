@@ -39,6 +39,7 @@
 
 .img-container img {
   height: 150px;
+  object-fit: cover;
 
 }
 .postulates-year{
