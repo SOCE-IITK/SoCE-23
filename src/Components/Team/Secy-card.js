@@ -18,22 +18,22 @@ export default function SecyCard() {
               <h3>{data.post}</h3>
               <ul className="team-social-icons">
               <li>
-                  <a className="facebook" href={data.fb}>
+                  <a className="facebook" target='_blank' href={data.fb}>
                     <i className="fa fa-facebook"></i>
                   </a>
                 </li>
                 <li>
-                  <a className="dribbble" href={data.insta}>
+                  <a className="dribbble" target='_blank' href={data.insta}>
                     <i className="fa fa-instagram"></i>
                   </a>
                 </li>
                 <li>
-                  <a className="linkedin" href={data.linkedin}>
+                  <a className="linkedin" target='_blank' href={data.linkedin}>
                     <i className="fa fa-linkedin"></i>
                   </a>
                 </li>
                 <li>
-                  <a className="twitter" href={data.mail}>
+                  <a className="twitter" target='_blank' href={data.mail}>
                     <i className="fa fa-envelope"></i>
                   </a>
                 </li>

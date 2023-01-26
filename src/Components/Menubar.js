@@ -21,11 +21,11 @@ const items = [
     },
     {
         name: ["Team"],
-        subitems: [["Team","/team","0.4"],["Department Head", "/team", "4.1"], ["Advisor", "#", "4.2"], ["Coordinator", "#", "4.3"], ["Head", "#", "4.4"], ["Secretaries", "#", "4.5"], ["Past Teams", "#", "4.6"]]
+        subitems: [["Current Team","/team","0.4"],['Past Teams',"/pastteams",'1.4']]
     },
     {
-        name: ["Strengths"],
-        subitems: [["Strengths'07","/strength","0.5"],["Strengths'08", "#", "5.1"], ["Strengths'09", "#", "5.2"], ["Strengths'22", "#", "5.3"],["Strengths'23", "#", "5.4"],["Strengths'24", "#", "5.5"]],
+        name: ["Magazines"],
+        subitems: [["Strengths","/strength","0.5"]],
 
     },
     {

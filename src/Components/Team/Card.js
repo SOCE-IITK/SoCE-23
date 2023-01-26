@@ -12,22 +12,22 @@ export default function Card() {
               <h3>Tarun Gupta</h3>
               <ul className="team-social-icons">
                 <li>
-                  <a className="facebook" href="/">
+                  <a className="facebook" target="_blank" href="/">
                     <i className="fa fa-facebook"></i>
                   </a>
                 </li>
                 <li>
-                  <a className="twitter" href="/">
+                  <a className="twitter" target="_blank" href="/">
                     <i className="fa fa-twitter"></i>
                   </a>
                 </li>
                 <li>
-                  <a className="dribbble" href="/">
+                  <a className="dribbble" target="_blank" href="/">
                     <i className="fa fa-instagram"></i>
                   </a>
                 </li>
                 <li>
-                  <a className="linkedin" href="/">
+                  <a className="linkedin" target="_blank" href="/">
                     <i className="fa fa-linkedin"></i>
                   </a>
                 </li>

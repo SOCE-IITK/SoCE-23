@@ -9,7 +9,7 @@ export default function Card(props) {
               <div className="img-container">
                 <div className="img-inner">
                   <div className="inner-skew">
-                    img
+                  <img src={d.dp} alt="" />
                   </div>
                 </div>
               </div>
