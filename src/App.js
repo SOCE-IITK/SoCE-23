@@ -10,6 +10,7 @@ import Portal from './Components/Portal'
 import Team from './Components/Team';
 import Contact from './Components/Contact';
 import Postu from './Components/Placement/postu';
+import Ankit from './Components/blogs/Ankit';
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App() {
         <Route path="/place" element={<Postu/>}></Route>
         <Route path="/contact-us" element={<Contact/>}></Route>
         <Route path="/postulates" element={<Postu/>}></Route>
+        <Route path="/ankit" element={<Ankit/>}></Route>
       </Routes>
       <Footer/>
     </div>
