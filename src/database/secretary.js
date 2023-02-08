@@ -1,4 +1,4 @@
-var secy = [{
+var Secy = [{
   name: "Aman Khilani",
   post: "Secretary Content",
   fb: "https://www.facebook.com/aman.khilani.5",
@@ -325,4 +325,4 @@ var secy = [{
 
 ]
 
-module.exports = secy;
+export default Secy

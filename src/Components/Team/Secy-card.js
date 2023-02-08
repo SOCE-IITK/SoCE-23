@@ -9,7 +9,7 @@ export default function SecyCard() {
             <div className="img-container">
               <div className="img-inner">
                 <div className="inner-skew">
-                    <img src={data.image} alt="" />
+                    <img className="secy-img" src={data.image} alt="" />
                 </div>
               </div>
             </div>

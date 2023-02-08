@@ -36,4 +36,4 @@ var cordi = [{
   }
 ]
 
-module.exports = cordi;
+export default cordi
