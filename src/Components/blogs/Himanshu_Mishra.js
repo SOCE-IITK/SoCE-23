@@ -225,7 +225,7 @@ const Himanshu_Mishra = () => {
                 class="blog-image-right"
                 src="placement-postulates/blogs/Himanshu-Mishra/4.jpg"
               />
-              <h2 align="center" style="color:grey">
+              <h2 align="center">
                 <b>Resources</b>
               </h2>
               <h3>
