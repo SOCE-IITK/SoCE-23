@@ -20,7 +20,9 @@ export default function Card(props) {
                   {d.text.slice(0,100)}...
                 </p>
                 <div className="col card-read-more">
-                  <button type="button" className="but">Read more</button>
+                  <button type="button" className="but">
+                    <a href={d.link}> Read More </a>
+                  </button>
                 </div>
               </div>
             </div>

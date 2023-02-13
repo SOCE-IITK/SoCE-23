@@ -241,7 +241,7 @@ var chats = [
     work: "IOCL",
     text: "Let me first introduce myself. I am Jeetendra Kumar Patel (Y16), B.Tech in CE, IITK. Currently, I am working in IOCL, I got placed in Phase 2 last year. ",
     dp: "placement-postulates/dp/1.jpg",
-    link: "/Jeetendra_Kumar_Patel",
+    link: "https://soceiitk.org/ankit",
     thumbnail: "placement-postulates/thumbnail/1.jpg",
     og: "Jeetendra_Kumar_Patel"
   },
