@@ -55,17 +55,17 @@ export default function Slider() {
             {/* <h1>Recent Activities</h1> */}
             <div className='container slider-parent'>
                 <div className='row'>
-                    <div className='col'>
+                    <div className='col' data-aos="fade-right">
                         <h1 id='recent'>Recent Activities</h1>
                     </div>
                 </div>
-                <div className='row slider-row'>
+                <div className='row slider-row' data-aos="fade-up">
                    
                     <div className="col-12 slider-content-col">
                         <div className="container slider-content">
                             <div className="row">
                                 <div className="col-lg-4 sl">
-                                    <img id='img' src='https://images.pexels.com/photos/15286/pexels-photo.jpg'></img>
+                                    <img id='img' src={img[0]}></img>
                                 </div>
                                 <div className="col-lg-8 sl">
                                     <div className='container-fluid'>

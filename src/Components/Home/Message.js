@@ -2,10 +2,10 @@ export default function Message() {
   return (
     <div className="container">
       <div className="container" id="message">
-        <div className="row my-2">
+        <div className="row my-2" data-aos="fade-right">
           <h1>Recent Messages</h1>
         </div>
-        <div className="row mes">
+        <div className="row mes" data-aos="fade-up">
           <div className="col">
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -20,7 +20,7 @@ export default function Message() {
             </p>
           </div>
         </div>
-        <div className="row my-5 getm">
+        <div className="row my-5 getm" data-aos="zoom-in">
           <div className="col-sm-9">
             <h5>Get in touch with any questions, ideas, or feedback you may have.</h5>
           </div>
