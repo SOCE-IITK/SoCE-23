@@ -1,6 +1,6 @@
 import React from 'react'
 import './blogs.css'
-const Ankit = () => {
+const Aniket_Kumar = () => {
     return (
         <div className='blog'>
             <div className='container-fluid'>
@@ -10,7 +10,7 @@ const Ankit = () => {
                     </div>
                     <div className='col-md-8'>
                         <div className='blog-head'>
-                            <h2>Ankit Verma</h2>
+                            <h2>Aniket Kumar</h2>
                             <small>Product Analyst, Myntra</small>
                         </div>
                     </div>

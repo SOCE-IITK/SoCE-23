@@ -7,13 +7,20 @@
     border-radius: 10px;
 }
 .blog img {
-    border-radius: 10px;
+    border-radius: 15px;
+    border: 2.5px solid #000000;
 }
 .blog-head{
     margin-top: 100px;
 }
 .blog-head h2{
     margin-bottom: 0;
+    font-size: 60px;
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.blog-head small{
+    font-size: 20px;
 }
 .blog-dp{
     background-color: #000;
@@ -30,7 +37,7 @@
     float: right;
     height: 300px;
     width: 300px;
-    margin-left: 1%;
+    margin-left: 2%;
     margin-top: 1%;
     margin-bottom: 1%;
 }
@@ -38,7 +45,7 @@
     float: left;
     height: 300px;
     width: 300px;
-    margin-right: 1%;
+    margin-right: 2%;
     margin-top: 1%;
     margin-bottom: 1%;
 }
