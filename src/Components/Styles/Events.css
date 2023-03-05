@@ -38,6 +38,7 @@
     border-radius: 30px;
     float:right;
 }
+
 @media screen and (max-width: 768px) {
     .coll{
         margin-left: -70%;

@@ -60,35 +60,53 @@ export default function Slider() {
                     </div>
                 </div>
                 <div className='row slider-row' data-aos="fade-up">
-                   
+
                     <div className="col-12 slider-content-col">
                         <div className="container slider-content">
                             <div className="row">
+                                {/* <div className='col-1 arrow'>
+                                    <i id='p' onClick={customp} className="fa fa-angle-left"></i>
+                                </div> */}
                                 <div className="col-lg-4 sl">
                                     <img id='img' src={img[0]}></img>
                                 </div>
-                                <div className="col-lg-8 sl">
+                                <div className="col-lg-8  sl">
                                     <div className='container-fluid'>
-                                        <div className='row'>
-                                            <div className='col'><h1 id='slider-heading'>{content[0][1]}</h1></div>
-                                        </div>
-                                        <div className='row'>
-                                            <div className='col'><h5 id='slider-date'>{content[0][2]}</h5></div>
-                                        </div>
-                                        <div className='row'>
-                                            <div className='col'><div id='y'>{content[0][0]} </div> </div>
-                                        </div>
-                                        <div className='row'>
-                                            <div className='col' ><a href='/'><button id='read-more' className='btn btn-primary'>Read More</button></a></div>
+                                        <div className='white'>
+                                            <div className='row '>
+                                                <div className='col'><h1 id='slider-heading'>{content[0][1]}</h1></div>
+                                            </div>
+                                            <div className='row '>
+                                                <div className='col'><h5 id='slider-date'>{content[0][2]}</h5></div>
+                                            </div>
+                                            <div className='row '>
+                                                <div className='col'><div id='y'>{content[0][0]} </div> </div>
+                                            </div>
+                                            <div className='row readmore'>
+                                                <div className='col' ><a href='/'><button id='read-more' className='btn btn-primary'>Read More</button></a></div>
+                                            </div>
                                         </div>
                                     </div>
+                                </div>
+                                {/* <div className='col-1 arrow'>
+                                    <i id='f' onClick={customf} className="fa fa-angle-right"></i>
+                                </div> */}
+                            </div>
+                            <div className="row circles">
+                                <div className="col">
+                                    <i id='p' onClick={customp} className="fa fa-angle-left"></i>
+                                    <i className="fa fa-circle indicators" onClick={i1}></i>
+                                    <i className="fa fa-circle-thin indicators" onClick={i2}></i>
+                                    <i className="fa fa-circle-thin indicators" onClick={i3}></i>
+                                    <i id='f' onClick={customf} className="fa fa-angle-right"></i>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     {/* <div className='col-0.5'></div> */}
                 </div>
-                <div className="row circles">
+                {/* <div className="row circles">
                     <div className="col">
                         <i id='p' onClick={customp} className="fa fa-angle-left"></i>
                         <i className="fa fa-circle indicators" onClick={i1}></i>
@@ -96,7 +114,7 @@ export default function Slider() {
                         <i className="fa fa-circle-thin indicators" onClick={i3}></i>
                         <i id='f' onClick={customf} className="fa fa-angle-right"></i>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
