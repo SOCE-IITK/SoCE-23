@@ -1,9 +1,10 @@
+import { useState } from 'react'
 import './placement.css'
 import Card from './Card'
 import chats from '../../database/placement'
 export default function Postulate() {
-  const data = chats
-  console.log(data);
+  let [data,setData] = useState(chats)
+  // console.log(data);
   return (
     <>
       <div className="container mes" id="place">
@@ -23,23 +24,34 @@ export default function Postulate() {
         <div className="row postulates-year-row">
           <div className="col postulates-year">
             <button type="button" className="btn-postulates" onClick={() => {
-
-            }}>Y19</button>
+              data = chats.filter((d)=>d.year==="y18")
+              // console.log(data)
+              setData(data);
+            }}>Y18</button>
           </div>
           <div className="col postulates-year">
-            <button type="button" className="btn-postulates">Y18</button>
+            <button type="button" className="btn-postulates" onClick={() => {
+              data = chats.filter((d)=>d.year==="y17")
+              setData(data)
+            }}>Y17</button>
           </div>
           <div className="col postulates-year">
-            <button type="button" className="btn-postulates">Y17</button>
+            <button type="button" className="btn-postulates" onClick={() => {
+              data = chats.filter((d)=>d.year==="y16")
+              setData(data)
+            }}>Y16</button>
           </div>
           <div className="col postulates-year">
-            <button type="button" className="btn-postulates">Y16</button>
+            <button type="button" className="btn-postulates" onClick={() => {
+              data = chats
+              setData(data)
+            }}>All</button>
           </div>
         </div>
       </div>
       <div className='container' id='place'>
         <div className="row">
-          <Card postulates={chats} />
+          <Card postulates={data} />
         </div>
       </div>
     </>

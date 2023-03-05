@@ -33,6 +33,8 @@ const Show = () => {
     const id = params.link
     const link = `https://soceiitk.org/${id}`
     if(id==='ankit') return(<Ankit/>)
+    else if(id==='aryaman_shandilya') return(<Aryaman_Shandilya/>)
+    else if(id==='himanshu_mishra') return(<Himanshu_Mishra/>)
     else if(id==='ashutosh_ranjan') return(<Ashutosh_Ranjan/>)
     else if(id==='chitwan_garg') return(<Chitwan_Garg/>)
     else if(id==='yashvardhan_raizada') return(<Yashvardhan_Raizada/>)
