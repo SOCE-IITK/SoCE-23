@@ -13,7 +13,7 @@ const items = [
     },
     {
         name: ["Flagship"],
-        subitems: [["Flagship","/","0.2"],["Freshers", "#", "2.1"], ["Farewell", "#", "2.2"], ["CWP", "#", "2.3"], ["Concalve", "#", "2.4"], ["Magazine", "#", "2.5"]]
+        subitems: [["Flagship","/events","0.2"],["Freshers", "#", "2.1"], ["Farewell", "#", "2.2"], ["CWP", "#", "2.3"], ["Concalve", "#", "2.4"], ["Magazine", "#", "2.5"]]
     },
     {
         name: ["Student Section"],

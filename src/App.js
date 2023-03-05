@@ -4,10 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import {Routes,Route} from 'react-router-dom'
 import Home from './Components/Home'
+import Team from './Components/Team'
+import Events from './Components/Events'
 import StudentSec from './Components/Student_Section'
 import Strength from './Components/Strength'
 import Portal from './Components/Portal'
-import Team from './Components/Team';
 import Contact from './Components/Contact';
 import Postu from './Components/Placement/postu';
 import Ankit from './Components/blogs/Ankit';
@@ -46,6 +47,7 @@ function App() {
         <Route path="/" element={<Home/>}></Route>
         <Route path="/student" element={<StudentSec/>}></Route>
         <Route path="/team" element={<Team/>}></Route>
+        <Route path="/events" element={<Events/>}></Route>
         <Route path="/strength" element={<Strength/>}></Route>
         <Route path="/portal" element={<Portal/>}></Route>
         <Route path="/place" element={<Postu/>}></Route>
@@ -79,6 +81,7 @@ function App() {
         <Route path="/yashkrit" element={<Yashkrit_Gupta/>}></Route>
         <Route path="/yashvardhan" element={<Yashvardhan_Raizada/>}></Route>
       </Routes>    
+
       <Footer/>
     </div>
   );
