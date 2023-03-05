@@ -11,33 +11,7 @@ import Strength from './Components/Strength'
 import Portal from './Components/Portal'
 import Contact from './Components/Contact';
 import Postu from './Components/Placement/postu';
-import Ankit from './Components/blogs/Ankit';
-import Aryaman_Shandilya from './Components/blogs/Aryaman_Shandilya';
-import Ashutosh_Ranjan from './Components/blogs/Ashutosh_Ranjan';
-import Chitwan_Garg from './Components/blogs/Chitwan_Garg';
-import Dishaa_Rajora from './Components/blogs/Dishaa_Rajora';
-import Dishant_Parewa from './Components/blogs/Dishant_Parewa';
-import Gaurav_Kamboj from './Components/blogs/Gaurav_Kamboj';
-import Gaurav_Jiwan from './Components/blogs/Gaurav_Jiwan';
-import Himanshu_Mishra from './Components/blogs/Himanshu_Mishra';
-import JeetendraKP from './Components/blogs/JeetendraKP';
-import Krishan_Kumar from './Components/blogs/Krishan_Kumar';
-import Krishna_Deo from './Components/blogs/Krishna_Deo';
-import Mradul_Chaudhary from './Components/blogs/Mradul_Chaudhary';
-import Mudit_Kumar from './Components/blogs/Mudit_Kumar';
-import Naman_Jain from './Components/blogs/Naman_Jain';
-import Neha_Aggarwal from './Components/blogs/Neha_Aggarwal';
-import Piyush_Senwar from './Components/blogs/Piyush_Senwar';
-import Rahul_Gauriyar from './Components/blogs/Rahul_Gauriyar';
-import Rajat_Ghoshal from './Components/blogs/Rajat_Ghoshal';
-import Samyak_Jain from './Components/blogs/Samyak_Jain';
-import Samyak_Jain_Y18 from './Components/blogs/Samyak_Jain_Y18';
-import Shashi_Shekhar from './Components/blogs/Shashi_Shekhar';
-import Shuaib_Alam from './Components/blogs/Shuaib_Alam';
-import Vineet_Shukla from './Components/blogs/Vineet_Shukla';
-import Vishal_Agarwal from './Components/blogs/Vishal_Agarwal';
-import Yashkrit_Gupta from './Components/blogs/Yashkrit_Gupta';
-import Yashvardhan_Raizada from './Components/blogs/Yashvardhan_Raizada';
+import Show from './Components/Placement/Show'
 
 function App() {
   return (
@@ -53,7 +27,8 @@ function App() {
         <Route path="/place" element={<Postu/>}></Route>
         <Route path="/contact-us" element={<Contact/>}></Route>
         <Route path="/postulates" element={<Postu/>}></Route>
-        <Route path="/ankit" element={<Ankit/>}></Route>
+        <Route path="/:link" element={<Show/>}> </Route>
+        {/* <Route path="/ankit" element={<Ankit/>}></Route>
         <Route path="/aryaman" element={<Aryaman_Shandilya/>}></Route>        
         <Route path="/ashutosh" element={<Ashutosh_Ranjan/>}></Route>
         <Route path="/chitwan" element={<Chitwan_Garg/>}></Route>
@@ -79,7 +54,7 @@ function App() {
         <Route path="/vineet" element={<Vineet_Shukla/>}></Route>
         <Route path="/vishal" element={<Vishal_Agarwal/>}></Route>
         <Route path="/yashkrit" element={<Yashkrit_Gupta/>}></Route>
-        <Route path="/yashvardhan" element={<Yashvardhan_Raizada/>}></Route>
+        <Route path="/yashvardhan" element={<Yashvardhan_Raizada/>}></Route> */}
       </Routes>    
 
       <Footer/>
