@@ -49,6 +49,10 @@
     border-radius: 30px;
     float:right;
 }
+.Btn:hover{
+    border: 1px solid #000;
+    background-color: #d3d3d3;
+}
 @media screen and (max-width: 768px) {
     .Btn{
         margin-left: -70%;

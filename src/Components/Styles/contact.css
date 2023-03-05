@@ -204,7 +204,7 @@ textarea.input {
 }
 
 .contact-info .title {
-  color: #c3c3c3;
+  color: #555;
 }
 
 .text {
@@ -223,6 +223,7 @@ textarea.input {
 .contact-info .info .icon {
   width: 28px;
   margin-right: 0.7rem;
+  margin-bottom: 0.9rem;
 }
 
 .contact-container .form .contact-info .social-media {
@@ -230,7 +231,7 @@ textarea.input {
 }
 
 .contact-container .form .contact-info .social-media p {
-  color: #333;
+  color: #555;
 }
 
 .contact-container .form .contact-info .social-media .social-icons {

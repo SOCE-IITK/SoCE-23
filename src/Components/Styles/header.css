@@ -7,6 +7,7 @@
   
   .nav-item.dropdown:hover .dropdown-menu {
     display: block;
+    padding: 50px;
   }
   
   .nav-link,.dropdown-item{
