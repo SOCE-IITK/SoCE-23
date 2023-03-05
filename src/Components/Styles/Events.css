@@ -1,37 +1,26 @@
-#StudentSec{
+#Events{
     display: block;
     /* height: 100vh; */
 }
-.stud-flex{
-    display: flex;
-    justify-content: space-between;
-}
-.stu{
-    background-color: #f1efef;
-    padding: 25px;
+.eve{
+    background-color: #D9D9D9;
+    padding: 17px;
     border: 1px solid white;
     border-radius: 25px;
     margin-top: 15px;
     margin-bottom: 60px;
-    font-family: Poppins,sans-serif;
 }
-.stud{
-    background: #fff;
-    box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
-    border-bottom: 3px solid #505050;
-    padding: 25px;
+.fre{
+    background-color: #D9D9D9;
+    padding: 17px;
+    border: 1px solid white;
+    border-radius: 25px;
     margin-top: 15px;
-    transition: 0.3s ease;
-    border-radius: 20px;
     margin-bottom: 60px;
-    font-family: Poppins,sans-serif;
-    width:45%;
+    float: left;
+    width:50%;
 }
-
-.stud:hover{
-    transform: scale(1.03);
-}
-.sec{
+.far{
     background-color: #D9D9D9;
     padding: 17px;
     border: 1px solid white;
@@ -41,7 +30,7 @@
     float: right;
     width:50%;
 }
-.Btn{
+.btn{
     margin-left: 30%;
     border: none;
     background-color: #b7b6b6;
@@ -49,23 +38,18 @@
     border-radius: 30px;
     float:right;
 }
-.Btn:hover{
-    border: 1px solid #000;
-    background-color: #d3d3d3;
-    color: #3c3c3c;
-}
 @media screen and (max-width: 768px) {
-    .Btn{
+    .coll{
         margin-left: -70%;
         margin-top: 35px;
     }
     
 }
-#student-col{
+#Event-col{
     text-align: center;
     /* height: 80vh; */
 }
-.Container:after {
+.container:after {
     content: "";
     display: table;
     clear: both;

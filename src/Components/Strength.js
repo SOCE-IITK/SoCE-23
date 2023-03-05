@@ -18,12 +18,7 @@ export default function Strength() {
           </div>
           <div className="row">
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining.
+            STRENGTHS is an annual magazine released by Society of Civil engineers approved and appreciated by department of civil engineering. The focus of STRENGTHS is to provide an overview of the activities of SoCE, various current happening in the field of civil engineering and appreciate the department activities.
             </p>
           </div>
         </div>

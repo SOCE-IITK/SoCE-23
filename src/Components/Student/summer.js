@@ -2,11 +2,11 @@ import Template from "./Template";
 const data = [
   {
     head: "Summer Projects",
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a"
+    text: "These are the projects being offered this summer for the student community of CE IITK."
   },
   {
     head: "Competitions",
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a"
+    text: "Frequently organized fun competitions to break the monotonic academic workload during the hectic semesters."
   }
 ]
 export default function Summer() {

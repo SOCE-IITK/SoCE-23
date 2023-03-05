@@ -6,6 +6,25 @@ import Card2 from "./Team/Secy-card";
 
 export default function Postu() {
   return (
+    <div className="container" id="portal">
+    <div className="str">
+      <div className="row">
+        <h1> Team</h1>
+      </div>
+      <div className="row">
+        <p>
+        Current and past Society of Civil Engineer team can be accessed from here. Contact to any of the respective person according to need.
+        </p>
+        <div className="row postulates-year-row">
+        <div className="col postulates-year">
+          <button type="button" className="btn-postulates">Current Team</button>
+        </div>
+        <div className="col postulates-year">
+          <button type="button" className="btn-postulates">Past Team</button>
+        </div>
+      </div>
+      </div>
+    </div>
     <div className="container" id="place">
       <div className="row my-3 phone">
         <div className="col-6">
@@ -35,6 +54,7 @@ export default function Postu() {
         <h2 className="text-center my-5">Secretary</h2>
         <Card2 />
       </div>
+    </div>
     </div>
   );
 }

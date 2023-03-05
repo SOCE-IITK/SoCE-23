@@ -17,21 +17,30 @@ export default function Footer() {
                                     </ul>
                                 </div>
                                 <div className="col-xs-6 col-md-2">
-                                    <h6>For Students</h6>
-                                    <ul className="footer-links">
-                                        <li><a href="/">Resumes</a></li>
-                                        <li><a href="/">CE Courses</a></li>
-                                        <li><a href="/">Postulates</a></li>
-                                        <li><a href="/">Merchandises</a></li>
-                                    </ul>
-                                </div>
-                                <div className="col-xs-6 col-md-2">
                                     <h6>Events</h6>
                                     <ul className="footer-links">
                                         <li><a href="/">Freshers</a></li>
                                         <li><a href="/">Farewell</a></li>
                                         <li><a href="/">Seminar</a></li>
-                                        <li><a href="/">Workshop</a></li>
+                                        <li><a href="/">Workshops</a></li>
+                                    </ul>
+                                </div>
+                                <div className="col-xs-6 col-md-2">
+                                    <h6>For Students</h6>
+                                    <ul className="footer-links">
+                                        <li><a href="/">Resumes</a></li> 
+                                        <li><a href="https://www.iitk.ac.in/civil/geotech/course_structure.pdf" target="_blank">CE Courses</a></li>
+                                        <li><a href="https://www.iitk.ac.in/ce/detailed-course-requirements" target="_blank">CE Pre-Reqs</a></li>
+                                        <li><a href="https://www.iitk.ac.in/ce/data/B._Tech_Template.PDF" target="_blank">Course template</a></li>
+                                    </ul>
+                                </div>
+                                <div className="col-xs-6 col-md-2">
+                                    <h6 style={{color:"#212529"}}>.</h6>
+                                    <ul className="footer-links">
+                                        <li><a href="https://www.iitk.ac.in/ce/b-tech-program-in-civil-engineering" target="_blank">CE B.Tech</a></li> 
+                                        <li><a href="https://www.iitk.ac.in/ce/pg-admissions" target="_blank">CE M.Tech</a></li>
+                                        <li><a href="https://www.iitk.ac.in/ce/faculty" target="_blank">CE Faculty</a></li>
+                                        <li><a href="https://www.iitk.ac.in/ce/" target="_blank">All links</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -53,13 +62,13 @@ export default function Footer() {
                             <ul className="social-icons">
                                 <li><a className="facebook" href="https://www.facebook.com/soce.iitk" target="_blank"><i className="fa fa-facebook"></i></a></li>
                                 <li><a className="youtube" href="https://www.youtube.com/@societyofcivilengineersiit3172" target="_blank"><i className="fa fa-youtube-play"></i></a></li>
-                                <li><a className="dribbble" href="https://www.instagram.com/soce.iitk/?hl=en" target="_blank"><i className="fa fa-instagram"></i></a></li>
+                                <li><a className="instagram" href="https://www.instagram.com/soce.iitk/?hl=en" target="_blank"><i className="fa fa-instagram"></i></a></li>
                                 <li><a className="linkedin" href="https://www.linkedin.com/company/society-of-civil-engineers-iitk/" target="_blank"><i className="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                         <hr className="border  border-1" />
                         <div className="col-md-12 col-sm-6 col-xs-12">
-                            <p  className="copyright-text text-center footer-p">Copyright &copy; 2022-23 <a href="#" id='company'> SoCE, IITK</a> All Rights reserved.
+                            <p  className="copyright-text text-center footer-p">Copyright &copy; 2022-23 <a href="#" id='company'> SoCE, IIT Kanpur</a>
                                 
                             </p>
                         </div>

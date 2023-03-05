@@ -45,39 +45,12 @@ export default function About() {
               </div>
               <div className="popup-content">
                 <p>
-                  SOCE (society of civil engineers, IIT Kanpur) is a non-profit
-                  organization. It serves as a link between enrolled civil
-                  engineering students, alumni and professors at IIT Kanpur.
-                  This society is an effort to allow free communication and
-                  sharing of ideas and information among all. The constant
-                  support and help from the students and faculty members is
-                  helping this society to help more and more number of students
-                  every day. The only thing that we want to say to all the
-                  members of this society is, Keep it up your noble work!!
-                </p>
-                <p>
-                  Years of research in higher education supports the fact that
-                  student‐faculty interaction is positively associated with
-                  several aspects of student success, for example, academic
-                  performance, persistence to graduation, personal and
-                  intellectual development, educational aspirations,
-                  satisfaction with faculty and department, career prospects,
-                  curriculum development, etc. The interaction has been
-                  identified as one of the primary sources influencing students'
-                  attitudes, interests , and values and plays a vital role in
-                  the learning environment. Therefore, better interaction
-                  between students and faculty is necessary for any educational
-                  institute's overall development. In order to develop a good
-                  interaction between students and faculty of the Civil
-                  Engineering Department of IITK, The Society Of Civil Engineers
-                  plays an active role in improving the Faculty-Student
-                  interaction in the department. This is done through a series
-                  of cultural (departmental get-togethers ) and intellectual
-                  (Talk Series, Workshops,) events. Such events are organized
-                  with extreme levels of enthusiasm among students and
-                  faculties. We always work hard in order to bring students and
-                  faculties on the same platform, so now, we should understand
-                  our responsibilities and make this idea a huge success.
+                The Society of Civil Engineers (SOCE) is a non-profit, student-run organization whose primary goal is to act as a link between enrolled Civil Engineering UG and PG students, the faculty of the Dept. of Civil Engineering, and the alumni of IIT Kanpur.
+We aim to organize social and professional activities which strengthen and enrich the CE community and to help publicize various research activities within the department. We take on the responsibility of proper student nurturing by organizing social events as part of extracurricular activities. Some of the events organized by SOCE throughout the year include "Freshers Night" as an ice-breaker event for newcomers, “Farewell” for the graduating batch, and so on.
+We strive to work for the benefit of the student community. We conduct workshops and projects to help the students learn and enhance their skills in both the core and non-core sectors. We also connect the junior batches with the seniors who guide and share with them their successful placement and internship stories.
+We also offer on display the resume of our most recent alumni that serves as a point of reference for those newly creating their resumes.
+We also publish a yearly thematic magazine that highlights the latest happenings in the branch as well as allows the students as well as the alumni a platform to showcase their thoughts and impressions towards their branch.
+
                 </p>
               </div>
             </div>

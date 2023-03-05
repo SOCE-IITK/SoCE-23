@@ -7,17 +7,15 @@ export default function Message() {
         </div>
         <div className="row mes" data-aos="fade-up">
           <div className="col">
+            <h6><i>Intended for Y19 Students only</i></h6>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of type
-              and scrambled it to make a type specimen book. It has survived not
-              only five centuries, but also the leap into electronic typesetting,
-              remaining essentially unchanged. It was popularised in the 1960s
-              with the release of Letraset sheets containing Lorem Ipsum passages,
-              and more recently with desktop publishing software like Aldus
-              PageMaker including versions of Lorem Ipsum.
+            Please provide your final SPO placement and Intern(Optional) resumes. 
+This will be helpful for the junior batches to prepare a good resume of thier preferable profile.
+
             </p>
+            <div className="col-sm-8.2">
+            <a href="https://forms.gle/FS7ycBFsQtGkcEUD6" target="_blank"><button type="button" className="mybtn Btn btn">Click here to fill the google form</button></a>
+          </div>
           </div>
         </div>
         <div className="row my-5 getm" data-aos="zoom-in">
@@ -25,7 +23,7 @@ export default function Message() {
             <h5>Get in touch with any questions, ideas, or feedback you may have.</h5>
           </div>
           <div className="col-sm-3">
-            <button type="button" className="mybtn">Contact</button>
+            <a href="./Team/Contact" target="_blank"><button type="button" className="mybtn btn Btn">Contact</button></a>
           </div>
         </div>
       </div>
