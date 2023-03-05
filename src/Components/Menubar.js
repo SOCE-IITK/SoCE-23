@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Styles/header.css'
+import logo from './logo.png'
 const items = [
     {
         name: ["Home"],
@@ -16,11 +17,20 @@ const items = [
     },
     {
         name: ["Student Section"],
-        subitems: [["Student Section","/","0.3"],["Intern Chats", "#", "3.1"], ["Career Choices", "#", "3.2"], ["Placement Postulates", "#", "3.3"], ["TTP", "#", "3.4"], ["Summer Projects", "#", "3.5"], ["Competition", "#", "3.6"], ["Informal Session", "#", "3.7"], ["Resumes", "#", "3.8"], ["Alumnus", "#", "3.9"], ["Merchs.", "#", "3.10"]]
+        subitems: [["Student Section","/student","0.3"],["Intern Chats", "#", "3.1"], ["Career Choices", "#", "3.2"], ["Placement Postulates", "/postulates", "3.3"], ["TTP", "#", "3.4"], ["Summer Projects", "#", "3.5"], ["Competition", "#", "3.6"], ["Informal Session", "#", "3.7"], ["Resumes", "#", "3.8"], ["Alumnus", "#", "3.9"], ["Merchs.", "#", "3.10"]]
     },
     {
         name: ["Team"],
-        subitems: [["Team","/team","0.4"],["Department Head", "/team", "4.1"], ["Advisor", "#", "4.2"], ["Coordinator", "#", "4.3"], ["Head", "#", "4.4"], ["Secretaries", "#", "4.5"], ["Past Teams", "#", "4.6"]]
+        subitems: [["Current Team","/team","0.4"],['Past Teams',"/pastteams",'1.4']]
+    },
+    {
+        name: ["Magazines"],
+        subitems: [["Strengths","/strength","0.5"]],
+
+    },
+    {
+        name: ["Portal"],
+        subitems: [["Portal","/portal","0.6"],["Internship", "#", "6.1"], ["CivERE", "#", "6.2"]]
     },
 ]
 
@@ -58,7 +68,9 @@ function Menubar() {
     return (
         <Navbar sticky="top" bg="light" expand="lg" id="menubar">
             <Container>
-                <Navbar.Brand href="/">SOCE-IITK</Navbar.Brand>
+                <Navbar.Brand href="/">
+                    <img id='soce-logo' src={logo} alt='Logo'></img>
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto justify-content-center">
