@@ -13,7 +13,7 @@ const content = [
     ],
     [
         `We are delighted to welcome our Distinguished Alumnus Shri Rajendra P. Bhattarai, President of the Water Environment Association of Texas, for a seminar on "Lessons from Austin's Full-Scale Step-Feed Biological Nutrient Removal Demonstration" .Refreshments will be served at 5:15 PM. We expect to see you all in huge numbers. About the seminar:`,
-        "Biological Nutrient Removal Demonstration",
+        "Biological Nutrient Removal",
         "9th February 2023",
         "https://www.instagram.com/p/CoUBAFBg5lk/"
     ]
