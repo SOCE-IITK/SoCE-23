@@ -7,8 +7,8 @@ export default function Home(){
         <div id='home'>
            
             <About/>
-            <Slider/>
             <Message/>
+            <Slider/>
         </div>
     )
 }

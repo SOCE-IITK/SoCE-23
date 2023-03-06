@@ -97,6 +97,14 @@ export default function Slider() {
                         <i id='f' onClick={customf} className="fa fa-angle-right"></i>
                     </div>
                 </div>
+                <div className="row my-5 getm" data-aos="zoom-in">
+          <div className="col-sm-9">
+            <h5>Get in touch with any questions, ideas, or feedback you may have.</h5>
+          </div>
+          <div className="col-sm-3">
+            <a href="./Team/Contact" target="_blank"><button type="button" className="mybtn btn Btn">Contact</button></a>
+          </div>
+        </div>
             </div>
         </div>
     )
