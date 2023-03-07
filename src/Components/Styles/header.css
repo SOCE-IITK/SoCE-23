@@ -1,8 +1,7 @@
 #menubar{
     /* background-color: #fff !important; */
-    background-color: #efeaea !important;
-    /* padding: 1%; */
-    box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
+    background-color: #f4f4f4 !important;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
   }
   
   .nav-item.dropdown:hover .dropdown-menu {
@@ -24,7 +23,7 @@
     align-items: center;
   }
   .navbar-brand>img {
-    padding: 7px 14px;
+    padding: 7.5px 15px;
   }
   #soce-logo{
     height: 60px;

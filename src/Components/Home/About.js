@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "../Styles/about.css";
 import close from "../Assets/close-btn.png";
 import AOS from "aos";
-import 'aos/dist/aos.css'
+import "aos/dist/aos.css";
 export default function About() {
   const [popup, setPop] = useState(false);
   const handleClickOpen = () => {
@@ -11,8 +11,8 @@ export default function About() {
   const closePopup = () => {
     setPop(false);
   };
-  useEffect(()=>{
-    AOS.init({duration: 2000})
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
   }, []);
   return (
     <div className="container-fluid" id="about">
@@ -23,8 +23,13 @@ export default function About() {
         </div>
       </div>
       <div className="row">
-        <div className="col" id="about-col" data-aos="fade-up" data-aos-easing="linear"
-     data-aos-duration="2000">
+        <div
+          className="col"
+          id="about-col"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="2000"
+        >
           <button
             id="about-btn"
             type="button"
@@ -40,17 +45,41 @@ export default function About() {
           <div className="main">
             <div className="popup-about">
               <div className="popup-header">
-                <h1> ABOUT SOCE</h1>
+                <h1> About SoCE</h1>
                 <img src={close} onClick={closePopup} alt="" />
               </div>
               <div className="popup-content">
                 <p>
-                The Society of Civil Engineers (SOCE) is a non-profit, student-run organization whose primary goal is to act as a link between enrolled Civil Engineering UG and PG students, the faculty of the Dept. of Civil Engineering, and the alumni of IIT Kanpur.
-We aim to organize social and professional activities which strengthen and enrich the CE community and to help publicize various research activities within the department. We take on the responsibility of proper student nurturing by organizing social events as part of extracurricular activities. Some of the events organized by SOCE throughout the year include "Freshers Night" as an ice-breaker event for newcomers, “Farewell” for the graduating batch, and so on.
-We strive to work for the benefit of the student community. We conduct workshops and projects to help the students learn and enhance their skills in both the core and non-core sectors. We also connect the junior batches with the seniors who guide and share with them their successful placement and internship stories.
-We also offer on display the resume of our most recent alumni that serves as a point of reference for those newly creating their resumes.
-We also publish a yearly thematic magazine that highlights the latest happenings in the branch as well as allows the students as well as the alumni a platform to showcase their thoughts and impressions towards their branch.
-
+                  The Society of Civil Engineers (SOCE) is an organization that
+                  is student-run and does not seek to make a profit. Its primary
+                  objective is to serve as a link between enrolled undergraduate
+                  and postgraduate students in the Department of Civil
+                  Engineering, the faculty of that department, and the graduates
+                  of IIT Kanpur. Our mission is to assist publicize the many
+                  different types of research that are conducted within the CE
+                  department and to arrange social and professional activities
+                  that will build and enrich the CE community. By hosting social
+                  events as part of our students' extracurricular activities, we
+                  take on the role of providing appropriate student development.
+                  "Freshers Night," which serves as an ice-breaker event for
+                  newcomers, and "Farewell," which is held for the graduating
+                  batch, are just two examples of the events that are arranged
+                  by SOCE during the course of the year. We make it our mission
+                  to serve the interests of the student body in every way we
+                  can. We assist students gain new skills and improve existing
+                  ones by guiding them through a variety of projects and holding
+                  workshops in both core and non-core areas. In addition to
+                  this, we link the seniors of the senior batches with the
+                  juniors so that the seniors may mentor the juniors and share
+                  with them their successful placement and internship
+                  experiences. In addition, we put up for viewing the curriculum
+                  vitae of one of our most recent graduates so that current
+                  students can use it as a point of reference while writing
+                  their own. Also, we produce an annual issue of a topical
+                  magazine. This magazine not only provides students and
+                  graduates with a forum in which to share their perspectives
+                  and judgments on their own branch, but it also highlights the
+                  most recent events that have taken place in the branch.
                 </p>
               </div>
             </div>

@@ -71,6 +71,7 @@ function Menubar() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto justify-content-center">
                         {Menu}
+                        <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/strength">Strengths</Nav.Link>
                         <Nav.Link href="/contact-us">Events</Nav.Link>
                         <Nav.Link href="/student">Students</Nav.Link>
