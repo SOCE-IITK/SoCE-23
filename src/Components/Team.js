@@ -6,8 +6,35 @@ import Card2 from "./Team/Secy-card";
 
 export default function Postu() {
   return (
-    
     <div className="container" id="place">
+      <div className="str">
+        <div className="row">
+          <h1> Team</h1>
+        </div>
+        <div className="row">
+          <p>
+            You can access information about the current and past members of the
+            Society of Civil Engineers team through this link [insert link
+            here]. From this link, you can find contact information for each
+            team member, allowing you to reach out to the appropriate person
+            based on your needs. This information can be helpful in connecting
+            with the Society of Civil Engineers team and accessing their
+            resources and support.
+          </p>
+          <div className="row postulates-year-row">
+            <div className="col postulates-year">
+              <button type="button" className="btn-postulates">
+                Current Team
+              </button>
+            </div>
+            <div className="col postulates-year">
+              <button type="button" className="btn-postulates">
+                Past Team
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="row my-3 phone">
         <div className="col-6">
           <h1 className="text-center ms-5">HOD</h1>

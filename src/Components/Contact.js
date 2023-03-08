@@ -28,45 +28,44 @@ export default function Contact() {
     return (
         <>
             <div class="contact-container">
-                <span class="big-circle"></span>
-                <img src={shape} class="square" alt="" />
+                
+                {/* <img src={shape} class="square" alt="" /> */}
                 <div class="form">
                     <div class="contact-info">
                         <h3 class="title">Let's get in touch</h3>
                         <p class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                            dolorum adipisci recusandae praesentium dicta!
+                        You can get in touch with us at any time by phone or email with any questions or comments you may have.
                         </p>
 
                         <div class="info">
                             <div class="information">
                                 <img src={location} class="icon" alt="" />
-                                <p>92 Cherry Drive Uniondale, NY 11553</p>
+                                <p>WLE-301, IIT Kanpur, Uttar Pradesh</p>
                             </div>
                             <div class="information">
                                 <img src={email} class="icon" alt="" />
-                                <p>lorem@ipsum.com</p>
+                                <p>soce@iitk.ac.in</p>
                             </div>
                             <div class="information">
                                 <img src={phone} class="icon" alt="" />
-                                <p>123-456-789</p>
+                                <p>+91-8009117479</p>
                             </div>
                         </div>
 
                         <div class="social-media">
                             <p>Connect with us :</p>
                             <div class="social-icons">
-                                <li><a className="facebook" href="/"><i className="fa fa-facebook"></i></a></li>
-                                <li><a className="twitter" href="/"><i className="fa fa-twitter"></i></a></li>
-                                <li><a className="dribbble" href="/"><i className="fa fa-instagram"></i></a></li>
-                                <li><a className="linkedin" href="/"><i className="fa fa-linkedin"></i></a></li>
+                                <li><a className="facebook" href="https://www.facebook.com/soce.iitk" target="_blank"><i className="fa fa-facebook"></i></a></li>
+                                <li><a className="youtube" href="https://www.youtube.com/@societyofcivilengineersiit3172" target="_blank"><i className="fa fa-youtube-play"></i></a></li>
+                                <li><a className="instagram" href="https://www.instagram.com/soce.iitk/?hl=en" target="_blank"><i className="fa fa-instagram"></i></a></li>
+                                <li><a className="linkedin" href="https://www.linkedin.com/company/society-of-civil-engineers-iitk/" target="_blank"><i className="fa fa-linkedin"></i></a></li>
                             </div>
                         </div>
                     </div>
 
                     <div class="contact-form">
-                        <span class="circle one"></span>
-                        <span class="circle two"></span>
+                        {/* <span class="circle one"></span> */}
+                        {/* <span class="circle two"></span> */}
 
                         <form action="index.html" autocomplete="off">
                             <h3 class="title">Contact us</h3>

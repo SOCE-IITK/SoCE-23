@@ -1,9 +1,9 @@
-import { useState } from 'react'
-import './placement.css'
-import Card from './Card'
-import chats from '../../database/placement'
+import { useState } from "react";
+import "./placement.css";
+import Card from "./Card";
+import chats from "../../database/placement";
 export default function Postulate() {
-  let [data,setData] = useState(chats)
+  let [data, setData] = useState(chats);
   // console.log(data);
   return (
     <>
@@ -12,44 +12,67 @@ export default function Postulate() {
           <div className="col">
             <h1>Placement Postulates</h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of type
-              and scrambled it to make a type specimen book. It has survived not
-              only five centuries, but also the leap into electronic typesetting,
-              remaining .
+              SoCE provides a series of blogs where graduating seniors share
+              their placement experiences, advice on how to handle the process
+              from beginning to end, and insights into their interview
+              experiences. These blogs offer valuable guidance to students
+              preparing for their own placement interviews.
             </p>
           </div>
         </div>
         <div className="row postulates-year-row">
           <div className="col postulates-year">
-            <button type="button" className="btn-postulates" onClick={() => {
-              data = chats.filter((d)=>d.year==="y18")
-              // console.log(data)
-              setData(data);
-            }}>Y18</button>
+            <button
+              type="button"
+              className="btn-postulates"
+              onClick={() => {
+                data = chats.filter((d) => d.year === "y18");
+                // console.log(data)
+                setData(data);
+              }}
+            >
+              Y18
+            </button>
           </div>
           <div className="col postulates-year">
-            <button type="button" className="btn-postulates" onClick={() => {
-              data = chats.filter((d)=>d.year==="y17")
-              setData(data)
-            }}>Y17</button>
+            <button
+              type="button"
+              className="btn-postulates"
+              onClick={() => {
+                data = chats.filter((d) => d.year === "y17");
+                setData(data);
+              }}
+            >
+              Y17
+            </button>
           </div>
           <div className="col postulates-year">
-            <button type="button" className="btn-postulates" onClick={() => {
-              data = chats.filter((d)=>d.year==="y16")
-              setData(data)
-            }}>Y16</button>
+            <button
+              type="button"
+              className="btn-postulates"
+              onClick={() => {
+                data = chats.filter((d) => d.year === "y16");
+                setData(data);
+              }}
+            >
+              Y16
+            </button>
           </div>
           <div className="col postulates-year">
-            <button type="button" className="btn-postulates" onClick={() => {
-              data = chats
-              setData(data)
-            }}>All</button>
+            <button
+              type="button"
+              className="btn-postulates"
+              onClick={() => {
+                data = chats;
+                setData(data);
+              }}
+            >
+              All
+            </button>
           </div>
         </div>
       </div>
-      <div className='container' id='place'>
+      <div className="container" id="place">
         <div className="row">
           <Card postulates={data} />
         </div>

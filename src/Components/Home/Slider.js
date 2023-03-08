@@ -52,11 +52,11 @@ export default function Slider() {
       {/* <h1>Recent Activities</h1> */}
       <div className="container slider-parent">
         <div className="row">
-          <div className="col" data-aos="fade-right">
+          <div className="col">
             <h1 id="recent">Recent Activities</h1>
           </div>
         </div>
-        <div className="row slider-row" data-aos="fade-up">
+        <div className="row slider-row">
           <div className="col-12 slider-content-col">
             <div className="container slider-content">
               <div className="row">
@@ -124,16 +124,16 @@ export default function Slider() {
                     </div>
                 </div> */}
       </div>
-      <div className="row my-5 getm" data-aos="zoom-in">
+      <div className="row my-4 getm">
         <div className="col-sm-9">
           <h5>
             Get in touch with any questions, ideas, or feedback you may have.
           </h5>
         </div>
         <div className="col-sm-3">
-          <button type="button" className="mybtn">
+          <a href="/contact-us"><button type="button" className="mybtn Btn btn">
             Contact
-          </button>
+          </button></a>
         </div>
       </div>
     </div>

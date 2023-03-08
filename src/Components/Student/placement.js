@@ -3,13 +3,13 @@ const data = [
   {
     head:"Placement Postulates",
     link:"/postulates",
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a"
+    text: "SoCE provides a series of blogs where graduating seniors share their placement experiences, advice on how to handle the process from beginning to end, and insights into their interview experiences. These blogs offer valuable guidance to students preparing for their own placement interviews."
   }
     ,
   {
     head:"Career Choices",
     link:"https://drive.google.com/drive/folders/1EZ1EkrFAj9WP9YT6mdJFJeUDmRvH-vzL?usp=sharing",
-    text:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a"
+    text:"SOCE conducts a series of live sessions featuring CE IITK alumni as guest speakers. These sessions aim to clarify doubts and provide guidance to students on their future career choices. Alumni share their experiences and insights, offer advice and motivation to students, and inspire them to pursue their career goals."
   }
 ]
 

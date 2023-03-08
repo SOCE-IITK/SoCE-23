@@ -19,12 +19,10 @@ export default function Portal() {
           </div>
           <div className="row">
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining.
+              Please find attached the links to the dedicated webpages of the
+              Internship portal and Conclave portal, the yearly fest of the Department of
+              Civil Engineering. You can use these links to access the
+              respective websites.
             </p>
           </div>
         </div>
@@ -32,10 +30,10 @@ export default function Portal() {
         <div className="str-row">
           <div className="str-card ptr">
             <h1 className="text-center">Internship</h1>
-            <button className="str-btn1" onClick={handleClickOpen}>
+           <a href="/"><button className="str-btn1" onClick={handleClickOpen}>
               Open
-            </button>
-            {popup ? (
+            </button></a> 
+            {/* {popup ? (
               <div className="main">
                 <div className="popup">
                   <div className="popup-header">
@@ -49,7 +47,7 @@ export default function Portal() {
               </div>
             ) : (
               ""
-            )}
+            )} */}
           </div>
           <div className="str-card ptr">
             <h1 className="text-center">Conclave</h1>

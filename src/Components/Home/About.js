@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "../Styles/about.css";
 import close from "../Assets/close-btn.png";
 import AOS from "aos";
-import 'aos/dist/aos.css'
+import "aos/dist/aos.css";
 export default function About() {
   const [popup, setPop] = useState(false);
   const handleClickOpen = () => {
@@ -11,8 +11,8 @@ export default function About() {
   const closePopup = () => {
     setPop(false);
   };
-  useEffect(()=>{
-    AOS.init({duration: 2000})
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
   }, []);
   return (
     <div className="container-fluid" id="about">
@@ -23,8 +23,13 @@ export default function About() {
         </div>
       </div>
       <div className="row">
-        <div className="col" id="about-col" data-aos="fade-up" data-aos-easing="linear"
-     data-aos-duration="2000">
+        <div
+          className="col"
+          id="about-col"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="2000"
+        >
           <button
             id="about-btn"
             type="button"
@@ -40,7 +45,7 @@ export default function About() {
           <div className="main">
             <div className="popup-about">
               <div className="popup-header">
-                <h1> ABOUT SOCE</h1>
+                <h3> About Society of Civil Engineers</h3>
                 <img src={close} onClick={closePopup} alt="" />
               </div>
               <div className="popup-content">

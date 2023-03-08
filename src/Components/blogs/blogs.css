@@ -1,14 +1,16 @@
 .blog{
     padding: 1%;
     margin: 1%;
-    background-color: #D9D9D9;
+    background-color: rgba(222, 226, 231, 0.5);
+    /* background-color: #D9D9D9; */
     text-align: justify;
     /* height: 100vh; */
     border-radius: 10px;
+    font-size: 11.5px;
 }
 .blog img {
     border-radius: 15px;
-    border: 2.5px solid #000000;
+    border: .5px solid #a3a3a3;
 }
 .blog-head{
     margin-top: 100px;
@@ -16,7 +18,7 @@
 .blog-head h2{
     margin-bottom: 0;
     font-size: 60px;
-    font-weight: 500;
+    /* font-weight: 500; */
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .blog-head small{
