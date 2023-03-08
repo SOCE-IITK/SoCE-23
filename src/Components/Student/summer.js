@@ -2,10 +2,12 @@ import Template from "./Template";
 const data = [
   {
     head: "Summer Projects",
+    link: "https://docs.google.com/document/d/1G9wK7dc8vq8QPtkxdiCWRFgOs5JC0gK5DCMGTOMYaoE/edit?usp=sharing",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a"
   },
   {
     head: "Competitions",
+    link: "",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a"
   }
 ]

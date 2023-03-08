@@ -30,9 +30,9 @@ export default function Portal() {
         </div>
 
         <div className="str-row">
-          <div className="ptr">
+          <div className="str-card ptr">
             <h1 className="text-center">Internship</h1>
-            <button className="str-btn" onClick={handleClickOpen}>
+            <button className="str-btn1" onClick={handleClickOpen}>
               Open
             </button>
             {popup ? (
@@ -43,7 +43,7 @@ export default function Portal() {
                     <img src={close} onClick={closePopup} alt="" />
                   </div>
                   <div>
-                    <p className="pop">COMING SOON</p>
+                    <p className="pop">Coming Soon!</p>
                   </div>
                 </div>
               </div>
@@ -52,13 +52,13 @@ export default function Portal() {
             )}
           </div>
           <div className="str-card ptr">
-            <h1 className="text-center">CivERE</h1>
+            <h1 className="text-center">Conclave</h1>
             <a
               href="https://www.iitk.ac.in/ce/civere/index.html"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="str-btn">Open</button>
+              <button className="str-btn1">Open</button>
             </a>
           </div>
         </div>

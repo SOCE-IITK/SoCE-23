@@ -3,7 +3,7 @@ export default function Freshers() {
       <div className="container" id="freshers">
         <div className="row fre">
           <div className="col">
-            <h1>Resumes</h1>
+            <h3>Freshers</h3>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -17,7 +17,7 @@ export default function Freshers() {
         </div>
         <div className="row far">
           <div className="col">
-            <h1>Farewll</h1>
+            <h3>Farewell</h3>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

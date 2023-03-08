@@ -3,7 +3,7 @@ export default function Dasant() {
       <div className="container" id="dasant">
         <div className="row fre">
           <div className="col">
-            <h1>Session</h1>
+            <h3>Dasant</h3>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -17,7 +17,7 @@ export default function Dasant() {
         </div>
         <div className="row far">
           <div className="col">
-            <h1>StimuluS</h1>
+            <h3>StimuluS</h3>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

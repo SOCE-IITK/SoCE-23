@@ -15,7 +15,7 @@ function Template(props) {
                                     </p>
                                     <div className="row">
                                         <div className="col">
-                                            <button type="button" className="btn Btn">Read more</button>
+                                           <a href={d.link} target="_blank"><button type="button" className="btn Btn">Read more</button></a> 
                                         </div>
                                     </div>
                                 </div>

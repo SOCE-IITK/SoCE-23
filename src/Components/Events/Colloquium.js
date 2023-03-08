@@ -1,9 +1,9 @@
 export default function Colloquium() {
     return (
       <div className="container" id="colloquium">
-        <div className="row stud">
+        <div className="row fre">
           <div className="col">
-            <h1>Colloquium</h1>
+            <h3>Colloquium</h3>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -15,9 +15,9 @@ export default function Colloquium() {
         </dv>
           </div>
         </div>
-        <div className="row sec">
+        <div className="row far">
           <div className="col">
-            <h1>Open House</h1>
+            <h3>Open House</h3>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

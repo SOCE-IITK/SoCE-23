@@ -6,6 +6,7 @@ import Card2 from "./Team/Secy-card";
 
 export default function Postu() {
   return (
+    
     <div className="container" id="place">
       <div className="row my-3 phone">
         <div className="col-6">

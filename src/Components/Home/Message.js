@@ -20,14 +20,6 @@ export default function Message() {
             </p>
           </div>
         </div>
-        <div className="row my-5 getm" data-aos="zoom-in">
-          <div className="col-sm-9">
-            <h5>Get in touch with any questions, ideas, or feedback you may have.</h5>
-          </div>
-          <div className="col-sm-3">
-            <button type="button" className="mybtn">Contact</button>
-          </div>
-        </div>
       </div>
     </div>
   );
