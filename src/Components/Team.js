@@ -1,10 +1,9 @@
 import "./Placement/placement.css";
 import "./Team/team.css";
 import Card from "./Team/Card";
-import Card1 from "./Team/Team-card";
-import Card2 from "./Team/Secy-card";
 
 export default function Postu() {
+
   return (
     <div className="container" id="place">
       <div className="str">
@@ -24,12 +23,12 @@ export default function Postu() {
           <div className="row postulates-year-row">
             <div className="col postulates-year">
               <button type="button" className="btn-postulates">
-                Current Team
+                <a href="/team/team22">Current Team</a>
               </button>
             </div>
             <div className="col postulates-year">
-              <button type="button" className="btn-postulates">
-                Past Team
+              <button type="button"  className="btn-postulates">
+                <a href="/pastteams">Past Teams</a>
               </button>
             </div>
           </div>
@@ -44,14 +43,7 @@ export default function Postu() {
         </div>
       </div>
       <Card />
-      <div className="row">
-        <h2 className="text-center">Coordinators</h2>
-        <Card1 />
-      </div>
-      <div className="row">
-        <h2 className="text-center">Secretary</h2>
-        <Card2 />
-      </div>
+
     </div>
   );
 }

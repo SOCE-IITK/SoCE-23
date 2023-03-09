@@ -153,7 +153,7 @@ function Menubar() {
             <Nav.Link href="/strength">Strengths</Nav.Link>
             <Nav.Link href="/events">Events</Nav.Link>
             <Nav.Link href="/portal">Portals</Nav.Link>
-            <Nav.Link href="/team">Team</Nav.Link>
+            <Nav.Link href="/team/team22">Team</Nav.Link>
             <Nav.Link href="/contact-us">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>

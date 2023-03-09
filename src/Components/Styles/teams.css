@@ -1,0 +1,12 @@
+.pastTeams{
+    height: 80vh;
+}
+.pastHeading{
+    text-align: center;
+}
+.past-div{
+    margin-top: 10%;
+}
+.past-team-year:hover{
+    cursor: pointer;
+}
