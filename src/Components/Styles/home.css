@@ -56,7 +56,7 @@
     padding: 1.2% 0.5%;
     
 }
-
+/* activities */
 #p,
 #f {
     margin-top: 0%;
@@ -83,7 +83,33 @@
 .indicators:hover {
     cursor: pointer;
 }
+/* messages */
+#P,
+#F {
+    margin-top: 0%;
+    font-size: 1.6rem;
+}
 
+#P {
+    margin-right: 5%;
+}
+
+#F {
+    margin-left: 5%;
+}
+
+#P,
+#F:hover {
+    cursor: pointer;
+}
+
+.Indicators {
+    margin: 1.2%;
+}
+
+.Indicators:hover {
+    cursor: pointer;
+}
 .read-more {
     text-align: center;
 }

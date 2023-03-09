@@ -1,7 +1,7 @@
 
 var a = 0;
 function universal(i) {
-  let h = document.getElementsByClassName("indicators");
+  let h = document.getElementsByClassName("Indicators");
   for (var k = 0; k < 3; k++) {
     h[k].classList.remove("fa-circle");
     h[k].classList.add("fa-circle-thin");
@@ -57,11 +57,11 @@ export default function Message() {
           </div>
           <div className="row circles">
             <div className="col">
-              <i id="p" onClick={customp} className="fa fa-angle-left"></i>
-              <i className="fa fa-circle indicators" onClick={i1}></i>
-              <i className="fa fa-circle-thin indicators" onClick={i2}></i>
-              <i className="fa fa-circle-thin indicators" onClick={i3}></i>
-              <i id="f" onClick={customf} className="fa fa-angle-right"></i>
+              <i id="P" onClick={customp} className="fa fa-angle-left"></i>
+              <i className="fa fa-circle Indicators" onClick={i1}></i>
+              <i className="fa fa-circle-thin Indicators" onClick={i2}></i>
+              <i className="fa fa-circle-thin Indicators" onClick={i3}></i>
+              <i id="F" onClick={customf} className="fa fa-angle-right"></i>
             </div>
           </div>
         </div>
