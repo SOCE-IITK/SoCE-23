@@ -1,0 +1,71 @@
+[debug] [2023-03-09T14:21:06.595Z] ----------------------------------------------------------------------
+[debug] [2023-03-09T14:21:06.596Z] Command:       /opt/homebrew/Cellar/node/19.6.0/bin/node /usr/local/bin/firebase login
+[debug] [2023-03-09T14:21:06.597Z] CLI Version:   11.18.0
+[debug] [2023-03-09T14:21:06.597Z] Platform:      darwin
+[debug] [2023-03-09T14:21:06.597Z] Node Version:  v19.6.0
+[debug] [2023-03-09T14:21:06.597Z] Time:          Thu Mar 09 2023 19:51:06 GMT+0530 (India Standard Time)
+[debug] [2023-03-09T14:21:06.597Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-09T14:21:06.598Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] Already logged in as societyofcivilengineers.iitk@gmail.com
+[debug] [2023-03-09T14:21:16.647Z] Error: Timed out.
+    at Timeout._onTimeout (/usr/local/lib/node_modules/firebase-tools/lib/utils.js:253:49)
+    at listOnTimeout (node:internal/timers:568:17)
+    at process.processTimers (node:internal/timers:511:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-03-09T14:24:33.858Z] ----------------------------------------------------------------------
+[debug] [2023-03-09T14:24:33.860Z] Command:       /opt/homebrew/Cellar/node/19.6.0/bin/node /usr/local/bin/firebase login
+[debug] [2023-03-09T14:24:33.860Z] CLI Version:   11.18.0
+[debug] [2023-03-09T14:24:33.860Z] Platform:      darwin
+[debug] [2023-03-09T14:24:33.860Z] Node Version:  v19.6.0
+[debug] [2023-03-09T14:24:33.860Z] Time:          Thu Mar 09 2023 19:54:33 GMT+0530 (India Standard Time)
+[debug] [2023-03-09T14:24:33.860Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-09T14:24:33.861Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] Already logged in as societyofcivilengineers.iitk@gmail.com
+[debug] [2023-03-09T14:24:43.909Z] Error: Timed out.
+    at Timeout._onTimeout (/usr/local/lib/node_modules/firebase-tools/lib/utils.js:253:49)
+    at listOnTimeout (node:internal/timers:568:17)
+    at process.processTimers (node:internal/timers:511:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-03-09T14:26:13.975Z] ----------------------------------------------------------------------
+[debug] [2023-03-09T14:26:13.976Z] Command:       /opt/homebrew/Cellar/node/19.6.0/bin/node /usr/local/bin/firebase login
+[debug] [2023-03-09T14:26:13.977Z] CLI Version:   11.18.0
+[debug] [2023-03-09T14:26:13.977Z] Platform:      darwin
+[debug] [2023-03-09T14:26:13.977Z] Node Version:  v19.6.0
+[debug] [2023-03-09T14:26:13.977Z] Time:          Thu Mar 09 2023 19:56:13 GMT+0530 (India Standard Time)
+[debug] [2023-03-09T14:26:13.977Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-09T14:26:13.978Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] Already logged in as societyofcivilengineers.iitk@gmail.com
+[debug] [2023-03-09T14:26:24.024Z] Error: Timed out.
+    at Timeout._onTimeout (/usr/local/lib/node_modules/firebase-tools/lib/utils.js:253:49)
+    at listOnTimeout (node:internal/timers:568:17)
+    at process.processTimers (node:internal/timers:511:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-03-09T14:26:59.004Z] ----------------------------------------------------------------------
+[debug] [2023-03-09T14:26:59.005Z] Command:       /opt/homebrew/Cellar/node/19.6.0/bin/node /usr/local/bin/firebase deploy
+[debug] [2023-03-09T14:26:59.005Z] CLI Version:   11.18.0
+[debug] [2023-03-09T14:26:59.005Z] Platform:      darwin
+[debug] [2023-03-09T14:26:59.006Z] Node Version:  v19.6.0
+[debug] [2023-03-09T14:26:59.006Z] Time:          Thu Mar 09 2023 19:56:59 GMT+0530 (India Standard Time)
+[debug] [2023-03-09T14:26:59.006Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-09T14:26:59.007Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-03-09T14:26:59.042Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-09T14:26:59.042Z] > authorizing via signed-in user (societyofcivilengineers.iitk@gmail.com)
+[debug] [2023-03-09T14:26:59.043Z] [iam] checking project soce-iitk for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-03-09T14:26:59.043Z] > refreshing access token with scopes: []
+[debug] [2023-03-09T14:26:59.043Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-03-09T14:26:59.043Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[warn] ⚠  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-03-09T14:28:14.052Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-03-09T14:28:14.076Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2023-03-09T14:28:14.077Z] > refreshing access token with scopes: []
+[debug] [2023-03-09T14:28:14.078Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-03-09T14:28:14.078Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]

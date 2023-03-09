@@ -43,10 +43,7 @@ export default function Postu() {
           <h1 className="text-center">Advisor</h1>
         </div>
       </div>
-      {/* <div className="row team-top phone"> */}
-        {/* <div className="col-lg-2"></div> */}
-        <Card />
-      {/* </div> */}
+      <Card />
       <div className="row">
         <h2 className="text-center">Coordinators</h2>
         <Card1 />

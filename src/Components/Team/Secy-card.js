@@ -2,9 +2,10 @@ import Secy from "../../database/secretary.json";
 
 export default function SecyCard() {
   return (
-    <div className="postulates-card">
+    <div className="row postulates-card">
       {Secy.map((data) => {
         return (
+          <div className="col-lg-3">
           <div className="a-box">
             <div className="img-container">
               <div className="img-inner">
@@ -39,6 +40,7 @@ export default function SecyCard() {
                 </li>
               </ul>
             </div>
+          </div>
           </div>
         );
       })}
