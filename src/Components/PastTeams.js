@@ -5,21 +5,26 @@ const PastTeams = () => {
     return (
         <div className='pastTeams'>
             <div className="container" id="strength">
-                <div className="str">
-                    <div className="row pastHeading" >
+                <div className="row str">
+                    <div className="pastHeading" >
                         <h1>Past Teams</h1>
                     </div>
                 </div>
-
-                <div className="str-row past-div">
-                    <div className="str-card past-team-year">
-                        <h1 className="text-center"><a href='/team/team20'>Team 2020</a></h1>
+                {/* <div className='row d-flex justify-content-around'> */}
+                <div onClick={() => {
+                    window.location = '/team/team20'
+                }} className="row d-flex justify-content-around past-div">
+                    <div className="col-5 team-card past-team-year">
+                        <h1 className="text-center">Team 2020</h1>
 
                     </div>
-                    <div className="str-card past-team-year">
-                        <h1 className="text-center"><a href='/team/team21'>Team 2021</a></h1>
+                    <div onClick={() => {
+                        window.location = '/team/team21'
+                    }} className="col-5 team-card past-team-year">
+                        <h1 className="text-center">Team 2021</h1>
                     </div>
                 </div>
+                {/* </div> */}
             </div>
         </div>
     )
