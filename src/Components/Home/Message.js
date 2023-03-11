@@ -1,4 +1,3 @@
-
 var a = 0;
 function universal(i) {
   let h = document.getElementsByClassName("Indicators");
@@ -39,18 +38,18 @@ export default function Message() {
         <div className="row mes">
           <div className="col">
             <h6>
-              <i>Intended for Y19 Students only</i>
+              <i>Open for all</i>
             </h6>
             <p>
-              Please provide your final SPO placement and Intern(Optional)
-              resumes for the resume database. This will be helpful for the
-              junior batches to prepare a good resume of thier preferable
-              profile.
+              Please register for the OpenLCA workshop dated on 15th March 2023
+              by Mr. Mohd. Kamil Vakil. Note that attendance alone does not
+              guarantee your ratification unless you didn't register.{" "}
+              <b>Deadline: 14th March 2023</b>
             </p>
             <div className="col-sm-8.2">
-              <a href="https://forms.gle/FS7ycBFsQtGkcEUD6" target="_blank">
+              <a href="https://forms.gle/jT7yfxkT1Lx3iQFP9" target="_blank">
                 <button type="button" className="mybtn Btn btn">
-                  Click here to fill the google form
+                  Register Here!
                 </button>
               </a>
             </div>

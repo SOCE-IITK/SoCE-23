@@ -83,14 +83,17 @@ export default function Slider() {
                         <div className="col">
                           <div id="y">{content[0][0]} </div>{" "}
                         </div>
-                      </div>
-                      <div className="row readmore">
-                        <div className="col">
-                          <a href="/">
-                            <button id="read-more" className="btn btn-primary">
-                              Read More
-                            </button>
-                          </a>
+                        <div className="row readmore">
+                          <div className="col">
+                            <a href="/" target={"_blank"}>
+                              <button
+                                id="read-more"
+                                className="btn btn-primary"
+                              >
+                                Read More
+                              </button>
+                            </a>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -131,9 +134,11 @@ export default function Slider() {
           </h5>
         </div>
         <div className="col-sm-3">
-          <a href="/contact-us"><button type="button" className="mybtn Btn btn">
-            Contact
-          </button></a>
+          <a href="/contact-us">
+            <button type="button" className="mybtn Btn btn">
+              Contact
+            </button>
+          </a>
         </div>
       </div>
     </div>

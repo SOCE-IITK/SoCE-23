@@ -1,13 +1,13 @@
 const content = [
     [
-        "SoCE cordially invites you to attend the seminar on Sustainability Practices on Campus. We have Prof. Abhas Singh and Prof. Rajat Mittal as the speakers.The Session will be around, tree transplantation, waste management and recycling,​ water harvesting, preserving green areas, and other sustainable activities on the campus.",
-        "Sustainability Practises on Campus",
-        "January 28, 2023",
-        "https://www.instagram.com/p/Cn2oWEPSPbH/"
+        "SoCE is back with its series of Talks on Career Choices for Civil Engineers. We are excited to invite you to a special Career Choice Session with our distinguished alumnus, Flight Lieutenant Devvrat Singh Jagawat. Flight Lieutenant Devvrat Singh Jagawat is an accomplished Air Force Officer serving in the North Eastern region of the country . He completed his B.Tech and M.Tech from our institution before pursuing a career in the Indian Air Force. He has secured AIR 1 in the Common Defence Service Examination 2017.",
+        "Career Choices: Y12 Alum",
+        "March 10, 2023",
+        "https://www.instagram.com/p/CpcWPqovUwi/"
     ],
     [
         "SoCE is back with its series of Talks on Career Choices for Civil Engineers. For our second talk, we have Mr. Shubham Gupta as our guest speaker. Mr. Gupta, a Y11 Alum from the Dept. of Civil Engineering, is an experienced consultant and Payment industry professional with 6.5+ years of experience in serving financial Institutions across Europe MEA",
-        "Career Choices",
+        "Career Choices: Y11 Alum",
         "21st January 2023",
         "https://www.instagram.com/p/CnoGzvovgiz/"
     ],
@@ -20,7 +20,7 @@ const content = [
 ]
   
 const img=[
-    "Post-photos/Sustainability.png",
+    "Post-photos/Career choices.jpeg",
     "Post-photos/Career.png",
     "Post-photos/lesson.jpg",
 ]
