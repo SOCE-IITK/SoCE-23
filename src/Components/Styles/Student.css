@@ -1,10 +1,11 @@
 #StudentSec{
     display: block;
 }
-.stud-flex{
+/* .stud-flex{
     display: flex;
     justify-content: space-between;
-}
+} */
+
 .stu{
     background-color: rgba(222,226,231,.5);
     padding: 25px;
@@ -25,7 +26,7 @@
     font-size: 12px;
     margin-bottom: 20px;
     font-family: Poppins,sans-serif;
-    width:48%;
+    /* width:48%; */
 }
 
 .stud:hover{
@@ -55,12 +56,18 @@
         margin-left: -70%;
         margin-top: 35px;
     }
+    .stud{
+        width: 80%;
+    }
+    #student p{
+        text-align: justify;
+    }
     
 }
 #student-col{
     text-align: center;
-    /* height: 80vh; */
-}
+     height: 80vh;
+} 
 .Container:after {
     content: "";
     display: table;

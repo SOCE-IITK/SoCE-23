@@ -13,27 +13,28 @@ export default function Portal() {
   return (
     <>
       <div className="container" id="portal">
-        <div className="str">
-          <div className="row">
-            <h1>Portals</h1>
+        <div className="row">
+          <div className="str">
+            <div className="row">
+              <h1>Portals</h1>
+            </div>
+            <div className="row">
+              <p>
+                Please find attached the links to the dedicated webpages of the
+                Internship portal and Conclave portal, the yearly fest of the Department of
+                Civil Engineering. You can use these links to access the
+                respective websites.
+              </p>
+            </div>
           </div>
-          <div className="row">
-            <p>
-              Please find attached the links to the dedicated webpages of the
-              Internship portal and Conclave portal, the yearly fest of the Department of
-              Civil Engineering. You can use these links to access the
-              respective websites.
-            </p>
-          </div>
-        </div>
 
-        <div className="str-row">
-          <div className="str-card ptr">
-            <h1 className="text-center">Internship</h1>
-           <a href="/"><button className="str-btn1" onClick={handleClickOpen}>
-              Open
-            </button></a> 
-            {/* {popup ? (
+          <div className="str-row row d-flex justify-content-around">
+            <div className="str-card ptr col-md-4">
+              <h1 className="text-center">Internship</h1>
+              <a href="/"><button className="str-btn1" onClick={handleClickOpen}>
+                Open
+              </button></a>
+              {/* {popup ? (
               <div className="main">
                 <div className="popup">
                   <div className="popup-header">
@@ -48,16 +49,17 @@ export default function Portal() {
             ) : (
               ""
             )} */}
-          </div>
-          <div className="str-card ptr">
-            <h1 className="text-center">Conclave</h1>
-            <a
-              href="https://www.iitk.ac.in/ce/civere/index.html"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="str-btn1">Open</button>
-            </a>
+            </div>
+            <div className="str-card ptr col-md-4">
+              <h1 className="text-center">Conclave</h1>
+              <a
+                href="https://www.iitk.ac.in/ce/civere/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="str-btn1">Open</button>
+              </a>
+            </div>
           </div>
         </div>
       </div>

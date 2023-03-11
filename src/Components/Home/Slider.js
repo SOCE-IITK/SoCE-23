@@ -63,7 +63,7 @@ export default function Slider() {
                 {/* <div className='col-1 arrow'>
                                     <i id='p' onClick={customp} className="fa fa-angle-left"></i>
                                 </div> */}
-                <div className="col-lg-4 sl">
+                <div className="col-lg-4 sl slider-image-container">
                   <img id="img" src={img[0]}></img>
                 </div>
                 <div className="col-lg-8  sl">
