@@ -67,29 +67,29 @@ export default function Contact() {
                         {/* <span class="circle one"></span> */}
                         {/* <span class="circle two"></span> */}
 
-                        <form action="index.html" autocomplete="off">
+                        <form action='/contact-us' onSubmit={(e)=>e.preventDefault()} autocomplete="off">
                             <h3 class="title">Contact us</h3>
                             <div class="input-container">
-                                <input type="text" name="name" class="input" />
-                                <label for="">Username</label>
-                                <span>Username</span>
+                                <input type="text" placeholder='Username' name="name" class="input" />
                             </div>
                             <div class="input-container">
-                                <input type="email" name="email" class="input" />
-                                <label for="">Email</label>
-                                <span>Email</span>
+                                <input type="email" placeholder='Email' name="email" class="input" />
+                                {/* <label for="">Email</label>
+                                <span>Email</span> */}
                             </div>
                             <div class="input-container">
-                                <input type="tel" name="phone" class="input" />
-                                <label for="">Phone</label>
-                                <span>Phone</span>
+                                <input type="tel" placeholder='Phone' name="phone" class="input" />
+                                {/* <label for="">Phone</label>
+                                <span>Phone</span> */}
                             </div>
                             <div class="input-container textarea">
-                                <textarea name="message" class="input"></textarea>
-                                <label for="">Message</label>
-                                <span>Message</span>
+                                <textarea name="message" placeholder='Message' class="input"></textarea>
+                                {/* <label for="">Message</label>
+                                <span>Message</span> */}
                             </div>
-                            <input type="submit" value="Send" class="btn1" />
+                            <input onClick={()=>{
+                                alert('Your response has been recorded!')
+                            }} type="submit" class="btn1" />
                         </form>
                     </div>
                 </div>
