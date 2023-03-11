@@ -17,7 +17,7 @@ function universal(i) {
     $(this).attr("src", img[i]).animate({ opacity: 1 }, 300);
   });
   // ********** see later for a tag property
-  $("a").attr("href", content[i][3]);
+  $("#slider-link").attr("href", content[i][3]);
   // console.log('#slider-l')
   let h = document.getElementsByClassName("indicators");
   for (var k = 0; k < 3; k++) {
@@ -85,7 +85,7 @@ export default function Slider() {
                         </div>
                         <div className="row readmore">
                           <div className="col">
-                            <a href="/" target={"_blank"}>
+                            <a id="slider-link" href="/" target={"_blank"}>
                               <button
                                 id="read-more"
                                 className="btn btn-primary"
