@@ -17,7 +17,7 @@ function universal(i) {
     $(this).attr("src", img[i]).animate({ opacity: 1 }, 300);
   });
   // ********** see later for a tag property
-  $("a").attr("href", content[i][3]);
+  $("#slider-link").attr("href", content[i][3]);
   // console.log('#slider-l')
   let h = document.getElementsByClassName("indicators");
   for (var k = 0; k < 3; k++) {
@@ -63,7 +63,7 @@ export default function Slider() {
                 {/* <div className='col-1 arrow'>
                                     <i id='p' onClick={customp} className="fa fa-angle-left"></i>
                                 </div> */}
-                <div className="col-lg-4 sl">
+                <div className="col-lg-4 sl slider-image-container">
                   <img id="img" src={img[0]}></img>
                 </div>
                 <div className="col-lg-8  sl">
@@ -83,14 +83,17 @@ export default function Slider() {
                         <div className="col">
                           <div id="y">{content[0][0]} </div>{" "}
                         </div>
-                      </div>
-                      <div className="row readmore">
-                        <div className="col">
-                          <a href="/">
-                            <button id="read-more" className="btn btn-primary">
-                              Read More
-                            </button>
-                          </a>
+                        <div className="row readmore">
+                          <div className="col">
+                            <a id="slider-link" href="/" target={"_blank"}>
+                              <button
+                                id="read-more"
+                                className="btn btn-primary"
+                              >
+                                Read More
+                              </button>
+                            </a>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -131,9 +134,11 @@ export default function Slider() {
           </h5>
         </div>
         <div className="col-sm-3">
-          <a href="/contact-us"><button type="button" className="mybtn Btn btn">
-            Contact
-          </button></a>
+          <a href="/contact-us">
+            <button type="button" className="mybtn Btn btn">
+              Contact
+            </button>
+          </a>
         </div>
       </div>
     </div>

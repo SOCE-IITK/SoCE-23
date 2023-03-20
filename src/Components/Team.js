@@ -36,7 +36,7 @@ export default function Postu() {
       </div>
       <div className="row phone">
         <div className="col-6">
-          <h1 className="text-center">HOD</h1>
+          <h1 className="text-center">Advisor</h1>
         </div>
         <div className="col-6">
           <h1 className="text-center">Advisor</h1>

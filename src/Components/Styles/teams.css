@@ -20,4 +20,7 @@
     font-size: 12px;
     margin-bottom: 20px;
     font-family: Poppins,sans-serif;
+}.team-card:hover{
+    box-shadow: 1.5px 1.5px 6px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
 }

@@ -73,7 +73,7 @@ export default function Postulate() {
         </div>
       </div>
       <div className="container" id="place">
-        <div className="row">
+        <div className="row d-flex justify-content-around">
           <Card postulates={data} />
         </div>
       </div>

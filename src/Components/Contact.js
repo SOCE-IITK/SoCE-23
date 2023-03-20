@@ -3,7 +3,7 @@ import location from './Assets/location.png'
 import email from './Assets/email.png'
 import shape from './Assets/shape.png'
 import phone from './Assets/phone.png'
-
+import { useState } from 'react'
 const inputs = document.querySelectorAll(".input");
 
 function focusFunc() {
@@ -25,6 +25,11 @@ inputs.forEach((input) => {
 
 
 export default function Contact() {
+    const [name,setName] = useState("")
+    const [email,setEmail] = useState("")
+    const [phone,setPhone] = useState("")
+    const [msg,setMsg] = useState("")
+
     return (
         <>
             <div class="contact-container">
@@ -67,29 +72,33 @@ export default function Contact() {
                         {/* <span class="circle one"></span> */}
                         {/* <span class="circle two"></span> */}
 
-                        <form action="index.html" autocomplete="off">
+                        <form action='/contact-us' onSubmit={(e)=>e.preventDefault()} autocomplete="off">
                             <h3 class="title">Contact us</h3>
                             <div class="input-container">
-                                <input type="text" name="name" class="input" />
-                                <label for="">Username</label>
-                                <span>Username</span>
+                                <input type="text" value={name} onChange={e=>setName(e.target.value)}  placeholder='Username'  name="name" class="input" />
                             </div>
                             <div class="input-container">
-                                <input type="email" name="email" class="input" />
-                                <label for="">Email</label>
-                                <span>Email</span>
+                                <input type="email" placeholder='Email' value={email} onChange={e=>setEmail(e.target.value)}    name="email" class="input" />
+                                {/* <label for="">Email</label>
+                                <span>Email</span> */}
                             </div>
                             <div class="input-container">
-                                <input type="tel" name="phone" class="input" />
-                                <label for="">Phone</label>
-                                <span>Phone</span>
+                                <input type="tel" placeholder='Phone' value={phone} onChange={e=>setPhone(e.target.value)}    name="phone" class="input" />
+                                {/* <label for="">Phone</label>
+                                <span>Phone</span> */}
                             </div>
                             <div class="input-container textarea">
-                                <textarea name="message" class="input"></textarea>
-                                <label for="">Message</label>
-                                <span>Message</span>
+                                <textarea name="message"  placeholder='Message' value={msg} onChange={e=>setMsg(e.target.value)}   class="input"></textarea>
+                                {/* <label for="">Message</label>
+                                <span>Message</span> */}
                             </div>
-                            <input type="submit" value="Send" class="btn1" />
+                            <input onClick={()=>{
+                                alert('Your response has been recorded!')
+                                setName("")
+                                setEmail("")
+                                setMsg("")
+                                setPhone("")
+                            }} type="submit" class="btn1" />
                         </form>
                     </div>
                 </div>

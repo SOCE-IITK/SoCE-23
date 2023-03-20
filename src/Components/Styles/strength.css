@@ -14,8 +14,9 @@
 }
 
 .str-row{
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
+    text-align: center;
 }
 
 .str-card{
@@ -48,13 +49,14 @@
 }
 
 .str-btn{
-    margin: 5px 43px;
+    /* margin: 5px 43px; */
     border: none;
     font-size: 10px;
     background-color: rgb(222, 226, 231);
     padding: 6px 20px;
+    margin-top: 2%;
     border-radius: 30px;
-    float:right;
+    /* float:right; */
 }
 .str-btn:hover{
     background-color: rgba(222, 226, 231, 0.5);
@@ -63,13 +65,13 @@
     color: rgb(0, 0, 0);
     
 }.str-btn1{
-    margin: 5px 62px;
+    /* margin: 5px 62px; */
     border: none;
     font-size: 10px;
     background-color: rgb(222, 226, 231);
     padding: 6px 20px;
     border-radius: 30px;
-    float:right;
+    /* float:right; */
 }
 .str-btn1:hover{
     background-color: rgba(222, 226, 231, 0.5);
@@ -80,19 +82,23 @@
 }
 /* Portal CSS  */
 .ptr{
-    padding: 35px 100px;
+    /* padding: 35px 100px; */
     margin-bottom: 100px;
 }
 
 @media screen and (max-width: 758px) {
-    .str-row{
+    /* .str-row{
         flex-direction: column;
-    }
+    } */
     .ptr{
-        padding: 35px 65px;
+        /* padding: 35px 65px; */
     }
     .str-btn{
-        margin: 18px 9px;
+        /* margin: 18px 18px; */
+    }
+    .str-card{
+        text-align: center;
+        width: 80%;
     }
 }
 
