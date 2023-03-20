@@ -26,6 +26,7 @@ export default function Card() {
             <div className="img-container">
               <div className="img-inner">
                 <div className="inner-skew"></div>
+                <img src="tarungupta.jpg" alt="" />
               </div>
             </div>
             <div className="team-container">
@@ -59,7 +60,9 @@ export default function Card() {
           <div className="a-box">
             <div className="img-container">
               <div className="img-inner">
-                <div className="inner-skew"></div>
+                <div className="inner-skew">
+                <img src="amedury.jpg" alt="" />
+                </div>
               </div>
             </div>
             <div className="team-container">
