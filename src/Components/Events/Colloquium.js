@@ -100,6 +100,17 @@ export default function Colloquium() {
                   at individuals who want to learn about the latest advancements in
                   technology and gain practical skills.
                   </p>
+                  <p>
+                  1. <strong>Introduction to OpenLCA</strong> (12th March 2023):
+                  <br/>
+                  About LCA: LCA is a tool used to evaluate a product's or process's environmental impacts over its entire life cycle, from raw material extraction to end-of-life disposal. It enables us to make informed sustainable decisions about products and processes thereby also giving opportunities for improvements to identify and cut back waste and pollution. Sustainability has become an increasingly important consideration in all engineering fields and LCA is a crucial tool in achieving sustainable development. Big corporations in domains like, but not limited to sustainable financing, trading, FMCG & Manufacturing are conducting LCA on their products and processes to identify the scope of improvements to meet their set SDG goals. The workshop aims to introduce OpenLCA software used to conduct such assessments.
+                  <br/>
+                  Speaker: <strong>Mr. Mohd. Kamil Vakil</strong>
+                  <br/>
+                  Slides: <a href="https://docs.google.com/presentation/d/1STQCNYhLbeMLAcJP31SOMUOnb8cOZGgA/edit?usp=share_link&ouid=113101467709173957270&rtpof=true&sd=true" target="_blank"><strong>Click Here</strong></a>
+                  <br/>
+                  Youtube: <a href="https://www.youtube.com/@societyofcivilengineersiit3172" target="_blank"><strong>Click Here</strong></a>
+                  </p>
                 </div>
               </div>
             </div>
