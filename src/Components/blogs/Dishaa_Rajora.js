@@ -6,7 +6,7 @@ const Dishaa_Rajora = () => {
             <div className='container-fluid'>
                 <div className='row blog-row'>
                     <div className='col-md-4'>
-                        <img src='placement-postulates/dp' className='blog-dp' alt='aryaman'></img>
+                        <img src='placement-postulates/dp/Disha-Rajora.jpg' className='blog-dp' alt='aryaman'></img>
                     </div>
                     <div className='col-md-8'>
                         <div className='blog-head'>

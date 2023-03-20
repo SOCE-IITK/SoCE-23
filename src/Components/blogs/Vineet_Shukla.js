@@ -6,7 +6,7 @@ const Vineet_Shukla = () => {
             <div className='container-fluid'>
                 <div className='row blog-row'>
                     <div className='col-md-4'>
-                        <img src='placement-postulates/dp/Vineet.jpg' className='blog-dp' alt='Vineet'></img>
+                        <img src='placement-postulates/dp/Vineet-Shukla.jpg' className='blog-dp' alt='Vineet'></img>
                     </div>
                     <div className='col-md-8'>
                         <div className='blog-head'>
@@ -118,7 +118,7 @@ const Vineet_Shukla = () => {
         project. By the end of the third round, I was confident that my interviews went well. And half an hour
         later, I got another call stating that I have been considered for the job. I got placed at placement round
         2.1.
-      </p><img class="blog-image-right" src="placement-postulates/blogs/Vineet-Shukla/11.jpg"/>
+      </p><img class="blog-image-right" src="placement-postulates/blogs/Vineet-Shukla/11.jpeg"/>
       <p>
         In retrospect, I feel that none of the things that I had done was a conscious step towards this final job
         that I got. Quoting Steve Jobs, ‘ you cannot connect the dots looking forward; you can only connect them

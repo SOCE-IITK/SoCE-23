@@ -7,7 +7,7 @@ const Himanshu_Mishra = () => {
         <div className="row blog-row">
           <div className="col-md-4">
             <img
-              src="placement-postulates/blogs/Ashutosh-Ranjan/8.jpeg"
+              src="placement-postulates/dp/Himanshu-Mishra.jpg"
               className="blog-dp"
               alt="aryaman"
             ></img>
