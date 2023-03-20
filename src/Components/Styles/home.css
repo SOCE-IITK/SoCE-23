@@ -184,9 +184,12 @@
 
 .mybtn {
     border: none;
-    background-color: #b7b6b6;
+    font-size: 12px;
+    background-color: rgb(222, 226, 231);
     padding: 6px 28px;
     border-radius: 30px;
+    float: right;
+    margin-left: 30%;
 }
 
 a {
@@ -224,6 +227,9 @@ a:hover {
         margin-left: 0.2rem;
         border-radius: 20px;
     }
+    .getm h5 {
+        font-size: 1.0rem;
+    }
 
     .slider-content {
         font-size: 12px;
@@ -245,8 +251,16 @@ a:hover {
         width: 90%; */
     }
     .slider-content{
-        height: 60vh;
+        height: 72vh;
     }
 
+    .slider-content .row {
+        padding: 0.1% 4%;
+    }
 
+    .mybtn{
+        float: none;
+        margin-top: 10px;
+        margin-left: 0%;
+    }
 }

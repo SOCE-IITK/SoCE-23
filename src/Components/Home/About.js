@@ -11,6 +11,14 @@ export default function About() {
   const closePopup = () => {
     setPop(false);
   };
+
+  if(popup){
+    document.body.classList.add('active-pop')
+  }
+  else{
+    document.body.classList.remove('active-pop')
+  }
+
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);

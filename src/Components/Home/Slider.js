@@ -135,7 +135,7 @@ export default function Slider() {
         </div>
         <div className="col-sm-3">
           <a href="/contact-us">
-            <button type="button" className="mybtn Btn btn">
+            <button type="button" className="mybtn btn">
               Contact
             </button>
           </a>
