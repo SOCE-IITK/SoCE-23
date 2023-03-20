@@ -70,6 +70,7 @@ body.active-pop1{
     transition: 0.5s ease;
     border-radius: 15px;
     padding: 10px 5px;
+    overflow-y: auto;
 }
 
 .popup-header {
