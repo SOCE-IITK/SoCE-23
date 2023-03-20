@@ -31,7 +31,8 @@ export default function Portal() {
           <div className="str-row row d-flex justify-content-around">
             <div className="str-card ptr col-md-4">
               <h1 className="text-center">Internship</h1>
-              <a href="/"><button className="str-btn1" onClick={handleClickOpen}>
+              <a href="https://forms.gle/uwztLG2DqikoEbQH7" target="_blank
+              "><button className="str-btn1" onClick={handleClickOpen}>
                 Open
               </button></a>
               {/* {popup ? (
