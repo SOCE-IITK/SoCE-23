@@ -55,7 +55,7 @@ export default function Footer() {
                   <h6>For Students</h6>
                   <ul className="footer-links">
                     <li>
-                      <a href="/">Resumes</a>
+                      <a href="https://drive.google.com/drive/folders/1BsFrnh5fE0Moi9J_6K9URX5r3N2UdEaa" target="_blank">Resumes</a>
                     </li>
                     <li>
                       <a
