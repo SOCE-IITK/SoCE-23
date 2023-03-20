@@ -84,7 +84,7 @@ export default function Footer() {
                   </ul>
                 </div>
                 <div className="col-xs-6 col-md-2">
-                  <h6 style={{ color: "#212529" }}>.</h6>
+                  <h6>More Links</h6>
                   <ul className="footer-links">
                     <li>
                       <a
