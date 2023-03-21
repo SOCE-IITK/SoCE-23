@@ -51,7 +51,7 @@ var secy19 = [
         insta: "https://www.instagram.com/_nidhi_kansal/",
         linkedin: "https://www.linkedin.com/in/nidhi-kansal-70978a20b/",
         mail: "mailto:nidhik@iitk.ac.in",
-        image: "img/team/cordi3.jpg"
+        image: "cordi3.jpg"
     },
     {
         name: "Navshruti Singh",

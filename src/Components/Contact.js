@@ -75,7 +75,7 @@ export default function Contact() {
                         <form action='/contact-us' onSubmit={(e)=>e.preventDefault()} autocomplete="off">
                             <h3 class="title">Contact us</h3>
                             <div class="input-container">
-                                <input type="text" value={name} onChange={e=>setName(e.target.value)}  placeholder='Username'  name="name" class="input" />
+                                <input type="text" value={name} onChange={e=>setName(e.target.value)}  placeholder='Name'  name="name" class="input" />
                             </div>
                             <div class="input-container">
                                 <input type="email" placeholder='Email' value={email} onChange={e=>setEmail(e.target.value)}    name="email" class="input" />

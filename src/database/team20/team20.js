@@ -1,22 +1,10 @@
 var team20 = [
     [
         {
-            name: "Hod",
-            post: "Coordinator",
-            fb: "https://www.facebook.com/profile.php?id=100009646039570",
-            insta: "https://www.instagram.com/ankit_verma101/",
-            linkedin: "https://www.linkedin.com/in/ankit-kumar-40a1981a8/",
-            mail: "ankitver@iitk.ac.in",
-            image: "img/team/team20/ankit.jpg"
+           
         },
         {
-            name: "Advisor",
-            post: "Coordinator",
-            fb: "https://www.facebook.com/profile.php?id=100009646039570",
-            insta: "https://www.instagram.com/ankit_verma101/",
-            linkedin: "https://www.linkedin.com/in/ankit-kumar-40a1981a8/",
-            mail: "ankitver@iitk.ac.in",
-            image: "img/team/team20/ankit.jpg"
+            
         },
     ],
 
@@ -28,7 +16,7 @@ var team20 = [
         insta: "https://www.instagram.com/ankit_verma101/",
         linkedin: "https://www.linkedin.com/in/ankit-kumar-40a1981a8/",
         mail: "ankitver@iitk.ac.in",
-        image: "img/team/team20/ankit.jpg"
+        image: "ankit.jpg"
     },
     {
         name: "Mradul Chaudhary",
@@ -37,7 +25,7 @@ var team20 = [
         insta: "https://www.instagram.com/mradul.chaudhary.1105/?hl=en",
         linkedin: "https://www.linkedin.com/in/mradul-chaudhary",
         mail: "mradulch@iitk.ac.in",
-        image: "img/team/team20/mradul.jpg"
+        image: "mradul.jpg"
     },
     {
         name: "Yashkrit Gupta",
@@ -46,7 +34,7 @@ var team20 = [
         insta: "https://instagram.com/yashkrit_gupta?igshid=mm6wh2hwimx8",
         linkedin: "https://www.linkedin.com/in/yashkrit-gupta-8503a3145",
         mail: "mailto:yashkrit@iitk.ac.in",
-        image: "img/team/team20/yashkrit.jpeg"
+        image: "yashkrit.jpeg"
     },
 ],
 [
@@ -57,7 +45,7 @@ var team20 = [
         insta: "https://www.instagram.com/janhavinainamohanbhoge/",
         linkedin: "https://www.linkedin.com/in/janhavi-b-38b8801b2",
         mail: "mailto:janhavim@iitk.ac.in",
-        image: "img/team/team20/jahnvi.jpg"
+        image: "jahnvi.jpg"
     },
     {
         name: "Rohit Sharma",
@@ -66,7 +54,7 @@ var team20 = [
         insta: "https://www.instagram.com/nil",
         linkedin: "https://linkedin.com/nil",
         mail: "mailto:rohitsh@iitk.ac.i",
-        image: "img/team/team20/rohit.jpg"
+        image: "rohit.jpg"
     },
     {
         name: "Nitin Patil",
@@ -75,7 +63,7 @@ var team20 = [
         insta: "https://instagram.com/nitin11041?igshid=avjp1ayg4xxv",
         linkedin: "https://www.linkedin.com/in/nitin-patil-b7869b1aa",
         mail: "mailto:nitinp@iitk.ac.in",
-        image: "img/team/team20/nitin.jpg"
+        image: "nitin.jpg"
     },
     {
         name: "Shreya Vaish",
@@ -84,7 +72,7 @@ var team20 = [
         insta: "https://www.instagram.com/rantcat__vaish/",
         linkedin: "https://www.linkedin.com/in/shreya-vaish-4694491b0/",
         mail: "mailto:vaishrey@iitk.ac.in",
-        image: "img/team/team20/shreya.png"
+        image: "shreya.png"
     },
     {
         name: "Harsh Kumar Gautam",
@@ -93,7 +81,7 @@ var team20 = [
         insta: "https://www.instagram.com/invites/contact/?i=t0w0pwliqhqv&utm_content=2iiwccr",
         linkedin: "",
         mail: "mailto:kaushalkj20@iitk.ac.in",
-        image: "img/team/team20/harsh.jpg"
+        image: "harsh.jpg"
     },
     {
         name: "Nidhi Kansal",
@@ -102,7 +90,7 @@ var team20 = [
         insta: "https://www.instagram.com/_nidhi_kansal/",
         linkedin: "https://www.linkedin.com/in/nidhi-kansal-70978a20b/",
         mail: "mailto:nidhik@iitk.ac.in",
-        image: "img/team/cordi3.jpg"
+        image: "nidhi.jpg"
     },
     {
         name: "Navshruti Singh",
@@ -111,7 +99,7 @@ var team20 = [
         insta: "https://www.instagram.com/_navshruti_singh_",
         linkedin: "",
         mail: "nshruti@iitk.ac.in",
-        image: "img/team/team20/navshruti.jpg"
+        image: "navshruti.jpg"
     },
     {
         name: "Raj Karan Kumar",
@@ -120,7 +108,7 @@ var team20 = [
         insta: "https://www.instagram.com/raj_karan_3081/",
         linkedin: "",
         mail: "mailto:rajkaran@iitk.ac.in",
-        image: "img/team/team20/raj.jpg"
+        image: "raj.jpg"
     },
     {
         name: "Rishabh Arora",
@@ -129,7 +117,7 @@ var team20 = [
         insta: "https://www.instagram.com/rishabh.ar0ra/",
         linkedin: "https://www.linkedin.com/in/rishabh-arora-8b2124199",
         mail: "mailto:risharo@iitk.ac.in",
-        image: "img/team/team20/rishabh.jpg"
+        image: "rishabh.jpg"
     },
     {
         name: "Sonam Meena",
@@ -138,7 +126,7 @@ var team20 = [
         insta: "https://www.instagram.com/sonamjorwal_02/?hl=en",
         linkedin: "https://www.linkedin.com/in/sonam-meena-7354091b7",
         mail: "mailto:sonamm@iitk.ac.in",
-        image: "img/team/team20/sonam.jpeg"
+        image: "sonam.jpeg"
     },
     {
         name: "Yash Laddha",
@@ -147,7 +135,7 @@ var team20 = [
         insta: "https://www.instagram.com/invites/contact/?i=z1pupthh439q&utm_content=f4t4hii",
         linkedin: "",
         mail: "mailto:yladdha@iitk.ac.in",
-        image: "img/team/team20/yash.jpg"
+        image: "yash.jpg"
     },
     {
         name: "Aryan Agarwal",
@@ -156,7 +144,7 @@ var team20 = [
         insta: "https://www.instagram.com/aryann_ag/",
         linkedin: "https://www.linkedin.com/in/aryan-agarwal-6480771b6",
         mail: "mailto:aryanag@iitk.ac.in",
-        image: "img/team/team20/aryan.jpg"
+        image: "aryan.jpg"
     },
     {
         name: "Devansh Jain",
@@ -165,7 +153,7 @@ var team20 = [
         insta: "https://instagram.com/devansh_jain2013?igshid=la8trokivu3l",
         linkedin: "https://www.linkedin.com/in/devansh-jain-1987bb1b2",
         mail: "mailto:devanshj@iitk.ac.in",
-        image: "img/team/team20/devansh.jpg"
+        image: "devansh.jpg"
     },
     {
         name: "Govind Gupta",
@@ -174,7 +162,7 @@ var team20 = [
         insta: "https://www.instagram.com/thlegend_of_artist/?hl=en",
         linkedin: "https://www.linkedin.com/in/govind-gupta-b96b1b197/",
         mail: "mailto:govindg@iitk.ac.in",
-        image: "img/team/team20/Govind.jpeg"
+        image: "Govind.jpeg"
     },
     {
         name: "Hitesh Kumar",
@@ -183,7 +171,7 @@ var team20 = [
         insta: "https://www.instagram.com/nil",
         linkedin: "https://linkedin.com/nil",
         mail: "mailto:hitesh@iitk.ac.in",
-        image: "img/team/team20/hitesh.jpg"
+        image: "hitesh.jpg"
     },
     {
         name: "Rohan Kumar",
@@ -192,7 +180,7 @@ var team20 = [
         insta: "https://www.instagram.com/rohankj01/",
         linkedin: "https://www.linkedin.com/in/rohankj01/",
         mail: "mailto:rohankj@iitk.ac.in",
-        image: "img/team/team20/rohan.jpg"
+        image: "rohan.jpg"
     },
     {
         name: "Saral Verma",
@@ -201,7 +189,7 @@ var team20 = [
         insta: "https://www.instagram.com/its.easy.here/?hl=en",
         linkedin: "https://www.linkedin.com/in/saral-verma-3b2b041b0/",
         mail: "mailto:svsaral@iitk.ac.in",
-        image: "img/team/team20/saral.jpg"
+        image: "saral.jpg"
     },
 ]
 ]
