@@ -1,23 +1,11 @@
 var team21 = [
   [
     {
-      name: "Hod",
-      post: "Coordinator",
-      fb: "https://www.facebook.com/profile.php?id=100005799362676",
-      insta: "https://www.instagram.com/govind_gupta_46/",
-      linkedin: "https://www.linkedin.com/in/govind-gupta-b96b1b197/",
-      mail: "mailto:govindg@iitk.ac.in",
-      image: "img/team/team21/cordi1.jpg"
+      
 
     },
     {
-      name: "Adivsor",
-      post: "Coordinator",
-      fb: "https://www.facebook.com/profile.php?id=100005799362676",
-      insta: "https://www.instagram.com/govind_gupta_46/",
-      linkedin: "https://www.linkedin.com/in/govind-gupta-b96b1b197/",
-      mail: "mailto:govindg@iitk.ac.in",
-      image: "img/team/team21/cordi1.jpg"
+      
     }
 
   ],

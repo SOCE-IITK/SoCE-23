@@ -21,7 +21,7 @@ export default function Card() {
   return (
     <>
       <div className="row d-flex justify-content-around">
-        <div className="col-lg-3 postulates-card">
+        {/* <div className="col-lg-3 postulates-card">
           <div className="a-box">
             <div className="img-container">
               <div className="img-inner">
@@ -91,7 +91,7 @@ export default function Card() {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <br></br>
       <br></br>

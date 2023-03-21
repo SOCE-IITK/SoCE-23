@@ -35,12 +35,12 @@ export default function Postu() {
         </div>
       </div>
       <div className="row phone">
-        <div className="col-6">
+        {/* <div className="col-6">
           <h1 className="text-center">Advisor</h1>
         </div>
         <div className="col-6">
           <h1 className="text-center">Advisor</h1>
-        </div>
+        </div> */}
       </div>
       <Card />
 

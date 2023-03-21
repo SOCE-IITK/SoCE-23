@@ -1,22 +1,10 @@
 var team20 = [
     [
         {
-            name: "Hod",
-            post: "Coordinator",
-            fb: "https://www.facebook.com/profile.php?id=100009646039570",
-            insta: "https://www.instagram.com/ankit_verma101/",
-            linkedin: "https://www.linkedin.com/in/ankit-kumar-40a1981a8/",
-            mail: "ankitver@iitk.ac.in",
-            image: "img/team/team20/ankit.jpg"
+           
         },
         {
-            name: "Advisor",
-            post: "Coordinator",
-            fb: "https://www.facebook.com/profile.php?id=100009646039570",
-            insta: "https://www.instagram.com/ankit_verma101/",
-            linkedin: "https://www.linkedin.com/in/ankit-kumar-40a1981a8/",
-            mail: "ankitver@iitk.ac.in",
-            image: "img/team/team20/ankit.jpg"
+            
         },
     ],
 
@@ -102,7 +90,7 @@ var team20 = [
         insta: "https://www.instagram.com/_nidhi_kansal/",
         linkedin: "https://www.linkedin.com/in/nidhi-kansal-70978a20b/",
         mail: "mailto:nidhik@iitk.ac.in",
-        image: "cordi3.jpg"
+        image: "nidhi.jpg"
     },
     {
         name: "Navshruti Singh",
