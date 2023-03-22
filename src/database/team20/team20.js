@@ -39,42 +39,6 @@ var team20 = [
 ],
 [
     {
-        name: "Janhavi Bhoge",
-        post: "Secretary, Content",
-        fb: "https://www.facebook.com/janhavi.bhoge.5",
-        insta: "https://www.instagram.com/janhavinainamohanbhoge/",
-        linkedin: "https://www.linkedin.com/in/janhavi-b-38b8801b2",
-        mail: "mailto:janhavim@iitk.ac.in",
-        image: "jahnvi.jpg"
-    },
-    {
-        name: "Rohit Sharma",
-        post: "Secretary, Content",
-        fb: "https://www.facebook.com/profile.php?id=100003925016375",
-        insta: "https://www.instagram.com/nil",
-        linkedin: "https://linkedin.com/nil",
-        mail: "mailto:rohitsh@iitk.ac.i",
-        image: "rohit.jpg"
-    },
-    {
-        name: "Nitin Patil",
-        post: "Secretary, Design",
-        fb: "https://www.facebook.com/profile.php?id=100003897020422",
-        insta: "https://instagram.com/nitin11041?igshid=avjp1ayg4xxv",
-        linkedin: "https://www.linkedin.com/in/nitin-patil-b7869b1aa",
-        mail: "mailto:nitinp@iitk.ac.in",
-        image: "nitin.jpg"
-    },
-    {
-        name: "Shreya Vaish",
-        post: "Secretary, Design",
-        fb: "https://www.facebook.com/profile.php?id=100000947592369",
-        insta: "https://www.instagram.com/rantcat__vaish/",
-        linkedin: "https://www.linkedin.com/in/shreya-vaish-4694491b0/",
-        mail: "mailto:vaishrey@iitk.ac.in",
-        image: "shreya.png"
-    },
-    {
         name: "Harsh Kumar Gautam",
         post: "Secretary, Events",
         fb: "https://www.facebook.com/harsh.gautam.7370",
@@ -137,6 +101,43 @@ var team20 = [
         mail: "mailto:yladdha@iitk.ac.in",
         image: "yash.jpg"
     },
+    {
+        name: "Janhavi Bhoge",
+        post: "Secretary, Content",
+        fb: "https://www.facebook.com/janhavi.bhoge.5",
+        insta: "https://www.instagram.com/janhavinainamohanbhoge/",
+        linkedin: "https://www.linkedin.com/in/janhavi-b-38b8801b2",
+        mail: "mailto:janhavim@iitk.ac.in",
+        image: "jahnvi.jpg"
+    },
+    {
+        name: "Rohit Sharma",
+        post: "Secretary, Content",
+        fb: "https://www.facebook.com/profile.php?id=100003925016375",
+        insta: "https://www.instagram.com/nil",
+        linkedin: "https://linkedin.com/nil",
+        mail: "mailto:rohitsh@iitk.ac.i",
+        image: "rohit.jpg"
+    },
+    {
+        name: "Nitin Patil",
+        post: "Secretary, Design",
+        fb: "https://www.facebook.com/profile.php?id=100003897020422",
+        insta: "https://instagram.com/nitin11041?igshid=avjp1ayg4xxv",
+        linkedin: "https://www.linkedin.com/in/nitin-patil-b7869b1aa",
+        mail: "mailto:nitinp@iitk.ac.in",
+        image: "nitin.jpg"
+    },
+    {
+        name: "Shreya Vaish",
+        post: "Secretary, Design",
+        fb: "https://www.facebook.com/profile.php?id=100000947592369",
+        insta: "https://www.instagram.com/rantcat__vaish/",
+        linkedin: "https://www.linkedin.com/in/shreya-vaish-4694491b0/",
+        mail: "mailto:vaishrey@iitk.ac.in",
+        image: "shreya.png"
+    },
+   
     {
         name: "Aryan Agarwal",
         post: "Secretary, Web",
