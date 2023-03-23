@@ -54,6 +54,61 @@ var team22 = [
     ],
     [
         {
+            "name": "Akarsha",
+            "post": " Events",
+            "fb": "https://www.facebook.com/profile.php?id=100074795215350",
+            "insta": "https://instagram.com/akarsha_13?igshid=YmMyMTA2M2Y=",
+            "linkedin": "https://www.linkedin.com/in/akarsha-yadav-077346226",
+            "mail": "mailto:akarsha21@iitk.ac.in",
+            "image": " e2.jpg"
+        },
+        {
+            "name": "Dharmraj",
+            "post": " Events",
+            "fb": "https://www.facebook.com/dharm.raj.71653",
+            "insta": "https://instagram.com/dharmraj_5565?igshid=YmMyMTA2M2Y=",
+            "linkedin": "https://www.linkedin.com/in/dharm-raj-30760b22a",
+            "mail": "mailto:dharmraj21@iitk.ac.in",
+            "image": " e3.jpg"
+        },
+
+        {
+            "name": "Mayank Shekhar",
+            "post": " Events",
+            "fb": "https://www.facebook.com/mayank.shekhar.710",
+            "insta": "https://instagram.com/mayank___shekhar?igshid=YmMyMTA2M2Y=",
+            "linkedin": "https://www.linkedin.com/in/mayank-shekhar-a71589232",
+            "mail": "mailto:mshekhar21@iitk.ac.in",
+            "image": " e5.jpg"
+        },
+        {
+            "name": "Saurabh Meena",
+            "post": " Events",
+            "fb": "https://www.facebook.com/profile.php?id=100074976683799",
+            "insta": "https://instagram.com/master_saurabh001?igshid=YmMyMTA2M2Y=",
+            "linkedin": "https://www.linkedin.com/in/saurabh-meena-94600223b",
+            "mail": "mailto:msaurabh21@iitk.ac.in",
+            "image": " e6.jpg"
+        },
+        {
+            "name": "Shambhavi Agarwal",
+            "post": " Events",
+            "fb": "https://www.facebook.com/profile.php?id=100075231073918",
+            "insta": "https://instagram.com/i_shambhavi?igshid=YmMyMTA2M2Y=",
+            "linkedin": "https://www.linkedin.com/in/shambhavi-agarwal-15b47b242",
+            "mail": "mailto:shambhavi21@iitk.ac.in",
+            "image": " e7.jpg"
+        },
+        {
+            "name": "Srishti",
+            "post": " Events",
+            "fb": "https://www.facebook.com/srishti.s.10",
+            "insta": "https://www.instagram.com/eunoia_ish/",
+            "linkedin": "https://www.linkedin.com/in/srishti-s-557129236/",
+            "mail": "mailto:srishti21@iitk.ac.in",
+            "image": "e8.jpg"
+        },
+        {
             "name": "Aman Khilani",
             "post": " Content",
             "fb": "https://www.facebook.com/aman.khilani.5",
@@ -147,61 +202,7 @@ var team22 = [
             "image": " d7.jpg"
         },
 
-        {
-            "name": "Akarsha",
-            "post": " Events",
-            "fb": "https://www.facebook.com/profile.php?id=100074795215350",
-            "insta": "https://instagram.com/akarsha_13?igshid=YmMyMTA2M2Y=",
-            "linkedin": "https://www.linkedin.com/in/akarsha-yadav-077346226",
-            "mail": "mailto:akarsha21@iitk.ac.in",
-            "image": " e2.jpg"
-        },
-        {
-            "name": "Dharmraj",
-            "post": " Events",
-            "fb": "https://www.facebook.com/dharm.raj.71653",
-            "insta": "https://instagram.com/dharmraj_5565?igshid=YmMyMTA2M2Y=",
-            "linkedin": "https://www.linkedin.com/in/dharm-raj-30760b22a",
-            "mail": "mailto:dharmraj21@iitk.ac.in",
-            "image": " e3.jpg"
-        },
-
-        {
-            "name": "Mayank Shekhar",
-            "post": " Events",
-            "fb": "https://www.facebook.com/mayank.shekhar.710",
-            "insta": "https://instagram.com/mayank___shekhar?igshid=YmMyMTA2M2Y=",
-            "linkedin": "https://www.linkedin.com/in/mayank-shekhar-a71589232",
-            "mail": "mailto:mshekhar21@iitk.ac.in",
-            "image": " e5.jpg"
-        },
-        {
-            "name": "Saurabh Meena",
-            "post": " Events",
-            "fb": "https://www.facebook.com/profile.php?id=100074976683799",
-            "insta": "https://instagram.com/master_saurabh001?igshid=YmMyMTA2M2Y=",
-            "linkedin": "https://www.linkedin.com/in/saurabh-meena-94600223b",
-            "mail": "mailto:msaurabh21@iitk.ac.in",
-            "image": " e6.jpg"
-        },
-        {
-            "name": "Shambhavi Agarwal",
-            "post": " Events",
-            "fb": "https://www.facebook.com/profile.php?id=100075231073918",
-            "insta": "https://instagram.com/i_shambhavi?igshid=YmMyMTA2M2Y=",
-            "linkedin": "https://www.linkedin.com/in/shambhavi-agarwal-15b47b242",
-            "mail": "mailto:shambhavi21@iitk.ac.in",
-            "image": " e7.jpg"
-        },
-        {
-            "name": "Srishti",
-            "post": " Events",
-            "fb": "https://www.facebook.com/srishti.s.10",
-            "insta": "https://www.instagram.com/eunoia_ish/",
-            "linkedin": "https://www.linkedin.com/in/srishti-s-557129236/",
-            "mail": "mailto:srishti21@iitk.ac.in",
-            "image": "e8.jpg"
-        },
+       
         {
             "name": "Aashruti",
             "post": " Web Development",
@@ -230,6 +231,24 @@ var team22 = [
             "linkedin": "https://www.linkedin.com/in/saurav-kumar-1894a5226",
             "mail": "mailto:sauravkr21@iitk.ac.in",
             "image": " w5.jpg"
+        },
+        {
+            "name": "Rishi Ratn",
+            "post": " Web Development",
+            "fb": "https://www.facebook.com/profile.php?id=100075245231208",
+            "insta": "https://www.instagram.com/rishi_ratn/",
+            "linkedin": "https://www.linkedin.com/in/rishi-ratn-53b4b4232/",
+            "mail": "mailto:rishiratn21@iitk.ac.in",
+            "image": "rishi.jpg"
+        },
+        {
+            "name": "Abhimanyu Jain",
+            "post": " Web Development",
+            "fb": "https://www.facebook.com/abhimanyu.jain.56679",
+            "insta": "https://www.instagram.com/_abhimanyu_jain_/",
+            "linkedin": "https://www.linkedin.com/in/abhimanyu-jain-a465b8232/",
+            "mail": "mailto:abhimanyuj21@iitk.ac.in",
+            "image": "abhi.jpg"
         },
 
         {
@@ -297,24 +316,7 @@ var team22 = [
             "mail": "mailto:ysoan21@iitk.ac.in",
             "image": " yag.jpg"
         },
-        {
-            "name": "Rishi Ratn",
-            "post": " Web Development",
-            "fb": "https://www.facebook.com/profile.php?id=100075245231208",
-            "insta": "https://www.instagram.com/rishi_ratn/",
-            "linkedin": "https://www.linkedin.com/in/rishi-ratn-53b4b4232/",
-            "mail": "mailto:rishiratn21@iitk.ac.in",
-            "image": "rishi.jpg"
-        },
-        {
-            "name": "Abhimanyu Jain",
-            "post": " Web Development",
-            "fb": "https://www.facebook.com/abhimanyu.jain.56679",
-            "insta": "https://www.instagram.com/_abhimanyu_jain_/",
-            "linkedin": "https://www.linkedin.com/in/abhimanyu-jain-a465b8232/",
-            "mail": "mailto:abhimanyuj21@iitk.ac.in",
-            "image": "abhi.jpg"
-        }
+       
     ],
 ]
 
