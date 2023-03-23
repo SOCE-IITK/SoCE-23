@@ -224,6 +224,7 @@ textarea.input {
   margin: 0.7rem 0;
   align-items: center;
   font-size: 0.95rem;
+  /* height:28px; */
 }
 
 .contact-info .info .icon {
@@ -388,7 +389,6 @@ textarea.input {
   .contact-info .info .icon {
     width: 23px;
   }
-
   .input {
     padding: 0.45rem 1.2rem;
   }

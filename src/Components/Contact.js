@@ -1,8 +1,8 @@
 import './Styles/contact.css'
 import location from './Assets/location.png'
-import email from './Assets/email.png'
-import shape from './Assets/shape.png'
-import phone from './Assets/phone.png'
+import Email from './Assets/email.png'
+import Shape from './Assets/shape.png'
+import Phone from './Assets/phone.png'
 import { useState } from 'react'
 const inputs = document.querySelectorAll(".input");
 
@@ -47,12 +47,12 @@ export default function Contact() {
                                 <img src={location} class="icon" alt="" />
                                 <p>WLE-301, IIT Kanpur, Uttar Pradesh</p>
                             </div>
-                            <div class="information">
-                                <img src={email} class="icon" alt="" />
+                            <div class="information" >
+                                <img src={Email} class="icon" alt="" / >
                                 <p>soce@iitk.ac.in</p>
                             </div>
                             <div class="information">
-                                <img src={phone} class="icon" alt="" />
+                                <img src={Phone} class="icon" alt="" />
                                 <p>+91-8009117479</p>
                             </div>
                         </div>

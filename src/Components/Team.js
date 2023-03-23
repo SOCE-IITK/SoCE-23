@@ -13,8 +13,7 @@ export default function Postu() {
         <div className="row">
           <p>
             You can access information about the current and past members of the
-            Society of Civil Engineers team through this link [insert link
-            here]. From this link, you can find contact information for each
+            Society of Civil Engineers team through the below links. From these links, you can find contact information for each
             team member, allowing you to reach out to the appropriate person
             based on your needs. This information can be helpful in connecting
             with the Society of Civil Engineers team and accessing their
