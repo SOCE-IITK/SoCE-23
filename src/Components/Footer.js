@@ -55,7 +55,12 @@ export default function Footer() {
                   <h6>For Students</h6>
                   <ul className="footer-links">
                     <li>
-                      <a href="https://drive.google.com/drive/folders/1BsFrnh5fE0Moi9J_6K9URX5r3N2UdEaa" target="_blank">Resumes</a>
+                      <a
+                        href="https://drive.google.com/drive/folders/1BsFrnh5fE0Moi9J_6K9URX5r3N2UdEaa"
+                        target="_blank"
+                      >
+                        Resumes
+                      </a>
                     </li>
                     <li>
                       <a
@@ -186,12 +191,25 @@ export default function Footer() {
               </ul>
             </div>
             <hr className="border border-1" />
+            {/* <div className="col-md-12 col-sm-6 col-xs-12">
+              <p className="copyright-text text-center footer-c">
+                Designed by
+                <a href="#" id="company">
+                  {" "}
+                  Web Team
+                </a>
+              </p>
+            </div> */}
             <div className="col-md-12 col-sm-6 col-xs-12">
               <p className="copyright-text text-center footer-c">
                 Copyright &copy; 2022-23{" "}
                 <a href="#" id="company">
                   {" "}
                   SoCE, IIT Kanpur
+                </a> |
+                <a href="http://localhost:3000/team/team22" id="company">
+                  {" "}
+                  Designed by Web Team
                 </a>
               </p>
             </div>
