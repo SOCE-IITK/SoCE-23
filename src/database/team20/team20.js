@@ -16,7 +16,7 @@ var team20 = [
         insta: "https://www.instagram.com/ankit_verma101/",
         linkedin: "https://www.linkedin.com/in/ankit-kumar-40a1981a8/",
         mail: "ankitver@iitk.ac.in",
-        image: "ankit.jpg"
+        image: "team20/ankit.jpg"
     },
     {
         name: "Mradul Chaudhary",
@@ -25,7 +25,7 @@ var team20 = [
         insta: "https://www.instagram.com/mradul.chaudhary.1105/?hl=en",
         linkedin: "https://www.linkedin.com/in/mradul-chaudhary",
         mail: "mradulch@iitk.ac.in",
-        image: "mradul.jpg"
+        image: "team20/mradul.jpg"
     },
     {
         name: "Yashkrit Gupta",
@@ -34,7 +34,7 @@ var team20 = [
         insta: "https://instagram.com/yashkrit_gupta?igshid=mm6wh2hwimx8",
         linkedin: "https://www.linkedin.com/in/yashkrit-gupta-8503a3145",
         mail: "mailto:yashkrit@iitk.ac.in",
-        image: "yashkrit.jpeg"
+        image: "team20/yashkrit.jpeg"
     },
 ],
 [
@@ -45,7 +45,7 @@ var team20 = [
         insta: "https://www.instagram.com/invites/contact/?i=t0w0pwliqhqv&utm_content=2iiwccr",
         linkedin: "",
         mail: "mailto:kaushalkj20@iitk.ac.in",
-        image: "harsh.jpg"
+        image: "team20/harsh.jpg"
     },
     {
         name: "Nidhi Kansal",
@@ -54,7 +54,7 @@ var team20 = [
         insta: "https://www.instagram.com/_nidhi_kansal/",
         linkedin: "https://www.linkedin.com/in/nidhi-kansal-70978a20b/",
         mail: "mailto:nidhik@iitk.ac.in",
-        image: "nidhi.jpg"
+        image: "team20/nidhi.jpg"
     },
     {
         name: "Navshruti Singh",
@@ -63,7 +63,7 @@ var team20 = [
         insta: "https://www.instagram.com/_navshruti_singh_",
         linkedin: "",
         mail: "nshruti@iitk.ac.in",
-        image: "navshruti.jpg"
+        image: "team20/navshruti.jpg"
     },
     {
         name: "Raj Karan Kumar",
@@ -72,7 +72,7 @@ var team20 = [
         insta: "https://www.instagram.com/raj_karan_3081/",
         linkedin: "",
         mail: "mailto:rajkaran@iitk.ac.in",
-        image: "raj.jpg"
+        image: "team20/raj.jpg"
     },
     {
         name: "Rishabh Arora",
@@ -81,7 +81,7 @@ var team20 = [
         insta: "https://www.instagram.com/rishabh.ar0ra/",
         linkedin: "https://www.linkedin.com/in/rishabh-arora-8b2124199",
         mail: "mailto:risharo@iitk.ac.in",
-        image: "rishabh.jpg"
+        image: "team20/rishabh.jpg"
     },
     {
         name: "Sonam Meena",
@@ -90,7 +90,7 @@ var team20 = [
         insta: "https://www.instagram.com/sonamjorwal_02/?hl=en",
         linkedin: "https://www.linkedin.com/in/sonam-meena-7354091b7",
         mail: "mailto:sonamm@iitk.ac.in",
-        image: "sonam.jpeg"
+        image: "team20/sonam.jpeg"
     },
     {
         name: "Yash Laddha",
@@ -99,7 +99,7 @@ var team20 = [
         insta: "https://www.instagram.com/invites/contact/?i=z1pupthh439q&utm_content=f4t4hii",
         linkedin: "",
         mail: "mailto:yladdha@iitk.ac.in",
-        image: "yash.jpg"
+        image: "team20/yash.jpg"
     },
     {
         name: "Janhavi Bhoge",
@@ -108,7 +108,7 @@ var team20 = [
         insta: "https://www.instagram.com/janhavinainamohanbhoge/",
         linkedin: "https://www.linkedin.com/in/janhavi-b-38b8801b2",
         mail: "mailto:janhavim@iitk.ac.in",
-        image: "jahnvi.jpg"
+        image: "team20/jahnvi.jpg"
     },
     {
         name: "Rohit Sharma",
@@ -117,7 +117,7 @@ var team20 = [
         insta: "https://www.instagram.com/nil",
         linkedin: "https://linkedin.com/nil",
         mail: "mailto:rohitsh@iitk.ac.i",
-        image: "rohit.jpg"
+        image: "team20/rohit.jpg"
     },
     {
         name: "Nitin Patil",
@@ -126,7 +126,7 @@ var team20 = [
         insta: "https://instagram.com/nitin11041?igshid=avjp1ayg4xxv",
         linkedin: "https://www.linkedin.com/in/nitin-patil-b7869b1aa",
         mail: "mailto:nitinp@iitk.ac.in",
-        image: "nitin.jpg"
+        image: "team20/nitin.jpg"
     },
     {
         name: "Shreya Vaish",
@@ -135,7 +135,7 @@ var team20 = [
         insta: "https://www.instagram.com/rantcat__vaish/",
         linkedin: "https://www.linkedin.com/in/shreya-vaish-4694491b0/",
         mail: "mailto:vaishrey@iitk.ac.in",
-        image: "shreya.png"
+        image: "team20/shreya.png"
     },
    
     {
@@ -145,7 +145,7 @@ var team20 = [
         insta: "https://www.instagram.com/aryann_ag/",
         linkedin: "https://www.linkedin.com/in/aryan-agarwal-6480771b6",
         mail: "mailto:aryanag@iitk.ac.in",
-        image: "aryan.jpg"
+        image: "team20/aryan.jpg"
     },
     {
         name: "Devansh Jain",
@@ -154,7 +154,7 @@ var team20 = [
         insta: "https://instagram.com/devansh_jain2013?igshid=la8trokivu3l",
         linkedin: "https://www.linkedin.com/in/devansh-jain-1987bb1b2",
         mail: "mailto:devanshj@iitk.ac.in",
-        image: "devansh.jpg"
+        image: "team20/devansh.jpg"
     },
     {
         name: "Govind Gupta",
@@ -163,7 +163,7 @@ var team20 = [
         insta: "https://www.instagram.com/thlegend_of_artist/?hl=en",
         linkedin: "https://www.linkedin.com/in/govind-gupta-b96b1b197/",
         mail: "mailto:govindg@iitk.ac.in",
-        image: "Govind.jpeg"
+        image: "team20/Govind.jpeg"
     },
     {
         name: "Hitesh Kumar",
@@ -172,7 +172,7 @@ var team20 = [
         insta: "https://www.instagram.com/nil",
         linkedin: "https://linkedin.com/nil",
         mail: "mailto:hitesh@iitk.ac.in",
-        image: "hitesh.jpg"
+        image: "team20/hitesh.jpg"
     },
     {
         name: "Rohan Kumar",
@@ -181,7 +181,7 @@ var team20 = [
         insta: "https://www.instagram.com/rohankj01/",
         linkedin: "https://www.linkedin.com/in/rohankj01/",
         mail: "mailto:rohankj@iitk.ac.in",
-        image: "rohan.jpg"
+        image: "team20/rohan.jpg"
     },
     {
         name: "Saral Verma",
@@ -190,7 +190,7 @@ var team20 = [
         insta: "https://www.instagram.com/its.easy.here/?hl=en",
         linkedin: "https://www.linkedin.com/in/saral-verma-3b2b041b0/",
         mail: "mailto:svsaral@iitk.ac.in",
-        image: "saral.jpg"
+        image: "team20/saral.jpg"
     },
 ]
 ]
