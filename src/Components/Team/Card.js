@@ -118,6 +118,7 @@ export default function Card() {
                 </div>
                 <div className="team-container">
                   <h3>{data.name}</h3>
+                  <h3>{data.post}</h3>
                   <ul className="team-social-icons">
                     <li>
                       <a className="facebook" target="_blank" href={data.fb}>
