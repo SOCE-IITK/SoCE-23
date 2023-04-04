@@ -207,7 +207,7 @@ export default function Footer() {
                   {" "}
                   SoCE, IIT Kanpur
                 </a> |
-                <a href="http://localhost:3000/team/team22" id="company">
+                <a href="/team/webteam" id="company">
                   {" "}
                   Designed by Web Team
                 </a>

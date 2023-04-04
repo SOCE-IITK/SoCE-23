@@ -1,11 +1,14 @@
 import team22 from "../../database/team22/team22";
 import team21 from "../../database/team21/team21";
 import team20 from "../../database/team20/team20";
+import web from "../../database/web";
 import {useParams} from 'react-router-dom'
 export default function Card() {
   const params = useParams()
   console.log(params);
+  console.log(web);
   var team = team22; 
+  var head = "Coordinators"
   if(params.team === "team22"){
     team = team22;
   }
@@ -14,6 +17,10 @@ export default function Card() {
   }
   else if(params.team === "team20"){
     team = team20;
+  }
+  else if(params.team === "webteam"){
+    team = web;
+    head = "Developed By"
   }
   const ha = team[0];
   const cd = team[1];
@@ -95,7 +102,7 @@ export default function Card() {
       </div>
       <br></br>
       <br></br>
-      <h2 className="text-center">Coordinators</h2>
+      <h2 className="text-center">{head}</h2>
       <div className="row postulates-card d-flex justify-content-around">
         {cd.map((data) => {
           return (
