@@ -102,6 +102,15 @@ export default function Freshers() {
                   entertainment to celebrate the seniors' achievements and
                   contributions. Gifts or mementos can be presented as tokens of
                   appreciation.
+
+                  <p>
+                    1. <strong>Class of 2023</strong>: <a href="https://www.linkedin.com/feed/update/urn:li:activity:7053244336070701056" target="_blank_" ><strong>Click Here for more info</strong></a>
+                    <br/>
+                    2. <strong>Class of 2022</strong>: <a href="https://www.instagram.com/p/CfgNtuJDIg3/?hl=en"  target="_blank_"><strong>Click Here for more info</strong></a>
+                    <br/>
+                    3. <strong>Class of 2020</strong>: <a href="https://www.linkedin.com/feed/update/urn:li:activity:6942042103132622848"  target="_blank_"><strong>Click Here for more info</strong></a>
+                    <br/>
+                    </p>
                   </p>
                 </div>
               </div>
