@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+#about {
+    height: 100vh;
+    background-image: url('../Assets/mainbg.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#soce-name {
+    margin-top: 17%;
+    letter-spacing: 4px;
+}
+
+#soce-name h3 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 3rem;
+}
+
+#about-col {
+    text-align: center;
+    /* height: 80vh; */
+}
+
+#about-btn {
+    margin-top: 3%;
+    /* width: 20vw; */
+    font-size: 1rem;
+    padding: 1% 4%;
+    background-color: #48494D;
+    color: #ffffff;
+    border-radius: 10px;
+    opacity: 60%;
+}
+
+#about button:hover {
+    background-color: #000000;
+    opacity: 80%;
+}
+
+.main {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    transition: 0.3s ease;
+}
+
+body.active-pop{
+    overflow-y: hidden;
+}
+body.active-pop1{
+    overflow-y: hidden;
+}
+
+.popup-about {
+    background: #fff;
+    height: 510px;
+    width: 68%;
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 18%);
+    transition: 0.5s ease;
+    border-radius: 15px;
+    padding: 10px 5px;
+    overflow-y: auto;
+}
+
+.popup-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 15px;
+    border-bottom: 2px solid black;
+}
+
+.popup-content {
+    margin: 5px 12px;
+    text-align: left;
+    padding: 5px;
+}
+
+.popup-header img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    cursor: pointer;
+    height: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .popup-about {
+        height: 510px;
+        width: 80%;
+        top: 18%;
+        right: 10%;
+        border-radius: 10px;
+        overflow-y: auto;
+    }
+    .popup-header{
+        padding: 0 58px 0 3px;
+    }
+    .popup-content {
+        margin: 5px 10px;
+    }
+    .popup-header img {
+        height: 20px;
+    }
+}

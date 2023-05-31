@@ -1,0 +1,32 @@
+[
+    {
+      "id": "2",
+      "name": "Faiza Khan",
+      "post": "Coordinator",
+      "fb": "https://www.facebook.com/profile.php?id=100037231279653",
+      "insta": "https://www.instagram.com/faizak31/",
+      "linkedin": "https://www.linkedin.com/in/faiza-khan-b21b71200/",
+      "mail": "mailto:faizakhan20@iitk.ac.in",
+      "image": " team/cordi2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Om Jee",
+      "post": "Coordinator",
+      "fb": "https://www.facebook.com/profile.php?id=100057579249812",
+      "insta": "https://soce-iitk.github.io/soce/sections/team/#",
+      "linkedin": "https://www.linkedin.com/in/om-jee-322b12212",
+      "mail": "mailto:omjee20@iitk.ac.in",
+      "image": " team/cordi3.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Shubham Kumar",
+      "post": "Coordinator",
+      "fb": "https://www.facebook.com/profile.php?id=100058188695519",
+      "insta": "https://www.instagram.com/shubham.kumar_007/",
+      "linkedin": "https://www.linkedin.com/mwlite/in/shubham-kumar-9926b9209",
+      "mail": "mailto:shubhamku20@iitk.ac.in",
+      "image": " team/cordi4.jpeg"
+    }
+  ]

@@ -1,0 +1,26 @@
+.pastTeams{
+    height: 80vh;
+}
+.pastHeading{
+    text-align: center;
+}
+.past-div{
+    margin-top: 10%;
+}
+.past-team-year:hover{
+    cursor: pointer;
+}
+.team-card{
+    background-color: rgba(222, 226, 231, 0.5);
+    border-bottom: 2px solid #505050;
+    padding: 25px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    font-family: Poppins,sans-serif;
+}.team-card:hover{
+    box-shadow: 1.5px 1.5px 6px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
