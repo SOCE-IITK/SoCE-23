@@ -1,3 +1,4 @@
+import team23 from "../../database/team23/team23";
 import team22 from "../../database/team22/team22";
 import team21 from "../../database/team21/team21";
 import team20 from "../../database/team20/team20";
@@ -9,7 +10,10 @@ export default function Card() {
   console.log(web);
   var team = team22; 
   var head = "Coordinators"
-  if(params.team === "team22"){
+  if(params.team === "team23"){
+    team = team23;
+  }
+  else if (params.team === "team22") {
     team = team22;
   }
   else if(params.team === "team21"){
