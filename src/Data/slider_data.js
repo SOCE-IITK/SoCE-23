@@ -1,7 +1,7 @@
 const content = [
     [
         "With the arrival of summer, Society of Civil Engineers have came up with the Summer Projects for the UG/PG students of civil engineering. These projects aims to allow the students to work on exciting projects and gain hands-on experience in their respective fields. We have compiled a list of great projects that will interest you (some projects also have rewards and renumerations for worthy candidates by the mentors). Once you have reviewed the project descriptions and selected the one that interests you the most, kindly fill the form sent you(Only Civil engineering students) in mail.",
-        "ISummer Project 2023",
+        "Summer Project 2023",
         "May 7, 2023",
         "https://www.linkedin.com/feed/update/urn:li:activity:7060861580707606528"
     ],[
