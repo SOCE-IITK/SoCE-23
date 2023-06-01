@@ -53,7 +53,7 @@ export default function Contact() {
                             </div>
                             <div class="information">
                                 <img src={Phone} class="icon" alt="" />
-                                <p>+91-8009117479</p>
+                                <p>+91-7906379797</p>
                             </div>
                         </div>
 

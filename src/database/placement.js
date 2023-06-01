@@ -65,7 +65,7 @@ var chats = [
     work: "Amazon",
     text: "Hi Everyone; I am Samyak Jain, a senior undergrad in Civil Engineering. I am currently placed at Amazon as a Software Development Engineer-I (SDE-I).",
     dp: "placement-postulates/dp/Samyak-Jain-Y18.jpg",
-    link: "/samyak_jain_18",
+    link: "/samyak18",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/22.jpg",
     og: "Samyak_Jain_18",
     year:"y18"
