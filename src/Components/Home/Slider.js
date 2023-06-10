@@ -1,8 +1,17 @@
+import React, { useState,useEffect } from "react";
 import $ from "jquery";
 import { content, img } from "../../Data/slider_data";
 
 var a = 0;
+export default function Slider() {
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  useEffect(() => {
+    universal(activeIndex); 
+  }, []);
+
 function universal(i) {
+  setActiveIndex(i);
   $("#y").animate({ opacity: 0 }, 400, function () {
     $(this).html(content[i][0]).animate({ opacity: 1 }, 200);
   });
@@ -28,14 +37,14 @@ function universal(i) {
   h[i].classList.add("fa-circle");
 }
 function customf() {
-  a++;
-  if (a > 2) a = 0;
-  universal(a);
+  let nextIndex = activeIndex + 1;
+  if (nextIndex > 2) nextIndex = 0;
+  universal(nextIndex);
 }
 function customp() {
-  a--;
-  if (a < 0) a = 2;
-  universal(a);
+  let prevIndex = activeIndex - 1;
+  if (prevIndex < 0) prevIndex = 2;
+  universal(prevIndex);
 }
 function i1() {
   universal(0);
@@ -46,7 +55,7 @@ function i2() {
 function i3() {
   universal(2);
 }
-export default function Slider() {
+
   return (
     <div>
       {/* <h1>Recent Activities</h1> */}
@@ -63,10 +72,10 @@ export default function Slider() {
                 {/* <div className='col-1 arrow'>
                                     <i id='p' onClick={customp} className="fa fa-angle-left"></i>
                                 </div> */}
-                <div className="col-lg-4 sl slider-image-container">
+                <div className="col-lg-4 col-md-12 slider-image-container">
                   <img id="img" src={img[0]}></img>
                 </div>
-                <div className="col-lg-8  sl">
+                <div className="col-lg-8 col-md-12">
                   <div className="container-fluid">
                     <div className="white">
                       <div className="row ">
@@ -80,19 +89,41 @@ export default function Slider() {
                         </div>
                       </div>
                       <div className="row ">
-                        <div className="col">
-                          <div id="y">{content[0][0]} </div>{" "}
+                        <div className="col" style={{
+                          maxHeight: "200px",
+                          overflowY: "auto",
+                          paddingRight: "15px",
+                          marginBottom: "10px",
+                        }}>
+                          <div
+                            style={{
+                              maxHeight: "200px",
+                              overflowY: "auto",
+                              paddingRight: "15px",
+                              marginBottom: "10px",
+                            }}
+                          >
+                          <div id="y" style={{ maxWidth: "100%" }}>{content[0][0]} </div>{" "}
+                        </div>
                         </div>
                         <div className="row readmore">
                           <div className="col">
-                            <a id="slider-link" href="/" target={"_blank"}>
+                            <div
+                              style={{
+                                overflow: "hidden",
+                              }}
+                            >
+                            <a id="slider-link" href="" target={"_blank"}>
                               <button
                                 id="read-more"
                                 className="btn btn-primary"
+                                style={{ marginBottom: "10px", maxWidth: "100%", }}
                               >
                                 Read More
                               </button>
                             </a>
+                          </div>
+
                           </div>
                         </div>
                       </div>
@@ -135,7 +166,7 @@ export default function Slider() {
         </div>
         <div className="col-sm-3">
           <a href="/contact-us">
-            <button type="button" className="mybtn btn">
+            <button type="button" className="mybtn btn" >
               Contact
             </button>
           </a>
@@ -144,3 +175,4 @@ export default function Slider() {
     </div>
   );
 }
+
