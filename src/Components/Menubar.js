@@ -154,6 +154,7 @@ function Menubar() {
             <Nav.Link href="/events">Events</Nav.Link>
             <Nav.Link href="/reports">Reports</Nav.Link>
             <Nav.Link href="/portals">Portals</Nav.Link>
+            <Nav.Link href="/archive">Archive</Nav.Link>
             <Nav.Link href="/team/team23">Team</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
