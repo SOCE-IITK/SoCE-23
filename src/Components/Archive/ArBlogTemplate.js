@@ -1,6 +1,5 @@
 import React from "react";
 
-
 export default function ArBlogTemplate(props) {
     return (
         <>
@@ -19,49 +18,40 @@ export default function ArBlogTemplate(props) {
                                             fontSize: "18px",
                                             display: "inline-block",
                                             verticalAlign: "middle",
-                                            marginBottom: "5px",
+                                            marginBottom: "2px", // Adjust the value as needed
                                         }}
                                     >
                                         {d.date}
                                     </span>
                                 </div>
-                                <div>
-                                    <h5 style={{ display: "inline", marginRight: "5px" }}>
+                                <div style={{ display: "flex", alignItems: "center" }}>
+                                    <h5 style={{ display: "inline", marginRight: "5px",marginTop:"5px" }}>
                                         View Here:
                                     </h5>
-                                    <a
-                                        href={d.slides}
-                                        style={{
-                                            fontSize: "18px",
-                                            filter: "blur(0)",
-                                            textDecoration: "none",
-                                            display: "inline-block",
-                                        }}
-                                    >
-                                        <span
-                                            style={{
-                                                display: "inline-block",
-                                                transition: "0.3s",
-                                                ":hover": {
-                                                    transform: "scale(1.1)",
-                                                    color: "red",
-                                                },
-                                            }}
-                                            className="click-here"
-                                            onMouseEnter={(e) => {
-                                                e.target.style.transform = "scale(1.05)";
-                                                e.target.style.color = "gray";
-                                            }}
-                                            onMouseLeave={(e) => {
-                                                e.target.style.transform = "scale(1)";
-                                                e.target.style.color = "black";
-                                            }}
-                                        >
-                                            Click Here
-                                        </span>
-                                    </a>
+                                    <ul className="team-social-icons" style={{ marginLeft: "5px" }}>
+                                        {d.fb && (
+                                            <li>
+                                                <a className="facebook" target="_blank" href={d.fb}>
+                                                    <i className="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                        )}
+                                        {d.insta && (
+                                            <li>
+                                                <a className="dribbble" target="_blank" href={d.insta}>
+                                                    <i className="fa fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                        )}
+                                        {d.linkedin && (
+                                            <li>
+                                                <a className="linkedin" target="_blank" href={d.linkedin}>
+                                                    <i className="fa fa-linkedin"></i>
+                                                </a>
+                                            </li>
+                                        )}
+                                    </ul>
                                 </div>
-
                             </div>
                         );
                     })}
@@ -70,4 +60,3 @@ export default function ArBlogTemplate(props) {
         </>
     );
 }
-

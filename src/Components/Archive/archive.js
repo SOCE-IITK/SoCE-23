@@ -37,6 +37,9 @@ export default function Archive() {
                     head: "Blog: New Parliament Building",
                     date: "1 June 2023",
                     slides: "https://www.linkedin.com/feed/update/urn:li:activity:7070107898684555264",
+                    
+                    insta: "https://www.instagram.com/p/Cs8NlxsL2v2/?igshid=MzRlODBiNWFlZA==",
+                    linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7070107898684555264",
                 },
 
             ]} />
