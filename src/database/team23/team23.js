@@ -1,23 +1,23 @@
 var team23 = [
     [
         {
-            name: "Hod",
-            post: "Coordinator",
+            name: "Prof. Tarun Gupta",
+            post: "HOD",
             fb: "https://www.facebook.com/profile.php?id=100005799362676",
             insta: "https://www.instagram.com/govind_gupta_46/",
             linkedin: "https://www.linkedin.com/in/govind-gupta-b96b1b197/",
-            mail: "mailto:govindg@iitk.ac.in",
+            mail: "mailto:tarun@iitk.ac.in",
             image: "tarungupta.jpg"
 
         },
         {
-            name: "Adivsor",
-            post: "Coordinator",
+            name: "Prof. Chunendra Sahu",
+            post: "Faculty Adivsor",
             fb: "https://www.facebook.com/profile.php?id=100005799362676",
             insta: "https://www.instagram.com/govind_gupta_46/",
             linkedin: "https://www.linkedin.com/in/govind-gupta-b96b1b197/",
-            mail: "mailto:govindg@iitk.ac.in",
-            image: "amedury.jpg"
+            mail: "mailto:cksahu@iitk.ac.in",
+            image: "cksahu.jpg"
         }
     ],
     [

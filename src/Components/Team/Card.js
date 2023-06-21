@@ -32,7 +32,7 @@ export default function Card() {
   return (
     <>
       <div className="row d-flex justify-content-around">
-        {/* <div className="col-lg-3 postulates-card">
+        <div className="col-lg-3 postulates-card">
           <div className="a-box">
             <div className="img-container">
               <div className="img-inner">
@@ -42,25 +42,25 @@ export default function Card() {
             </div>
             <div className="team-container">
               <h3>{ha[0].name}</h3>
+              <h3>{ha[0].post}</h3>
               <ul className="team-social-icons">
                 <li>
-                  <a className="facebook" target="_blank" href="/">
-                    <i className="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a className="twitter" target="_blank" href="/">
-                    <i className="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a className="dribbble" target="_blank" href="/">
-                    <i className="fa fa-instagram"></i>
-                  </a>
-                </li>
-                <li>
-                  <a className="linkedin" target="_blank" href="/">
+                  <a
+                    className="linkedin"
+                    target="_blank"
+                    href={"https://www.linkedin.com/in/tarun-gupta-96043b86"}
+                  >
                     <i className="fa fa-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a className="twitter" target="_blank" href={"mailto:tarun@iitk.ac.in"}>
+                    <i className="fa fa-envelope"></i>
+                  </a>
+                </li>
+                <li>
+                  <a className="twitter" target="_blank" href={"https://iitk.ac.in/new/tarun-gupta"}>
+                    <i className="fa fa-globe"></i>
                   </a>
                 </li>
               </ul>
@@ -72,37 +72,38 @@ export default function Card() {
             <div className="img-container">
               <div className="img-inner">
                 <div className="inner-skew">
-                <img src="amedury.jpg" alt="" />
+                <img src="cksahu.jpg" alt="" />
                 </div>
               </div>
             </div>
             <div className="team-container">
-              <h3>{ha[0].name}</h3>
+              <h3>{ha[1].name}</h3>
+              <h3>{ha[1].post}</h3>
               <ul className="team-social-icons">
+               
                 <li>
-                  <a className="facebook" target="_blank" href="/">
-                    <i className="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a className="twitter" target="_blank" href="/">
-                    <i className="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a className="dribbble" target="_blank" href="/">
-                    <i className="fa fa-instagram"></i>
-                  </a>
-                </li>
-                <li>
-                  <a className="linkedin" target="_blank" href="/">
+                  <a
+                    className="linkedin"
+                    target="_blank"
+                    href={"https://www.linkedin.com/in/chunendra-k-sahu-b90aa33a"}
+                  >
                     <i className="fa fa-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a className="twitter" target="_blank" href={"mailto:cksahu@iitk.ac.in"}>
+                    <i className="fa fa-envelope"></i>
+                  </a>
+                </li>
+                <li>
+                  <a className="twitter" target="_blank" href={"https://www.iitk.ac.in/new/chunendra-k-sahu"}>
+                    <i className="fa fa-globe"></i>
                   </a>
                 </li>
               </ul>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
       <br></br>
       <br></br>
