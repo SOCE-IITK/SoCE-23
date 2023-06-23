@@ -53,7 +53,7 @@ export default function Colloquium() {
         </div>
         <div className="col-md-5 far">
           <div className="row">
-            <h3>Worshops</h3>
+            <h3>Workshops</h3>
             <p>
               Workshops on software and technologies are organized to provide
               information about their use and benefits. These workshops are
