@@ -32,12 +32,14 @@ export default function Card() {
   return (
     <>
       <div className="row d-flex justify-content-around">
+        {params.team === "team23" && (
+          <>
         <div className="col-lg-3 postulates-card">
           <div className="a-box">
             <div className="img-container">
               <div className="img-inner">
                 <div className="inner-skew"></div>
-                <img src="tarungupta.jpg" alt="" />
+                <img src={ha[0].image} alt="" />
               </div>
             </div>
             <div className="team-container">
@@ -48,18 +50,18 @@ export default function Card() {
                   <a
                     className="linkedin"
                     target="_blank"
-                    href={"https://www.linkedin.com/in/tarun-gupta-96043b86"}
+                    href={ha[0].linkedin}
                   >
                     <i className="fa fa-linkedin"></i>
                   </a>
                 </li>
                 <li>
-                  <a className="twitter" target="_blank" href={"mailto:tarun@iitk.ac.in"}>
+                  <a className="twitter" target="_blank" href={ha[0].mail}>
                     <i className="fa fa-envelope"></i>
                   </a>
                 </li>
                 <li>
-                  <a className="twitter" target="_blank" href={"https://iitk.ac.in/new/tarun-gupta"}>
+                  <a className="twitter" target="_blank" href={ha[0].website}>
                     <i className="fa fa-globe"></i>
                   </a>
                 </li>
@@ -72,7 +74,7 @@ export default function Card() {
             <div className="img-container">
               <div className="img-inner">
                 <div className="inner-skew">
-                <img src="cksahu.jpg" alt="" />
+                <img src={ha[1].image} alt="" />
                 </div>
               </div>
             </div>
@@ -85,18 +87,18 @@ export default function Card() {
                   <a
                     className="linkedin"
                     target="_blank"
-                    href={"https://www.linkedin.com/in/chunendra-k-sahu-b90aa33a"}
+                    href={ha[1].linkedin}
                   >
                     <i className="fa fa-linkedin"></i>
                   </a>
                 </li>
                 <li>
-                  <a className="twitter" target="_blank" href={"mailto:cksahu@iitk.ac.in"}>
+                  <a className="twitter" target="_blank" href={ha[1].mail}>
                     <i className="fa fa-envelope"></i>
                   </a>
                 </li>
                 <li>
-                  <a className="twitter" target="_blank" href={"https://www.iitk.ac.in/new/chunendra-k-sahu"}>
+                  <a className="twitter" target="_blank" href={ha[1].website}>
                     <i className="fa fa-globe"></i>
                   </a>
                 </li>
@@ -104,6 +106,9 @@ export default function Card() {
             </div>
           </div>
         </div>
+        </>
+        )}
+
       </div>
       <br></br>
       <br></br>

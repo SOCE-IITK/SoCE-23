@@ -5,7 +5,8 @@ var team23 = [
             post: "HOD",
             fb: "https://www.facebook.com/profile.php?id=100005799362676",
             insta: "https://www.instagram.com/govind_gupta_46/",
-            linkedin: "https://www.linkedin.com/in/govind-gupta-b96b1b197/",
+            linkedin: "https://www.linkedin.com/in/tarun-gupta-96043b86",
+            website:"https://iitk.ac.in/new/tarun-gupta",
             mail: "mailto:tarun@iitk.ac.in",
             image: "tarungupta.jpg"
 
@@ -15,7 +16,8 @@ var team23 = [
             post: "Faculty Adivsor",
             fb: "https://www.facebook.com/profile.php?id=100005799362676",
             insta: "https://www.instagram.com/govind_gupta_46/",
-            linkedin: "https://www.linkedin.com/in/govind-gupta-b96b1b197/",
+            linkedin: "https://www.linkedin.com/in/chunendra-k-sahu-b90aa33a",
+            website:"https://www.iitk.ac.in/new/chunendra-k-sahu",
             mail: "mailto:cksahu@iitk.ac.in",
             image: "cksahu.jpg"
         }
