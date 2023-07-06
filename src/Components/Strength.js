@@ -137,7 +137,12 @@ const [popup23, setPopup23] = useState(false);
                     <div className="popup">
                       <div className="popup-header">
                         <h1>Strengths'23</h1>
-                        <img src={close} onClick={handleClosePopup23} alt="" />
+                       <img
+              src={close}
+              onClick={handleClosePopup23}
+              alt=""
+              
+            />
                       </div>
                       <div>
                         <p className="pop">COMING SOON</p>
@@ -157,7 +162,7 @@ const [popup23, setPopup23] = useState(false);
                   <button className="str-btn">Download</button>
                 </div>
                 <div className="col">
-                  <button className="str-btn" onClick={handleOpenPopup23}>
+                  <button className="str-btn" onClick={handleOpenPopup24}>
                     Open
                   </button>
                 </div>
