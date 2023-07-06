@@ -2,12 +2,22 @@ import "./Styles/strength.css";
 import { useState } from "react";
 import close from "./Assets/close-btn.png";
 export default function Strength() {
-  const [popup, setPop] = useState(false);
-  const handleClickOpen = () => {
-    setPop(!popup);
+const [popup23, setPopup23] = useState(false);
+  const [popup24, setPopup24] = useState(false);
+ const handleOpenPopup23 = () => {
+    setPopup23(true);
   };
-  const closePopup = () => {
-    setPop(false);
+
+  const handleClosePopup23 = () => {
+    setPopup23(false);
+  };
+
+  const handleOpenPopup24 = () => {
+    setPopup24(true);
+  };
+
+  const handleClosePopup24 = () => {
+    setPopup24(false);
   };
   return (
     <>
@@ -41,7 +51,7 @@ export default function Strength() {
                 </div>
                 <div className="col">
                   <a
-                    href="https://www.iitk.ac.in/civil/soce/strengths/Strengths'07.pdf"
+                    href="https://drive.google.com/file/d/11-3rw3KWXIIYsuhnLrHrGTPssc_ooPoR/view?usp=drivesdk"
                     target="_blank"
                   >
                     <button className="str-btn">Open</button>
@@ -60,7 +70,7 @@ export default function Strength() {
                 </div>
                 <div className="col">
                   <a
-                    href="https://www.iitk.ac.in/civil/soce/strengths/Strengths'08.pdf"
+                    href="https://drive.google.com/file/d/10weNXst68gZ7ZtyHZdMIQoFgXoc_1trA/view?usp=drivesdk"
                     target="_blank"
                   >
 
@@ -81,7 +91,7 @@ export default function Strength() {
                 </div>
                 <div className="col">
                   <a
-                    href="https://www.iitk.ac.in/civil/soce/strengths/Strengths'09.pdf"
+                    href="https://drive.google.com/file/d/10uXoAALwBnAH2-mxAqSasFScorgfxWjA/view?usp=drivesdk"
                     target="_blank"
                   >
                     <button className="str-btn">Open</button>
@@ -118,16 +128,16 @@ export default function Strength() {
                   <button className="str-btn">Download</button>
                 </div>
                 <div className="col">
-                  <button className="str-btn" onClick={handleClickOpen}>
+                  <button className="str-btn" onClick={handleOpenPopup23}>
                     Open
                   </button>
                 </div>
-                {popup ? (
+                {popup23 ? (
                   <div className="main">
                     <div className="popup">
                       <div className="popup-header">
                         <h1>Strengths'23</h1>
-                        <img src={close} onClick={closePopup} alt="" />
+                        <img src={close} onClick={handleClosePopup23} alt="" />
                       </div>
                       <div>
                         <p className="pop">COMING SOON</p>
@@ -147,16 +157,16 @@ export default function Strength() {
                   <button className="str-btn">Download</button>
                 </div>
                 <div className="col">
-                  <button className="str-btn" onClick={handleClickOpen}>
+                  <button className="str-btn" onClick={handleOpenPopup23}>
                     Open
                   </button>
                 </div>
-                {popup ? (
+                {popup24 ? (
                   <div className="main">
                     <div className="popup">
                       <div className="popup-header">
                         <h1>Strengths'24</h1>
-                        <img src={close} onClick={closePopup} alt="" />
+                        <img src={close} onClick={handleClosePopup24} alt="" />
                       </div>
                       <div>
                         <p className="pop">COMING SOON</p>
