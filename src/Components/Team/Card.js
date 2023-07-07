@@ -161,11 +161,13 @@ export default function Card() {
           );
         })}
       </div>
+      {params.team !== "webteam" && (
+  <>
       <br></br>
       <br></br>
       <h2 className="text-center">Secretary</h2>
       <div className="row postulates-card d-flex justify-content-around">
-        {sc.map((data) => {
+        {sc && sc.map((data) => {
           return (
             <div className="col-lg-3">
               <div className="a-box">
@@ -207,6 +209,9 @@ export default function Card() {
           );
         })}
       </div>
+    </>
+    )}
+      
     </>
   );
 }

@@ -204,7 +204,7 @@ var team22 = [
 
        
         {
-            "name": "Aashruti",
+            "name": "Aashruti Raj",
             "post": " Web Development",
             "fb": "https://www.facebook.com/profile.php?id=100075348576412",
             "insta": "https://www.instagram.com/invites/contact/?i=1pvjy1qrcpo18&utm_content=kevllzc",
