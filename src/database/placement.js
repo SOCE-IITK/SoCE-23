@@ -1,5 +1,15 @@
 var chats = [
   {
+    name: "Sandipan Mitra (Y19)",
+    work: "Auronova Consulting",
+    text: "Hey everyone! I am Sandipan Mitra (Y19, CE), and I got an offer from Auronova Consulting in the Analyst profile on Day 2 of the Placement season 2022-23.",
+    dp: "placement-postulates/dp/Sandipan-Mitra.JPG",
+    link: "/sandipan_mitra",
+    thumbnail: "",
+    og: "/Sandipan_Mitra",
+    year: "y19",
+  },
+  {
     name: "Ankit Kumar (Y18)",
     work: "Myntra",
     text: "Hello everyone!    Since you have reached here, so you know who I am. So, skipping the formal introduction part, I would like to clear it in the very beginning that if you are the one who has been academically well throughout your time at IITK or you are the one who always got what you wanted easily then this blog isn’t for you. This blog is for the people who are tensed about their career but don’t know what to do or for the people who are doubting themselves if they will be getting placed or not. Also, you may think that I am writing this very late according to the placements timeline but as mentioned above, the people for whom I am writing this must be really worried about placements from the last few weeks only. And yes, these ‘people’ can be from any batches, be it Y19 sitting in the placements or be it Y21, I would try my best to state things very clearly without any diplomacy.",
@@ -7,7 +17,7 @@ var chats = [
     link: "/ankit",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/28.jpg",
     og: "/Ankit_Kumar",
-    year:"y18"
+    year: "y18",
   },
   {
     name: "Himanshu Mishra (Y18)",
@@ -17,7 +27,7 @@ var chats = [
     link: "/himanshu_mishra",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/27.png",
     og: "/Himanshu_Mishra",
-    year:"y18"
+    year: "y18",
   },
   {
     name: "Aryaman Shandilya (Y18)",
@@ -27,7 +37,7 @@ var chats = [
     link: "/aryaman_shandilya",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/26.png",
     og: "Aryaman_Shandilya",
-    year:"y18"
+    year: "y18",
   },
   {
     name: "Yash Vardhan Raizada (Y18)",
@@ -37,7 +47,7 @@ var chats = [
     link: "/yashvardhan_raizada",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/25.png",
     og: "Yashvardhan_Raizada",
-    year:"y18",
+    year: "y18",
   },
   {
     name: "Gaurav Jiwan (Y18)",
@@ -47,7 +57,7 @@ var chats = [
     link: "/gaurav_jiwan",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/24.png",
     og: "Gaurav_Jiwan",
-    year:"y18"
+    year: "y18",
   },
   {
     name: "Aditya Dikshit (Y18)",
@@ -57,7 +67,7 @@ var chats = [
     link: "/aditya_dikshit",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/23.jpg",
     og: "Aditya_Dikshit",
-    year:"y18"
+    year: "y18",
   },
 
   {
@@ -68,7 +78,7 @@ var chats = [
     link: "/samyak18",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/22.jpg",
     og: "Samyak_Jain_18",
-    year:"y18"
+    year: "y18",
   },
 
   {
@@ -79,7 +89,7 @@ var chats = [
     link: "/piyush_senwar",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/21.jpg",
     og: "Piyush_Senwar",
-    year:"y18"
+    year: "y18",
   },
   {
     name: "Mradul Chaudhary (Y18)",
@@ -89,7 +99,7 @@ var chats = [
     link: "/mradul_chaudhary",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/20.jpg",
     og: "Mradul_Chaudhary",
-    year:"y18"
+    year: "y18",
   },
 
   {
@@ -100,7 +110,7 @@ var chats = [
     link: "/neha_aggarwal",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/19.jpg",
     og: "Neha_Aggarwal",
-    year:"y18"
+    year: "y18",
   },
 
   {
@@ -111,7 +121,7 @@ var chats = [
     link: "/naman_jain",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/18.jpg",
     og: "Naman_Jain",
-    year:"y18"
+    year: "y18",
   },
 
   {
@@ -122,7 +132,7 @@ var chats = [
     link: "/yashkrit_gupta",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/17.jpg",
     og: "Yashkrit_Gupta",
-    year:"y18"
+    year: "y18",
   },
 
   {
@@ -133,7 +143,7 @@ var chats = [
     link: "/dishant_parewa",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/16.jpg",
     og: "Dishant_Parewa",
-    year:"y17"
+    year: "y17",
   },
 
   {
@@ -144,7 +154,7 @@ var chats = [
     link: "/mudit_kumar",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/15.jpg",
     og: "Mudit_Kumar",
-    year:"y17"
+    year: "y17",
   },
 
   {
@@ -155,7 +165,7 @@ var chats = [
     link: "/rahul_gauriyar",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/14.jpg",
     og: "Rahul_Gauriyar",
-    year:"y16"
+    year: "y16",
   },
 
   {
@@ -166,7 +176,7 @@ var chats = [
     link: "/gaurav_kamboj",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/13.jpg",
     og: "Gaurav_Kamboj",
-    year:"y17"
+    year: "y17",
   },
 
   {
@@ -177,7 +187,7 @@ var chats = [
     link: "/krishna_deo",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/12.jpg",
     og: "Krishna_Deo",
-    year:"y17"
+    year: "y17",
   },
 
   {
@@ -188,7 +198,7 @@ var chats = [
     link: "/vineet_shukla",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/11.jpg",
     og: "Vineet_Shukla",
-    year:"y17"
+    year: "y17",
   },
 
   {
@@ -199,7 +209,7 @@ var chats = [
     link: "/rajat_ghoshal",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/10.jpg",
     og: "Rajat_Ghoshal",
-    year:"y17"
+    year: "y17",
   },
 
   {
@@ -210,7 +220,7 @@ var chats = [
     link: "/samyak_jain",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/9.jpg",
     og: "Samyak_Jain",
-    year:"y17"
+    year: "y17",
   },
 
   {
@@ -221,7 +231,7 @@ var chats = [
     link: "/shashi_shekhar",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/8.jpg",
     og: "Shashi_Shekhar",
-    year:"y17"
+    year: "y17",
   },
 
   {
@@ -232,7 +242,7 @@ var chats = [
     link: "/vishal_agarwal",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/7.jpg",
     og: "Vishal_Agarwal",
-    year:"y17"
+    year: "y17",
   },
 
   {
@@ -243,7 +253,7 @@ var chats = [
     link: "/krishan_kumar",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/6.jpg",
     og: "Krishan_Kumar",
-    year:"y17"
+    year: "y17",
   },
 
   {
@@ -254,7 +264,7 @@ var chats = [
     link: "/dishaa_rajora",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/5.jpg",
     og: "Dishaa_Rajora",
-    year:"y17"
+    year: "y17",
   },
 
   {
@@ -265,7 +275,7 @@ var chats = [
     link: "/ashutosh_ranjan",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/4.jpg",
     og: "Ashutosh_Ranjan",
-    year:"y17"
+    year: "y17",
   },
 
   {
@@ -276,7 +286,7 @@ var chats = [
     link: "/chitwan_garg",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/3.JPG",
     og: "Chitwan_Garg",
-    year:"y16"
+    year: "y16",
   },
 
   {
@@ -287,7 +297,7 @@ var chats = [
     link: "/shuaib_alam",
     thumbnail: "/img/Student-section/placement-postulates/dp/2.jpg",
     og: "Shuaib_Alam",
-    year:"y18"
+    year: "y18",
   },
 
   {
@@ -298,9 +308,8 @@ var chats = [
     link: "/jeetendra",
     thumbnail: "/img/Student-section/placement-postulates/thumbnail/1.jpg",
     og: "Jeetendra_Kumar_Patel",
-    year:"y16"
+    year: "y16",
   },
-
-]
+];
 
 export default chats

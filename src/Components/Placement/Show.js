@@ -1,4 +1,5 @@
 import {useParams} from 'react-router-dom'
+import Sandipan_Mitra from "../../Components/blogs/Sandipan_Mitra";
 import Ankit from '../../Components/blogs/Ankit';
 import Aryaman_Shandilya from '../../Components/blogs/Aryaman_Shandilya';
 import Ashutosh_Ranjan from '../../Components/blogs/Ashutosh_Ranjan';
@@ -26,40 +27,43 @@ import Vineet_Shukla from '../../Components/blogs/Vineet_Shukla';
 import Vishal_Agarwal from '../../Components/blogs/Vishal_Agarwal';
 import Yashkrit_Gupta from '../../Components/blogs/Yashkrit_Gupta';
 import Yashvardhan_Raizada from '../../Components/blogs/Yashvardhan_Raizada';
+
 import React from 'react'
+
 
 const Show = () => {
     const params = useParams()
     const id = params.link
     const link = `https://soceiitk.org/${id}`
-    if(id==='ankit') return(<Ankit/>)
-    else if(id==='aryaman_shandilya') return(<Aryaman_Shandilya/>)
-    else if(id==='himanshu_mishra') return(<Himanshu_Mishra/>)
-    else if(id==='ashutosh_ranjan') return(<Ashutosh_Ranjan/>)
-    else if(id==='chitwan_garg') return(<Chitwan_Garg/>)
-    else if(id==='yashvardhan_raizada') return(<Yashvardhan_Raizada/>)
-    else if(id==='gaurav_jiwan') return(<Gaurav_Jiwan/>)
-    else if(id==='piyush_senwar') return(<Piyush_Senwar/>)
-    else if(id==='mradul_chaudhary') return(<Mradul_Chaudhary/>)
-    else if(id==='neha_aggarwal') return(<Neha_Aggarwal/>)
-    else if(id==='naman_jain') return(<Naman_Jain/>)
-    else if(id==='yashkrit_gupta') return(<Yashkrit_Gupta/>)
-    else if(id==='dishant_parewa') return(<Dishant_Parewa/>)
-    else if(id==='mudit_kumar') return(<Mudit_Kumar/>)
-    else if(id==='rahul_gauriyar') return(<Rahul_Gauriyar/>)
-    else if(id==='gaurav_kamboj') return(<Gaurav_Kamboj/>)
-    else if(id==='krishna_deo') return(<Krishna_Deo/>)
-    else if(id==='vineet_shukla') return(<Vineet_Shukla/>)
-    else if(id==='rajat_ghoshal') return(<Rajat_Ghoshal/>)
-    else if(id==='shashi_shekhar') return(<Shashi_Shekhar/>)
-    else if(id==='samyak_jain') return(<Samyak_Jain/>)
-    else if(id==='vishal_agarwal') return(<Vishal_Agarwal/>)
-    else if(id==='krishan_kumar') return(<Krishan_Kumar/>)
-    else if(id==='dishaa_rajora') return(<Dishaa_Rajora/>)
-    else if(id==='ashutosh_ranjan') return(<Ashutosh_Ranjan/>)
-    else if(id==='chitwan_garg') return(<Chitwan_Garg/>)
-    else if(id==='shuaib_alam') return(<Shuaib_Alam/>)
-    else if(id==='jeetendra') return(<JeetendraKP/>)
+    if (id === "ankit") return <Ankit />;
+    else if (id === "sandipan_mitra") return <Sandipan_Mitra/>;
+    else if (id === "aryaman_shandilya") return <Aryaman_Shandilya />;
+    else if (id === "himanshu_mishra") return <Himanshu_Mishra />;
+    else if (id === "ashutosh_ranjan") return <Ashutosh_Ranjan />;
+    else if (id === "chitwan_garg") return <Chitwan_Garg />;
+    else if (id === "yashvardhan_raizada") return <Yashvardhan_Raizada />;
+    else if (id === "gaurav_jiwan") return <Gaurav_Jiwan />;
+    else if (id === "piyush_senwar") return <Piyush_Senwar />;
+    else if (id === "mradul_chaudhary") return <Mradul_Chaudhary />;
+    else if (id === "neha_aggarwal") return <Neha_Aggarwal />;
+    else if (id === "naman_jain") return <Naman_Jain />;
+    else if (id === "yashkrit_gupta") return <Yashkrit_Gupta />;
+    else if (id === "dishant_parewa") return <Dishant_Parewa />;
+    else if (id === "mudit_kumar") return <Mudit_Kumar />;
+    else if (id === "rahul_gauriyar") return <Rahul_Gauriyar />;
+    else if (id === "gaurav_kamboj") return <Gaurav_Kamboj />;
+    else if (id === "krishna_deo") return <Krishna_Deo />;
+    else if (id === "vineet_shukla") return <Vineet_Shukla />;
+    else if (id === "rajat_ghoshal") return <Rajat_Ghoshal />;
+    else if (id === "shashi_shekhar") return <Shashi_Shekhar />;
+    else if (id === "samyak_jain") return <Samyak_Jain />;
+    else if (id === "vishal_agarwal") return <Vishal_Agarwal />;
+    else if (id === "krishan_kumar") return <Krishan_Kumar />;
+    else if (id === "dishaa_rajora") return <Dishaa_Rajora />;
+    else if (id === "ashutosh_ranjan") return <Ashutosh_Ranjan />;
+    else if (id === "chitwan_garg") return <Chitwan_Garg />;
+    else if (id === "shuaib_alam") return <Shuaib_Alam />;
+    else if (id === "jeetendra") return <JeetendraKP />;
 
 }
 

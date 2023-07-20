@@ -42,6 +42,7 @@ import Vineet_Shukla from './Components/blogs/Vineet_Shukla';
 import Vishal_Agarwal from './Components/blogs/Vishal_Agarwal';
 import Yashkrit_Gupta from './Components/blogs/Yashkrit_Gupta';
 import Yashvardhan_Raizada from './Components/blogs/Yashvardhan_Raizada';
+import Sandipan_Mitra from './Components/blogs/Sandipan_Mitra';
 
 function App() {
   return (
@@ -62,6 +63,8 @@ function App() {
         <Route path="/pastteams" element={<PastTeams/>}></Route>
         <Route path="/:link" element={<Show/>}> </Route>
         <Route path="/team/:team" element={<Team/>}> </Route>
+        <Route path="/sandipan_mitra" element={<Sandipan_Mitra/>}></Route>
+
         <Route path="/ankit" element={<Ankit/>}></Route>
         <Route path="/aryaman" element={<Aryaman_Shandilya/>}></Route>        
         <Route path="/ashutosh" element={<Ashutosh_Ranjan/>}></Route>

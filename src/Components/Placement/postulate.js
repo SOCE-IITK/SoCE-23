@@ -26,6 +26,19 @@ export default function Postulate() {
               type="button"
               className="btn-postulates"
               onClick={() => {
+                data = chats.filter((d) => d.year === "y19");
+                // console.log(data)
+                setData(data);
+              }}
+            >
+              Y19
+            </button>
+          </div>
+          <div className="col postulates-year">
+            <button
+              type="button"
+              className="btn-postulates"
+              onClick={() => {
                 data = chats.filter((d) => d.year === "y18");
                 // console.log(data)
                 setData(data);
