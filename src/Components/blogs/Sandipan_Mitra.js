@@ -9,7 +9,9 @@ const Sandipan_Mitra = () => {
           <img
             src="placement-postulates/blogs/Sandipan-Mitra/dp.jpg"
             className="blog-dp"
-            alt="ankit"
+            alt="sandipan"
+            style={{height:600 }}
+
           ></img>
         </div>
         <div className="col-md-8">
