@@ -7,11 +7,9 @@ const Sandipan_Mitra = () => {
       <div className="row blog-row">
         <div className="col-md-4">
           <img
-            src="placement-postulates/blogs/Sandipan-Mitra/dp.jpg"
-            className="blog-dp"
+            src="placement-postulates/dp/Sandipan-Mitra.jpg"
+            style={{ height: "315px", width: "90%" }}
             alt="sandipan"
-            style={{height:600 }}
-
           ></img>
         </div>
         <div className="col-md-8">

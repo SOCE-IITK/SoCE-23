@@ -3,7 +3,7 @@ var chats = [
     name: "Sandipan Mitra (Y19)",
     work: "Auronova Consulting",
     text: "Hey everyone! I am Sandipan Mitra (Y19, CE), and I got an offer from Auronova Consulting in the Analyst profile on Day 2 of the Placement season 2022-23.",
-    dp: "placement-postulates/dp/Sandipan-Mitra.JPG",
+    dp: "placement-postulates/dp/Sandipan-Mitra.jpg",
     link: "/sandipan_mitra",
     thumbnail: "",
     og: "/Sandipan_Mitra",
