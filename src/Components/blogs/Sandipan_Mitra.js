@@ -45,7 +45,8 @@ const Sandipan_Mitra = () => {
               eventually rejected their PPO and decided to sit for the
               placements. I was open to all profiles except APM roles since I
               was too lazy to prepare an attractive deck. I lost out on a
-              Level-1 PoR, which hurt my chances for an MBB shortlist.
+              Level-1 PoR, which hurt my chances for a ‘top-tier’ consulting
+              shortlist.
             </p>
           </div>
         </div>
@@ -71,13 +72,13 @@ const Sandipan_Mitra = () => {
           <div className="col-md-12">
             <h2>Coding Preparation:</h2>
             <p>
-              I kept applying for SDE roles, and most of the test questions were
-              of hard or medium-level difficulty. Fortunately, I had practiced
-              some of those questions earlier on Leetcode, so I knew the pattern
-              of them. By the end, I noticed most of these companies almost
-              directly or somewhat modified the questions from Leetcode, so I
-              suggest the students preparing for SDE roles practice questions on
-              Leetcode diligently.
+              I still kept applying for SDE roles (for safety), and most of the
+              test questions were of hard or medium-level difficulty.
+              Fortunately, I had practiced some of those questions earlier on
+              Leetcode, so I was able to figure out their pattern. By the end, I
+              noticed most of these companies almost directly or somewhat
+              modified the questions from Leetcode, so I suggest the students
+              preparing for SDE roles practice questions on Leetcode diligently.
             </p>
           </div>
         </div>
@@ -86,12 +87,12 @@ const Sandipan_Mitra = () => {
             <h2>Consulting:</h2>
             <p>
               Some consulting companies like Indus Insights, Auronova
-              Consulting, and Finmechanics had screening tests, while most of
-              the others like MBB (McKinsey, Bain, BCG), Alvarez and Marsal, and
-              Arthur D Little directly shortlisted students via their resumes.
-              Few had other selection strategies like Eversana first
-              shortlisting via resume and then asking us to prepare a video
-              based on specific prompts.
+              Consulting, Trinity Life Sciences and Finmechanics had screening
+              tests, while most of the others like MBB (McKinsey, Bain, BCG),
+              Alvarez and Marsal, and Arthur D Little directly shortlisted
+              students for interviews via their resumes. Few had other selection
+              strategies like Eversana first shortlisting via resume and then
+              asking us to prepare a video based on specific prompts.
             </p>
           </div>
         </div>
@@ -107,8 +108,8 @@ const Sandipan_Mitra = () => {
               momentum going and hence got rejected from an interview shortlist.
               Some companies had bogus shortlists for their tests, and it is
               entirely okay not to get a shortlist from them as, like you, many
-              other people will remain to scratch their heads at how even the
-              shortlist was prepared xD.
+              other people will remain scratching their heads on how even the
+              shortlist was prepared!
             </p>
           </div>
         </div>
@@ -224,11 +225,11 @@ const Sandipan_Mitra = () => {
               company! I somehow concatenated an answer, but I don’t think he
               was impressed with it. The next question was a guesstimate, but he
               didn’t like my approach for the same. He explained a different
-              approach, and I still don’t know what was wrong with my approach,
-              lol. Immediately after that, I had my Auronova interview.
-              Thankfully, the panelists didn’t ask me “Why Auronava?” and all
-              sorts of questions about what the company does because back then,
-              I had absolutely no clue. Since most of my projects were based on
+              approach, and I still don’t know what was wrong with my approach.
+              . Immediately after that, I had my Auronova interview. Thankfully,
+              the panelists didn’t ask me “Why Auronava?” and all sorts of
+              questions about what the company does because back then, I had
+              absolutely no clue. Since most of my projects were based on
               statistics, they asked me about the key concepts and their
               applications and how those were relevant to my project. After
               that, they asked 3-4 puzzles, which were again pretty standard
@@ -268,25 +269,54 @@ const Sandipan_Mitra = () => {
               I believe there have been many blogs and posts by seniors
               regarding what resources to be followed, although like to share a
               few resources that personally helped me in my preparation:
+              <ul>
+                <li>
+                  <strong>SDE:</strong> Leetcode
+                </li>
+                <li>
+                  <strong>Consulting:</strong> IITB Case Interviews Cracked,
+                  IIMA Casebook, Case Compendium by an SRCC alum
+                </li>
+                <li>
+                  <strong>Quant/ Puzzles/Probability:</strong> GFG,
+                  Brainstellar, Gurmeet’s Puzzles, 50 Challenging Problems of
+                  Probability, Xinfeng Zhou- a practical guide to quantitative
+                  finance
+                </li>
+                <li>
+                  <strong>Aptitude:</strong> Previous years' CAT papers
+                </li>
+                <li>
+                  <strong>SQL:</strong> W3Schools, InterviewBit
+                </li>
+                <li>
+                  <strong>OOPS:</strong> W3Schools
+                </li>
+              </ul>
+              I had prepared docs on important points and topics that should be
+              covered before interviews for different profiles and HR, and I
+              hope some of you find them useful.
               <br />
-              <strong>SDE:</strong> Leetcode
-              <br />
-              <strong>Consulting:</strong> IITB Case Interviews Cracked, IIMA
-              Casebook, Case Compendium by an SRCC alum
-              <br />
-              <strong>Quant/ Puzzles/Probability:</strong> GFG, Brainstellar,
-              Gurmeet’s Puzzles, 50 Challenging Problems of Probability, Xinfeng
-              Zhou- a practical guide to quantitative finance
-              <br />
-              <strong>Aptitude:</strong> Previous years' CAT papers
-              <br />
-              <strong>SQL:</strong> W3Schools, InterviewBit
-              <br />
-              <strong>OOPS:</strong> W3Schools
-              <br />I had prepared docs on important points and topics that
-              should be covered before interviews for different profiles and HR,
-              and I hope some of you find them useful in software, machine
-              learning, statistics, SQL, HR, and other extracurricular points.
+              <ul>
+                <li>
+                  <b>Software:</b>{" "}
+                  <a href="https://docs.google.com/document/d/1iby03eXhJB0kRK0BOAxKN7EQnU-NYrtmbQf-CzDUHMo/edit">
+                    Link
+                  </a>
+                </li>
+                <li>
+                  <b>Machine learning, Statistics, SQL:</b>{" "}
+                  <a href="https://docs.google.com/document/d/1f8u6aGFWEWcYSzW-gD7ag4pNsQYf9F7zaJIOjDolxrg/edit">
+                    Link
+                  </a>
+                </li>
+                <li>
+                  <b>HR and other extracurricular points:</b>{" "}
+                  <a href="https://docs.google.com/document/d/1yb5f-WXXi7XDIYVHDnNHUb7qHg2Mzl_xeV4T2pdlYkg/edit">
+                    Link
+                  </a>
+                </li>
+              </ul>
             </p>
           </div>
         </div>
@@ -302,8 +332,9 @@ const Sandipan_Mitra = () => {
               every single word that you mentioned. Get your resume reviewed by
               multiple seniors before preparing a final draft. Having some
               knowledge of SQL and OOPS is very handy, as certain analytics or
-              data-profile companies ask SQL queries, and software companies ask
-              OOPS in their tests or interviews.
+              data-profile companies ask SQL queries, and software companies
+              sometimes give you an edge if you have a decent knowledge of OOPS
+              in their tests or interviews.
             </p>
           </div>
         </div>
