@@ -20,6 +20,8 @@ var web = [
       mail: "mailto:shubhamku20@iitk.ac.in",
       image: "cordi4.jpeg"
     },
+    ],
+    [
     {
             "name": "Aashruti Raj",
             "post": " Y21 UG",

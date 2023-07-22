@@ -23,7 +23,13 @@
 .team-top{
     display: flex;
 }
+.mobile .team-container {
+  text-align: center;
+}
 
+.mobile .team-container h2 {
+  color: black;
+}
 .mobile{
     display: none;
 }
