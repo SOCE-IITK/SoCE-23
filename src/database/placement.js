@@ -1,5 +1,15 @@
 var chats = [
   {
+    name: "Meet Saiya (Y21-MT)",
+    work: "Auronova Consulting",
+    text: "I’m Meet, final year M. Tech in Infrastructure Engineering and Management. My placement journey has been one hell of a rollercoaster ride,",
+    dp: "placement-postulates/dp/Meet-Saiya.jpg",
+    link: "/meet_saiya",
+    thumbnail: "",
+    og: "/Meet_Saiya",
+    year: "pg",
+  },
+  {
     name: "Sandipan Mitra (Y19)",
     work: "Auronova Consulting",
     text: "Hey everyone! I am Sandipan Mitra (Y19, CE), and I got an offer from Auronova Consulting in the Analyst profile on Day 2 of the Placement season 2022-23.",
