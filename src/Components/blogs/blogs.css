@@ -65,8 +65,24 @@
     background-color:white;
 }
 
-@media screen and (max-width:767px) {
-    .blog-head{
+@media screen and (max-width: 767px) {
+    .blog-head {
         text-align: center;
+    }
+
+    .blog-image-right,
+    .blog-image-left {
+        float: none;
+        margin: 0 auto;
+        display: block;
+        height: 250px;
+        width: 90%;
+         margin-bottom: 10px;
+        
+    }
+
+    .blog-row {
+        padding: 5px;
+        
     }
 }
