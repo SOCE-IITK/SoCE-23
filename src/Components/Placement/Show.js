@@ -1,5 +1,6 @@
 import {useParams} from 'react-router-dom'
 import Sandipan_Mitra from "../../Components/blogs/Sandipan_Mitra";
+import Srajan_Jain from "../../Components/blogs/Srajan_Jain";
 import Meet_Saiya from "../../Components/blogs/Meet_Saiya";
 import Ankit from '../../Components/blogs/Ankit';
 import Aryaman_Shandilya from '../../Components/blogs/Aryaman_Shandilya';
@@ -38,6 +39,7 @@ const Show = () => {
     const id = params.link
     const link = `https://soceiitk.org/${id}`
     if (id === "ankit") return <Ankit />;
+    else if (id === "srajan_jain") return <Srajan_Jain/>;
     else if (id === "meet_saiya") return <Meet_Saiya />;
     else if (id === "sandipan_mitra") return <Sandipan_Mitra />;
     else if (id === "aryaman_shandilya") return <Aryaman_Shandilya />;

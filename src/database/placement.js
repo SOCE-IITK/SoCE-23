@@ -1,7 +1,17 @@
 var chats = [
+  // {
+  //   name: "Srajan Jain (Y19)",
+  //   work: "Morgan Stanley",
+  //   text: "Hello everyone, I am Srajan Jain, a final year UG student in civil engineering, currently placed in Morgan Stanley for the Sales and Trading Associate role. Through this blog, I want to share my college journey by focusing on the placement side of it.Hey everyone! I am Sandipan Mitra (Y19, CE), and I got an offer from Auronova Consulting in the Analyst profile on Day 2 of the Placement season 2022-23.",
+  //   dp: "placement-postulates/dp/Srajan-Jain.jpg",
+  //   link: "/srajan_jain",
+  //   thumbnail: "",
+  //   og: "/Srajan_Jain",
+  //   year: "y19",
+  // },
   {
     name: "Meet Saiya (Y21-MT)",
-    work: "Auronova Consulting",
+    work: "AECOM India",
     text: "I’m Meet, final year M. Tech in Infrastructure Engineering and Management. My placement journey has been one hell of a rollercoaster ride,",
     dp: "placement-postulates/dp/Meet-Saiya.jpg",
     link: "/meet_saiya",
