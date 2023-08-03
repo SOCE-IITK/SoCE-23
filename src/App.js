@@ -45,6 +45,7 @@ import Yashvardhan_Raizada from './Components/blogs/Yashvardhan_Raizada';
 import Sandipan_Mitra from './Components/blogs/Sandipan_Mitra';
 import Meet_Saiya from './Components/blogs/Meet_Saiya';
 import Srajan_Jain from './Components/blogs/Srajan_Jain';
+import Aditya_Gupta from './Components/blogs/Aditya_Gupta';
 
 function App() {
   return (
@@ -68,6 +69,8 @@ function App() {
         <Route path="/sandipan_mitra" element={<Sandipan_Mitra/>}></Route>
         <Route path="/meet_saiya" element={<Meet_Saiya/>}></Route>
         <Route path="/srajan_jain" element={<Srajan_Jain/>}></Route>
+        <Route path="/aditya_gupta" element={<Aditya_Gupta/>}></Route>
+
 
         <Route path="/ankit" element={<Ankit/>}></Route>
         <Route path="/aryaman" element={<Aryaman_Shandilya/>}></Route>        

@@ -1,5 +1,15 @@
 var chats = [
   {
+    name: "Aditya Gupta (Y19)",
+    work: "Square Point Paris",
+    text: " Hello everyone, I am Aditya Gupta, a Y19 BT/CE student, and I will be joining Squarepoint Capital as a Software Engineer in Paris. Over the past four years of my journey at IIT Kanpur",
+    dp: "placement-postulates/dp/Aditya-Gupta.jpg",
+    link: "/aditya_gupta",
+    thumbnail: "",
+    og: "/Aditya_Gupta",
+    year: "y19",
+  },
+  {
     name: "Srajan Jain (Y19)",
     work: "Morgan Stanley",
     text: "Hello everyone, I am Srajan Jain, a final year UG student in civil engineering, currently placed in Morgan Stanley for the Sales and Trading Associate role. Through this blog, I want to share my college journey by focusing on the placement side of it.Hey everyone! I am Sandipan Mitra (Y19, CE), and I got an offer from Auronova Consulting in the Analyst profile on Day 2 of the Placement season 2022-23.",
