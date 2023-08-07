@@ -16,7 +16,7 @@ const Aditya_Gupta = () => {
         <div className="col-md-8">
           <div className="blog-head">
             <h2>Aditya Gupta </h2>
-            <small>Software Engineer Square Point, Paris</small>
+            <small>Software Engineer Square Point, Montreal</small>
           </div>
         </div>
       </div>
@@ -26,7 +26,7 @@ const Aditya_Gupta = () => {
             <h3>Introduction and Initial Journey</h3>
             <p>
               Hello everyone, I am Aditya Gupta, a Y19 BT/CE student, and I will
-              be joining Squarepoint Capital as a Software Engineer in Paris.
+              be joining Squarepoint Capital as a Software Engineer in Montreal.
               Over the past four years of my journey at IIT Kanpur, I have seen
               a lot of ups and downs. Many things happened during these four
               years and placements were undoubtedly one of the most significant
@@ -38,7 +38,7 @@ const Aditya_Gupta = () => {
               internship from the SPO in my third year, and neither I tried
               off-campus placements. My cpi was 8.2, and over the years, I was
               focussed on my academics and was involved with clubs and the SNT
-              council, so I understood what I would be doing ahead.
+              council.
             </p>
           </div>
         </div>
@@ -53,16 +53,19 @@ const Aditya_Gupta = () => {
               Capital
             </h3>
             <p>
-              My preparations began in June 2022 as I had no internships, so I
-              focused on learning DSA and practicing interviewbit questions.
-              However, I had a basic understanding of DSA as I had done it
-              during the internship season, so I started directly with the
-              questions, which was a terrible idea if I would think of it now.
-              For all of you , I would suggest starting with Striver's SDE
-              Sheet,it's excellent if you some basic understanding of DSA and it
-              provides a systematic and organized way of learning. Also, if you
-              are someone who hasn't worked on anything related to software
-              development, get some hands-on experience with it.
+              After the internship season, I learned a lot about how and what
+              are important things which needs to be considered while placements
+              preparation. My preparations began in June 2022 as I had no
+              internships, so I focused on learning DSA and practicing
+              interviewbit questions. However, I had a basic understanding of
+              DSA as I had done it during the internship season, so I started
+              directly with the questions, which was a terrible idea. For all of
+              you , I would suggest starting with Striver's SDE Sheet as it's
+              excellent if you some basic understanding of DSA and it provides a
+              systematic and organized way of learning. Also, if you are someone
+              who hasn't worked on anything related to software development, get
+              some hands-on experience with it (because companies nowadays
+              expect that too).
             </p>
             <p>
               The resume is one of the most important aspects of the placements,
@@ -111,45 +114,43 @@ const Aditya_Gupta = () => {
             <h3>Placement semester:</h3>
             <p>
               One of the most crucial aspects of preparation, which people often
-              neglected, is preparing for interviews or mock interviews. I would
-              suggest you to give atleast five to ten mock interviews along with
-              your friend, and if you can, buy an online mock interview. Since I
-              had given around 2 to 3 interviews in the internship drive, I was
-              pretty sure of how interviews go. Also, I asked my friends to take
-              mock interviews along with some paid interviews, which I purchased
-              just before my final interviews prepared me for the interviews.
-              Another thing which I knew I was good at was my speaking skills,
-              especially English.
+              neglect, is preparing for interviews or mock interviews. You
+              should give atleast five to ten mock interviews with your friend,
+              and if you can, buy an online mock interview (as this helped a
+              lot). Since I had given around 2 to 3 interviews in the internship
+              drive, I was pretty sure how the interviews would take place. One
+              thing to remember during interview preparations is to prepare your
+              speaking skills to be comfortable during the interviews and be
+              able to answer properly. So after everything, finally, the
+              placement drive kick-started, and till Mid-October, the frequency
+              of the tests was less, so it provided time to organize myself and
+              practice questions daily. The key here was consistency. In
+              November, the test frequency shot up dramatically, and there was
+              no time in between to practice, and this was also when the
+              interview shortlist started coming. I was not shortlisted by any
+              of the companies initially, as those were the tests in which I
+              didn't do well or the company shortlisted based on branch. Still,
+              after some time, I was shortlisted for five to six companies,
+              including Pinelabs, Standard Chartered and Capital One.
+              Squarepoint Capital was the one which came quite late, but since
+              its test wasn't typical DSA and was more understanding based, I
+              was able to clear it comfortably. Thus I was shortlisted for two
+              companies, Squarepoint Capital and Capital One, on Day 1.1.
             </p>
             <p>
-              So after everything, finally, the placement drive kick-started,
-              and till Mid-October, the frequency of the tests was less, so it
-              provided time to organize myself and practice questions daily. The
-              key here was consistency. In the month of November , the test
-              frequency shot up dramatically and there was no time in between to
-              practice, and this was also the time when the interview shortlist
-              started coming. I was not shortlisted by any of the companies in
-              the beginning, as those were the tests in which I didn't do well,
-              but after some time, I was shortlisted for five to six companies
-              which included Pinelabs, Standard Chartered and Capital One.
-              Squarepoint Capital was the one which came quite late, but since
-              its tests weren't typical DSA and were more understanding based, I
-              was able to clear it, and thus I was shortlisted for two
-              companies, Squarepoint Capital and Capital One, on Day 1.1. Around
-              27th November, my endsem was finished, and I started revising
+              Around 27th November, my endsems were over, and I started revising
               everything. Since I was shortlisted in Squarepoint Capital as a
               Python developer, I studied Python more exhaustively (as I have
               shifted from C++ to Python for placement tests as it was faster to
-              write code in Python rather than C++). Also, since I didn’t study
-              CS fundamentals earlier, it was essential to do it now. Thus, I
-              divided my time between learning CS fundamentals, Python doing
-              Strive’s SDE sheet and two mock interviews I had purchased. Also,
-              I talked to other seniors who were currently working in
-              Squarepoint Capital to learn about the interview process and was
-              proceeding accordingly. Although I didn’t have much expectations
-              due to my CPI and branch, I still gave my all.Aside from all this,
-              I also did my haircut, got groomed and prepared fully before the
-              interviews.
+              write code in Python rather than C++, which is also different from
+              others). Also, since I didn't study CS fundamentals earlier, it
+              was essential to do it now. Thus, I divided my time between
+              learning CS fundamentals and Python, doing Strive's SDE sheet and
+              two mock interviews I had purchased. Also, I talked to other
+              seniors working in Squarepoint Capital to learn about the
+              interview process and was proceeding accordingly. Although I
+              didn't have much expectations due to my CPI and branch, I still
+              gave my all.
             </p>
           </div>
         </div>
@@ -243,10 +244,10 @@ const Aditya_Gupta = () => {
             <h3>Placement Tips:</h3>
             <p>
               The first tip is to be humble at every point in time. Try to
-              motivate yourself and look at the bright side, and if you can’t
-              find a bright side, don’t try to underestimate yourself. The
-              placement season could be very cruel. You would think you are
-              starting to lose hope, but that is when you need to motivate
+              motivate yourself and always look at the bright side, and if you
+              can’t find a bright side, don’t try to underestimate yourself. The
+              placement season could be very cruel. At one point, you might
+              start to lose hope, but that is when you need to motivate
               yourself. Confidence is the key, and keep your friends together or
               have someone with whom you can share your pain. Friends would be
               the ones who would be with you and your side as they are also in
@@ -254,14 +255,15 @@ const Aditya_Gupta = () => {
               interviews are very important along with your resume along with
               your preparation to defend each and every point in your resume.
               It’s okay not to know something, but telling your thought process
-              might be the key. Also, if you are sitting for SDE interviews, be
-              ready with system design concepts, as many companies want
-              candidates with hands-on software development experience along
-              with DSA. Results are a part of the process, but the process is
-              essential. Many factors influence results and are something which
-              you can’t control, but the process is, and consistency would be
-              important. Build your self-confidence and connections, and be
-              patient. Sometimes good deeds get rewarded late.
+              might be the key, which you only get to know after giving mock
+              interviews. Also, if you are sitting for SDE interviews, be ready
+              with system design concepts, as many companies want candidates
+              with hands-on software development experience along with DSA.
+              Results are a part of the process, but the process is essential.
+              Many factors influence results and are something which you can’t
+              control, but the process is, and consistency would be important.
+              Build your self-confidence and connections, and be patient. And
+              remember **<b>Sometimes good things come to those who wait</b>**.
             </p>
             <p>
               I have tried to cover everything as far as I can think of.

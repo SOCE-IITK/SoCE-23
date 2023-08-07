@@ -5,7 +5,8 @@ var team23 = [
       post: "HOD",
       fb: "https://www.facebook.com/profile.php?id=100005799362676",
       insta: "https://www.instagram.com/govind_gupta_46/",
-      linkedin: "https://www.linkedin.com/in/priyanka-ghosh-33173314/?originalSubdomain=in",
+      linkedin:
+        "https://www.linkedin.com/in/priyanka-ghosh-33173314/?originalSubdomain=in",
       website: "https://iitk.ac.in/new/priyanka-ghosh",
       mail: "mailto:priyog@iitk.ac.in",
       image: "/team/team23/priyanka-ghosh-iitk.jpg",
@@ -280,6 +281,15 @@ var team23 = [
       linkedin: "https://www.linkedin.com/in/simran-bror-181270262",
       mail: "mailto:simran22@iitk.ac.in",
       image: "/team/team23/Design_Simran.jpg",
+    },
+    {
+      name: "Shubham Kumar",
+      post: " Design",
+      fb: "https://m.facebook.com/profile.php/?id=100016442141532",
+      insta: "https://instagram.com/focal15?igshid=OGQ5ZDc2ODk2ZA==",
+      linkedin: "https://www.linkedin.com/in/shubham-kumar-8b8963255",
+      mail: "mailto:kshubham22@iitk.ac.in",
+      image: "/team/team23/design_shubham.jpg",
     },
     {
       name: "Surya Shukla",

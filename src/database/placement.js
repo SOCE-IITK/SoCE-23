@@ -1,7 +1,7 @@
 var chats = [
   {
     name: "Aditya Gupta (Y19)",
-    work: "Square Point Paris",
+    work: "Squarepoint Capital(Montreal)",
     text: " Hello everyone, I am Aditya Gupta, a Y19 BT/CE student, and I will be joining Squarepoint Capital as a Software Engineer in Paris. Over the past four years of my journey at IIT Kanpur",
     dp: "placement-postulates/dp/Aditya-Gupta.jpg",
     link: "/aditya_gupta",
