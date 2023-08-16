@@ -1,5 +1,15 @@
 var chats = [
   {
+    name: "Ashish Singh (Y19)",
+    work: "Tata Projects Limited",
+    text: " Hi! This is Ashish, a Y19 BT-CE, currently placed in Tata Projects Limited (TPL). Through this blog, I share my journey from submitting my resume after deadline extension to securing an offer at TPL",
+    dp: "placement-postulates/dp/Ashish-Singh.jpg",
+    link: "/ashish_singh",
+    thumbnail: "",
+    og: "/Ashish_Singh",
+    year: "y19",
+  },
+  {
     name: "Ayush Dwivedi (Y19)",
     work: "Piramal Finance",
     text: " Hello everyone, I am  Ayush Dwivedi currently a Final Year Undergraduate in the Department of Civil Engineering at IIT Kanpur. I got placed as SDE (Software Development Engineer) at Piramal Finance and will be joining in the upcoming summers. Many of you must be knowing me as your Department Academic Mentor. Through this postulate, I would like to take you to my internship and placement journey, the challenges which I faced and most importantly how can one grab a good placement offer by doing smart work.",
