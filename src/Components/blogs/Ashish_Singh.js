@@ -15,7 +15,7 @@ const Ashish_Singh = () => {
         </div>
         <div className="col-md-8">
           <div className="blog-head">
-            <h2>Ashish Singh</h2>
+            <h2>Ashish</h2>
             <small>Tata Projects Limited</small>
           </div>
         </div>

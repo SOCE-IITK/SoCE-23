@@ -73,7 +73,7 @@ function App() {
         <Route path="/srajan_jain" element={<Srajan_Jain/>}></Route>
         <Route path="/aditya_gupta" element={<Aditya_Gupta/>}></Route>
         <Route path="/ayush_dwivedi" element={<Ayush_Dwivedi/>}></Route>
-        <Route path="/ashish_singh" element={<Ashish_Singh/>}></Route>
+        <Route path="/ashish" element={<Ashish_Singh/>}></Route>
 
         
 

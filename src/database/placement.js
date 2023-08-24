@@ -1,10 +1,10 @@
 var chats = [
   {
-    name: "Ashish Singh (Y19)",
+    name: "Ashish (Y19)",
     work: "Tata Projects Limited",
     text: " Hi! This is Ashish, a Y19 BT-CE, currently placed in Tata Projects Limited (TPL). Through this blog, I share my journey from submitting my resume after deadline extension to securing an offer at TPL",
     dp: "placement-postulates/dp/Ashish-Singh.jpg",
-    link: "/ashish_singh",
+    link: "/ashish",
     thumbnail: "",
     og: "/Ashish_Singh",
     year: "y19",

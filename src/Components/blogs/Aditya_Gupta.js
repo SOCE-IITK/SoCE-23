@@ -94,19 +94,7 @@ const Aditya_Gupta = () => {
               questions as the real test ,more or less have the same time and a
               per the difficulty level.
             </p>
-            <p>
-              I was also sure that I would be sitting in either SDE or
-              ML/Analytics roles as I had experienced only related to them, and
-              my interest also lies within them. This made my preparations a
-              little simple, and thus, I need to focus on CP, Aptitude, Puzzles
-              and Probability. For CP, as described earlier, I started with
-              interviewbit, then shifted towards leetcode. I found leetcode much
-              better as it had a nice interface along with daily random
-              questions and weekly tests, which I tried to give, and they were
-              important as they helped you in allocating time for solving the
-              questions as the real test ,more or less have the same time and a
-              per the difficulty level.
-            </p>
+           
           </div>
         </div>
         <div className="row blog-row">

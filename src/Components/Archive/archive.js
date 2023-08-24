@@ -13,6 +13,16 @@ export default function Archive() {
         <ArOfflineSessionTemplate
           props={[
             {
+              head: "Intro to MITACS Globalink",
+              date: "21 August 2023",
+              slides:
+                "https://drive.google.com/drive/folders/1FnbBGsngKu1MHouj9sFlZyH1D2mQqCPg",
+            },
+          ]}
+        />
+        <ArOfflineSessionTemplate
+          props={[
+            {
               head: "Y22 3rd Sem Informal Session",
               date: "28 July 2023",
               slides:
