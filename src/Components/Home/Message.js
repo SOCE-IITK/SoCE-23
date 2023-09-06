@@ -63,7 +63,7 @@ export default function Message() {
             <div className="col-sm-8.2">
               <a id='msg-link' href={content[0][3]} target="_blank">
                 <button type="button" className="mybtn Btn btn">
-                  Register Here!
+                  Read More!
                 </button>
               </a>
             </div>

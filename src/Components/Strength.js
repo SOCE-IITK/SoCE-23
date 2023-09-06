@@ -33,8 +33,8 @@ const [popup23, setPopup23] = useState(false);
                 STRENGTHS is an annual magazine released by Society of Civil
                 engineers approved and appreciated by department of civil
                 engineering. The focus of STRENGTHS is to provide an overview of
-                the activities of SoCE, various current happening in the field of
-                civil engineering and appreciate the department activities.
+                the activities of SoCE, various current happening in the field
+                of civil engineering and appreciate the department activities.
               </p>
             </div>
             {/* </div> */}
@@ -58,7 +58,6 @@ const [popup23, setPopup23] = useState(false);
                   </a>
                 </div>
               </div>
-
             </div>
             <div className="str-card col-md-3">
               <h1 className="text-center">Strengths'08</h1>
@@ -73,12 +72,9 @@ const [popup23, setPopup23] = useState(false);
                     href="https://drive.google.com/file/d/10weNXst68gZ7ZtyHZdMIQoFgXoc_1trA/view?usp=drivesdk"
                     target="_blank"
                   >
-
                     <button className="str-btn">Open</button>
                   </a>
                 </div>
-
-
               </div>
             </div>
             <div className="str-card col-md-3">
@@ -97,7 +93,6 @@ const [popup23, setPopup23] = useState(false);
                     <button className="str-btn">Open</button>
                   </a>
                 </div>
-
               </div>
             </div>
           </div>
@@ -106,7 +101,10 @@ const [popup23, setPopup23] = useState(false);
               <h1 className="text-center">Strengths'22</h1>
               <div className="row d-flext justify-content-center">
                 <div className="col">
-                  <a href="Strengths/Strengths-22-Magazine-30-09-22.pdf" download>
+                  <a
+                    href="Strengths/Strengths-22-Magazine-30-09-22.pdf"
+                    download
+                  >
                     <button className="str-btn">Download</button>
                   </a>
                 </div>
@@ -118,43 +116,24 @@ const [popup23, setPopup23] = useState(false);
                     <button className="str-btn">Open</button>
                   </a>
                 </div>
-
               </div>
             </div>
             <div className="str-card col-md-3">
               <h1 className="text-center">Strengths'23</h1>
-              <div className="row d-flex justify-content-center">
+              <div className="row d-flext justify-content-center">
                 <div className="col">
-                  <button className="str-btn">Download</button>
+                  <a href="Strengths/Strengths'23-Digital.pdf" download>
+                    <button className="str-btn">Download</button>
+                  </a>
                 </div>
                 <div className="col">
-                  <button className="str-btn" onClick={handleOpenPopup23}>
-                    Open
-                  </button>
+                  <a href="" target="_blank">
+                    <button className="str-btn">Open</button>
+                  </a>
                 </div>
-                {popup23 ? (
-                  <div className="main">
-                    <div className="popup">
-                      <div className="popup-header">
-                        <h1>Strengths'23</h1>
-                       <img
-              src={close}
-              onClick={handleClosePopup23}
-              alt=""
-              
-            />
-                      </div>
-                      <div>
-                        <p className="pop">COMING SOON</p>
-                      </div>
-                    </div>
-                  </div>
-                ) : (
-                  ""
-                )}
-
               </div>
             </div>
+
             <div className="str-card col-md-3">
               <h1 className="text-center">Strengths'24</h1>
               <div className="row d-flex justify-content-center">
@@ -181,7 +160,6 @@ const [popup23, setPopup23] = useState(false);
                 ) : (
                   ""
                 )}
-
               </div>
             </div>
           </div>

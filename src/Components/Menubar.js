@@ -150,11 +150,21 @@ function Menubar() {
             {Menu}
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/students">Students</Nav.Link>
-            <Nav.Link href="/strengths">Strengths</Nav.Link>
+            <Nav.Link href="/strengths">
+              Strengths
+              <sup className="new-icon" style={{ color: "red" }}>
+                New
+              </sup>
+            </Nav.Link>
             <Nav.Link href="/events">Events</Nav.Link>
             <Nav.Link href="/reports">Reports</Nav.Link>
             <Nav.Link href="/portals">Portals</Nav.Link>
-            <Nav.Link href="/archive">Archive</Nav.Link>
+            <Nav.Link href="/archive">
+              Archive
+              <sup className="new-icon" style={{ color: "red" }}>
+                New
+              </sup>
+            </Nav.Link>
             <Nav.Link href="/team/team23">Team</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>

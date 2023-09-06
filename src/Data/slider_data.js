@@ -1,5 +1,11 @@
 const content = [
   [
+    "We were delighted to host Freshers '23 for the first year undergraduates and post-graduates of Civil Engineering. This major offline event happened after a long wait of 4 years.",
+    "Freshers 2023",
+    "August 25, 2023",
+    "https://www.instagram.com/p/Cw1iU6NohVS/?igshid=MzRlODBiNWFlZA==",
+  ],
+  [
     "A interactive session designed to introduce the incredible opportunities presented by the MITACS Globalink Research Internship Programme.",
     "Intro to MITACS Globalink",
     "August 21, 2023",
@@ -12,18 +18,12 @@ const content = [
     "June 1, 2023",
     "https://www.linkedin.com/feed/update/urn:li:activity:7070107898684555264",
   ],
-  [
-    "The Society of Civil Engineers was honored to host the farewell event for the esteemed civil engineering class of 2023 in the evening. The event was a memorable affair filled with awe-inspiring performances, heartfelt speeches from esteemed professors, and the distribution of well-deserved mementos. We congratulates all the students for their hard work and dedication throughout their academic journey. It was truly a special evening that celebrated the achievements of these bright young minds who are ready to embark on their professional careers.",
-    "Farewell: Class of 2023",
-    "April 16, 2023",
-    "https://www.linkedin.com/feed/update/urn:li:activity:7053244336070701056",
-  ],
 ];
   
 const img = [
+  "Post-photos/Fresherspost.png",
   "Post-photos/mitacs.jpg",
   "Post-photos/parliament.jpg",
-  "Post-photos/Farewell.jpeg",
 ];
 
 export {content,img}

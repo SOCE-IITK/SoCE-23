@@ -168,7 +168,7 @@ export default function Colloquium() {
             <div className="main">
               <div className="popup-about">
                 <div className="popup-header">
-                  <h3>Worshops</h3>
+                  <h3>Workshops</h3>
                   <img src={close} onClick={closePopup2} alt="" />
                 </div>
                 <div className="popup-content">

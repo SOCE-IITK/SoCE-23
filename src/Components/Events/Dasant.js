@@ -49,7 +49,7 @@ export default function Dasant() {
         </div>
         <div className="col-md-5 far">
           <div className="row">
-            <h3>StimuluS</h3>
+            <h3>Stimulus</h3>
             <p>
               The Civil Department's Department Day, which was previously
               celebrated in 2008, was discontinued due to unforeseen
