@@ -165,6 +165,12 @@ function Menubar() {
                 New
               </sup>
             </Nav.Link>
+            <Nav.Link href="/gallery">
+             Gallery
+              <sup className="new-icon" style={{ color: "red" }}>
+                New
+              </sup>
+            </Nav.Link>
             <Nav.Link href="/team/team23">Team</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>

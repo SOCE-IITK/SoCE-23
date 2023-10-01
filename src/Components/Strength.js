@@ -27,6 +27,7 @@ const [popup23, setPopup23] = useState(false);
           <div className="str col">
             <div className="row">
               <h1>Strengths</h1>
+              
             </div>
             <div className="row">
               <p>
@@ -127,7 +128,10 @@ const [popup23, setPopup23] = useState(false);
                   </a>
                 </div>
                 <div className="col">
-                  <a href="" target="_blank">
+                  <a
+                    href="https://drive.google.com/file/d/1guOX5nZBfk2CbH8kejyuYSTd7_E-eeKb/view?usp=sharing"
+                    target="_blank"
+                  >
                     <button className="str-btn">Open</button>
                   </a>
                 </div>

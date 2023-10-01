@@ -13,6 +13,7 @@ import Archive from './Components/Archive/archive';
 import Report from './Components/Report'
 import Contact from './Components/Contact';
 import Postu from './Components/Placement/postu';
+
 import Show from './Components/Placement/Show'
 import PastTeams from './Components/PastTeams';
 import Ankit from './Components/blogs/Ankit';
@@ -48,65 +49,69 @@ import Srajan_Jain from './Components/blogs/Srajan_Jain';
 import Aditya_Gupta from './Components/blogs/Aditya_Gupta';
 import Ayush_Dwivedi from './Components/blogs/Ayush_Dwivedi';
 import Ashish_Singh from './Components/blogs/Ashish_Singh';
+import Gallery from './Components/Gallery/Gallery';
 
 function App() {
   return (
     <div className="App">
-      <Menubar/>
+      <Menubar />
       <Routes>
-        <Route path="/" element={<Home/>}></Route>
-        <Route path="/students" element={<StudentSec/>}></Route>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/students" element={<StudentSec />}></Route>
         {/* <Route path="/team" element={<Team/>}></Route> */}
-        <Route path="/events" element={<Events/>}></Route>
-        <Route path="/strengths" element={<Strength/>}></Route>
-        <Route path="/reports" element={<Report/>}></Route>
-        <Route path="/portals" element={<Portal/>}></Route>
+        <Route path="/events" element={<Events />}></Route>
+        <Route path="/strengths" element={<Strength />}></Route>
+        <Route path="/reports" element={<Report />}></Route>
+        <Route path="/portals" element={<Portal />}></Route>
         <Route path="/archive" element={<Archive />}></Route>
-        <Route path="/place" element={<Postu/>}></Route>
-        <Route path="/contact" element={<Contact/>}></Route>
-        <Route path="/postulates" element={<Postu/>}></Route>
-        <Route path="/pastteams" element={<PastTeams/>}></Route>
-        <Route path="/:link" element={<Show/>}> </Route>
-        <Route path="/team/:team" element={<Team/>}> </Route>
-        <Route path="/sandipan_mitra" element={<Sandipan_Mitra/>}></Route>
-        <Route path="/meet_saiya" element={<Meet_Saiya/>}></Route>
-        <Route path="/srajan_jain" element={<Srajan_Jain/>}></Route>
-        <Route path="/aditya_gupta" element={<Aditya_Gupta/>}></Route>
-        <Route path="/ayush_dwivedi" element={<Ayush_Dwivedi/>}></Route>
-        <Route path="/ashish" element={<Ashish_Singh/>}></Route>
+        <Route path="/gallery" element={<Gallery />}></Route>
+        <Route path="/place" element={<Postu />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/postulates" element={<Postu />}></Route>
+        <Route path="/pastteams" element={<PastTeams />}></Route>
+        <Route path="/:link" element={<Show />}>
+          {" "}
+        </Route>
+        <Route path="/team/:team" element={<Team />}>
+          {" "}
+        </Route>
+        <Route path="/sandipan_mitra" element={<Sandipan_Mitra />}></Route>
+        <Route path="/meet_saiya" element={<Meet_Saiya />}></Route>
+        <Route path="/srajan_jain" element={<Srajan_Jain />}></Route>
+        <Route path="/aditya_gupta" element={<Aditya_Gupta />}></Route>
+        <Route path="/ayush_dwivedi" element={<Ayush_Dwivedi />}></Route>
+        <Route path="/ashish" element={<Ashish_Singh />}></Route>
 
-        
+        <Route path="/ankit" element={<Ankit />}></Route>
+        <Route path="/aryaman" element={<Aryaman_Shandilya />}></Route>
+        <Route path="/ashutosh" element={<Ashutosh_Ranjan />}></Route>
+        <Route path="/chitwan" element={<Chitwan_Garg />}></Route>
+        <Route path="/dishaa" element={<Dishaa_Rajora />}></Route>
+        <Route path="/dishant" element={<Dishant_Parewa />}></Route>
+        <Route path="/gaurav" element={<Gaurav_Kamboj />}></Route>
+        <Route path="/gauravjiwan" element={<Gaurav_Jiwan />}></Route>
+        <Route path="/himanshu" element={<Himanshu_Mishra />}></Route>
+        <Route path="/jeetendra" element={<JeetendraKP />}></Route>
+        <Route path="/krishan" element={<Krishan_Kumar />}></Route>
+        <Route path="/krishna" element={<Krishna_Deo />}></Route>
+        <Route path="/mradul" element={<Mradul_Chaudhary />}></Route>
+        <Route path="/mudit" element={<Mudit_Kumar />}></Route>
+        <Route path="/naman" element={<Naman_Jain />}></Route>
+        <Route path="/neha" element={<Neha_Aggarwal />}></Route>
+        <Route path="/piyush" element={<Piyush_Senwar />}></Route>
+        <Route path="/rahul" element={<Rahul_Gauriyar />}></Route>
+        <Route path="/rajat" element={<Rajat_Ghoshal />}></Route>
+        <Route path="/samyak" element={<Samyak_Jain />}></Route>
+        <Route path="/samyak18" element={<Samyak_Jain_Y18 />}></Route>
+        <Route path="/shashi" element={<Shashi_Shekhar />}></Route>
+        <Route path="/shuaib" element={<Shuaib_Alam />}></Route>
+        <Route path="/vineet" element={<Vineet_Shukla />}></Route>
+        <Route path="/vishal" element={<Vishal_Agarwal />}></Route>
+        <Route path="/yashkrit" element={<Yashkrit_Gupta />}></Route>
+        <Route path="/yashvardhan" element={<Yashvardhan_Raizada />}></Route>
+      </Routes>
 
-        <Route path="/ankit" element={<Ankit/>}></Route>
-        <Route path="/aryaman" element={<Aryaman_Shandilya/>}></Route>        
-        <Route path="/ashutosh" element={<Ashutosh_Ranjan/>}></Route>
-        <Route path="/chitwan" element={<Chitwan_Garg/>}></Route>
-        <Route path="/dishaa" element={<Dishaa_Rajora/>}></Route>
-        <Route path="/dishant" element={<Dishant_Parewa/>}></Route>
-        <Route path="/gaurav" element={<Gaurav_Kamboj/>}></Route>
-        <Route path="/gauravjiwan" element={<Gaurav_Jiwan/>}></Route>
-        <Route path="/himanshu" element={<Himanshu_Mishra/>}></Route>
-        <Route path="/jeetendra" element={<JeetendraKP/>}></Route>
-        <Route path="/krishan" element={<Krishan_Kumar/>}></Route>
-        <Route path="/krishna" element={<Krishna_Deo/>}></Route>
-        <Route path="/mradul" element={<Mradul_Chaudhary/>}></Route>
-        <Route path="/mudit" element={<Mudit_Kumar/>}></Route>
-        <Route path="/naman" element={<Naman_Jain/>}></Route>
-        <Route path="/neha" element={<Neha_Aggarwal/>}></Route>
-        <Route path="/piyush" element={<Piyush_Senwar/>}></Route>
-        <Route path="/rahul" element={<Rahul_Gauriyar/>}></Route>
-        <Route path="/rajat" element={<Rajat_Ghoshal/>}></Route>
-        <Route path="/samyak" element={<Samyak_Jain/>}></Route>
-        <Route path="/samyak18" element={<Samyak_Jain_Y18/>}></Route>
-        <Route path="/shashi" element={<Shashi_Shekhar/>}></Route>
-        <Route path="/shuaib" element={<Shuaib_Alam/>}></Route>
-        <Route path="/vineet" element={<Vineet_Shukla/>}></Route>
-        <Route path="/vishal" element={<Vishal_Agarwal/>}></Route>
-        <Route path="/yashkrit" element={<Yashkrit_Gupta/>}></Route>
-        <Route path="/yashvardhan" element={<Yashvardhan_Raizada/>}></Route>
-      </Routes>    
-
-      <Footer/>
+      <Footer />
     </div>
   );
 }
