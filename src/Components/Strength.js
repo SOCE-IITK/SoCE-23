@@ -27,7 +27,6 @@ const [popup23, setPopup23] = useState(false);
           <div className="str col">
             <div className="row">
               <h1>Strengths</h1>
-              
             </div>
             <div className="row">
               <p>
@@ -123,13 +122,16 @@ const [popup23, setPopup23] = useState(false);
               <h1 className="text-center">Strengths'23</h1>
               <div className="row d-flext justify-content-center">
                 <div className="col">
-                  <a href="Strengths/Strengths'23-Digital.pdf" download>
+                  <a
+                    href="https://drive.google.com/file/d/1bmZWplGBo_Spy5fwict0KwJEPlIcAIip/view?usp=sharing"
+                    download
+                  >
                     <button className="str-btn">Download</button>
                   </a>
                 </div>
                 <div className="col">
                   <a
-                    href="https://drive.google.com/file/d/1guOX5nZBfk2CbH8kejyuYSTd7_E-eeKb/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1bmZWplGBo_Spy5fwict0KwJEPlIcAIip/view?usp=sharing"
                     target="_blank"
                   >
                     <button className="str-btn">Open</button>

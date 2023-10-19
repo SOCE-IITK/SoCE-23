@@ -10,6 +10,21 @@ export default function Archive() {
     return (
       <div id="StudentSec">
         <ArchiveInfo />
+        <ArBlogTemplate
+          props={[
+            {
+              head: "Research Seminar Series ",
+              date: "12 October 2023",
+              slides:
+                "https://www.linkedin.com/feed/update/urn:li:activity:7070107898684555264",
+
+              insta:
+                "https://www.instagram.com/p/CyVsr5No0SX/?igshid=MzRlODBiNWFlZA==",
+              linkedin:
+                "https://www.linkedin.com/feed/update/urn:li:activity:7118591146502557696",
+            },
+          ]}
+        />
         <ArOfflineSessionTemplate
           props={[
             {

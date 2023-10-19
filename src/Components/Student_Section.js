@@ -5,16 +5,22 @@ import Placement from './Student/placement'
 import Summer from './Student/summer'
 import Session from './Student/session'
 import Blogs from './Student/blogs'
+import Research_Seminar from './Student/Research_Seminar'
+import Mitacs from './Student/mitacs'
 export default function StudentSec(){
-    return(
-        <div id='StudentSec'>
-           
-            <Student/>
-            <Resume/>
+    return (
+      <div id="StudentSec">
+        <Student />
+        <Research_Seminar />
+        <Mitacs />
+        <Blogs />
+        <Summer />
+        {/* <Resume/>
             <Placement/>
             <Blogs/>
-            <Summer/>
-            <Session/>
-        </div>
-    )
+             <Summer/>
+            <Session/> */}
+          
+      </div>
+    );
 }

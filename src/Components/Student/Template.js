@@ -8,7 +8,7 @@ function Template(props) {
                     <div className="stud-flex row d-flex justify-content-around">
                         {props.props.map((d) => {
                             return (
-                                <div className="col-md-5 stud">
+                                <div className="col-md-3 stud">
                                     <h3>{d.head}</h3>
                                     <p>
                                         {d.text}
