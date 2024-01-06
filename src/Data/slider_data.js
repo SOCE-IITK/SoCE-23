@@ -1,29 +1,36 @@
 const content = [
   [
-    "We were delighted to host Freshers '23 for the first year undergraduates and post-graduates of Civil Engineering. This major offline event happened after a long wait of 4 years.",
-    "Freshers 2023",
-    "August 25, 2023",
-    "https://www.instagram.com/p/Cw1iU6NohVS/?igshid=MzRlODBiNWFlZA==",
-  ],
-  [
-    "A interactive session designed to introduce the incredible opportunities presented by the MITACS Globalink Research Internship Programme.",
-    "Intro to MITACS Globalink",
-    "August 21, 2023",
-    "https://drive.google.com/drive/folders/1FnbBGsngKu1MHouj9sFlZyH1D2mQqCPg",
+    "With winter around the corner, we are back with our winter projects for students interested in enhancing their skills and gaining practical experience",
+    "Winter Projects 2023",
+    "November 30, 2023",
+    "https://www.instagram.com/p/C0PDuu3IS6s/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
   ],
 
   [
-    "As part of India's Central Vista Redevelopment Project, a new parliament building was constructed in New Delhi. It was inaugurated on 28 May 2023 by Hon. Prime Minister Shri Narendra Modi.",
-    "New Parliament Building",
-    "June 1, 2023",
-    "https://www.linkedin.com/feed/update/urn:li:activity:7070107898684555264",
+    "Explore the architectural marvels, mathematical wonders, and the royal touch of Krishnadevaraya in this UNESCO World Heritage Site. From fractal patterns to hydraulic expertise, witness the saga of civil engineering and cultural richness.",
+    "Unveiling the Mystique: Virupaksha Temple in Hampi",
+    "November 15, 2023",
+    "https://www.linkedin.com/feed/update/urn:li:activity:7130545012118798336",
+  ],
+  [
+    "Radhika is a Senior Research Engineer (AR/VR/XR) at Samsung Semiconductor Inc.Prior to joining Samsung, she was a Postdoctoral Research Fellow at the Robotics Institute, University of Michigan working in the Ford Center for Autonomous Vehicles.She received her PhD and research-based MS from Purdue University in Civil Engineering specializing in Geomatics, and obtained her B.Tech, with Double Majors in Civil Engineering and Electrical Engineering from the Indian Institute of Technology Kanpur (IITK)",
+    "Career Choices",
+    "November 12, 2023",
+    "https://www.linkedin.com/feed/update/urn:li:activity:7128667220385103873",
+  ],
+  [
+    "We are thrilled to bring the first ever cricket tournament - CE CUP '23, for all the cricket enthusiasts in the CE department.",
+    "CE CUP'23",
+    "October 11, 2023",
+    "https://www.instagram.com/p/CyQkf2Fo_VJ/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
   ],
 ];
-  
+
 const img = [
-  "Post-photos/Fresherspost.png",
-  "Post-photos/mitacs.jpg",
-  "Post-photos/parliament.jpg",
+  "Post-photos/winter-projects.png",
+  "Post-photos/temple.png",
+  "Post-photos/CAREER-CHOICES.png",
+  "Post-photos/CE-CUP.png",
 ];
 
-export {content,img}
+export { content, img };

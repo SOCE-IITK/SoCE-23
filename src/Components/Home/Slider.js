@@ -29,7 +29,7 @@ export default function Slider() {
     $("#slider-link").attr("href", content[i][3]);
     // console.log('#slider-l')
     let h = document.getElementsByClassName("indicators");
-    for (var k = 0; k < 3; k++) {
+    for (var k = 0; k < 4; k++) {
       h[k].classList.remove("fa-circle");
       h[k].classList.add("fa-circle-thin");
     }
@@ -38,12 +38,12 @@ export default function Slider() {
   }
   function customf() {
     let nextIndex = activeIndex + 1;
-    if (nextIndex > 2) nextIndex = 0;
+    if (nextIndex > 3) nextIndex = 0;
     universal(nextIndex);
   }
   function customp() {
     let prevIndex = activeIndex - 1;
-    if (prevIndex < 0) prevIndex = 2;
+    if (prevIndex < 0) prevIndex = 3;
     universal(prevIndex);
   }
   function i1() {
@@ -54,6 +54,9 @@ export default function Slider() {
   }
   function i3() {
     universal(2);
+  }
+  function i4() {
+    universal(3);
   }
 
   return (
@@ -89,12 +92,15 @@ export default function Slider() {
                         </div>
                       </div>
                       <div className="row ">
-                        <div className="col" style={{
-                          maxHeight: "200px",
-                          overflowY: "auto",
-                          paddingRight: "15px",
-                          marginBottom: "10px",
-                        }}>
+                        <div
+                          className="col"
+                          style={{
+                            maxHeight: "200px",
+                            overflowY: "auto",
+                            paddingRight: "15px",
+                            marginBottom: "10px",
+                          }}
+                        >
                           <div
                             style={{
                               maxHeight: "200px",
@@ -103,14 +109,19 @@ export default function Slider() {
                               marginBottom: "10px",
                             }}
                           >
-                            <div id="y" style={{ maxWidth: "100%" }}>{content[0][0]} </div>{" "}
+                            <div id="y" style={{ maxWidth: "100%" }}>
+                              {content[0][0]}{" "}
+                            </div>{" "}
                           </div>
                         </div>
                         <div className="row readmore">
-                          <div className="col" style={{
-                            display: "flex",
-                            justifyContent: "flex-end",
-                          }}>
+                          <div
+                            className="col"
+                            style={{
+                              display: "flex",
+                              justifyContent: "flex-end",
+                            }}
+                          >
                             <div
                               style={{
                                 overflow: "hidden",
@@ -120,13 +131,15 @@ export default function Slider() {
                                 <button
                                   id="read-more"
                                   className="btn btn-primary"
-                                  style={{ marginBottom: "10px", maxWidth: "100%", }}
+                                  style={{
+                                    marginBottom: "10px",
+                                    maxWidth: "100%",
+                                  }}
                                 >
                                   Read More
                                 </button>
                               </a>
                             </div>
-
                           </div>
                         </div>
                       </div>
@@ -143,6 +156,8 @@ export default function Slider() {
                   <i className="fa fa-circle indicators" onClick={i1}></i>
                   <i className="fa fa-circle-thin indicators" onClick={i2}></i>
                   <i className="fa fa-circle-thin indicators" onClick={i3}></i>
+                  <i className="fa fa-circle-thin indicators" onClick={i4}></i>
+
                   <i id="f" onClick={customf} className="fa fa-angle-right"></i>
                 </div>
               </div>
@@ -169,7 +184,7 @@ export default function Slider() {
         </div>
         <div className="col-sm-3">
           <a href="/contact-us">
-            <button type="button" className="mybtn btn" >
+            <button type="button" className="mybtn btn">
               Contact
             </button>
           </a>

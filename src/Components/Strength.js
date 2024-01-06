@@ -2,9 +2,9 @@ import "./Styles/strength.css";
 import { useState } from "react";
 import close from "./Assets/close-btn.png";
 export default function Strength() {
-const [popup23, setPopup23] = useState(false);
+  const [popup23, setPopup23] = useState(false);
   const [popup24, setPopup24] = useState(false);
- const handleOpenPopup23 = () => {
+  const handleOpenPopup23 = () => {
     setPopup23(true);
   };
 
@@ -123,7 +123,7 @@ const [popup23, setPopup23] = useState(false);
               <div className="row d-flext justify-content-center">
                 <div className="col">
                   <a
-                    href="https://drive.google.com/file/d/1bmZWplGBo_Spy5fwict0KwJEPlIcAIip/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1M53RSvcYgZht_OLeiBYhn4dgxF1Mo6Fx/view?usp=sharing"
                     download
                   >
                     <button className="str-btn">Download</button>
@@ -131,7 +131,7 @@ const [popup23, setPopup23] = useState(false);
                 </div>
                 <div className="col">
                   <a
-                    href="https://drive.google.com/file/d/1bmZWplGBo_Spy5fwict0KwJEPlIcAIip/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1M53RSvcYgZht_OLeiBYhn4dgxF1Mo6Fx/view?usp=sharing"
                     target="_blank"
                   >
                     <button className="str-btn">Open</button>

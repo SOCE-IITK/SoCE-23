@@ -21,9 +21,9 @@ export default function Portal() {
             <div className="row">
               <p>
                 Please find attached the links to the dedicated webpages of the
-                Internship portal and Conclave portal, the yearly fest of the Department of
-                Civil Engineering. You can use these links to access the
-                respective websites.
+                Internship portal and Conclave portal, the yearly fest of the
+                Department of Civil Engineering. You can use these links to
+                access the respective websites.
               </p>
             </div>
           </div>
@@ -31,10 +31,15 @@ export default function Portal() {
           <div className="str-row row d-flex justify-content-around">
             <div className="str-card ptr col-md-4">
               <h1 className="text-center">Internship</h1>
-              <a href="https://forms.gle/uwztLG2DqikoEbQH7" target="_blank
-              "><button className="str-btn1" onClick={handleClickOpen}>
-                Open
-              </button></a>
+              <a
+                href="https://forms.gle/uwztLG2DqikoEbQH7"
+                target="_blank
+              "
+              >
+                <button className="str-btn1" onClick={handleClickOpen}>
+                  Open
+                </button>
+              </a>
               {/* {popup ? (
               <div className="main">
                 <div className="popup">
@@ -54,7 +59,7 @@ export default function Portal() {
             <div className="str-card ptr col-md-4">
               <h1 className="text-center">Conclave</h1>
               <a
-                href="https://www.iitk.ac.in/ce/civere/index.html"
+                href="https://sankalaniitk.in/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

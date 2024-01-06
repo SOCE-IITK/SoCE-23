@@ -158,7 +158,13 @@ function Menubar() {
             </Nav.Link>
             <Nav.Link href="/events">Events</Nav.Link>
             <Nav.Link href="/reports">Reports</Nav.Link>
-            <Nav.Link href="/portals">Portals</Nav.Link>
+            {/* <Nav.Link href="/portals">Portals</Nav.Link> */}
+            <Nav.Link href="https://sankalaniitk.in/">
+              Conclave
+              <sup className="new-icon" style={{ color: "#0092ca" }}>
+                Live Now
+              </sup>
+            </Nav.Link>
             <Nav.Link href="/archive">
               Archive
               <sup className="new-icon" style={{ color: "red" }}>
@@ -166,7 +172,7 @@ function Menubar() {
               </sup>
             </Nav.Link>
             <Nav.Link href="/gallery">
-             Gallery
+              Gallery
               <sup className="new-icon" style={{ color: "red" }}>
                 New
               </sup>

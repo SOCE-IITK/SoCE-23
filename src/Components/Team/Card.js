@@ -3,32 +3,26 @@ import team22 from "../../database/team22/team22";
 import team21 from "../../database/team21/team21";
 import team20 from "../../database/team20/team20";
 import web from "../../database/web";
-import {useParams} from 'react-router-dom'
+import { useParams } from "react-router-dom";
 export default function Card() {
-  const params = useParams()
+  const params = useParams();
   console.log(params);
   console.log(web);
-  var team = team22; 
-  var head = "Coordinators"
-  if(params.team === "team23"){
+  var team = team22;
+  var head = "Coordinators";
+  if (params.team === "team23") {
     team = team23;
-  }
-  else if (params.team === "team22") {
+  } else if (params.team === "team22") {
     team = team22;
-  }
-  else if(params.team === "team21"){
+  } else if (params.team === "team21") {
     team = team21;
-  }
-  else if(params.team === "team20"){
+  } else if (params.team === "team20") {
     team = team20;
-  }
-  else if(params.team === "webteam"){
+  } else if (params.team === "webteam") {
     team = web;
     head = "Developed By";
-    
-    
   }
-  
+
   const ha = team[0];
   const cd = team[1];
   const sc = team[2];
@@ -81,7 +75,18 @@ export default function Card() {
                 <div className="img-container">
                   <div className="img-inner">
                     <div className="inner-skew">
-                      <img src={ha[1].image} alt="" />
+                      <img
+                        src={ha[1].image}
+                        alt=""
+                        className=" object-cover"
+                        style={
+                          {
+                            // objectFit: "cover",
+                            // objectPosition: "center",
+                          }
+                        }
+                      />
+                      hello
                     </div>
                   </div>
                 </div>
@@ -245,8 +250,24 @@ export default function Card() {
                     <div className="a-box">
                       <div className="img-container">
                         <div className="img-inner">
-                          <div className="inner-skew">
-                            <img className="secy-img" src={data.image} alt="" />
+                          <div
+                            className="inner-skew"
+                            alt=""
+                            style={{
+                              objectFit: "cover",
+                              objectPosition: "center",
+                            }}
+                          >
+                            <img
+                              className="secy-img"
+                              src={data.image}
+                              alt=""
+                              style={{
+                                width: "100%",
+                                height: "auto",
+                                objectFit: "cover",
+                              }}
+                            />
                           </div>
                         </div>
                       </div>

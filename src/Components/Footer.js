@@ -125,8 +125,34 @@ export default function Footer() {
                     </li>
                   </ul>
                 </div>
+                <div className="col-xs-6 col-md-2">
+                  <h6>SoCE Links</h6>
+                  <ul className="footer-links">
+                    <li>
+                      <a href="/reports" target="_blank">
+                        Reports
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/archive" target="_blank">
+                        Archive
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/contact" target="_blank">
+                        Contact
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/portals" target="_blank">
+                        Portals
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
+
             <div className="col-sm-12 col-md-3">
               <h6>Contact</h6>
               <p className="footer-p">
@@ -206,7 +232,8 @@ export default function Footer() {
                 <a href="#" id="company">
                   {" "}
                   SoCE, IIT Kanpur
-                </a> |
+                </a>{" "}
+                |
                 <a href="/team/webteam" id="company">
                   {" "}
                   Designed by Web Team
