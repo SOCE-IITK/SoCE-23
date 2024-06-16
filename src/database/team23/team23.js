@@ -124,25 +124,6 @@ var team23 = [
       mail: "mailto:pranays22@iitk.ac.in",
       image: "/team/team23/Events_Pranay.jpg",
     },
-
-    {
-      name: "Yash Kumar Mina",
-      post: " Events",
-      fb: "https://www.facebook.com/profile.php?id=100086825547227&mibextid=ZbWKwL",
-      insta: "https://instagram.com/yashkm_057?igshid=MzNlNGNkZWQ4Mg==",
-      linkedin: "https://www.linkedin.com/in/yash-kumar-2223b9253",
-      mail: "mailto:yashkm22@iitk.ac.in",
-      image: "/team/team23/Events_Yash.jpg",
-    },
-    {
-      name: "Arnav Gupta",
-      post: " Events",
-      fb: "https://www.facebook.com/profile.php?id=100086825547227&mibextid=ZbWKwL",
-      insta: "https://instagram.com/_arnav._.gupta?igshid=MzNlNGNkZWQ4Mg==",
-      linkedin: "http://www.linkedin.com/in/arnav-gupta-510a1025a",
-      mail: "mailto:arnavg22@iitk.ac.in ",
-      image: " /team/team23/Events_Arnav.jpg",
-    },
     {
       name: "Amrit Raj",
       post: " Events",
@@ -160,44 +141,6 @@ var team23 = [
       linkedin: "https://www.linkedin.com/in/anurag-%E3%85%A4-602214267",
       mail: "mailto:anurag22@iitk.ac.in",
       image: "/team/team23/Events_Anurag.jpg",
-    },
-    {
-      name: "Amit Singh Gurjar",
-      post: " Events",
-      fb: " ",
-      insta: " ",
-      linkedin: " ",
-      mail: " ",
-      image: "/team/team23/Events_Amit.jpg",
-    },
-    {
-      name: "Sakina Maner",
-      post: " Events",
-      fb: "https://www.facebook.com/profile.php?id=100086997155597&mibextid=ZbWKwL",
-      insta:
-        "https://instagram.com/sakinamaner22?utm_source=qr&igshid=dHdyN3lzdGVwYTlo",
-      linkedin: "https://www.linkedin.com/in/sakina-shafik-maner",
-      mail: "mailto:sakinasm22@iitk.ac.in",
-    },
-    {
-      name: "Arzoo Singh",
-      post: " Events",
-      fb: "",
-      insta: "https://www.instagram.com/arzoosingh371",
-      linkedin: "https://www.linkedin.com/in/arzoo-singh-745189297/",
-      mail: "mailto:arzoo22@iitk.ac.in",
-      image: "/team/team23/Events_Arzoo.jpg ",
-    },
-
-    {
-      name: "Radhika Agrawal ",
-      post: "Web Development",
-      fb: "https://www.facebook.com/profile.php?id=100086511100106&mibextid=ZbWKwL",
-      insta:
-        "https://instagram.com/radhika_24_agrawal_?igshid=MzNlNGNkZWQ4Mg==",
-      linkedin: "https://www.linkedin.com/in/radhika-agrawal-787187259",
-      mail: "aradhika22@iitk.ac.in",
-      image: "/team/team23/WebDev_Radhika.jpg ",
     },
     {
       name: "Deepesh Maurya",
@@ -226,15 +169,6 @@ var team23 = [
       mail: "mailto:kuldeepb22@iitk.ac.in",
       image: "/team/team23/WebDev_Kuldeep.jpeg",
     },
-    // {
-    //   name: "Bharat Kumar Jangid",
-    //   post: " Web Development",
-    //   fb: " https://www.facebook.com/profile.php?id=100087339133342&mibextid=ZbWKwL",
-    //   insta: "https://www.instagram.com/bharatkj22/",
-    //   linkedin: "https://www.linkedin.com/in/bharat-kumar-jangid-42782b281",
-    //   mail: "mailto:bharatkj22@iitk.ac.in",
-    //   image: "/team/team23/WebDev_Bharat.jpg",
-    // },
     {
       name: "Sahil Arolia",
       post: " Web Development",
@@ -243,15 +177,6 @@ var team23 = [
       linkedin: "https://www.linkedin.com/in/sahil-arolia-1a2bb8259",
       mail: "mailto:asahil22@iitk.ac.in",
       image: "/team/team23/WebDev_Sahil.jpg",
-    },
-    {
-      name: "Prabal Pratap Singh",
-      post: " Content",
-      fb: " ",
-      insta: "",
-      linkedin: "",
-      mail: "mailto:prabalps22@iitk.ac.in",
-      image: "/team/team23/Content_Prabal.jpeg",
     },
     {
       name: "Gattu Tejaswini",
@@ -292,25 +217,6 @@ var team23 = [
       mail: "mailto:princekss22@iitk.ac.in",
       image: "/team/team23/Content_Prince.jpg",
     },
-
-    {
-      name: "Saloni Mittal",
-      post: "Design",
-      fb: "https://www.facebook.com/profile.php?id=100087160338590&mibextid=ZbWKwL",
-      insta: "https://instagram.com/saloni.m25?igshid=NGExMmI2YTkyZg==",
-      linkedin: "https://www.linkedin.com/in/saloni-mittal-3a844a277",
-      mail: "mailto:salonim22@iitk.ac.in",
-      image: "/team/team23/Design_Saloni.jpeg ",
-    },
-    // {
-    //   name: "Simran Bror",
-    //   post: " Design",
-    //   fb: "https://www.facebook.com/profile.php?id=100089243701763&mibextid=ZbWKwL",
-    //   insta: "https://instagram.com/simranbror?igshid=MzNlNGNkZWQ4Mg==",
-    //   linkedin: "https://www.linkedin.com/in/simran-bror-181270262",
-    //   mail: "mailto:simran22@iitk.ac.in",
-    //   image: "/team/team23/Design_Simran.jpg",
-    // },
     {
       name: "Shubham Kumar",
       post: " Design",
@@ -319,16 +225,6 @@ var team23 = [
       linkedin: "https://www.linkedin.com/in/shubham-kumar-8b8963255",
       mail: "mailto:kshubham22@iitk.ac.in",
       image: "/team/team23/design_shubham.jpg",
-    },
-    {
-      name: "Surya Shukla",
-      post: " Design",
-      fb: "",
-      insta: "https://instagram.com/mr_lupin007?igshid=MzNlNGNkZWQ4Mg==",
-      linkedin:
-        "https://www.linkedin.com/in/surya-shukla-314650250?trk=contact-info",
-      mail: "mailto:suryas22@iitk.ac.in",
-      image: "/team/team23/Design_Surya.png",
     },
     {
       name: "Aayush Sidana",
@@ -349,15 +245,6 @@ var team23 = [
       image: "/team/team23/Design_Ramji.jpg",
     },
     {
-      name: "Amipriya Anand",
-      post: " Design",
-      fb: "https://www.facebook.com/profile.php?id=100086774125350&mibextid=ZbWKwL",
-      insta: "https://instagram.com/amipriyaanand?igshid=MzNlNGNkZWQ4Mg==",
-      linkedin: "https://www.linkedin.com/in/amipriya-anand-66a67a250",
-      mail: "mailto:amipriyaa22@iitk.ac.in",
-      image: "/team/team23/Design_Amipriya.jpg",
-    },
-    {
       name: "Gopal Tiwari",
       post: " Marketing & Finance",
       fb: "",
@@ -366,7 +253,6 @@ var team23 = [
       mail: "mailto:gopalt22@iitk.ac.in",
       image: "/team/team23/Finance_Gopal.jpg",
     },
-
     {
       name: "Satyam Kumar",
       post: " Marketing & Finance",
@@ -375,15 +261,6 @@ var team23 = [
       linkedin: "",
       mail: "",
       image: "/team/team23/Finance_Satyam.jpeg",
-    },
-    {
-      name: "Ashwani Singh",
-      post: " Marketing & Finance",
-      fb: "https://www.facebook.com/profile.php?id=100015492194860&mibextid=ZbWKwL",
-      insta: "https://www.instagram.com/singh_dhruvs/",
-      linkedin: "https://www.linkedin.com/in/ashwani-singh-2b1771202",
-      mail: "mailto:ashwaniks22@iitk.ac.in",
-      image: "/team/team23/Finance_Ashwani.jpg",
     },
     {
       name: "Vikranth Vavilapalli",
@@ -404,15 +281,6 @@ var team23 = [
       image: "/team/team23/Finance_Ruthwik.jpg",
     },
     {
-      name: "Priyanshu",
-      post: " Marketing & Finance",
-      fb: "",
-      insta: "https://www.instagram.com/priyanshu_.197/",
-      linkedin: "",
-      mail: "",
-      image: "/team/team23/Finance_Priyanshu.jpg",
-    },
-    {
       name: "Deepak Chaurasia",
       post: " Marketing & Finance",
       fb: " ",
@@ -422,24 +290,6 @@ var team23 = [
       mail: "mailto:deepakc22@iitk.ac.in",
       image: "/team/team23/finance_deepak.jpeg",
     },
-    {
-      name: "Rajeev Kumar",
-      post: " Marketing & Finance",
-      fb: " ",
-      insta: "https://instagram.com/kumarrajeev_13?igshid=NGExMmI2YTkyZg==",
-      linkedin: "https://www.linkedin.com/in/rajeev-kumar-a22ba224b",
-      mail: "mailto:rajeevk22@iitk.ac.in",
-      image: "/team/team23/Finance_Rajeev.jpg",
-    },
-    // {
-    //   name: "Adhyatm Singh",
-    //   post: " Marketing & Finance",
-    //   fb: " ",
-    //   insta: " ",
-    //   linkedin: " ",
-    //   mail: " ",
-    //   image: "/team/team23/Finance_Adhyatm.jpg",
-    // },
   ],
 ];
 

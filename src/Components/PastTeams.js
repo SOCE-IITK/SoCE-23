@@ -13,6 +13,16 @@ const PastTeams = () => {
           {/* <div> */}
           <div
             onClick={() => {
+              window.location = "/team/team23";
+            }}
+
+          >
+            <div className="col-5 team-card past-team-year">
+              <h1 className="text-center">Team 2023</h1>
+            </div>
+          </div>          
+          <div
+            onClick={() => {
               window.location = "/team/team22";
             }}
 

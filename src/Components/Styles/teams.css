@@ -1,26 +1,56 @@
-.pastTeams{
-    height: 80vh;
+.pastTeams {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.pastHeading{
-    text-align: center;
+
+.pastHeading {
+  text-align: center;
+  width: 100%;
 }
-.past-div{
-    margin-top: 10%;
+
+.past-div {
+  margin-top: 10%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: space-around; /* Space out items evenly */
 }
-.past-team-year:hover{
-    cursor: pointer;
+
+.past-team-year:hover {
+  cursor: pointer;
 }
-.team-card{
-    background-color: rgba(222, 226, 231, 0.5);
-    border-bottom: 2px solid #505050;
-    padding: 25px;
-    margin-top: 15px;
-    transition: 0.3s ease;
-    border-radius: 20px;
-    font-size: 12px;
-    margin-bottom: 20px;
-    font-family: Poppins,sans-serif;
-}.team-card:hover{
-    box-shadow: 1.5px 1.5px 6px rgba(0, 0, 0, 0.2);
-    transform: scale(1.02);
+
+.team-card {
+  background-color: rgba(222, 226, 231, 0.5);
+  border-bottom: 2px solid #505050;
+  padding: 10px;
+  margin: 10px; /* Add margin for spacing between cards */
+  transition: 0.3s ease;
+  border-radius: 20px;
+  font-size: 10px;
+  font-family: Poppins, sans-serif;
+  flex: 1 1 45%; /* Take up approximately half of the available space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.team-card:hover {
+  box-shadow: 1.5px 1.5px 6px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 758px) {
+  .past-div {
+    justify-content: center; /* Center items for smaller screens */
+  }
+  .team-card {
+    flex: 1 1 90%; /* Adjust width for smaller screens */
+  }
 }
