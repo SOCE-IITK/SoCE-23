@@ -31,7 +31,7 @@ var team24 = [
       insta: "https://www.instagram.com/pranay_s22/",
       linkedin: "https://www.linkedin.com/in/pranay-saxena-0971aa258/",
       mail: "mailto:pranays22@iitk.ac.in",
-      image: "/team/team23/Events_Pranay.jpg",
+      image: "/team/team23/Pranay_events.jpg",
     },
     {
       id: "2",
@@ -68,7 +68,7 @@ var team24 = [
       name: "Ruthvik Sai Kalahastri",
       post: " Marketing & Finance ",
       fb: "https://www.facebook.com/kalahastriruthvik2005/",
-      insta: "https://www.instagram.com/kalahastriruthvik_2005/",
+      insta: "https://www.instagram.com/ruthvik_2005_/",
       linkedin: "https://www.linkedin.com/in/ruthvik-sai-kalahastri-525100261/",
       mail: "mailto:ksruthvik22@iitk.ac.in",
       image: "/team/team23/Finance_Ruthwik.jpg",
@@ -81,7 +81,7 @@ var team24 = [
       insta:
         "https://www.instagram.com/lokeshsunda2004?igsh=MXNiZ212dnZyc2J6ZQ==",
       linkedin: "https://www.linkedin.com/in/lokesh-sunda-7b0773260/",
-      mail: "lokeshs22@iitk.ac.in",
+      mail: "mailto:lokeshs22@iitk.ac.in",
       image: "/team/team23/Finance_lokesh.jpg",
     },
     {
@@ -92,7 +92,7 @@ var team24 = [
       insta: "https://www.instagram.com/devagyavats?igsh=bjlqZHFsd3JoNHNp",
       linkedin:
         "https://www.linkedin.com/in/devagya-vats-a30657261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      mail: "devagyasv22@iitk.ac.in",
+      mail: "mailto:devagyasv22@iitk.ac.in",
       image: "/team/team23/devagya_dp.jpg",
     },
     {
@@ -102,7 +102,7 @@ var team24 = [
       fb: "https://www.facebook.com/rithvik.lok/",
       insta: "https://www.instagram.com/rithviklok/",
       linkedin: "https://www.linkedin.com/in/rithvik-l-b84231189/",
-      mail: "rithvikl23@iitk.ac.in",
+      mail: "mailto:rithvikl23@iitk.ac.in",
       image: "/team/team23/Rithvik L_content.jpg",
     },
     {
@@ -110,9 +110,9 @@ var team24 = [
       name: "Gousia Karishma Syed ",
       post: "Events ",
       fb: "Karishma Syed",
-      insta: "karishma___syed (fyi:3 _)",
+      insta: "https://www.instagram.com/karishma___syed/",
       linkedin: "http://www.linkedin.com/in/gousia-karishma-syed",
-      mail: "sgousia23@iitk.ac.in",
+      mail: "mailto:sgousia23@iitk.ac.in",
       image: "/team/team23/Gousia_Karishma_Syed__Events.jpg",
     },
     {
@@ -123,7 +123,7 @@ var team24 = [
       insta: "",
       linkedin:
         "https://www.linkedin.com/in/samanvitha-bandi-79baa9290?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BVtWS%2BDdCQUOJ0d6XXLT6Rg%3D%3D",
-      mail: "bandis23@iitk.ac.in",
+      mail: "mailto:bandis23@iitk.ac.in",
       image: "/team/team23/Bandi Samanvitha_Events.jpg",
     },
   ],
