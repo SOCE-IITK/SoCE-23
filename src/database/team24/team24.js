@@ -87,7 +87,7 @@ var team24 = [
     {
       id: "7",
       name: "Devagya Singh Vats",
-      post: "Projects and Content ",
+      post: " Content and Projects ",
       fb: "https://www.facebook.com/profile.php?id=100086680848212",
       insta: "https://www.instagram.com/devagyavats?igsh=bjlqZHFsd3JoNHNp",
       linkedin:
@@ -98,7 +98,7 @@ var team24 = [
     {
       id: "8",
       name: "Rithvik L",
-      post: "Content and Project  ",
+      post: "Content and Projects  ",
       fb: "https://www.facebook.com/rithvik.lok/",
       insta: "https://www.instagram.com/rithviklok/",
       linkedin: "https://www.linkedin.com/in/rithvik-l-b84231189/",
@@ -118,7 +118,7 @@ var team24 = [
     {
       id: "10",
       name: "Bandi Samanvitha",
-      post: " Event   ",
+      post: " Events   ",
       fb: "",
       insta: "",
       linkedin:

@@ -32,8 +32,9 @@ import Vineet_Shukla from '../../Components/blogs/Vineet_Shukla';
 import Vishal_Agarwal from '../../Components/blogs/Vishal_Agarwal';
 import Yashkrit_Gupta from '../../Components/blogs/Yashkrit_Gupta';
 import Yashvardhan_Raizada from '../../Components/blogs/Yashvardhan_Raizada';
-
+import Ajeet_Kushwaha from '../blogs/Ajeet_kushwaha_Y20';
 import React from 'react'
+
 
 
 
@@ -44,6 +45,7 @@ const Show = () => {
     const link = `https://soceiitk.org/${id}`
     if (id === "ankit") return <Ankit />;
     else if (id === "ashish") return <Ashish_Singh />;
+    else if (id === "ajeet_kushwaha") return <Ajeet_Kushwaha />;
     else if (id === "ayush_dwivedi") return <Ayush_Dwivedi />;
     else if (id === "aditya_gupta") return <Aditya_Gupta />;
     else if (id === "srajan_jain") return <Srajan_Jain />;

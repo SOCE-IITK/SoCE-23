@@ -1,5 +1,15 @@
 var chats = [
   {
+    name: "Ajeet kushwaha (Y19)",
+    work: "Deloitte",
+    text: " Hi everyone. Myself Ajeet Kushwaha and I’m placed in Deloitte as a consultant.This is my story of how I navigated my way to placement. ",
+    dp: "placement-postulates/dp/Ajeet-khushwaha.jpg",
+    link: "/ajeet_kushwaha",
+    thumbnail: "",
+    og: "/Ajeet_kushwaha_Y20",
+    year: "y20",
+  },
+  {
     name: "Ashish (Y19)",
     work: "Tata Projects Limited",
     text: " Hi! This is Ashish, a Y19 BT-CE, currently placed in Tata Projects Limited (TPL). Through this blog, I share my journey from submitting my resume after deadline extension to securing an offer at TPL",
