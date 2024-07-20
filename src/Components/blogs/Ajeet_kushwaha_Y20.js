@@ -1,5 +1,8 @@
 import React from "react";
 import "./blogs.css";
+import ajeet_2 from "./ajeet-2.webp";
+import ajeet_4 from "./ajeet-4.webp";
+
 
 const Ajeet_Kushwaha = () => {
   return (
@@ -38,7 +41,7 @@ const Ajeet_Kushwaha = () => {
         </div>
         <img
           class="blog-image-right"
-          src="placement-postulates/blogs/Ajeet-Kushwaha/1.jpg"
+          src="placement-postulates/blogs/Ajeet-Kushwaha/1.webp"
           alt="ajeet"
         />
         <div className="row blog-row">
@@ -68,7 +71,7 @@ const Ajeet_Kushwaha = () => {
         </div>
         <img
           class="blog-image-left"
-          src="placement-postulates/blogs/Ajeet-kushwaha/2.jpg"
+          src= {ajeet_2}
           alt="ajeet"
         />
         <div className="row blog-row">
@@ -113,7 +116,7 @@ const Ajeet_Kushwaha = () => {
         <br />
         <img
           class="blog-image-right"
-          src="placement-postulates/blogs/Ajeet-kushwaha/4.jpg"
+          src= {ajeet_4}
           style={{ height:"300px", width:"30%"}}
           alt="ajeet"
         />
@@ -160,7 +163,7 @@ const Ajeet_Kushwaha = () => {
         </div>
         <img
         className="blog-image-right"
-        src="/placement-postulates/blogs/Ajeet-Kushwaha/3.jpg"
+        src="/placement-postulates/blogs/Ajeet-Kushwaha/3.webp"
         style={{ height: "250px", width: "30%" }}
         alt="Ajeet Kushwaha"
       /> 

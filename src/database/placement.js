@@ -1,6 +1,16 @@
 var chats = [
   {
-    name: "Ajeet kushwaha (Y19)",
+    name: "Arush Kumar Rai (Y20)",
+    work: "Tata Projects Limited",
+    text: " Hi everyone, I'm Arush, a Y20 BT-CE student, currently placed at Tata Projects Limited (TPL).",
+    dp: "placement-postulates/dp/Arush-Kumar-Rai.jpg",
+    link: "/Arush",
+    thumbnail: "",
+    og: "/Arush_Y20",
+    year: "y20",
+  },
+  {
+    name: "Ajeet kushwaha (Y20)",
     work: "Deloitte",
     text: " Hi everyone. Myself Ajeet Kushwaha and I’m placed in Deloitte as a consultant.This is my story of how I navigated my way to placement. ",
     dp: "placement-postulates/dp/Ajeet-khushwaha.jpg",
