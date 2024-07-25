@@ -1,4 +1,15 @@
+import shubham from "../Components/Assets/shubham.webp"
 var chats = [
+  {
+    name: "Shubham kumar (Y20)",
+    work: "Larsen & Toubro Limited",
+    text: "  Hi, I’m Shubham, and I got placed as a Management Trainee at Larsen and Toubro.",
+    dp: shubham,
+    link: "/shubham",
+    thumbnail: "",
+    og: "/Shubham-kumar",
+    year: "y20",
+  },
   {
     name: "Arush Kumar Rai (Y20)",
     work: "Tata Projects Limited",
