@@ -1,5 +1,16 @@
-import shubham from "../Components/Assets/shubham.webp"
+import shubham from "../Components/Assets/shubham.webp";
+import Utkarsh_Sri from "../Components/Assets/Utkarsh_Sri.webp";
 var chats = [
+  {
+    name: "Utkarsh Srivastava (Y20)",
+    work: "Data Analyst at ICICI Bank",
+    text: "Hello everyone! I'm Utkarsh Srivastava (Y20) a recent B.Tech graduate from Civil Engineering department. ",
+    dp: Utkarsh_Sri,
+    link: "/utkarsh",
+    thumbnail: "",
+    og: "/utkarsh",
+    year: "y20",
+  },
   {
     name: "Shubham kumar (Y20)",
     work: "Larsen & Toubro Limited",
@@ -393,4 +404,4 @@ var chats = [
   },
 ];
 
-export default chats
+export default chats;
