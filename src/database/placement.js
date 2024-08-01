@@ -40,6 +40,15 @@ var chats = [
     thumbnail: "",
     og: "/Ajeet_kushwaha_Y20",
     year: "y20",
+  }, {
+    name: "Prajakta Kapre(Y22)",
+    work: "HILTI",
+    text: " Hi everyone I am Prajakta Kapre, currently placed in HILTI company in the Value Engineering hub as Technical Engineer-1.",
+    dp: "placement-postulates/dp/Prajakta.png",
+    link: "/Prajakta",
+    thumbnail: "",
+    og: "/Prajakta",
+    year: "y22",
   },
   {
     name: "Ashish (Y19)",
@@ -402,6 +411,7 @@ var chats = [
     og: "Jeetendra_Kumar_Patel",
     year: "y16",
   },
+ 
 ];
 
 export default chats;

@@ -50,6 +50,7 @@ import Aditya_Gupta from './Components/blogs/Aditya_Gupta';
 import Ayush_Dwivedi from './Components/blogs/Ayush_Dwivedi';
 import Ashish_Singh from './Components/blogs/Ashish_Singh';
 import Ajeet_Kushwaha from './Components/blogs/Ajeet_kushwaha_Y20';
+import Prajakta_Kapre from './Components/blogs/Prajakta_Kapre';
 import Gallery from './Components/Gallery/Gallery';
 
 function App() {
@@ -101,6 +102,7 @@ function App() {
         <Route path="/naman" element={<Naman_Jain />}></Route>
         <Route path="/neha" element={<Neha_Aggarwal />}></Route>
         <Route path="/piyush" element={<Piyush_Senwar />}></Route>
+        <Route path="/Prajakta" element={<Prajakta_Kapre />}></Route>
         <Route path="/rahul" element={<Rahul_Gauriyar />}></Route>
         <Route path="/rajat" element={<Rajat_Ghoshal />}></Route>
         <Route path="/samyak" element={<Samyak_Jain />}></Route>
