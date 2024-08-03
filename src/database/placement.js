@@ -1,6 +1,17 @@
 import shubham from "../Components/Assets/shubham.webp";
 import Utkarsh_Sri from "../Components/Assets/Utkarsh_Sri.webp";
+import Sameer_Khan from "../Components/Assets/Sameer_Khan.png";
 var chats = [
+  {
+    name: "Sameer Khan (Y20)",
+    work: "Data Analyst at ICICI Bank",
+    text: "Hii! I am Sameer, and an apt way to describe myself will be the term ‘Y20 from Civil’. Before beginning my whole journey, let me pen down the expectations which I have had before entering IITK",
+    dp: Sameer_Khan,
+    link: "/sameer",
+    thumbnail: "",
+    og: "/sameer",
+    year: "y20",
+  },
   {
     name: "Utkarsh Srivastava (Y20)",
     work: "Data Analyst at ICICI Bank",

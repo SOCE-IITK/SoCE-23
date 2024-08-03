@@ -36,6 +36,7 @@ import Ajeet_Kushwaha from "../blogs/Ajeet_kushwaha_Y20";
 import Arush_Kumar_Rai from "../blogs/Arush_Kumar_Rai";
 import Shubham from "../blogs/Shubham_kumar";
 import Utkarsh from "../blogs/Utkarsh_srivastava";
+import Sameer from "../blogs/Sameer_khan";
 import React from "react";
 
 const Show = () => {
@@ -43,6 +44,7 @@ const Show = () => {
   const id = params.link;
   const link = `https://soceiitk.org/${id}`;
   if (id === "ankit") return <Ankit />;
+  else if (id === "sameer") return <Sameer />;
   else if (id === "ashish") return <Ashish_Singh />;
   else if (id === "utkarsh") return <Utkarsh />;
   else if (id === "samyak_jain_y18") return <Samyak_Jain_Y18 />;
