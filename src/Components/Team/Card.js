@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 import team24 from "../../database/team24/team24"; // Import team24
 import team23 from "../../database/team23/team23"; // Import team23
 import team22 from "../../database/team22/team22";
@@ -9,10 +9,10 @@ import { useParams } from "react-router-dom";
 
 export default function Card() {
   const params = useParams();
-  console.log('Params:', params);
+  console.log("Params:", params);
 
   useEffect(() => {
-    console.log('Team24 Data:', team24);
+    console.log("Team24 Data:", team24);
   }, []);
 
   let team;
@@ -43,7 +43,7 @@ export default function Card() {
   }
 
   if (!team) {
-    console.error('Team data not found!');
+    console.error("Team data not found!");
     return null;
   }
 
@@ -126,22 +126,42 @@ export default function Card() {
                 <h3>{data.post}</h3>
                 <ul className="team-social-icons">
                   <li>
-                    <a className="facebook" target="_blank" href={data.fb} rel="noreferrer">
+                    <a
+                      className="facebook"
+                      target="_blank"
+                      href={data.fb}
+                      rel="noreferrer"
+                    >
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a className="dribbble" target="_blank" href={data.insta} rel="noreferrer">
+                    <a
+                      className="dribbble"
+                      target="_blank"
+                      href={data.insta}
+                      rel="noreferrer"
+                    >
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a className="linkedin" target="_blank" href={data.linkedin} rel="noreferrer">
+                    <a
+                      className="linkedin"
+                      target="_blank"
+                      href={data.linkedin}
+                      rel="noreferrer"
+                    >
                       <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
                   <li>
-                    <a className="twitter" target="_blank" href={data.mail} rel="noreferrer">
+                    <a
+                      className="twitter"
+                      target="_blank"
+                      href={data.mail}
+                      rel="noreferrer"
+                    >
                       <i className="fa fa-envelope"></i>
                     </a>
                   </li>
@@ -166,22 +186,42 @@ export default function Card() {
                       <h3>{data.post}</h3>
                       <ul className="team-social-icons">
                         <li>
-                          <a className="facebook" target="_blank" href={data.fb} rel="noreferrer">
+                          <a
+                            className="facebook"
+                            target="_blank"
+                            href={data.fb}
+                            rel="noreferrer"
+                          >
                             <i className="fa fa-facebook"></i>
                           </a>
                         </li>
                         <li>
-                          <a className="dribbble" target="_blank" href={data.insta} rel="noreferrer">
+                          <a
+                            className="dribbble"
+                            target="_blank"
+                            href={data.insta}
+                            rel="noreferrer"
+                          >
                             <i className="fa fa-instagram"></i>
                           </a>
                         </li>
                         <li>
-                          <a className="linkedin" target="_blank" href={data.linkedin} rel="noreferrer">
+                          <a
+                            className="linkedin"
+                            target="_blank"
+                            href={data.linkedin}
+                            rel="noreferrer"
+                          >
                             <i className="fa fa-linkedin"></i>
                           </a>
                         </li>
                         <li>
-                          <a className="twitter" target="_blank" href={data.mail} rel="noreferrer">
+                          <a
+                            className="twitter"
+                            target="_blank"
+                            href={data.mail}
+                            rel="noreferrer"
+                          >
                             <i className="fa fa-envelope"></i>
                           </a>
                         </li>
@@ -197,7 +237,6 @@ export default function Card() {
           <br />
           <br />
           <h2 className="text-center">Secretary</h2>
-          <h3 className="text-center">Coming Soon</h3>
           <div className="row postulates-card d-flex justify-content-around">
             {sc &&
               sc.map((data, index) => (
@@ -205,12 +244,22 @@ export default function Card() {
                   <div className="a-box">
                     <div className="img-container">
                       <div className="img-inner">
-                        <div className="inner-skew" style={{ objectFit: "cover", objectPosition: "center" }}>
+                        <div
+                          className="inner-skew"
+                          style={{
+                            objectFit: "cover",
+                            objectPosition: "center",
+                          }}
+                        >
                           <img
                             className="secy-img"
                             src={data.image}
                             alt={data.name}
-                            style={{ width: "100%", height: "auto", objectFit: "cover" }}
+                            style={{
+                              width: "100%",
+                              height: "auto",
+                              objectFit: "cover",
+                            }}
                           />
                         </div>
                       </div>
@@ -220,22 +269,42 @@ export default function Card() {
                       <h3>{data.post}</h3>
                       <ul className="team-social-icons">
                         <li>
-                          <a className="facebook" target="_blank" href={data.fb} rel="noreferrer">
+                          <a
+                            className="facebook"
+                            target="_blank"
+                            href={data.fb}
+                            rel="noreferrer"
+                          >
                             <i className="fa fa-facebook"></i>
                           </a>
                         </li>
                         <li>
-                          <a className="dribbble" target="_blank" href={data.insta} rel="noreferrer">
+                          <a
+                            className="dribbble"
+                            target="_blank"
+                            href={data.insta}
+                            rel="noreferrer"
+                          >
                             <i className="fa fa-instagram"></i>
                           </a>
                         </li>
                         <li>
-                          <a className="linkedin" target="_blank" href={data.linkedin} rel="noreferrer">
+                          <a
+                            className="linkedin"
+                            target="_blank"
+                            href={data.linkedin}
+                            rel="noreferrer"
+                          >
                             <i className="fa fa-linkedin"></i>
                           </a>
                         </li>
                         <li>
-                          <a className="twitter" target="_blank" href={data.mail} rel="noreferrer">
+                          <a
+                            className="twitter"
+                            target="_blank"
+                            href={data.mail}
+                            rel="noreferrer"
+                          >
                             <i className="fa fa-envelope"></i>
                           </a>
                         </li>
