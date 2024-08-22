@@ -37,6 +37,7 @@ import Arush_Kumar_Rai from "../blogs/Arush_Kumar_Rai";
 import Shubham from "../blogs/Shubham_kumar";
 import Utkarsh from "../blogs/Utkarsh_srivastava";
 import Sameer from "../blogs/Sameer_khan";
+import Narendra_prajapat from "../blogs/Narendra_prajapat";
 import React from "react";
 
 const Show = () => {
@@ -83,6 +84,7 @@ const Show = () => {
   else if (id === "chitwan_garg") return <Chitwan_Garg />;
   else if (id === "shuaib_alam") return <Shuaib_Alam />;
   else if (id === "jeetendra") return <JeetendraKP />;
+  else if (id === "Narendra_prajapat") return <Narendra_prajapat/>;
 };
 
 export default Show;

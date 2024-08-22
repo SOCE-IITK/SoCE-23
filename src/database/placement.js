@@ -3,6 +3,16 @@ import Utkarsh_Sri from "../Components/Assets/Utkarsh_Sri.webp";
 import Sameer_Khan from "../Components/Assets/Sameer_Khan.png";
 var chats = [
   {
+    name: "Narendra Prajapat",
+    work: "Future First",
+    text: "Hi, I am Narendra Prajapat, a market analyst at Futures First. For me, it was effective communication and confidence that made all the difference.",
+    dp: "placement-postulates/blogs/Narendra-prajapat/1.jpg",
+    link: "/narendra",
+    thumbnail: "",
+    og: "/narendra",
+    year: "",
+  },
+  {
     name: "Sameer Khan (Y20)",
     work: "Data Analyst at ICICI Bank",
     text: "Hii! I am Sameer, and an apt way to describe myself will be the term ‘Y20 from Civil’. Before beginning my whole journey, let me pen down the expectations which I have had before entering IITK",
@@ -422,7 +432,8 @@ var chats = [
     og: "Jeetendra_Kumar_Patel",
     year: "y16",
   },
- 
+  
+
 ];
 
 export default chats;
