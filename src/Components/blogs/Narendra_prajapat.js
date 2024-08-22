@@ -15,7 +15,7 @@ const Narendra_prajapat = () => {
       <div className="col-md-8">
         <div className="blog-head">
           <h2>Narendra Prajapat</h2>
-          <small> Larsen & Toubro Limited</small>
+          <small> Futures First</small>
         </div>
       </div>
     </div>
