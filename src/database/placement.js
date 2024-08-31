@@ -3,6 +3,7 @@ import Utkarsh_Sri from "../Components/Assets/Utkarsh_Sri.webp";
 import Sameer_Khan from "../Components/Assets/Sameer_Khan.png";
 var chats = [
   {
+    {
     name: "Narendra Prajapat",
     work: "Future First",
     text: "Hi, I am Narendra Prajapat, a market analyst at Futures First. For me, it was effective communication and confidence that made all the difference.",
@@ -11,6 +12,17 @@ var chats = [
     thumbnail: "",
     og: "/narendra",
     year: "",
+  }
+    {
+    name: "Prajakta Kapre(Y22)",
+    work: "HILTI",
+    text: " Hi everyone I am Prajakta Kapre, currently placed in HILTI company in the Value Engineering hub as Technical Engineer-1.",
+    dp: "placement-postulates/dp/Prajakta.png",
+    link: "/Prajakta",
+    thumbnail: "",
+    og: "/Prajakta",
+    year: "y22",
+
   },
   {
     name: "Sameer Khan (Y20)",
@@ -61,15 +73,6 @@ var chats = [
     thumbnail: "",
     og: "/Ajeet_kushwaha_Y20",
     year: "y20",
-  }, {
-    name: "Prajakta Kapre(Y22)",
-    work: "HILTI",
-    text: " Hi everyone I am Prajakta Kapre, currently placed in HILTI company in the Value Engineering hub as Technical Engineer-1.",
-    dp: "placement-postulates/dp/Prajakta.png",
-    link: "/Prajakta",
-    thumbnail: "",
-    og: "/Prajakta",
-    year: "y22",
   },
   {
     name: "Ashish (Y19)",
@@ -432,7 +435,6 @@ var chats = [
     og: "Jeetendra_Kumar_Patel",
     year: "y16",
   },
-  
 
 ];
 

@@ -7,7 +7,7 @@ const Sameer = () => {
       <div className="row blog-row">
         <div className="col-md-4">
           <img
-            src=""
+            src="placement-postulates/dp/Sameer_Khan.jpg"
             style={{ height: "315px", width: "90%" }}
             alt="Sameer"
           ></img>
@@ -40,7 +40,7 @@ const Sameer = () => {
         </div>
         <img
           class="blog-image-right"
-          src="placement-postulates/blogs/Shubham-kumar/1.jpg"
+          src="placement-postulates/blogs/Sammer-khan/1.jpg"
           alt="Sameer"
         />
 
@@ -104,7 +104,7 @@ const Sameer = () => {
         <br />
         <img
           class="blog-image-right"
-          src="placement-postulates/blogs/Shubham-kumar/2.jpg"
+          src="placement-postulates/blogs/Sammer-khan/2.jpg"
           alt="Sameer"
         />
         <p>
@@ -161,7 +161,7 @@ const Sameer = () => {
         </div>
         <img
           class="blog-image-right"
-          src="placement-postulates/blogs/Shubham-kumar/4.jpg"
+          src="placement-postulates/blogs/Sammer-khan/4.jpg"
           alt="Sameer"
         />
         <div className="row blog-row">
@@ -287,7 +287,7 @@ const Sameer = () => {
 
         <img
           class="blog-image-right"
-          src="placement-postulates/blogs/Shubham-kumar/7.jpg"
+          src="placement-postulates/blogs/Sammer-khan/3.jpg"
           alt="Sameer"
         />
 
@@ -405,7 +405,7 @@ const Sameer = () => {
           </div>
         </div>
         <div className="row blog-row">
-          <div className="col-md-12">
+          <div className="col-md-8">
             <h3>Final thoughts</h3>
             <p>
               Through the course of my life at IITK, I have had a lot of
@@ -423,12 +423,14 @@ const Sameer = () => {
               here but am surely grateful for their serene existence.
             </p>
           </div>
+          <div className="col-md-4">
+            <img
+              className="img-fluid"
+              src="placement-postulates/blogs/Sammer-khan/4.jpg"
+              alt="Sameer"
+            />
+          </div>
         </div>
-        <img
-          class="blog-image-right"
-          src="placement-postulates/blogs/Shubham-kumar/4.jpg"
-          alt="Sameer"
-        />
       </div>
     </div>
   );
