@@ -51,7 +51,8 @@ export default function Research_Seminar() {
         </div>
         <div className="col-md-3 far">
           <div className="row">
-            <h3>Placement Postulates</h3>
+            <h3>Placement Postulates<span className="text-red-500 text-xs font-bold ml-1 align-super">New</span>
+            </h3>
             <p>
               SoCE provides a series of blogs where graduating seniors share
               their placement experiences, advice on how to handle the process

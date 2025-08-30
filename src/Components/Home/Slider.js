@@ -65,7 +65,7 @@ export default function Slider() {
       <div className="container slider-parent">
         <div className="row">
           <div className="col">
-            <h1 id="recent">Recent Activities</h1>
+            <h1 id="recent">Upcoming Activities</h1>
           </div>
         </div>
         <div className="row slider-row">
@@ -76,14 +76,14 @@ export default function Slider() {
                                     <i id='p' onClick={customp} className="fa fa-angle-left"></i>
                                 </div> */}
                 <div className="col-lg-4 col-md-12 slider-image-container">
-                  <img id="img" src={img[0]}></img>
+                  {/* <img id="img" src={img[0]}></img> */}
                 </div>
                 <div className="col-lg-8 col-md-12">
                   <div className="container-fluid">
                     <div className="white">
                       <div className="row ">
                         <div className="col">
-                          <h1 id="slider-heading">{content[0][1]}</h1>
+                          { <h1 id="slider-heading">{content[0][1]}</h1> }
                         </div>
                       </div>
                       <div className="row ">

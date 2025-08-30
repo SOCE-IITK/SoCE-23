@@ -1,7 +1,7 @@
 var team25 = [
   [
     {
-      name: "Prof. Priyank Ghosh",
+      name: "Prof. Priyanka Ghosh",
       post: "HOD",
       fb: "https://www.facebook.com/profile.php?id=100005799362676",
       insta: "https://www.instagram.com/govind_gupta_46/",
@@ -56,7 +56,7 @@ var team25 = [
     {
       id: "5",
       name: "S Neha Patel",
-      post: " Marketing & Finance ",
+      post: "Marketing & Finance ",
       fb: "https://www.facebook.com/share/19iCgNhmYC/",
       insta: "https://www.instagram.com/nehapatel_3405?igsh=Y2J6enVxcm9zNWVj",
       linkedin: "https://www.linkedin.com/in/shenkesi-neha-patel-a4276b289?",
@@ -99,27 +99,27 @@ var team25 = [
   [
   {
     id: "1",
-    name: "JAYENDRA SINGH",
+    name: "Jayendra Singh",
     post: "Web",
     fb: "",
     insta: "https://www.instagram.com/the_majestic_jatin_27/?__pwa=1#",
     linkedin: "https://www.linkedin.com/in/jayendra-singh-51b001322",
     mail: "mailto:jayendras24@iitk.ac.in",
-    image: "/team/team25/Jayendra_Web.jpeg"
+    image: "/team/team25/Jayendra_web.jpeg"
   },
-  {
+ {
     id: "2",
-    name: "NIKHIL KUMAR",
+    name: "Nikhil kumar",
     post: "Web",
     fb: "",
     insta: "nikhilprajapati-21",
     linkedin: "https://www.linkedin.com/in/nikhil-prajapati-15bbab298",
     mail: "mailto:nikhilr24@iitk.ac.in",
-    image: "/team/team25/Nikhil_Web.jpeg"
+    image: "/team/team25/Nikhil_web.png"
   },
   {
     id: "3",
-    name: "PAMPANA SASHANK",
+    name: "Pampana Sashank",
     post: "Web",
     fb: "",
     insta: "sashankp_06",
@@ -129,8 +129,8 @@ var team25 = [
   },
   {
     id: "4",
-    name: "Y KRISHNA POOJITHA",
-    post: "Finance and Marketing",
+    name: "Y Krishna Poojitha",
+    post: "Marketing & Finance",
     fb: "",
     insta: "https://www.instagram.com/ykpoojitha_1306",
     linkedin: "https://www.linkedin.com/in/krishna-poojitha-yadavalli-19293b330",
@@ -139,7 +139,7 @@ var team25 = [
   },
   {
     id: "5",
-    name: "SHIVA SRI SARKANI",
+    name: "Shiva Sri Sarkani",
     post: "Design",
     fb: "Shiva sri",
     insta: "https://www.instagram.com/shiva_sri9/",
@@ -149,7 +149,7 @@ var team25 = [
   },
   {
     id: "6",
-    name: "ARNAB PATRA",
+    name: "Arnab Patra",
     post: "Events",
     fb: "",
     insta: "https://www.instagram.com/arnab77_/",
@@ -159,7 +159,7 @@ var team25 = [
   },
   {
     id: "7",
-    name: "YASH SONI",
+    name: "Yash Soni",
     post: "Event",
     fb: "https://www.facebook.com/profile.php?id=100071227735973",
     insta: "https://www.instagram.com/soni2006yash/",
@@ -169,8 +169,8 @@ var team25 = [
   },
   {
     id: "8",
-    name: "MEHAR FATIMA",
-    post: "Finance and Marketing",
+    name: "Mehar Fatima",
+    post: "Marketing & Finance",
     fb: "",
     insta: "https://www.instagram.com/meharfatima05/",
     linkedin: "https://www.linkedin.com/in/mehar-fatima-490b27220",
@@ -179,7 +179,7 @@ var team25 = [
   },
   {
     id: "9",
-    name: "GIRISH BHOJWANI",
+    name: "Girish Bhojwani",
     post: "Media and Content",
     fb: "",
     insta: "https://www.instagram.com/girish.iitk/",
@@ -189,7 +189,7 @@ var team25 = [
   },
   {
     id: "10",
-    name: "VIHAN PUROHIT",
+    name: "Vihan Purohit",
     post: "Design",
     fb: "",
     insta: "https://www.instagram.com/vihanpurohit_03/",
@@ -199,7 +199,7 @@ var team25 = [
   },
   {
     id: "11",
-    name: "ALURI HYNDAVI SAI",
+    name: "Aluri Hyndavi Sai",
     post: "Finance and Marketing",
     fb: "",
     insta: "https://www.instagram.com/alurihyndavi/",
@@ -209,7 +209,7 @@ var team25 = [
   },
   {
     id: "12",
-    name: "CHITRANK SINGH SHEKHAWAT",
+    name: "Chitrank Sinha",
     post: "Events",
     fb: "",
     insta: "https://www.instagram.com/_.itz_chiku_/",
@@ -219,7 +219,7 @@ var team25 = [
   },
   {
     id: "13",
-    name: "SAKSHAM",
+    name: "Saksham",
     post: "Events",
     fb: "",
     insta: "#",
@@ -229,7 +229,7 @@ var team25 = [
   },
   {
     id: "14",
-    name: "KARTIKEY AGARWAL",
+    name: "Kartikey Agarwal",
     post: "Design",
     fb: "Nope",
     insta: "https://www.instagram.com/agarwal.k._/",
@@ -239,7 +239,7 @@ var team25 = [
   },
   {
     id: "15",
-    name: "SRASHTI SINGH",
+    name: "Srashti Singh",
     post: "Design",
     fb: "",
     insta: "https://www.instagram.com/srashtiiiii/",
@@ -249,7 +249,7 @@ var team25 = [
   },
   {
     id: "16",
-    name: "ANIRUDH KOSLEY",
+    name: "Anirudh Kosley",
     post: "Marketing & Finance",
     fb: "https://www.facebook.com/anirudh.kumar.5099/",
     insta: "anirudh_kosley",
@@ -259,8 +259,8 @@ var team25 = [
   },
   {
     id: "17",
-    name: "SHAIK KAMOOSH BABA",
-    post: "Geoinformatics",
+    name: "Shaik Kamoosh",
+    post: "Events",
     fb: "https://www.facebook.com/profile.php?id=100094720843708",
     insta: "kamoosh_shaik",
     linkedin: "https://www.linkedin.com/in/kamooshshaik",
@@ -269,7 +269,7 @@ var team25 = [
   },
   {
     id: "18",
-    name: "JASMINE KHALKHO",
+    name: "Jasmine Khalkho",
     post: "Media and Content",
     fb: "",
     insta: "https://www.instagram.com/_j_as_mine/",
@@ -279,8 +279,8 @@ var team25 = [
   },
   {
     id: "19",
-    name: "BISHWAS KUMAR",
-    post: "Finance & Marketing",
+    name: "Bishwas Kumar",
+    post: "Marketing & Finance",
     fb: "https://www.facebook.com/vishwas.kumarmishra",
     insta: "https://www.instagram.com/free4tech/",
     linkedin: "https://www.linkedin.com/in/bishwas-kumar-991431126",
@@ -289,8 +289,8 @@ var team25 = [
   },
   {
     id: "20",
-    name: "ADITI SAHU",
-    post: "Marketing and Finance",
+    name: "Aditi Sahu",
+    post: "Marketing & Finance",
     fb: "",
     insta: "https://www.instagram.com/tashu_aditi/?__pwa=1#",
     linkedin: "https://www.linkedin.com/in/aditi-sahu911",
@@ -298,6 +298,7 @@ var team25 = [
     image: "/team/team25/Aditi_MF.jpg"
   }
 ],
+
 ];
 
 module.exports = team25;

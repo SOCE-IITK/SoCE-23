@@ -1,6 +1,17 @@
 import shubham from "../Components/Assets/shubham.webp";
 import Utkarsh_Sri from "../Components/Assets/Utkarsh_Sri.webp";
+import Suraj_k from "../Components/Assets/Suraj.jpeg";
 var chats = [
+  {
+    name: "Suraj Kumar (Y21)",
+    work: "Godrej Properties Limited (GPL)",
+    text: "Hello everyone! I'm Suraj Kumar (Y21) a recent B.Tech graduate from Civil Engineering department. ",
+    dp: Suraj_k,
+    link: "/Suraj",
+    thumbnail: "",
+    og: "/Suraj",
+    year: "y21",
+  },
   {
     name: "Utkarsh Srivastava (Y20)",
     work: "Data Analyst at ICICI Bank",

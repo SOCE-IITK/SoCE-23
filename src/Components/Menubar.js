@@ -149,7 +149,8 @@ function Menubar() {
           <Nav className="ms-auto justify-content-center">
             {Menu}
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/students">Students</Nav.Link>
+            <Nav.Link href="/students">Students
+            <span className="text-red-500 text-xs font-bold ml-1 align-super">New</span> </Nav.Link>
             <Nav.Link href="/strengths">
               Strengths
               
