@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from "react";
 import $ from "jquery";
 import { content, img } from "../../Data/slider_data";
-
-import "./slider.css";
-
-
 var a = 0;
 export default function Slider() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -201,7 +197,7 @@ export default function Slider() {
                   </div>
                 </div>
 
-<<<<<<< HEAD
+
                <div className="slider-container">
   {/* Left Arrow */}
   <div className="arrow left">
@@ -228,7 +224,7 @@ export default function Slider() {
                                 </div>
               </div>
               <div className="row circles">
-                <div className="col">
+                <div className="col" style={{ gap:"30px",display:"flex",justifyContent:"center",alignItems:"center" }}>
                   <i id="p" onClick={customp} className="fa fa-angle-left"></i>
                   <i className="fa fa-circle-thin indicators" onClick={i1}></i>
                   <i className="fa fa-circle-thin indicators" onClick={i2}></i>
@@ -258,7 +254,7 @@ export default function Slider() {
 
           <div className='col-0.5'></div>
         </div>
->>>>>>> 3aef799356e5e3eb8eb48dba30bbc10cc278f797
+
 
         {/* <div className="row circles">
                     <div className="col">
