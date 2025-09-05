@@ -22,7 +22,7 @@ const content = [
   [
     "We have more activities in the pipeline that will be announced shortly. Keep checking this space for further information.",
     "Coming Soon",
-    "...",
+    "....",
     "https://www.instagram.com/society_of_civil_engineers/?hl=en",  
     "#"
   ],
@@ -30,7 +30,7 @@ const content = [
 
 // only 1st slide has image
 const img = [
-  "Post-photos/informal.jpeg",
+  "Post-photos/info.png",
   "",
   "",
   ""
