@@ -24,13 +24,12 @@ export default function Slider() {
       $(this).html(content[i][2]).animate({ opacity: 1 }, 200);
     });
 
-    // only show image if available
     if (img[i]) {
       $("#img").show().animate({ opacity: 0 }, 400, function () {
         $(this).attr("src", img[i]).animate({ opacity: 1 }, 300);
       });
     } else {
-      $("#img").hide(); // hide image for slides without img
+      $("#img").hide();
     }
 
     $("#slider-link").attr("href", content[i][3]);
@@ -68,8 +67,15 @@ export default function Slider() {
         <div className="row slider-row">
           <div className="col-12 slider-content-col">
             <div className="container slider-content">
+              {/* ✅ Arrows left & right */}
+              <div className="arrow left-arrow" onClick={customp}>
+                <i className="fa fa-angle-left"></i>
+              </div>
+              <div className="arrow right-arrow" onClick={customf}>
+                <i className="fa fa-angle-right"></i>
+              </div>
+
               <div className="row">
-                {/* ✅ Conditional rendering: If image exists, show 2-column. Else, make text full width */}
                 {img[activeIndex] ? (
                   <>
                     <div className="col-lg-4 col-md-12 slider-image-container">
@@ -84,21 +90,26 @@ export default function Slider() {
                     <SlideText activeIndex={activeIndex} />
                   </div>
                 )}
-
-                <div className="col-1 arrow">
-                  <i id="f" onClick={customf} className="fa fa-angle-right"></i>
-                </div>
               </div>
 
-              <div className="row circles">
-                <div className="col">
-                  <i id="p" onClick={customp} className="fa fa-angle-left"></i>
-                  <i className="fa fa-circle-thin indicators" onClick={() => universal(0)}></i>
-                  <i className="fa fa-circle-thin indicators" onClick={() => universal(1)}></i>
-                  <i className="fa fa-circle-thin indicators" onClick={() => universal(2)}></i>
-                  <i className="fa fa-circle-thin indicators" onClick={() => universal(3)}></i>
-                  <i id="f" onClick={customf} className="fa fa-angle-right"></i>
-                </div>
+              {/* ✅ Indicators centered */}
+              <div className="circles">
+                <i
+                  className="fa fa-circle-thin indicators"
+                  onClick={() => universal(0)}
+                ></i>
+                <i
+                  className="fa fa-circle-thin indicators"
+                  onClick={() => universal(1)}
+                ></i>
+                <i
+                  className="fa fa-circle-thin indicators"
+                  onClick={() => universal(2)}
+                ></i>
+                <i
+                  className="fa fa-circle-thin indicators"
+                  onClick={() => universal(3)}
+                ></i>
               </div>
             </div>
           </div>
@@ -119,7 +130,7 @@ export default function Slider() {
   );
 }
 
-/* ✅ Extracted text block into a component to avoid repetition */
+
 function SlideText({ activeIndex }) {
   return (
     <div className="container-fluid">

@@ -28,7 +28,7 @@ const content = [
   ],
 ];
 
-// only 1st slide has image, rest are empty
+// only 1st slide has image
 const img = [
   "Post-photos/info.png",
   "",

@@ -1,27 +1,26 @@
 #home {
-    display: block;
+  display: block;
 }
 
 .slider-content img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 #img {
-    border-radius: 5%;
-    height: 400px;
+  border-radius: 5%;
+  height: 400px;
 }
 
 .slider-parent {
-    margin-top: 1%;
-    text-align: center;
-    margin-bottom: 1%;
+  margin-top: 1%;
+  text-align: center;
+  margin-bottom: 1%;
 }
 
 .slider-image-container {
-    display: flex;
-  align-items: center;       
-  /* height: 100%; */
+  display: flex;
+  align-items: center;
 }
 
 .no-image-slide {
@@ -30,154 +29,195 @@
   align-items: center;
 }
 
-
 #r1 {
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 #r2 {
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    text-align: right;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  text-align: right;
 }
 
 .slider-content {
-    text-align: justify;
-    background-color: rgba(222, 226, 231, 0.5);
-    border-radius: 20px;
-    transition: opacity 1s;
-    padding-bottom: 20px;
+  text-align: justify;
+  background-color: rgba(222, 226, 231, 0.5);
+  border-radius: 20px;
+  transition: opacity 1s;
+  padding-bottom: 20px;
+  position: relative; /* ✅ needed for arrows */
 }
 
 #slider-heading {
-    padding-top: 30px;
-    font-size: 2.2rem;
+  padding-top: 30px;
+  font-size: 2.2rem;
 }
 
 .slider-content .row {
-    padding: 0.8% 4%;
+  padding: 0.8% 4%;
 }
 
 .white {
-    background-color: #fff;
-    border-radius: 25px;
-    padding: 20px;
-    min-height: 500px; /* ensures enough room */
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 20px;
+  min-height: 500px; /* ensures enough room */
 }
 
 #recent {
-    width: fit-content;
-    text-align: left;
-    margin-top: 0%;
-    margin-bottom: 1%;
-    margin-left: 12px;
+  width: fit-content;
+  text-align: left;
+  margin-top: 0%;
+  margin-bottom: 1%;
+  margin-left: 12px;
 }
 
 /* Contact box */
 .getm h5 {
-    margin: 0;
+  margin: 0;
 }
 
 .getm {
-    text-align: center;
-    align-items: center;
-    background-color: rgba(222, 226, 231, .5);
-    padding: 10px 39px;
-    width: 88%;
-    margin-left: 5.5rem;
-    border-radius: 25px;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(222, 226, 231, .5);
+  padding: 10px 39px;
+  width: 88%;
+  margin-left: 5.5rem;
+  border-radius: 25px;
 }
 
 .getm h5 {
-    font-size: 1.15rem;
+  font-size: 1.15rem;
 }
 
 .mybtn {
-    border: none;
-    font-size: 12px;
-    background-color: rgb(222, 226, 231);
-    padding: 6px 28px;
-    border-radius: 30px;
-    float: right;
-    margin-left: 30%;
+  border: none;
+  font-size: 12px;
+  background-color: rgb(222, 226, 231);
+  padding: 6px 28px;
+  border-radius: 30px;
+  float: right;
+  margin-left: 30%;
 }
 
 a {
-    color: #000000;
-    text-decoration: none;
+  color: #000000;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #000000;
+  color: #000000;
+}
+
+/* ✅ Arrows left & right */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 100;
+  transition: background 0.3s ease;
+}
+
+.arrow:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.left-arrow {
+  left: -30px;
+}
+
+.right-arrow {
+  right: -30px;
 }
 
 /* ✅ Responsive PDF */
 .pdf-container {
-    position: relative;
-    width: 100%;
-    padding-top: 70vh; /* desktop height */
+  position: relative;
+  width: 100%;
+  padding-top: 70vh; /* desktop height */
 }
 
 .pdf-frame {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
 }
 
 /* Mobile view adjustments */
 @media screen and (max-width: 768px) {
-    .getm {
-        padding: 10px 12px;
-        width: 100%;
-        margin-left: 0.2rem;
-        border-radius: 20px;
-    }
+  .getm {
+    padding: 10px 12px;
+    width: 100%;
+    margin-left: 0.2rem;
+    border-radius: 20px;
+  }
 
-    .getm h5 {
-        font-size: 1.0rem;
-    }
+  .getm h5 {
+    font-size: 1.0rem;
+  }
 
-    .slider-content {
-        font-size: 12px;
-        height: auto;
-    }
+  .slider-content {
+    font-size: 12px;
+    height: auto;
+  }
 
-    #slider-heading {
-        padding-top: 30px;
-        font-size: 1.5rem;
-    }
+  #slider-heading {
+    padding-top: 30px;
+    font-size: 1.5rem;
+  }
 
-    #img {
-        display: none;
-    }
+  #img {
+    display: none;
+  }
 
-    .slider-content .row {
-        padding: 0.1% 4%;
-    }
+  .slider-content .row {
+    padding: 0.1% 4%;
+  }
 
-    .mybtn {
-        float: none;
-        margin-top: 10px;
-        margin-left: 0%;
-    }
+  .mybtn {
+    float: none;
+    margin-top: 10px;
+    margin-left: 0%;
+  }
 
-    .white {
-        min-height: auto;
-    }
+  .white {
+    min-height: auto;
+  }
 
-    /* ✅ Make PDF fullscreen on phones */
-    .pdf-container {
-        padding-top: 100vh; /* takes full screen */
-    }
+  /* ✅ Make PDF fullscreen on phones */
+  .pdf-container {
+    padding-top: 100vh;
+  }
 
-    .pdf-frame {
-        height: 100vh;
-        border-radius: 0;
-        border: none;
-    }
+  .pdf-frame {
+    height: 100vh;
+    border-radius: 0;
+    border: none;
+  }
+}
+/* Center the indicator circles */
+.circles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* space between dots */
+  margin-top: 15px;
+}
+
+.circles .indicators {
+  cursor: pointer;
+  font-size: 16px;
 }
