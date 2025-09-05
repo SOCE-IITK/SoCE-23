@@ -196,7 +196,7 @@ function SlideText({ activeIndex, hasImage }) {
               <button
                 id="read-more"
                 className="btn btn-primary"
-                style={{ marginBottom: "10px", maxWidth: "100%" }}
+                style={{ maxWidth: "100%" }}
               >
                 View More
               </button>
