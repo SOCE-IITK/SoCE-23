@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from "react";
 import $ from "jquery";
 import { content, img } from "../../Data/slider_data";
-
-import "./slider.css";
-
-
 var a = 0;
 export default function Slider() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -46,13 +42,12 @@ export default function Slider() {
       $(this).html(content[i][2]).animate({ opacity: 1 }, 200);
     });
 
-    // only show image if available
     if (img[i]) {
       $("#img").show().animate({ opacity: 0 }, 400, function () {
         $(this).attr("src", img[i]).animate({ opacity: 1 }, 300);
       });
     } else {
-      $("#img").hide(); // hide image for slides without img
+      $("#img").hide();
     }
 
     $("#slider-link").attr("href", content[i][3]);
@@ -104,7 +99,16 @@ export default function Slider() {
         <div className="row slider-row">
           <div className="col-12 slider-content-col">
             <div className="container slider-content">
+              {/* ✅ Arrows left & right */}
+              <div className="arrow left-arrow" onClick={customp}>
+                <i className="fa fa-angle-left"></i>
+              </div>
+              <div className="arrow right-arrow" onClick={customf}>
+                <i className="fa fa-angle-right"></i>
+              </div>
+
               <div className="row">
+
 
                 {/* <div className='col-1 arrow'>
                                     <i id='p' onClick={customp} className="fa fa-angle-left"></i>
@@ -197,11 +201,25 @@ export default function Slider() {
 
                         </div>
                       </div>
+
+                {img[activeIndex] ? (
+                  <>
+                    <div className="col-lg-4 col-md-12 slider-image-container">
+                      <img id="img" src={img[activeIndex]} alt="activity" />
                     </div>
+                    <div className="col-lg-8 col-md-12">
+                      <SlideText activeIndex={activeIndex} />
+
+                    </div>
+                  </>
+                ) : (
+                  <div className="col-12 d-flex justify-content-center align-items-center">
+                    <SlideText activeIndex={activeIndex} />
                   </div>
+
                 </div>
 
-<<<<<<< HEAD
+
                <div className="slider-container">
   {/* Left Arrow */}
   <div className="arrow left">
@@ -222,13 +240,13 @@ export default function Slider() {
   </div>
 </div>
 
-=======
+
                 <div className='col-1 arrow'>
                                     <i id='f' onClick={customf} className="fa fa-angle-right"></i>
                                 </div>
               </div>
               <div className="row circles">
-                <div className="col">
+                <div className="col" style={{ gap:"30px",display:"flex",justifyContent:"center",alignItems:"center" }}>
                   <i id="p" onClick={customp} className="fa fa-angle-left"></i>
                   <i className="fa fa-circle-thin indicators" onClick={i1}></i>
                   <i className="fa fa-circle-thin indicators" onClick={i2}></i>
@@ -252,13 +270,36 @@ export default function Slider() {
 
                   <i id="f" onClick={customf} className="fa fa-angle-right"></i>
                 </div>
+
+                )}
+              </div>
+
+              {/* ✅ Indicators centered */}
+              <div className="circles">
+                <i
+                  className="fa fa-circle-thin indicators"
+                  onClick={() => universal(0)}
+                ></i>
+                <i
+                  className="fa fa-circle-thin indicators"
+                  onClick={() => universal(1)}
+                ></i>
+                <i
+                  className="fa fa-circle-thin indicators"
+                  onClick={() => universal(2)}
+                ></i>
+                <i
+                  className="fa fa-circle-thin indicators"
+                  onClick={() => universal(3)}
+                ></i>
+
               </div>
             </div>
           </div>
 
           <div className='col-0.5'></div>
         </div>
->>>>>>> 3aef799356e5e3eb8eb48dba30bbc10cc278f797
+
 
         {/* <div className="row circles">
                     <div className="col">
@@ -294,6 +335,54 @@ export default function Slider() {
             </a>
           </div>
 
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
+function SlideText({ activeIndex }) {
+  return (
+    <div className="container-fluid">
+      <div className="white">
+        <div className="row">
+          <div className="col">
+            <h1 id="slider-heading">{content[activeIndex][1]}</h1>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <h5 id="slider-date">{content[activeIndex][2]}</h5>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <div
+              id="y"
+              style={{
+                maxHeight: "200px",
+                overflowY: "auto",
+                paddingRight: "15px",
+                marginBottom: "10px",
+              }}
+            >
+              {content[activeIndex][0]}
+            </div>
+          </div>
+        </div>
+        <div className="row readmore">
+          <div className="col" style={{ display: "flex", justifyContent: "flex-end" }}>
+            <a id="slider-link" href={content[activeIndex][3]} target="_blank" rel="noopener noreferrer">
+              <button
+                id="read-more"
+                className="btn btn-primary"
+                style={{ marginBottom: "10px", maxWidth: "100%" }}
+              >
+                View More
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
