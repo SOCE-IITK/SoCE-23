@@ -15,11 +15,9 @@ export default function Slider() {
     $("#y").animate({ opacity: 0 }, 400, function () {
       $(this).html(content[i][0]).animate({ opacity: 1 }, 200);
     });
-
     $("#slider-heading").animate({ opacity: 0 }, 400, function () {
       $(this).html(content[i][1]).animate({ opacity: 1 }, 200);
     });
-
     $("#slider-date").animate({ opacity: 0 }, 400, function () {
       $(this).html(content[i][2]).animate({ opacity: 1 }, 200);
     });
@@ -35,7 +33,7 @@ export default function Slider() {
     $("#slider-link").attr("href", content[i][3]);
 
     let h = document.getElementsByClassName("indicators");
-    for (var k = 0; k < 4; k++) {
+    for (var k = 0; k < h.length; k++) {
       h[k].classList.remove("fa-circle");
       h[k].classList.add("fa-circle-thin");
     }
@@ -117,11 +115,15 @@ export default function Slider() {
 
         <div className="row my-4 getm">
           <div className="col-sm-9">
-            <h5>Get in touch with any questions, ideas, or feedback you may have.</h5>
+            <h5>
+              Get in touch with any questions, ideas, or feedback you may have.
+            </h5>
           </div>
           <div className="col-sm-3">
             <a href="/contact-us">
-              <button type="button" className="mybtn btn">Contact</button>
+              <button type="button" className="mybtn btn">
+                Contact
+              </button>
             </a>
           </div>
         </div>
@@ -129,7 +131,6 @@ export default function Slider() {
     </div>
   );
 }
-
 
 function SlideText({ activeIndex }) {
   return (
@@ -161,8 +162,16 @@ function SlideText({ activeIndex }) {
           </div>
         </div>
         <div className="row readmore">
-          <div className="col" style={{ display: "flex", justifyContent: "flex-end" }}>
-            <a id="slider-link" href={content[activeIndex][3]} target="_blank" rel="noopener noreferrer">
+          <div
+            className="col"
+            style={{ display: "flex", justifyContent: "flex-end" }}
+          >
+            <a
+              id="slider-link"
+              href={content[activeIndex][3]}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button
                 id="read-more"
                 className="btn btn-primary"
