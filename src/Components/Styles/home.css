@@ -220,13 +220,13 @@ a:hover {
 .circles .indicators {
   cursor: pointer;
   font-size: 16px;
-<<<<<<< HEAD
+
 }
-=======
-}
+
+
 /* When no image, center text block */
 .d-flex.justify-content-center .white {
   margin: 0 auto;
   max-width: 80%; /* adjust width */
 }
->>>>>>> 276ccd8d1bc667fca099a18c685c6d37b5ec9b1d
+

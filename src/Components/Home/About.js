@@ -3,8 +3,10 @@ import "../Styles/about.css";
 import close from "../Assets/close-btn.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 export default function About() {
   const [popup, setPop] = useState(false);
+
   const handleClickOpen = () => {
     setPop(!popup);
   };
@@ -12,24 +14,37 @@ export default function About() {
     setPop(false);
   };
 
-  if(popup){
-    document.body.classList.add('active-pop')
-  }
-  else{
-    document.body.classList.remove('active-pop')
+  if (popup) {
+    document.body.classList.add("active-pop");
+  } else {
+    document.body.classList.remove("active-pop");
   }
 
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
+
   return (
     <div className="container-fluid" id="about">
+{/* 🔔 Announcement Bar */}
+<div className="announcement-bar">
+  <div className="scroll-text">
+    <span>🎉Freshers’25 – 7th Sept, 7 PM | Outreach Auditorium ✨</span>
+    <span>🎉Freshers’25 – 7th Sept, 7 PM | Outreach Auditorium ✨ </span>
+    <span>🎉Freshers’25 – 7th Sept, 7 PM | Outreach Auditorium ✨</span>
+    <span>🎉Freshers’25 – 7th Sept, 7 PM | Outreach Auditorium ✨</span>
+    <span>🎉Freshers’25 – 7th Sept, 7 PM | Outreach Auditorium ✨</span>
+  </div>
+</div>
+
+
       <div className="row">
         <div className="col" id="soce-name" data-aos="fade-up">
           <h3>Society of</h3>
           <h3>Civil Engineers</h3>
         </div>
       </div>
+
       <div className="row">
         <div
           className="col"
@@ -48,6 +63,7 @@ export default function About() {
           </button>
         </div>
       </div>
+
       <div>
         {popup ? (
           <div className="main">
