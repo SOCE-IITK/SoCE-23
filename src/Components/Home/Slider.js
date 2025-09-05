@@ -255,26 +255,6 @@ export default function Slider() {
               </div>
             </div>
           </div>
-
-          <div className='col-0.5'></div>
-        </div>
->>>>>>> 3aef799356e5e3eb8eb48dba30bbc10cc278f797
-
-        {/* <div className="row circles">
-                    <div className="col">
-                        <i id='p' onClick={customp} className="fa fa-angle-left"></i>
-                        <i className="fa fa-circle indicators" onClick={i1}></i>
-                        <i className="fa fa-circle-thin indicators" onClick={i2}></i>
-                        <i className="fa fa-circle-thin indicators" onClick={i3}></i>
-                        <i id='f' onClick={customf} className="fa fa-angle-right"></i>
-                    </div>
-                </div> */}
-      </div>
-      <div className="row my-4 getm">
-        <div className="col-sm-9">
-          <h5>
-            Get in touch with any questions, ideas, or feedback you may have.
-          </h5>
         </div>
         <div className="col-sm-3">
           <a href="/contact-us">
