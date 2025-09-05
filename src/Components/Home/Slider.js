@@ -69,55 +69,21 @@ export default function Slider() {
           <div className="col-12 slider-content-col">
             <div className="container slider-content">
               <div className="row">
-                <div className="col-lg-4 col-md-12 slider-image-container">
-                  <img id="img" src={img[0]} alt="activity" />
-                </div>
-
-                <div className="col-lg-8 col-md-12">
-                  <div className="container-fluid">
-                    <div className="white">
-                      <div className="row">
-                        <div className="col">
-                          <h1 id="slider-heading">{content[0][1]}</h1>
-                        </div>
-                      </div>
-                      <div className="row">
-                        <div className="col">
-                          <h5 id="slider-date">{content[0][2]}</h5>
-                        </div>
-                      </div>
-                      <div className="row">
-                        <div className="col">
-                          <div
-                            id="y"
-                            style={{
-                              maxHeight: "200px",
-                              overflowY: "auto",
-                              paddingRight: "15px",
-                              marginBottom: "10px",
-                            }}
-                          >
-                            {content[0][0]}
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="row readmore">
-                        <div className="col" style={{ display: "flex", justifyContent: "flex-end" }}>
-                          <a id="slider-link" href={content[0][3]} target="_blank" rel="noopener noreferrer">
-                            <button
-                              id="read-more"
-                              className="btn btn-primary"
-                              style={{ marginBottom: "10px", maxWidth: "100%" }}
-                            >
-                              View More
-                            </button>
-                          </a>
-                        </div>
-                      </div>
+                {/* ✅ Conditional rendering: If image exists, show 2-column. Else, make text full width */}
+                {img[activeIndex] ? (
+                  <>
+                    <div className="col-lg-4 col-md-12 slider-image-container">
+                      <img id="img" src={img[activeIndex]} alt="activity" />
                     </div>
+                    <div className="col-lg-8 col-md-12">
+                      <SlideText activeIndex={activeIndex} />
+                    </div>
+                  </>
+                ) : (
+                  <div className="col-12 d-flex justify-content-center align-items-center">
+                    <SlideText activeIndex={activeIndex} />
                   </div>
-                </div>
+                )}
 
                 <div className="col-1 arrow">
                   <i id="f" onClick={customf} className="fa fa-angle-right"></i>
@@ -145,6 +111,54 @@ export default function Slider() {
           <div className="col-sm-3">
             <a href="/contact-us">
               <button type="button" className="mybtn btn">Contact</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ✅ Extracted text block into a component to avoid repetition */
+function SlideText({ activeIndex }) {
+  return (
+    <div className="container-fluid">
+      <div className="white">
+        <div className="row">
+          <div className="col">
+            <h1 id="slider-heading">{content[activeIndex][1]}</h1>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <h5 id="slider-date">{content[activeIndex][2]}</h5>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <div
+              id="y"
+              style={{
+                maxHeight: "200px",
+                overflowY: "auto",
+                paddingRight: "15px",
+                marginBottom: "10px",
+              }}
+            >
+              {content[activeIndex][0]}
+            </div>
+          </div>
+        </div>
+        <div className="row readmore">
+          <div className="col" style={{ display: "flex", justifyContent: "flex-end" }}>
+            <a id="slider-link" href={content[activeIndex][3]} target="_blank" rel="noopener noreferrer">
+              <button
+                id="read-more"
+                className="btn btn-primary"
+                style={{ marginBottom: "10px", maxWidth: "100%" }}
+              >
+                View More
+              </button>
             </a>
           </div>
         </div>

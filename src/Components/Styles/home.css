@@ -19,8 +19,17 @@
 }
 
 .slider-image-container {
-    text-align: center;
+    display: flex;
+  align-items: center;       
+  /* height: 100%; */
 }
+
+.no-image-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 #r1 {
     border-top-left-radius: 25px;
