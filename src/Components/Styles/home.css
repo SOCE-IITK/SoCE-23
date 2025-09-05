@@ -221,3 +221,8 @@ a:hover {
   cursor: pointer;
   font-size: 16px;
 }
+/* When no image, center text block */
+.d-flex.justify-content-center .white {
+  margin: 0 auto;
+  max-width: 80%; /* adjust width */
+}

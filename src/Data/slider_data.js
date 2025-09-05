@@ -30,7 +30,7 @@ const content = [
 
 // only 1st slide has image
 const img = [
-  "Post-photos/informal.jpeg",
+  "Post-photos/info.png",
   "",
   "",
   ""

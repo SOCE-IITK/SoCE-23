@@ -80,15 +80,21 @@ export default function Slider() {
 
             <div className="row">
               {/* Image */}
-              {img[activeIndex] && (
+              {img[activeIndex] ? (
                 <div className="col-lg-4 col-md-12 slider-image-container">
                   <img id="slider-img" src={img[activeIndex]} alt="activity" />
                 </div>
-              )}
+              ) : null}
 
               {/* Text */}
-              <div className="col-lg-8 col-md-12">
-                <SlideText activeIndex={activeIndex} />
+              <div
+                className={
+                  img[activeIndex]
+                    ? "col-lg-8 col-md-12"
+                    : "col-12 d-flex justify-content-center"
+                }
+              >
+                <SlideText activeIndex={activeIndex} hasImage={!!img[activeIndex]} />
               </div>
             </div>
 
@@ -144,9 +150,12 @@ export default function Slider() {
   );
 }
 
-function SlideText({ activeIndex }) {
+function SlideText({ activeIndex, hasImage }) {
   return (
-    <div className="container-fluid">
+    <div
+      className="container-fluid"
+      style={!hasImage ? { maxWidth: "80%" } : {}}
+    >
       <div className="white">
         <div className="row">
           <div className="col">
