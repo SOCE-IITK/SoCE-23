@@ -1,6 +1,6 @@
 const content = [
   [
-    <h4>"Fresher's Party'25 coming soon"</h4>
+    // <h4>"Fresher's Party'25 coming soon"</h4>
     // "With winter around the corner, we are back with our winter projects for students interested in enhancing their skills and gaining practical experience",
     // "Winter Projects 2023",
     // "November 30, 2023",
