@@ -46,19 +46,28 @@ function i3() {
 export default function Message() {
   return (
     <div className="container">
-      <div className="container" id="message">
+      <div className="container" id="me
         <div className="mess">
           {/* <h1>Recent message</h1> */}
         </div>
+
+        {/* <div className="mess">
+          <h1>Recent message</h1>
+        </div> */}
+
         <div className="row mes">
           <div className="col">
             {/* <h6>
               <i id='open'>{content[0][1]}</i>
             </h6> */}
+
             <p id='content'>
+
+            {/* <p id='content'>
+
               {content[0][0]}
               
-            </p>
+            </p> */}
             <b id='msg-date'>{content[0][2]}</b>
            <div className="col-sm-8.2">
               <a id='msg-link' href={content[0][3]} target="_blank">
