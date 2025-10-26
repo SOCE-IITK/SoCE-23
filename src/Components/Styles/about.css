@@ -10,40 +10,6 @@
     text-align: center;
 }
 
-/* 🔔 Continuous Announcement Bar */
-.announcement-bar {
-    width: 100%;
-    color: rgba(255, 0, 0, 0.919);
-    overflow: hidden;
-    white-space: nowrap;
-    padding: 10px 0;
-    font-size: 1.5rem;
-    font-weight: bold;
-    position: relative;
-    margin-top: 15px; /* moves it slightly below navbar */
-}
-
-.scroll-text {
-    display: flex;
-    gap: 50px; /* space between repetitions */
-    animation: scrollLoop 15s linear infinite;
-    width: max-content;
-    padding-top: 20px;
-}
-
-.scroll-text span {
-    display: inline-block;
-}
-
-/* ✅ Seamless infinite scroll */
-@keyframes scrollLoop {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-50%);
-    }
-}
 
 
 #soce-name {
