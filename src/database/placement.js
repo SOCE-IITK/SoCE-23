@@ -1,7 +1,7 @@
 import shubham from "../Components/Assets/shubham.webp";
 import Utkarsh_Sri from "../Components/Assets/Utkarsh_Sri.webp";
 import Suraj_k from "../Components/Assets/Suraj.jpeg";
-import Shishir from "../Components/Assets/Shishir.png";
+import Shishir from "../Components/Assets/Shishir.jpeg";
 
 var chats = [
   {
