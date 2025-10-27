@@ -1,5 +1,5 @@
 import React from "react";
-import shishir from "./Shishir.png";
+import shishir from "./Shishir.jpeg";
 import "./blogs.css";
 
 const Shishir = () => {
@@ -9,7 +9,7 @@ const Shishir = () => {
         <div className="col-md-4">
           <img
             src={shishir}
-            style={{ height: "345px", width: "90%" }}
+            style={{ height: "345px", width: "83%" }}
             alt="Shishir"
           ></img>
         </div>
@@ -32,7 +32,7 @@ const Shishir = () => {
         <img
           class="blog-image-right"
           src="/placement-postulates/blogs/shishir/1.png"
-          alt="Utkarsh"
+          alt="shishir"
         />
         
 
@@ -78,24 +78,24 @@ const Shishir = () => {
             <img
           class="blog-image-right"
           src="/placement-postulates/blogs/shishir/4.png"
-          alt="Utkarsh"
+          alt="shishir"
         />
         <img
           class="blog-image-right"
           src="/placement-postulates/blogs/shishir/2.png"
-          alt="Utkarsh"
+          alt="shishir"
         />
         <img
           class="blog-image-right"
           src="/placement-postulates/blogs/shishir/5.png"
-          alt="Utkarsh"
+          alt="shishir"
         />
           </div>
         </div>
         <img
           class="blog-image-left"
           src="/placement-postulates/blogs/shishir/3.png"
-          alt="Utkarsh"
+          alt="shishir"
         />
         <div className="row blog-row">
           <div className="col-md-12">
