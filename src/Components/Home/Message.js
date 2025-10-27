@@ -46,14 +46,10 @@ function i3() {
 export default function Message() {
   return (
     <div className="container">
-      <div className="container" id="me
+      <div className="container" id="me">
         <div className="mess">
           {/* <h1>Recent message</h1> */}
         </div>
-
-        {/* <div className="mess">
-          <h1>Recent message</h1>
-        </div> */}
 
         <div className="row mes">
           <div className="col">
@@ -61,34 +57,20 @@ export default function Message() {
               <i id='open'>{content[0][1]}</i>
             </h6> */}
 
-            <p id='content'>
+            <p id="content">
+              {/* {content[0][0]} */}
+            </p>
 
-            {/* <p id='content'>
+            <b id="msg-date">{content[0][2]}</b>
 
-              {content[0][0]}
-              
-            </p> */}
-            <b id='msg-date'>{content[0][2]}</b>
-           <div className="col-sm-8.2">
-              <a id='msg-link' href={content[0][3]} target="_blank">
+            <div className="col-sm-8">
+              <a id="msg-link" href={content[0][3]} target="_blank" rel="noreferrer">
                 {/* <button type="button" className="mybtn Btn btn">
                   Read More!
                 </button> */}
               </a>
             </div>
           </div>
-         {/* 
-<div className="row circles">
-  <div className="col">
-    <i id="P" onClick={customp} className="fa fa-angle-left"></i>
-    <i className="fa fa-circle Indicators" onClick={i1}></i>
-    <i className="fa fa-circle-thin Indicators" onClick={i2}></i>
-    <i id="F" onClick={customf} className="fa fa-angle-right"></i>
-  </div>
-</div>
-*/}
-
-          
         </div>
       </div>
     </div>
