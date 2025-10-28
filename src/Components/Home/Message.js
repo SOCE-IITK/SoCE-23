@@ -57,6 +57,7 @@ export default function Message() {
               <i id='open'>{content[0][1]}</i>
             </h6> */}
 
+<<<<<<< HEAD
             <p id="content">
               {/* {content[0][0]} */}
             </p>
@@ -65,6 +66,14 @@ export default function Message() {
 
             <div className="col-sm-8">
               <a id="msg-link" href={content[0][3]} target="_blank" rel="noreferrer">
+=======
+            <p id='content'>
+              {content[0][0]}
+            </p>
+            <b id='msg-date'>{content[0][2]}</b>
+           <div className="col-sm-8.2">
+              <a id='msg-link' href={content[0][3]} target="_blank">
+>>>>>>> e27e37e1962aa7ef39022ce1de639b5c8cbeec8b
                 {/* <button type="button" className="mybtn Btn btn">
                   Read More!
                 </button> */}
