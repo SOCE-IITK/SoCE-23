@@ -22,7 +22,7 @@ function universal(i) {
     h[k].classList.add("fa-circle-thin");
   }
   h[i].classList.remove("fa-circle-thin");
-  h[i].classList.add("fa-circle");
+    h[i].classList.add("fa-circle");
 }
 
 function customf() {
@@ -51,14 +51,16 @@ export default function Message() {
   return (
     <div className="container">
       <div className="container" id="message">
-        <div className="mess">{/* <h1>Recent message</h1> */}</div>
+        <div className="mess">
+          {/* <h1>Recent message</h1> */}
+        </div>
 
         <div className="row mes">
           <div className="col">
             <p id="content">{content[0][0]}</p>
             <b id="msg-date">{content[0][2]}</b>
 
-            <div className="col-sm-8.2">
+            <div className="col-sm-8">
               <a id="msg-link" href={content[0][3]} target="_blank" rel="noreferrer">
                 {/* <button type="button" className="mybtn Btn btn">
                   Read More!

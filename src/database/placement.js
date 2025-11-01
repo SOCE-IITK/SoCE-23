@@ -1,7 +1,19 @@
 import shubham from "../Components/Assets/shubham.webp";
 import Utkarsh_Sri from "../Components/Assets/Utkarsh_Sri.webp";
 import Suraj_k from "../Components/Assets/Suraj.jpeg";
+import Shishir from "../Components/Assets/Shishir.jpeg";
+
 var chats = [
+  {
+    name: "Shishir (Y21)",
+    work: "SDE at American Express",
+    text: "Hello everyone! I'm Shishir (Y21) a recent B.Tech graduate from Civil Engineering department. ",
+    dp: Shishir,
+    link: "/Shishir",
+    thumbnail: "",
+    og: "/Shishir",
+    year: "y21",
+  },
   {
     name: "Suraj Kumar (Y21)",
     work: "Godrej Properties Limited (GPL)",
