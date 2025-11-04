@@ -27,16 +27,7 @@ export default function About() {
   return (
     <div className="container-fluid" id="about">
 
-{/* 🔔 Announcement Bar */}
-<div className="announcement-bar">
-  <div className="scroll-text">
-    <span>🎉Freshers’25 – 7th Sept, 7 PM | Outreach Auditorium ✨</span>
-    <span>🎉Freshers’25 – 7th Sept, 7 PM | Outreach Auditorium ✨ </span>
-    <span>🎉Freshers’25 – 7th Sept, 7 PM | Outreach Auditorium ✨</span>
-    <span>🎉Freshers’25 – 7th Sept, 7 PM | Outreach Auditorium ✨</span>
-    <span>🎉Freshers’25 – 7th Sept, 7 PM | Outreach Auditorium ✨</span>
-  </div>
-</div>
+
 
 
 
