@@ -11,6 +11,44 @@
 }
 
 
+/* 🔔 Continuous Announcement Bar */
+.announcement-bar {
+    width: 100%;
+    color: red;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 8px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+}
+
+.scroll-text {
+    display: flex;
+    width: max-content; /* fit both spans side by side */
+    animation: scrollLoop 15s linear infinite;
+    padding-top: 20px;
+}
+
+.scroll-text span {
+    display: inline-block;
+    padding-right: 50px; /* space between repetitions */
+    
+}
+
+/* ✅ Smooth infinite scroll */
+@keyframes scrollLoop {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+>>>>>>> main
+
 
 #soce-name {
     margin-top: 17%;
