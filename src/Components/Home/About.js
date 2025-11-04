@@ -26,7 +26,9 @@ export default function About() {
 
   return (
     <div className="container-fluid" id="about">
- 
+
+
+
 
 
       <div className="row">
