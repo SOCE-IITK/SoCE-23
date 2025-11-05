@@ -9,7 +9,7 @@ const Sandipan = () => {
           <img
           class="blog-image-right"
           style={{ height: "355px", width: "90%" }}
-          src="/placement-postulates/blogs/Sandipan/6.jpg"
+          src="/placement-postulates/blogs/Sandipan/6.JPG"
           alt="Sandipan"
         />
         </div>
@@ -32,7 +32,7 @@ const Sandipan = () => {
         </div>
         <img
           class="blog-image-right"
-          style={{ height: "325px", width: "33%" }}
+          style={{ height: "345px", width: "32%" }}
           src="/placement-postulates/blogs/Sandipan/1.jpg"
           alt="Sandipan"
         />
@@ -177,43 +177,7 @@ const Sandipan = () => {
              <p>
              To all current and future IITians — cherish the placement journey. It will test your patience, confidence, and resilience, but it will also shape you in ways no course ever can. Good luck, and may your story be just as fulfilling and unforgettable as mine.
             </p>
-            <p>
-              The time had come for which most of us came to IIT Kanpur. It was
-              the time for most of us, including me, to write a new chapter for
-              our family. For many of us, it was a chance to rise in the
-              economic table and support our family. With just one shortlist, I
-              was very anxious about what will happen, but I had decided to give
-              my best whatever happens. The next round was GD(Group Discussion)
-              round which was scheduled for Day 3. The first 2 days of placement
-              had 2 subphases each- 1.1, 1.2, 2.1 and 2.2. Day 1.1 of placement
-              season phase 1 began. The students who were shortlisted in more
-              than 10 companies, started getting placed and the waitlisted
-              students got an opportunity. Interviews were happening every
-              second but every second passed like an hour. When I wore the
-              formals for the placement day, a strange anxiousness surrounded
-              me. Every second I was hoping to get a chance for an interview but
-              hours passed by with no hope. On Day 2, walkins started but to
-              everyone’s surprise and utter disappointment, many companies were
-              leaving without hiring any students. The hopes started to
-              diminish. The students who were calculating their worst case
-              interview dates, ran out of days. The number of students getting
-              places hit a shocking low mark with only 50 students getting
-              placed on an average in each subphase
-            </p>
-            <p>
-              The first 2 days on the battleground passed as if we were
-              witnessing a war which we are destined to lose. The coat felt
-              heavier than anything I had ever worn. Sleep had vanished and the
-              body stopped feeling the winter cold. Amidst these mishappenings,
-              we were forced to keep sharpening our skills. I went through many
-              guesstimates, case studies and puzzles available online on
-              websites like GFG, Brainstellar etc. The night before the GD, I
-              watched many youtube videos on how to be prepared for a great GD
-              and how we should crack it. The next day was the most important
-              day of my life, the D-Day for the only shortlist I had in my hand.
-              I went through as many resources as I could and took guidance from
-              many seniors and alumni.
-            </p>
+           
           </div>
         </div>
         <img
