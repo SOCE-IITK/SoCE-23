@@ -9,7 +9,7 @@ const Sandipan = () => {
           <img
           class="blog-image-right"
           style={{ height: "355px", width: "90%" }}
-          src="/placement-postulates/blogs/Sandipan/6.jpg"
+          src="/placement-postulates/blogs/Sandipan/6.JPG"
           alt="Sandipan"
         />
         </div>
