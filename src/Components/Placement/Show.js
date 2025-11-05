@@ -37,6 +37,7 @@ import Arush_Kumar_Rai from "../blogs/Arush_Kumar_Rai";
 import Shubham from "../blogs/Shubham_kumar";
 import Utkarsh from "../blogs/Utkarsh_srivastava";
 import Shishir from "../blogs/shishir";
+import Sandipan from "../blogs/Sandipan";
 import Suraj from "../blogs/Suraj_kumar";
 import Sameer from "../blogs/Sameer_khan";
 import Narendra_prajapat from "../blogs/Narendra_prajapat";
@@ -48,6 +49,7 @@ const Show = () => {
   const link = `https://soceiitk.org/${id}`;
   if (id === "ankit") return <Ankit />;
   else if (id === "Suraj") return <Suraj />;
+  else if (id === "Sandipan") return <Sandipan />;
   else if (id === "Shishir") return <Shishir />;
   else if (id === "sameer") return <Sameer />;
   else if (id === "ashish") return <Ashish_Singh />;
