@@ -28,6 +28,8 @@ const cardData = [
       "/Gallery/Parwa-25/05.jpg",
       "/Gallery/Parwa-25/06.jpg",
       "/Gallery/Parwa-25/07.jpg",
+      "/Gallery/Parwa-25/08.jpg",
+
     ],
     },
   {
