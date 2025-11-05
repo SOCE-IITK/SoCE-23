@@ -5,6 +5,16 @@ import Shishir from "../Components/Assets/Shishir.jpeg";
 
 var chats = [
   {
+    name: "Sandipan (Y21)",
+    work: "Data Scientist at Kotak Bank",
+    text: "Hello everyone! I'm Sandipan (Y21) a recent B.Tech graduate from Civil Engineering department. ",
+    dp: "placement-postulates/blogs/Sandipan/6.JPG",
+    link: "/Sandipan",
+    thumbnail: "",
+    og: "/Sandipan",
+    year: "y21",
+  },
+  {
     name: "Shishir (Y21)",
     work: "SDE at American Express",
     text: "Hello everyone! I'm Shishir (Y21) a recent B.Tech graduate from Civil Engineering department. ",
