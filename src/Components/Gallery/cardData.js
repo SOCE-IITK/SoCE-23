@@ -28,8 +28,22 @@ const cardData = [
       "/Gallery/Parwa-25/05.jpg",
       "/Gallery/Parwa-25/06.jpg",
       "/Gallery/Parwa-25/07.jpg",
-      "/Gallery/Parwa-25/08.jpg",
+      
 
+    ],
+    },
+     {
+        title: "Informal Session",
+         imageSrc: "/Gallery/Headers/informalsession.png",
+    description:
+      "On August 12, 2025, Y23s organized an interactive session for Y24s on “Mastering the 3rd Semester,” sharing experiences, strategies, and tips for academic and personal growth.",
+    slides: [
+      "/Gallery/informalsession/01.jpg",
+      "/Gallery/informalsession/02.jpg",
+      "/Gallery/informalsession/03.jpg",
+      "/Gallery/informalsession/04.jpg",
+      "/Gallery/informalsession/05.jpg",
+      
     ],
     },
   {
