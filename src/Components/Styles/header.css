@@ -1,34 +1,96 @@
+/* Navbar container */
 #menubar {
-  /* background-color: #fff !important; */
-  background-color: rgb(255, 255, 255) !important;
-  /* padding: 1%; */
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  background-color: #202929 !important;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-/* .nav-item.dropdown:hover .dropdown-menu {
-  display: block;
-} */
-
-/* .nav-link,
-.dropdown-item {
-  text-align: center !important;
-} */
-
-/* .sticky-nav {
-    position: sticky;
-    top: 0;
-  } */
-
-.navbar-brand {
+/* Brand wrapper */
+.brand-wrapper {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
-.navbar-brand>img {
-  padding: 7px 14px;
-}
-
+/* Logo */
 #soce-logo {
-  height: 60px;
-  width: 225px;
+  height: 55px;
+  width: auto;
+}
+
+/* Brand text */
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+  color: #ffffff;
+}
+
+/* Main title */
+.brand-title {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* Subtitle */
+.brand-subtitle {
+  font-size: 11px;
+  font-weight: 300;
+  opacity: 0.85;
+  margin-top: 8px;
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-weight: 200;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #e6e6e6 !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: #ffffff !important;
+  border-bottom: 2px solid #ffffff;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  background-color: #2f3a3f;
+  border: none;
+}
+
+.dropdown-item {
+  color: #ffffff !important;
+}
+
+.dropdown-item:hover {
+  background-color: #3a4a50;
+  color: #ffffff !important;
+}
+
+/* Mobile toggle */
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar-toggler-icon {
+  filter: invert(100%);
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  #soce-logo {
+    height: 45px;
+  }
+
+  .brand-title {
+    font-size: 14px;
+  }
+
+  .brand-subtitle {
+    font-size: 10px;
+  }
 }
