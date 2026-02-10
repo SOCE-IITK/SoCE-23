@@ -26,11 +26,6 @@ export default function About() {
 
   return (
     <div className="container-fluid" id="about">
-
-
-
-
-
       <div className="row">
         <div className="col" id="soce-name" data-aos="fade-up">
           <h3>Society of</h3>
