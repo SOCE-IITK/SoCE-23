@@ -1,7 +1,29 @@
 import shubham from "../Components/Assets/shubham.webp";
 import Utkarsh_Sri from "../Components/Assets/Utkarsh_Sri.webp";
 import Suraj_k from "../Components/Assets/Suraj.jpeg";
+import Shishir from "../Components/Assets/Shishir.jpeg";
+
 var chats = [
+  {
+    name: "Sandipan (Y21)",
+    work: "Data Scientist at Kotak Bank",
+    text: "Hello everyone! I'm Sandipan (Y21) a recent B.Tech graduate from Civil Engineering department. ",
+    dp: "placement-postulates/blogs/Sandipan/6.JPG",
+    link: "/Sandipan",
+    thumbnail: "",
+    og: "/Sandipan",
+    year: "y21",
+  },
+  {
+    name: "Shishir (Y21)",
+    work: "SDE at American Express",
+    text: "Hello everyone! I'm Shishir (Y21) a recent B.Tech graduate from Civil Engineering department. ",
+    dp: Shishir,
+    link: "/Shishir",
+    thumbnail: "",
+    og: "/Shishir",
+    year: "y21",
+  },
   {
     name: "Suraj Kumar (Y21)",
     work: "Godrej Properties Limited (GPL)",

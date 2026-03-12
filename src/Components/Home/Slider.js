@@ -1,209 +1,114 @@
 import React, { useState, useEffect } from "react";
 import $ from "jquery";
-import { content, img } from "../../Data/slider_data";
+import { content } from "../../Data/slider_data";
+import "../Styles/home.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Slider() {
   const [activeIndex, setActiveIndex] = useState(0);
+  const navigate = useNavigate();
 
   useEffect(() => {
     universal(activeIndex);
+    // eslint-disable-next-line
   }, []);
 
   function universal(i) {
     setActiveIndex(i);
 
-    $("#slider-text").animate({ opacity: 0 }, 400, function () {
+    $("#slider-text").animate({ opacity: 0 }, 300, function () {
       $(this).html(content[i][0]).animate({ opacity: 1 }, 200);
     });
 
-    $("#slider-heading").animate({ opacity: 0 }, 400, function () {
+    $("#slider-heading").animate({ opacity: 0 }, 300, function () {
       $(this).html(content[i][1]).animate({ opacity: 1 }, 200);
     });
 
-    $("#slider-date").animate({ opacity: 0 }, 400, function () {
+    $("#slider-date").animate({ opacity: 0 }, 300, function () {
       $(this).html(content[i][2]).animate({ opacity: 1 }, 200);
     });
 
-    if (img[i]) {
-      $("#slider-img").show().animate({ opacity: 0 }, 400, function () {
-        $(this).attr("src", img[i]).animate({ opacity: 1 }, 300);
-      });
-    } else {
-      $("#slider-img").hide();
-    }
-
     $("#slider-link").attr("href", content[i][3]);
 
-    // indicators update
-    let h = document.getElementsByClassName("indicators");
-    for (let k = 0; k < h.length; k++) {
-      h[k].classList.remove("fa-circle");
-      h[k].classList.add("fa-circle-thin");
+    let dots = document.getElementsByClassName("indicators");
+    for (let k = 0; k < dots.length; k++) {
+      dots[k].classList.remove("active-dot");
     }
-    h[i].classList.remove("fa-circle-thin");
-    h[i].classList.add("fa-circle");
+    dots[i].classList.add("active-dot");
   }
 
-  function customf() {
-    let nextIndex = activeIndex + 1;
-    if (nextIndex > 3) nextIndex = 0;
-    universal(nextIndex);
+  function next() {
+    universal((activeIndex + 1) % content.length);
   }
 
-  function customp() {
-    let prevIndex = activeIndex - 1;
-    if (prevIndex < 0) prevIndex = 3;
-    universal(prevIndex);
+  function prev() {
+    universal((activeIndex - 1 + content.length) % content.length);
   }
 
   return (
-    <div className="container slider-parent">
-      {/* Header */}
-      <div className="row">
-        <div className="col">
-          <h1 id="recent">Recent Activities</h1>
-        </div>
-      </div>
+    <section id="home">
+      <div className="container">
+        <h1 id="recent">Recent Activities</h1>
 
-      {/* Slider content */}
-      <div className="row slider-row">
-        <div className="col-12 slider-content-col">
-          <div className="container slider-content">
+        <div className="recent-slider">
+          <div className="arrow left-arrow" onClick={prev}>
+            <i className="fa fa-angle-left"></i>
+          </div>
 
-            {/* Left & Right Arrows */}
-            <div className="arrow left-arrow" onClick={customp}>
-              <i className="fa fa-angle-left"></i>
-            </div>
-            <div className="arrow right-arrow" onClick={customf}>
-              <i className="fa fa-angle-right"></i>
-            </div>
+          <div className="arrow right-arrow" onClick={next}>
+            <i className="fa fa-angle-right"></i>
+          </div>
 
-            <div className="row">
-              {/* Image */}
-              {img[activeIndex] ? (
-                <div className="col-lg-4 col-md-12 slider-image-container">
-                  <img id="slider-img" src={img[activeIndex]} alt="activity" />
-                </div>
-              ) : null}
+          <div className="recent-card no-image">
+            <div className="recent-text">
+              <h2 id="slider-heading">{content[activeIndex][1]}</h2>
+              <p id="slider-date" className="date">
+                {content[activeIndex][2]}
+              </p>
 
-              {/* Text */}
-              <div
-                className={
-                  img[activeIndex]
-                    ? "col-lg-8 col-md-12"
-                    : "col-12 d-flex justify-content-center"
-                }
-              >
-                <SlideText activeIndex={activeIndex} hasImage={!!img[activeIndex]} />
+              <div id="slider-text" className="desc">
+                {content[activeIndex][0]}
               </div>
-            </div>
 
-            {/* Indicators */}
-            <div className="row circles">
-              <div
-                className="col"
-                style={{
-                  gap: "20px",
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
+              <a
+                id="slider-link"
+                href={content[activeIndex][3]}
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <i
-                  className="fa fa-circle-thin indicators"
-                  onClick={() => universal(0)}
-                ></i>
-                <i
-                  className="fa fa-circle-thin indicators"
-                  onClick={() => universal(1)}
-                ></i>
-                <i
-                  className="fa fa-circle-thin indicators"
-                  onClick={() => universal(2)}
-                ></i>
-                <i
-                  className="fa fa-circle-thin indicators"
-                  onClick={() => universal(3)}
-                ></i>
-              </div>
+                <button className="view-btn">View More</button>
+              </a>
             </div>
+          </div>
+
+          <div className="dots">
+            {[0, 1, 2, 3].map((i) => (
+              <span
+                key={i}
+                className={`indicators ${
+                  i === activeIndex ? "active-dot" : ""
+                }`}
+                onClick={() => universal(i)}
+              ></span>
+            ))}
           </div>
         </div>
       </div>
 
-      {/* Contact Section */}
-      <div className="row my-4 getm">
-        <div className="col-sm-9">
-          <h5>
-            Get in touch with any questions, ideas, or feedback you may have.
-          </h5>
-        </div>
-        <div className="col-sm-3">
-          <a href="/contact-us">
-            <button type="button" className="mybtn btn">
-              Contact
-            </button>
-          </a>
-        </div>
-      </div>
-    </div>
-  );
-}
+      {/* CONTACT SECTION */}
+      <div className="contact-banner">
+        <div className="contact-overlay">
+          <h2>Get in touch with any questions, ideas, or feedback</h2>
+          <p>We’d love to hear from you. Reach out anytime.</p>
 
-function SlideText({ activeIndex, hasImage }) {
-  return (
-    <div
-      className="container-fluid"
-      style={!hasImage ? { maxWidth: "80%" } : {}}
-    >
-      <div className="white">
-        <div className="row">
-          <div className="col">
-            <h1 id="slider-heading">{content[activeIndex][1]}</h1>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col">
-            <h5 id="slider-date">{content[activeIndex][2]}</h5>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col">
-            <div
-              id="slider-text"
-              style={{
-                maxHeight: "200px",
-                overflowY: "auto",
-                paddingRight: "15px",
-                marginBottom: "10px",
-              }}
-            >
-              {content[activeIndex][0]}
-            </div>
-          </div>
-        </div>
-        <div className="row readmore">
-          <div
-            className="col"
-            style={{ display: "flex", justifyContent: "flex-end" }}
+          <button
+            className="contact-btn"
+            onClick={() => navigate("/contact")}
           >
-            <a
-              id="slider-link"
-              href={content[activeIndex][3]}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button
-                id="read-more"
-                className="btn btn-primary"
-                style={{ maxWidth: "100%" }}
-              >
-                View More
-              </button>
-            </a>
-          </div>
+            Contact Us
+          </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

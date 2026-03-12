@@ -1,234 +1,158 @@
+/* ===== PAGE BACKGROUND ===== */
 #home {
-  display: block;
+  background-image: url("../Assets/activity.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-.slider-content img {
-  height: 100%;
-  width: 100%;
-}
-
-#slider-img {
-  border-radius: 5%;
-  width: 100%;        /* take full width of its column */
-  height: 340px;       /* auto height keeps aspect ratio */
-  /* object-fit: contain; keeps full image visible without distortion */
-  max-height: 400px;   /* optional: prevent it from becoming too tall */
-}
-
-
-.slider-parent {
-  margin-top: 1%;
-  text-align: center;
-  margin-bottom: 1%;
-}
-
-.slider-image-container {
-  display: flex;
-  align-items: center;
-}
-
-.no-image-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#r1 {
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-}
-
-#r2 {
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-  text-align: right;
-}
-
-.slider-content {
-  text-align: justify;
-  background-color: rgba(222, 226, 231, 0.5);
-  border-radius: 20px;
-  transition: opacity 1s;
-  padding-bottom: 20px;
-  position: relative; /* ✅ needed for arrows */
-}
-
-#slider-heading {
-  padding-top: 30px;
-  font-size: 2.2rem;
-}
-
-.slider-content .row {
-  padding: 0.8% 4%;
-}
-
-.white {
-  background-color: #ffffff;
-  border-radius: 25px;
-  padding: 25px;        /* reduced from 40px */
-  height: auto;         /* let content decide */
-  min-height: 400px;    /* no forced height */
-}
-
-
+/* ===== TITLE ===== */
 #recent {
-  width: fit-content;
-  text-align: left;
-  margin-top: 0%;
-  margin-bottom: 1%;
-  margin-left: 12px;
-}
-
-/* Contact box */
-.getm h5 {
-  margin: 0;
-}
-
-.getm {
+  color: white;
+  font-size: 2.4rem;
+  margin: 0 auto 25px auto;
   text-align: center;
-  align-items: center;
-  background-color: rgba(222, 226, 231, .5);
-  padding: 10px 39px;
-  width: 88%;
-  margin-left: 5.5rem;
-  border-radius: 25px;
 }
 
-.getm h5 {
-  font-size: 1.15rem;
-}
-
-.mybtn {
-  border: none;
-  font-size: 12px;
-  background-color: rgb(222, 226, 231);
-  padding: 6px 28px;
+/* ===== SLIDER ===== */
+.recent-slider {
+  position: relative;
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(12px);
   border-radius: 30px;
-  float: right;
-  margin-left: 30%;
+  padding: 40px;
 }
 
-a {
-  color: #000000;
-  text-decoration: none;
+/* ===== CARD (TEXT ONLY) ===== */
+.recent-card {
+  background: white;
+  border-radius: 28px;
+  padding: 40px;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
 }
 
-a:hover {
-  color: #000000;
+/* TEXT */
+.recent-text h2 {
+  font-size: 2rem;
+  margin-bottom: 8px;
 }
 
-/* ✅ Arrows left & right */
+.date {
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.desc {
+  max-height: 150px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+/* BUTTON */
+.view-btn {
+  background: #1e60ff;
+  color: white;
+  border: none;
+  padding: 10px 26px;
+  border-radius: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* ===== ARROWS ===== */
 .arrow {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 2rem;
-  font-weight: bold;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 10px 14px;
-  border-radius: 50%;
   cursor: pointer;
-  z-index: 100;
-  transition: background 0.3s ease;
-}
-
-.arrow:hover {
-  background: rgba(0, 0, 0, 0.7);
+  font-size: 2.8rem;
+  color: white;
 }
 
 .left-arrow {
-  left: -30px;
+  left: -50px;
 }
 
 .right-arrow {
-  right: -30px;
+  right: -50px;
 }
 
-/* ✅ Responsive PDF */
-.pdf-container {
-  position: relative;
-  width: 100%;
-  padding-top: 70vh; /* desktop height */
+/* ===== DOTS ===== */
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
 }
 
-.pdf-frame {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+.indicators {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
 }
 
-/* Mobile view adjustments */
-@media screen and (max-width: 768px) {
-  .getm {
-    padding: 10px 12px;
-    width: 100%;
-    margin-left: 0.2rem;
-    border-radius: 20px;
-  }
+.active-dot {
+  background: black;
+}
 
-  .getm h5 {
-    font-size: 1.0rem;
-  }
+/* ===== CONTACT SECTION ===== */
+.contact-banner {
+  height: 420px;
+  background-image: url("../Assets/contact-image.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 80px auto 0;
+  display: flex;
+  align-items: center;
+}
 
-  .slider-content {
-    font-size: 12px;
-    height: auto;
-  }
+/* LEFT ALIGNED CONTENT */
+.contact-overlay {
+  max-width: 600px;
+  padding-left: 80px;
+  color: white;
+}
 
-  #slider-heading {
-    padding-top: 30px;
-    font-size: 1.5rem;
-  }
+.contact-overlay h2 {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
 
-  #img {
+.contact-overlay p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* CONTACT BUTTON */
+.contact-btn {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid white;
+  padding: 12px 28px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+  width: fit-content; /* IMPORTANT */
+}
+
+.contact-btn:hover {
+  background: white;
+  color: black;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  .arrow {
     display: none;
   }
 
-  .slider-content .row {
-    padding: 0.1% 4%;
+  .contact-overlay {
+    padding: 30px;
+    max-width: 100%;
   }
-
-  .mybtn {
-    float: none;
-    margin-top: 10px;
-    margin-left: 0%;
-  }
-
-  .white {
-    min-height: auto;
-  }
-
-  /* ✅ Make PDF fullscreen on phones */
-  .pdf-container {
-    padding-top: 100vh;
-  }
-
-  .pdf-frame {
-    height: 100vh;
-    border-radius: 0;
-    border: none;
-  }
-}
-/* Center the indicator circles */
-.circles {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px; /* space between dots */
-  /* margin-top: 10px; */
-}
-
-.circles .indicators {
-  cursor: pointer;
-  font-size: 16px;
-}
-/* When no image, center text block */
-.d-flex.justify-content-center .white {
-  margin: 0 auto;
-  max-width: 80%; /* adjust width */
 }

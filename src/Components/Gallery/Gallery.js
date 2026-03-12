@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Card from "./Card";
-import CarouselModal from "./CarouselModal";
+import CarouselModal from "./CarouselModal.js";
 import cardData from "./cardData"; // Import the card data
 
 function Gallery() {
