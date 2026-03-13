@@ -15,17 +15,10 @@ const content = [
   [
     "Summer projects are all about turning ideas into action! They give students the chance to explore, experiment, and build something meaningful.Through guided mentorship and collaborative efforts, participants engage in research, innovation, and problem-solving that address real-world challenges.Serving as a platform for experiential learning, the summer projects prepare students to excel in their academic and professional journeys.Stay tuned for upcoming exciting events and updates. More details will be revealed soon!",
     "About Summer Projects'25 ",
-    "",
+    "December 2025",
     "https://drive.google.com/drive/folders/1mRabKkE9Wu8sk_P15ioLKm7D5ohstrxV",
   ],
 
-  [
-    "We have more activities in the pipeline that will be announced shortly. Keep checking this space for further information.",
-    "Coming Soon",
-    "....",
-    "https://www.instagram.com/society_of_civil_engineers/?hl=en",  
-    "#"
-  ],
 ];
 
 // only 1st slide has image

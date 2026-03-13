@@ -1,102 +1,74 @@
 import React, { useState, useEffect } from "react";
-import $ from "jquery";
 import { content } from "../../Data/slider_data";
 import "../Styles/home.css";
 import { useNavigate } from "react-router-dom";
 
 export default function Slider() {
-  const [activeIndex, setActiveIndex] = useState(0);
   const navigate = useNavigate();
+  const [showTopBtn, setShowTopBtn] = useState(false);
 
+  // Logic to show/hide the Scroll-to-Top button
   useEffect(() => {
-    universal(activeIndex);
-    // eslint-disable-next-line
+    const handleScroll = () => {
+      if (window.scrollY > 400) {
+        setShowTopBtn(true);
+      } else {
+        setShowTopBtn(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  function universal(i) {
-    setActiveIndex(i);
-
-    $("#slider-text").animate({ opacity: 0 }, 300, function () {
-      $(this).html(content[i][0]).animate({ opacity: 1 }, 200);
+  // Smooth scroll function
+  const goToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
     });
-
-    $("#slider-heading").animate({ opacity: 0 }, 300, function () {
-      $(this).html(content[i][1]).animate({ opacity: 1 }, 200);
-    });
-
-    $("#slider-date").animate({ opacity: 0 }, 300, function () {
-      $(this).html(content[i][2]).animate({ opacity: 1 }, 200);
-    });
-
-    $("#slider-link").attr("href", content[i][3]);
-
-    let dots = document.getElementsByClassName("indicators");
-    for (let k = 0; k < dots.length; k++) {
-      dots[k].classList.remove("active-dot");
-    }
-    dots[i].classList.add("active-dot");
-  }
-
-  function next() {
-    universal((activeIndex + 1) % content.length);
-  }
-
-  function prev() {
-    universal((activeIndex - 1 + content.length) % content.length);
-  }
+  };
 
   return (
-    <section id="home">
+    <section id="home" className="events-section">
       <div className="container">
-        <h1 id="recent">Recent Activities</h1>
+        {/* SECTION HEADER */}
+        <div className="events-header" data-aos="fade-down">
+          <span className="events-tag">Departmental Culture</span>
+          <h1 className="events-title">
+            Recent <span>Activities</span>
+          </h1>
+        </div>
 
-        <div className="recent-slider">
-          <div className="arrow left-arrow" onClick={prev}>
-            <i className="fa fa-angle-left"></i>
-          </div>
+        {/* EVENTS GRID */}
+        <div className="events-grid">
+          {content.map((item, index) => (
+            <div className="event-card" key={index} data-aos="fade-up">
+              <div className="event-content">
+                <span className="event-badge">EVENT</span>
 
-          <div className="arrow right-arrow" onClick={next}>
-            <i className="fa fa-angle-right"></i>
-          </div>
+                <h2 className="event-heading">{item[1]}</h2>
 
-          <div className="recent-card no-image">
-            <div className="recent-text">
-              <h2 id="slider-heading">{content[activeIndex][1]}</h2>
-              <p id="slider-date" className="date">
-                {content[activeIndex][2]}
-              </p>
+                <p className="event-date">{item[2]}</p>
 
-              <div id="slider-text" className="desc">
-                {content[activeIndex][0]}
+                <p className="event-desc">{item[0]}</p>
+
+                <a
+                  href={item[3]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="view-more-link"
+                >
+                  <button className="view-btn">View More</button>
+                </a>
               </div>
-
-              <a
-                id="slider-link"
-                href={content[activeIndex][3]}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="view-btn">View More</button>
-              </a>
             </div>
-          </div>
-
-          <div className="dots">
-            {[0, 1, 2, 3].map((i) => (
-              <span
-                key={i}
-                className={`indicators ${
-                  i === activeIndex ? "active-dot" : ""
-                }`}
-                onClick={() => universal(i)}
-              ></span>
-            ))}
-          </div>
+          ))}
         </div>
       </div>
 
-      {/* CONTACT SECTION */}
-      <div className="contact-banner">
+      {/* CONTACT CTA BANNER */}
+      <div className="contact-banner" data-aos="zoom-in">
         <div className="contact-overlay">
           <h2>Get in touch with any questions, ideas, or feedback</h2>
           <p>We’d love to hear from you. Reach out anytime.</p>
@@ -109,6 +81,17 @@ export default function Slider() {
           </button>
         </div>
       </div>
+
+      {/* SCROLL TO TOP BUTTON */}
+      {showTopBtn && (
+        <button 
+          className="scroll-to-top" 
+          onClick={goToTop}
+          title="Go to top"
+        >
+          ↑
+        </button>
+      )}
     </section>
   );
 }
