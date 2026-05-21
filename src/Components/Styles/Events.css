@@ -83,3 +83,206 @@
     clear: both;
 }
 
+.event-box{
+    width: 38%;
+    background: #e9ebef;
+    padding: 2rem;
+    border-radius: 30px;
+    margin: 30px auto;
+    box-shadow: 0 3px 0 #444;
+}
+
+.event-box h1{
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    color: #111827;
+    line-height: 1.2;
+}
+
+.event-box p{
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #222;
+}
+
+.event-btn{
+    margin-top: 20px;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 25px;
+    background: #d7dbe2;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.lecture-modal-overlay{
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.2);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 90px;
+    z-index: 2000;
+    overflow-y: auto;
+}
+
+.lecture-modal{
+    width: 65%;
+    background: white;
+    border-radius: 25px;
+    padding: 25px;
+    position: relative;
+    z-index: 2100;
+    margin-bottom: 40px;
+}
+
+.lecture-modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lecture-modal-header h1{
+    font-size: 2.5rem;
+    color: #111827;
+}
+
+.close-btn{
+    background: none;
+    border: none;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.lecture-modal-content{
+    margin-top: 25px;
+}
+
+.lecture-modal-content p{
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.lecture-links{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.lecture-links div{
+    font-size: 1.15rem;
+}
+
+.lecture-links span{
+    font-weight: 700;
+}
+
+.lecture-links a{
+    color: #2563eb;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.lecture-links a:hover{
+    text-decoration: underline;
+}
+
+@media(max-width:900px){
+
+    .event-box{
+        width: 85%;
+    }
+
+    .lecture-modal{
+        width: 90%;
+    }
+
+    .event-box h1{
+        font-size: 2rem;
+    }
+
+    .lecture-modal-header h1{
+        font-size: 1.7rem;
+    }
+
+}
+/* -------- Lecture Images -------- */
+
+.lecture-prof{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.lecture-prof span{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #111827;
+}
+
+.lecture-gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.lecture-gallery img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 18px;
+    transition: 0.3s ease;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+.lecture-gallery img:hover{
+    transform: scale(1.03);
+}
+/* -------- PROFESSOR BUTTONS -------- */
+
+.lecture-prof-buttons{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.lecture-prof-buttons button{
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    background: #1f2937;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s ease;
+}
+
+.lecture-prof-buttons button:hover{
+    background: #374151;
+}
+
+/* -------- IMAGE GALLERY -------- */
+
+.lecture-gallery{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+}
+
+.lecture-gallery img{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 18px;
+    transition: 0.3s ease;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+.lecture-gallery img:hover{
+    transform: scale(1.03);
+}
