@@ -1,7 +1,7 @@
 const content = [
   
   [
-    "On August 12, 2025 We conducted an informal session for Y24s, organized by Y23s, on the theme “How to Master the 3rd Semester.” In the session, we shared our personal experiences, strategies, and challenges faced during the semester. We discussed effective time management, balancing academics with extracurriculars, and tips for excelling in core courses. The session also highlighted the importance of consistency, resource-sharing, and peer learning. It was an interactive and insightful discussion aimed at guiding juniors for a smoother journey ahead.",
+    "On August 12, 2025 We conducted an informal session for Y24s, organized by Y23s, on the theme “How to Master the 3rd Semester.” In the session, we shared our personal experiences, strategies, and challenges faced during the semester. We discussed effective time management, balancing academics with extracurriculars, and tips for excelling in core courses.",
     "Informal Session – for Y24s",
     "August 12, 2025",
     "/info.pdf"
