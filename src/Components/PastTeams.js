@@ -11,8 +11,22 @@ const PastTeams = () => {
         </div>
         <div className="row d-flex justify-content-around">
           {/* <div> */}
+
+          <div
+              onClick={() => {
+               window.location = "/team/team25";
+              }}
+          >
+              <div className="col-5 team-card past-team-year">
+              <h1 className="text-center">Team 2025</h1>
+            </div>
+                  </div>
+
+
             <div
             onClick={() => {
+
+
               window.location = "/team/team24";
             }}
 
