@@ -37,7 +37,7 @@ const PastTeams = () => {
           </div>
           <div
             onClick={() => {
-              window.location = "/team/team24";
+              window.location = "/team/team23";
             }}
 
           >

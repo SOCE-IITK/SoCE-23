@@ -69,7 +69,7 @@ function Menubar() {
             <Nav.Link href="https://sankalaniitk.in/">Conclave</Nav.Link>
             <Nav.Link href="/archive">Archive</Nav.Link>
             <Nav.Link href="/gallery">Gallery</Nav.Link>
-            <Nav.Link href="/team/team25">Team</Nav.Link>
+            <Nav.Link href="/team/team26">Team</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
