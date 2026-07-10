@@ -33,6 +33,18 @@ var team26 = [
     mail: "mailto:saksham24@iitk.ac.in",
     image: "/team/team26/Saksham_Event.jpg"
     },
+{
+      id: "8",
+      name: "Saudamini Nikam ",
+      post: "Events ",
+      fb: " ",
+      insta: "https://www.instagram.com/who__knows_5/",
+      linkedin: "https://www.linkedin.com/in/saudamininikam/",
+      mail: "mailto:saudaminisn25@iitk.ac.in",
+      image: "/team/team26/Saudamini.jpeg",
+    },
+
+
     {
       id: "2",
       name: "Nikhil Prajapati",
@@ -45,7 +57,7 @@ var team26 = [
     },
     {
       id: "3",
-      name: "Shubham Bharti",
+      name: "Shubham Bharati",
       post: " Design ",
       fb: " ",
       insta: "https://www.instagram.com/shubham__bharati_?igsh=MWU0enRjcGJvdTFxNg==",
@@ -53,10 +65,22 @@ var team26 = [
       mail: "mailto:shubhamb24@iitk.ac.in",
       image: "/team/team26/Shubham.jpg",
     },
+
+{
+      id: "9",
+      name: "Sruja BG ",
+      post: "Design ",
+      fb: "",
+      insta: "https://www.instagram.com/sruja_bg/",
+      linkedin: "https://www.linkedin.com/in/sruja-bg-57a49a393?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      mail: "mailto:rohitu24@iitk.ac.in",
+      image: "/team/team26/Sruja.jpg",
+    },
+
     {
       id: "5",
       name: "Girish Bhojwani",
-    post: "Media and Content",
+    post: "Marketing and Finance",
     fb: "",
     insta: "https://www.instagram.com/girish.iitk/",
     linkedin: "https://www.linkedin.com/in/girish-bhojwani-b1315a323",
@@ -66,7 +90,7 @@ var team26 = [
     {
       id: "6",
        name: "Kartikey Agarwal",
-    post: "Design",
+    post: "Marketing and Finance",
     fb: "Nope",
     insta: "https://www.instagram.com/agarwal.k._/",
     linkedin: "https://www.linkedin.com/in/kartikey-agarwal-48769b31b",
@@ -84,26 +108,8 @@ var team26 = [
       mail: "mailto:chiluverip24@iitk.ac.in",
       image: "/team/team26/pinky.jpg",
     },
-    {
-      id: "8",
-      name: "Saudamini Nikam ",
-      post: "Events ",
-      fb: " ",
-      insta: "https://www.instagram.com/who__knows_5/",
-      linkedin: "https://www.linkedin.com/in/saudamininikam/",
-      mail: "mailto:saudaminisn25@iitk.ac.in",
-      image: "/team/team26/Saudamini.jpeg",
-    },
-    {
-      id: "9",
-      name: "Sruja BG ",
-      post: "Design ",
-      fb: "",
-      insta: "https://www.instagram.com/sruja_bg/",
-      linkedin: "https://www.linkedin.com/in/sruja-bg-57a49a393?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
-      mail: "mailto:rohitu24@iitk.ac.in",
-      image: "/team/team26/Sruja.jpg",
-    },
+   
+    // 
   ],
   [
 //   {

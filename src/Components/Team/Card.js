@@ -15,7 +15,7 @@ export default function Card() {
   console.log("Params:", params);
 
   useEffect(() => {
-    console.log("Team Data:", team25); // You can change this based on testing
+    console.log("Team Data:", team26);
   }, []);
 
   let team;
@@ -25,30 +25,40 @@ export default function Card() {
     case "team26":
       team = team26;
       break;
+
     case "team25":
       team = team25;
       break;
+
     case "team24":
       team = team24;
       break;
+
     case "team23":
       team = team23;
       break;
+
     case "team22":
       team = team22;
       break;
+
     case "team21":
       team = team21;
       break;
+
     case "team20":
       team = team20;
       break;
+
     case "webteam":
       team = web;
       head = "Developed By";
       break;
+
     default:
-      team = team25;
+      // Show current team when visiting /team
+      team = team26;
+      break;
   }
 
   if (!team) {
