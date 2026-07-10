@@ -22,7 +22,7 @@ export default function Postu() {
           <div className="row postulates-year-row">
             <div className="col postulates-year">
               <button type="button" className="btn-postulates">
-                <a href="/team/team25">Current Team</a>
+                <a href="/team/team26">Current Team</a>
               </button>
             </div>
             <div className="col postulates-year">

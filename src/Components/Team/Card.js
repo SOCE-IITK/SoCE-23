@@ -5,6 +5,7 @@ import team22 from "../../database/team22/team22";
 import team21 from "../../database/team21/team21";
 import team20 from "../../database/team20/team20";
 import team25 from "../../database/team25/team25";
+import team26 from "../../database/team26/team26";
 
 import web from "../../database/web";
 import { useParams } from "react-router-dom";
@@ -21,6 +22,9 @@ export default function Card() {
   let head = "Managers";
 
   switch (params.team) {
+    case "team26":
+      team = team26;
+      break;
     case "team25":
       team = team25;
       break;
@@ -191,7 +195,7 @@ export default function Card() {
         <>
           <br />
           <br />
-          <h2 className="text-center">Secretary</h2>
+          <h2 className="text-center"></h2>
           <div className="row postulates-card d-flex justify-content-around">
             {sc &&
               sc.map((data, index) => (
