@@ -11,7 +11,7 @@ export default function Mitacs() {
   };
 
   if (popup1) {
-    document.body.classList.add("active-pop1");
+    document.body.classList.add("active-pop1"); 
   } else {
     document.body.classList.remove("active-pop1");
   }

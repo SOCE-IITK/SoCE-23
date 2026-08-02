@@ -1,96 +1,248 @@
-/* Navbar container */
-#menubar {
-  background-color: #202929 !important;
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+/* ===========================
+   NAVBAR
+=========================== */
+
+#menubar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+
+    background:transparent !important;
+
+    transition:.35s ease;
+
+    z-index:9999;
 }
 
-/* Brand wrapper */
-.brand-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+/* After scrolling */
+
+#menubar.scrolled{
+
+    background:#07172d !important;
+
+    box-shadow:0 5px 25px rgba(0,0,0,.35);
+
 }
 
-/* Logo */
-#soce-logo {
-  height: 55px;
-  width: auto;
+/* ===========================
+   BRAND
+=========================== */
+
+.brand-wrapper{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
 }
 
-/* Brand text */
-.brand-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.1;
-  color: #ffffff;
+#soce-logo{
+
+    width:66px;
+
+    height:66px;
+
+    object-fit:contain;
+
 }
 
-/* Main title */
-.brand-title {
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0.5px;
+.brand-text{
+
+    display:flex;
+
+    flex-direction:column;
+
+    color:#fff;
+
 }
 
-/* Subtitle */
-.brand-subtitle {
-  font-size: 11px;
-  font-weight: 300;
-  opacity: 0.85;
-  margin-top: 8px;
+.brand-title{
+
+    font-size:18px;
+
+    line-height:1.05;
+
+    font-weight:700;
+
 }
 
-/* Navbar links */
-.navbar-nav .nav-link {
-  color: #ffffff !important;
-  font-weight: 200;
-  transition: color 0.3s ease;
+.brand-subtitle{
+
+    margin-top:6px;
+
+    font-size:12px;
+
+    letter-spacing:2px;
+
+    color:#d4d4d4;
+
 }
 
-.navbar-nav .nav-link:hover {
-  color: #e6e6e6 !important;
+/* ===========================
+   LINKS
+=========================== */
+
+.navbar-nav{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
 }
 
-.navbar-nav .nav-link.active {
-  color: #ffffff !important;
-  border-bottom: 2px solid #ffffff;
+.navbar-nav .nav-link{
+
+    color:white !important;
+
+    font-size:16px;
+
+    font-weight:500;
+
+    padding:8px 0 !important;
+
+    position:relative;
+
+    transition:.3s;
+
 }
 
-/* Dropdown menu */
-.dropdown-menu {
-  background-color: #2f3a3f;
-  border: none;
+.navbar-nav .nav-link:hover{
+
+    color:#39b6ff !important;
+
 }
 
-.dropdown-item {
-  color: #ffffff !important;
+.navbar-nav .nav-link.active{
+
+    color:#fff !important;
+
 }
 
-.dropdown-item:hover {
-  background-color: #3a4a50;
-  color: #ffffff !important;
+.navbar-nav .nav-link.active::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:100%;
+
+    height:3px;
+
+    background:#24b6ff;
+
+    border-radius:20px;
+
 }
 
-/* Mobile toggle */
-.navbar-toggler {
-  border-color: rgba(255, 255, 255, 0.6);
+/* ===========================
+   DROPDOWN
+=========================== */
+
+.dropdown-menu{
+
+    background:#08192f;
+
+    border:none;
+
 }
 
-.navbar-toggler-icon {
-  filter: invert(100%);
+.dropdown-item{
+
+    color:white;
+
 }
 
-/* Mobile responsiveness */
-@media screen and (max-width: 768px) {
-  #soce-logo {
-    height: 45px;
-  }
+.dropdown-item:hover{
 
-  .brand-title {
-    font-size: 14px;
-  }
+    background:#123559;
 
-  .brand-subtitle {
-    font-size: 10px;
-  }
+    color:#3bbcff;
+
+}
+
+/* ===========================
+   TOGGLE
+=========================== */
+
+.navbar-toggler{
+
+    border:1px solid rgba(255,255,255,.5);
+
+}
+
+.navbar-toggler-icon{
+
+    filter:invert(1);
+
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:992px){
+
+#menubar{
+
+    background:#07172d !important;
+
+}
+
+.navbar-collapse{
+
+    background:#07172d;
+
+    margin-top:12px;
+
+    padding:20px;
+
+    border-radius:15px;
+
+}
+
+.navbar-nav{
+
+    gap:4px;
+
+}
+
+.navbar-nav .nav-link{
+
+    font-size:17px;
+
+    padding:12px 0 !important;
+
+}
+
+.brand-title{
+
+    font-size:16px;
+
+}
+
+.brand-subtitle{
+
+    font-size:10px;
+
+    letter-spacing:1px;
+
+}
+
+#soce-logo{
+
+    width:54px;
+
+    height:54px;
+
+}
+
 }

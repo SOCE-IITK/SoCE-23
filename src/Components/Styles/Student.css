@@ -1,75 +1,547 @@
+/* ==========================================
+   STUDENT PAGE
+========================================== */
+
 #StudentSec{
-    display: block;
+    display:block;
+    background:#0b1014;
 }
-/* .stud-flex{
-    display: flex;
-    justify-content: space-between;
-} */
+
+#student{
+
+    background:#0b1014;
+
+    padding:120px 0 70px;
+
+}
+
+/* ==========================================
+   HEADER
+========================================== */
 
 .stu{
-    background-color: rgba(222,226,231,.5);
-    padding: 25px;
-    border-radius: 25px;
-    margin-top: 20px;
-    margin-bottom: 25px;
-    font-size: 13px;
 
-    font-family: Poppins,sans-serif;
-}
-.stud{
-    background-color: rgba(222, 226, 231, 0.5);
-    border-bottom: 2px solid #505050;
-    padding: 25px;
-    margin-top: 15px;
-    transition: 0.3s ease;
-    border-radius: 20px;
-    font-size: 12px;
-    margin-bottom: 20px;
-    font-family: Poppins,sans-serif;
-    /* width:48%; */
-}
+    position:relative;
 
-.stud:hover{
-    box-shadow: 1.5px 1.5px 6px rgba(0, 0, 0, 0.2);
-    transform: scale(1.02);
-}
+    overflow:hidden;
 
-.Btn{
-    margin-left: 30%;
-    border: none;
-    font-size: 10px;
-    background-color: rgb(222, 226, 231);
-    padding: 6px 28px;
-    border-radius: 30px;
-    float:right;
-}
-.Btn:hover{
-    background-color: rgba(222, 226, 231, 0.5);
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-    transform: scale(1.001);
-    color: rgb(0, 0, 0);
-    
+    padding:35px 40px;
+
+    border-radius:35px;
+
+    background:linear-gradient(
+        135deg,
+        #101616 0%,
+        #11181b 45%,
+        #102531 100%
+    );
+
+    border:1px solid rgba(255,255,255,.06);
+
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.03),
+        0 20px 50px rgba(0,0,0,.35);
+
+    margin-bottom:10px;
+
 }
 
-@media screen and (max-width: 768px) {
-    .Btn{
-        margin-left: -70%;
-        margin-top: 35px;
+/* Right blue glow */
+
+.stu::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:450px;
+
+    height:450px;
+
+    top:-170px;
+
+    right:-120px;
+
+    border-radius:50%;
+
+    background:radial-gradient(
+        circle,
+        rgba(0,183,255,.18),
+        transparent 72%
+    );
+
+}
+
+/* Left light */
+
+.stu::after{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:linear-gradient(
+        90deg,
+        rgba(255,255,255,.015),
+        transparent
+    );
+
+}
+
+.stu>*{
+
+    position:relative;
+
+    z-index:5;
+
+}
+
+/* ==========================================
+   Badge
+========================================== */
+
+.student-badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:10px 18px;
+
+    border-radius:40px;
+
+    border:1px solid rgba(0,183,255,.25);
+
+    background:rgba(0,183,255,.08);
+
+    color:#18bfff;
+
+    font-size:15px;
+
+    font-weight:700;
+
+    letter-spacing:.7px;
+
+    margin-bottom:30px;
+
+    text-transform:uppercase;
+
+}
+
+/* ==========================================
+   Heading
+========================================== */
+
+.stu h1{
+
+    color:#ffffff;
+
+    font-size:50px;
+
+    font-weight:800;
+
+    letter-spacing:-2px;
+
+    margin-bottom:28px;
+
+    line-height:1;
+
+}
+
+/* ==========================================
+   Description
+========================================== */
+
+.stu p{
+
+    color:#d4dce5;
+
+    font-size:18px;
+
+    line-height:1.6;
+
+    max-width:900px;
+
+    margin:0;
+
+}
+
+/* ==========================================
+   GRID
+========================================== */
+
+.student-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+
+    gap:35px;
+
+}
+
+/* ==========================================
+   CARD
+========================================== */
+
+.student-card{
+
+    background:#10171d;
+
+    border-radius:28px;
+
+    overflow:hidden;
+
+    border:1px solid rgba(255,255,255,.06);
+
+    transition:.35s;
+
+}
+
+.student-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#00bfff;
+
+    box-shadow:0 25px 50px rgba(0,0,0,.45);
+
+}
+
+/* ==========================================
+   IMAGE
+========================================== */
+
+.student-image{
+
+    position:relative;
+
+    height:220px;
+
+    overflow:hidden;
+
+}
+
+.student-image img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    transition:.5s;
+
+}
+
+.student-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.image-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:linear-gradient(
+
+        to bottom,
+
+        rgba(0,0,0,.08),
+
+        rgba(8,14,18,.93)
+
+    );
+
+}
+
+/* ==========================================
+   BADGE
+========================================== */
+
+.card-badge{
+
+    position:absolute;
+
+    top:18px;
+
+    right:18px;
+
+    background:#ff2f59;
+
+    color:#fff;
+
+    padding:7px 14px;
+
+    border-radius:30px;
+
+    font-size:12px;
+
+    font-weight:700;
+
+}
+
+/* ==========================================
+   ICON
+========================================== */
+
+.student-icon{
+
+    width:62px;
+
+    height:62px;
+
+    margin-top:-30px;
+
+    margin-left:28px;
+
+    border-radius:18px;
+
+    background:#13212c;
+
+    border:1px solid rgba(255,255,255,.05);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:28px;
+
+    color:#18bfff;
+
+    position:relative;
+
+    z-index:5;
+
+}
+
+/* ==========================================
+   CONTENT
+========================================== */
+
+.student-content{
+
+    padding:0 28px 30px;
+
+}
+
+.student-content h3{
+
+    color:#fff;
+
+    font-size:34px;
+
+    margin:24px 0 18px;
+
+}
+
+.student-content p{
+
+    color:#c7d2dc;
+
+    font-size:16px;
+
+    line-height:1.85;
+
+}
+
+/* ==========================================
+   BUTTON
+========================================== */
+
+.read-btn{
+
+    margin-top:28px;
+
+    border:none;
+
+    background:#182742;
+
+    color:#fff;
+
+    padding:15px 30px;
+
+    border-radius:45px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.read-btn:hover{
+
+    background:#18bfff;
+
+    color:#091118;
+
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media(max-width:992px){
+
+    .stu{
+
+        padding:45px;
+
     }
-    .stud{
-        width: 80%;
+
+    .stu h1{
+
+        font-size:56px;
+
     }
-    #student p{
-        text-align: justify;
+
+    .stu p{
+
+        font-size:18px;
+
     }
-    
+
 }
-#student-col{
-    text-align: center;
-     height: 80vh;
-} 
-.Container:after {
-    content: "";
-    display: table;
-    clear: both;
+
+@media(max-width:768px){
+
+    #student{
+
+        padding-top:100px;
+
+    }
+
+    .stu{
+
+        padding:30px;
+
+        border-radius:25px;
+
+    }
+
+    .student-badge{
+
+        font-size:13px;
+
+    }
+
+    .stu h1{
+
+        font-size:42px;
+
+    }
+
+    .stu p{
+
+        font-size:16px;
+
+    }
+
+    .student-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/* ===========================
+   ARCHIVE CARD
+=========================== */
+
+.archive-card{
+
+    border-radius:28px;
+
+    background:#10171d;
+
+    border:1px solid rgba(255,255,255,.06);
+
+    transition:.35s;
+
+}
+
+.archive-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#19c2ff;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.45);
+
+}
+
+.archive-date{
+
+    color:#b7c5d3;
+
+    margin:18px 0;
+
+    font-size:16px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+}
+
+.archive-links{
+
+    display:flex;
+
+    gap:18px;
+
+    margin-top:25px;
+
+}
+
+.archive-icon{
+
+    width:46px;
+
+    height:46px;
+
+    border-radius:50%;
+
+    background:#182742;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+    font-size:20px;
+
+}
+
+.archive-icon:hover{
+
+    background:#18bfff;
+
+    color:#091118;
+
+    transform:translateY(-3px);
+
 }

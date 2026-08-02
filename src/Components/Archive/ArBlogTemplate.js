@@ -1,62 +1,72 @@
 import React from "react";
 
-export default function ArBlogTemplate(props) {
-    return (
-        <>
-            <div className="container Container" id="summer">
-                <div className="stud-flex row d-flex justify-content-around">
-                    {props.props.map((d) => {
-                        return (
-                            <div className="col-md-5 stud">
-                                <h2>{d.head}</h2>
-                                <div>
-                                    <h5 style={{ display: "inline", marginRight: "5px" }}>
-                                        Date:
-                                    </h5>
-                                    <span
-                                        style={{
-                                            fontSize: "18px",
-                                            display: "inline-block",
-                                            verticalAlign: "middle",
-                                            marginBottom: "2px", // Adjust the value as needed
-                                        }}
-                                    >
-                                        {d.date}
-                                    </span>
-                                </div>
-                                <div style={{ display: "flex", alignItems: "center" }}>
-                                    <h5 style={{ display: "inline", marginRight: "5px",marginTop:"5px" }}>
-                                        View Here:
-                                    </h5>
-                                    <ul className="team-social-icons" style={{ marginLeft: "5px" }}>
-                                        {d.fb && (
-                                            <li>
-                                                <a className="facebook" target="_blank" href={d.fb}>
-                                                    <i className="fa fa-facebook"></i>
-                                                </a>
-                                            </li>
-                                        )}
-                                        {d.insta && (
-                                            <li>
-                                                <a className="dribbble" target="_blank" href={d.insta}>
-                                                    <i className="fa fa-instagram"></i>
-                                                </a>
-                                            </li>
-                                        )}
-                                        {d.linkedin && (
-                                            <li>
-                                                <a className="linkedin" target="_blank" href={d.linkedin}>
-                                                    <i className="fa fa-linkedin"></i>
-                                                </a>
-                                            </li>
-                                        )}
-                                    </ul>
-                                </div>
-                            </div>
-                        );
-                    })}
-                </div>
-            </div>
-        </>
-    );
+export default function ArBlogTemplate({ props }) {
+  const d = props[0];
+
+  return (
+    <div className="col-lg-6 col-md-6 mb-4">
+
+      <div className="student-card archive-card h-100">
+
+        <div className="student-content">
+
+          {/* Badge */}
+          <div className="student-badge">
+            <i className="fa fa-newspaper-o"></i>
+            Blog / Event
+          </div>
+
+          {/* Title */}
+          <h3>{d.head}</h3>
+
+          {/* Date */}
+          <p className="archive-date">
+            <i className="fa fa-calendar"></i>
+            <span>{d.date}</span>
+          </p>
+
+          {/* Social Links */}
+          <div className="archive-links">
+
+            {d.fb && (
+              <a
+                href={d.fb}
+                target="_blank"
+                rel="noreferrer"
+                className="archive-icon"
+              >
+                <i className="fa fa-facebook"></i>
+              </a>
+            )}
+
+            {d.insta && (
+              <a
+                href={d.insta}
+                target="_blank"
+                rel="noreferrer"
+                className="archive-icon"
+              >
+                <i className="fa fa-instagram"></i>
+              </a>
+            )}
+
+            {d.linkedin && (
+              <a
+                href={d.linkedin}
+                target="_blank"
+                rel="noreferrer"
+                className="archive-icon"
+              >
+                <i className="fa fa-linkedin"></i>
+              </a>
+            )}
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  );
 }

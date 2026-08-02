@@ -1,21 +1,22 @@
-import Menubar from './Components/Menubar';
-import Footer from './Components/Footer';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css'
-import {Routes,Route} from 'react-router-dom'
-import Home from './Components/Home'
-import Team from './Components/Team'
-import Events from './Components/Events'
-import StudentSec from './Components/Student_Section'
-import Strength from './Components/Strength'
-import Portal from './Components/Portal'
-import Archive from './Components/Archive/archive';
-import Report from './Components/Report'
-import Contact from './Components/Contact';
-import Postu from './Components/Placement/postu';
+import Menubar from "./Components/Menubar";
+import Footer from "./Components/Footer";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
 
-import Show from './Components/Placement/Show'
-import PastTeams from './Components/PastTeams';
+import Home from "./Components/Home";
+import Team from "./Components/Team";
+import Events from "./Components/Events";
+import StudentSec from "./Components/Student_Section";
+import Strength from "./Components/Strength";
+import Portal from "./Components/Portal";
+import Archive from "./Components/Archive/archive";
+import Report from "./Components/Report";
+import Contact from "./Components/Contact";
+import Postu from "./Components/Placement/postu";
+import Show from "./Components/Placement/Show";
+import PastTeams from "./Components/PastTeams";
+// import Gallery from "./Components/Gallery/Gallery";
 import Ankit from './Components/blogs/Ankit';
 import Aryaman_Shandilya from './Components/blogs/Aryaman_Shandilya';
 import Ashutosh_Ranjan from './Components/blogs/Ashutosh_Ranjan';
@@ -61,7 +62,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/students" element={<StudentSec />}></Route>
-        {/* <Route path="/team" element={<Team/>}></Route> */}
+     
         <Route path="/events" element={<Events />}></Route>
         <Route path="/strengths" element={<Strength />}></Route>
         <Route path="/reports" element={<Report />}></Route>
@@ -73,6 +74,7 @@ function App() {
         <Route path="/postulates" element={<Postu />}></Route>
         <Route path="/pastteams" element={<PastTeams />}></Route>
         <Route path="/:link" element={<Show />}>
+           {/* <Route path="/team" element={<Team/>}></Route> */}
           {" "}
         </Route>
         <Route path="/team/:team" element={<Team />}>

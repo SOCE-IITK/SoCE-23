@@ -1,117 +1,410 @@
-.str {
-    background-color: rgba(222, 226, 231, 0.5);
-    padding: 25px;
-    border-radius: 25px;
-    margin-top: 20px;
-    font-size: 13px;
-    margin-bottom: 25px;
-    font-family: Poppins, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+/* ===========================
+   PAGE
+=========================== */
+
+#strength{
+    padding-top:90px;
+    padding-bottom:60px;
 }
 
-.str-row h1 {
-    margin: 20px 0px;
-    font-size: 24px;
+#strength *{
+    font-family:"Poppins",sans-serif;
 }
 
-.str-row {
-    text-align: center;
+/* ===========================
+   HERO SECTION
+=========================== */
+
+.strength-hero{
+
+    position:relative;
+
+    overflow:hidden;
+
+    padding:55px;
+
+    margin-bottom:50px;
+
+    border-radius:28px;
+
+    background:linear-gradient(
+        135deg,
+        #101616,
+        #11191c,
+        #103040
+    );
+
+    border:1px solid rgba(255,255,255,.06);
+
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.04),
+        0 18px 45px rgba(0,0,0,.30);
+
 }
 
-.str-card {
-    background-color: rgba(222, 226, 231, 0.5);
-    border-bottom: 2px solid #505050;
-    padding: 25px;
-    margin-top: 15px;
-    transition: 0.3s ease;
-    border-radius: 20px;
-    font-size: 12px;
-    margin-bottom: 20px;
-    font-family: Poppins, sans-serif;
-    width: 30%;
+.strength-hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:520px;
+
+    height:520px;
+
+    right:-170px;
+
+    top:-220px;
+
+    border-radius:50%;
+
+    background:radial-gradient(
+        circle,
+        rgba(0,191,255,.18),
+        transparent 70%
+    );
+
 }
 
-.ptr {
-    background-color: rgba(222, 226, 231, 0.5);
-    border-bottom: 2px solid #505050;
-    padding: 25px;
-    margin-top: 15px;
-    transition: 0.3s ease;
-    border-radius: 20px;
-    font-size: 12px;
-    font-family: Poppins, sans-serif;
-    width: 30%;
+.strength-hero h1{
+
+    color:#fff;
+
+    font-size:64px;
+
+    font-weight:800;
+
+    margin-bottom:30px;
+
+    position:relative;
+
+    z-index:2;
+
 }
 
-.str-card:hover {
-    box-shadow: 1.5px 1.5px 6px rgba(0, 0, 0, 0.2);
-    transform: scale(1.02);
+.strength-hero p{
+
+    max-width:1100px;
+
+    color:#cfd7e0;
+
+    font-size:21px;
+
+    line-height:1.9;
+
+    position:relative;
+
+    z-index:2;
+
 }
 
-.str-btn {
-    border: none;
-    font-size: 10px;
-    background-color: rgb(222, 226, 231);
-    padding: 6px 20px;
-    margin-top: 2%;
-    border-radius: 30px;
+/* ===========================
+   CARD
+=========================== */
+
+.strength-card{
+
+    background:#11171d;
+
+    border:1px solid rgba(255,255,255,.06);
+
+    border-radius:24px;
+
+    padding:40px 30px;
+
+    min-height:240px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:space-between;
+
+    transition:.35s;
+
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.03),
+        0 12px 30px rgba(0,0,0,.22);
+
 }
 
-.str-btn:hover {
-    background-color: rgba(222, 226, 231, 0.5);
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-    transform: scale(1.001);
-    color: rgb(0, 0, 0);
+.strength-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#18bfff;
+
+    box-shadow:
+        0 20px 45px rgba(0,0,0,.35);
+
 }
 
-.str-btn1 {
-    border: none;
-    font-size: 10px;
-    background-color: rgb(222, 226, 231);
-    padding: 6px 20px;
-    border-radius: 30px;
+.strength-card h2{
+
+    color:#fff;
+
+    font-size:34px;
+
+    text-align:center;
+
+    font-weight:700;
+
+    margin-bottom:45px;
+
+}
+/* ===========================
+   BUTTONS
+=========================== */
+
+.strength-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:18px;
+
+    margin-top:auto;
+
 }
 
-.popup {
-    background: #fff;
-    height: 400px;
-    width: 60%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.18);
-    transition: 0.5s ease;
-    border-radius: 15px;
-    padding: 10px;
+.strength-btn{
+
+    border:none;
+
+    outline:none;
+
+    cursor:pointer;
+
+    padding:13px 28px;
+
+    border-radius:40px;
+
+    background:#18bfff;
+
+    color:#081018;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    transition:.35s;
+
+    min-width:130px;
+
 }
 
-.popup-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+.strength-btn:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 10px 25px rgba(24,191,255,.30);
+
 }
 
-.popup-header h1 {
-    font-size: 24px;
+.strength-btn.outline{
+
+    background:transparent;
+
+    color:#18bfff;
+
+    border:2px solid #18bfff;
+
 }
 
-.popup-header img {
-    cursor: pointer;
-    width: 20px;
+.strength-btn.outline:hover{
+
+    background:#18bfff;
+
+    color:#081018;
+
 }
 
-.popup-content {
-    padding: 20px;
+/* ===========================
+   LINKS
+=========================== */
+
+.strength-buttons a{
+
+    text-decoration:none;
+
 }
 
-@media screen and (max-width: 768px) {
-    .str-card {
-        text-align: center;
-        width: 80%;
+/* ===========================
+   ROW GAP
+=========================== */
+
+#strength .row{
+
+    row-gap:30px;
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:992px){
+
+    .strength-hero{
+
+        padding:40px;
+
     }
 
-    .popup {
-        width: 80%;
+    .strength-hero h1{
+
+        font-size:52px;
+
     }
+
+    .strength-hero p{
+
+        font-size:18px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    #strength{
+
+        padding-top:80px;
+
+    }
+
+    .strength-hero{
+
+        padding:30px 25px;
+
+        border-radius:22px;
+
+    }
+
+    .strength-hero h1{
+
+        font-size:40px;
+
+        margin-bottom:18px;
+
+    }
+
+    .strength-hero p{
+
+        font-size:16px;
+
+        line-height:1.8;
+
+    }
+
+    .strength-card{
+
+        padding:30px 22px;
+
+        min-height:210px;
+
+    }
+
+    .strength-card h2{
+
+        font-size:28px;
+
+        margin-bottom:35px;
+
+    }
+
+    .strength-buttons{
+
+        flex-direction:column;
+
+        gap:12px;
+
+    }
+
+    .strength-btn{
+
+        width:100%;
+
+    }
+
+}
+
+@media(max-width:480px){
+
+    .strength-hero h1{
+
+        font-size:34px;
+
+    }
+
+    .strength-hero{
+
+        padding:25px 20px;
+
+    }
+
+    .strength-card{
+
+        min-height:190px;
+
+        padding:25px 18px;
+
+    }
+
+    .strength-card h2{
+
+        font-size:24px;
+
+    }
+
+}
+/* ===========================
+   PAGE BACKGROUND
+=========================== */
+
+body{
+    background:#0b1014;
+}
+
+#strength{
+    padding-top:120px;
+    padding-bottom:80px;
+    background:#0b1014;
+}
+
+/* ===========================
+   CARD HEIGHT
+=========================== */
+
+.strength-card{
+
+    height:100%;
+
+}
+
+/* ===========================
+   BUTTON CENTER
+=========================== */
+
+.strength-buttons{
+
+    justify-content:center;
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:992px){
+
+    .strength-card{
+
+        min-height:220px;
+
+    }
+
 }

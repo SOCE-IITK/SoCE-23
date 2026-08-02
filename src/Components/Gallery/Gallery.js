@@ -1,50 +1,107 @@
 import React, { useState } from "react";
 import Card from "./Card";
-import CarouselModal from "./CarouselModal.js";
-import cardData from "./cardData"; // Import the card data
+import CarouselModal from "./CarouselModal";
+import cardData from "./cardData";
+import "../Styles/gallery.css";
 
-function Gallery() {
-  const [isModalOpen, setIsModalOpen] = useState(false); // State to track modal open/close
-  const [selectedSlides, setSelectedSlides] = useState([]); // State to track selected card's slides
+export default function Gallery() {
 
-  // Function to open the modal and set the selected slides
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedSlides, setSelectedSlides] = useState([]);
+
   const openModal = (slides) => {
     setSelectedSlides(slides);
     setIsModalOpen(true);
   };
 
-  // Function to close the modal
   const closeModal = () => {
     setIsModalOpen(false);
+    setSelectedSlides([]);
   };
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-neutral-800">
-      <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 mt-10">
-        {cardData.map((card, index) => (
-          <Card
-            key={index}
-            title={card.title}
-            imageSrc={card.imageSrc}
-            description={card.description}
-            onSeeMoreClick={() => openModal(card.slides)} // Pass the slides of the current card
-          />
-        ))}
+    <div id="gallery-page">
+
+      {/* Hero */}
+
+      <div className="container">
+
+        <div className="gallery-hero">
+
+          <div className="gallery-badge">
+            <i className="fa fa-camera"></i>
+            Gallery
+          </div>
+
+          <h1>Gallery</h1>
+
+          <p>
+            Explore memorable moments from guest lectures,
+            workshops, competitions, freshers, farewell,
+            alumni meet and various events organized by
+            the Society of Civil Engineers, IIT Kanpur.
+          </p>
+
+        </div>
+
       </div>
-      {/* Carousel Modal */}
+
+      {/* Cards */}
+
+      <div className="container">
+
+        <div className="row g-4">
+
+          {cardData.map((card, index) => (
+
+            <div className="col-lg-4 col-md-6" key={index}>
+
+              <Card
+                title={card.title}
+                imageSrc={card.imageSrc}
+                description={card.description}
+                onSeeMoreClick={() => openModal(card.slides)}
+              />
+
+            </div>
+
+          ))}
+
+        </div>
+
+      </div>
+
+      {/* Modal */}
+
       {isModalOpen && (
-        <div className="fixed inset-0 flex items-center justify-center z-50 bg-black/60">
-          <div className="bg-white p-4 rounded-lg shadow-lg">
+
+        <div className="gallery-modal-overlay">
+
+          <div className="gallery-modal">
+
+            <button
+              className="gallery-close"
+              onClick={closeModal}
+            >
+              ×
+            </button>
+
             <CarouselModal autoSlide={true} onClose={closeModal}>
               {selectedSlides.map((slide, index) => (
-                <img key={index} src={slide} alt={`Slide ${index}`} />
+                <img
+                  key={index}
+                  src={slide}
+                  alt={`Slide ${index}`}
+                />
               ))}
             </CarouselModal>
+
           </div>
+
         </div>
+
       )}
+
     </div>
   );
 }
-
-export default Gallery;
