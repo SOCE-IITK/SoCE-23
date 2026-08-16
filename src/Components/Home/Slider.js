@@ -85,34 +85,32 @@ function Slider() {
             </div>
 
             <span className="event-date">
-              Friday, April 17, 2026
+              {/* Coming Soon... */}
             </span>
 
           </div>
 
-          <h1>INFORMAL FAREWELL</h1>
+          <h1>FRESHER'S PARTY</h1>
 
-          <h2>Graduating Batch of 2026</h2>
+          <h2>Welcome Y26</h2>
 
           <div className="event-quote">
 
-            "Let's celebrate a remarkable college life and
-            new beginnings ahead!"
+            "New campus, new friends, new adventures — let’s make the journey unforgettable!"
 
           </div>
 
           <p>
 
-            Join us for an evening dedicated to celebrating
-            our graduating civil engineers.
-
-            Reflect on the past and prepare for the journey
-            ahead with friends, professors and mentors.
+            Welcome, Batch of Y26! Get ready to step into a new chapter of your college life 
+            and become a part of the Civil Engineering family.
+             Join us for an evening of fun, interaction, 
+             and memorable moments with your seniors and batchmates.
 
           </p>
 
           <h4>
-            Join us and make it memorable.
+            Your IITK journey starts here. Let’s make it memorable!
           </h4>
 
         </div>
@@ -120,8 +118,8 @@ function Slider() {
         <div className="event-right">
 
           <img
-            src="/Gallery/informal.png"
-            alt="Informal Farewell"
+            src="/Gallery/freshers26.png"
+            alt="Freshers"
           />
 
         </div>

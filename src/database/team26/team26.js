@@ -1,15 +1,15 @@
 var team26 = [
   [
     {
-      name: "Prof. Priyanka Ghosh",
+      name: "Prof. Rajesh Sathiyamoorthy",
       post: "HOD",
       fb: "https://www.facebook.com/profile.php?id=100005799362676",
       insta: "https://www.instagram.com/govind_gupta_46/",
       linkedin:
-        "https://www.linkedin.com/in/priyanka-ghosh-33173314/?originalSubdomain=in",
-      website: "https://iitk.ac.in/new/priyanka-ghosh",
-      mail: "mailto:priyog@iitk.ac.in",
-      image: "/team/team23/priyanka-ghosh-iitk.jpg",
+        "https://www.linkedin.com/in/rajesh-sathiyamoorthy-3695a64b/",
+      website: "https://home.iitk.ac.in/~hsrajesh/",
+      mail: "mailto:hsrajesh@iitk.ac.in",
+      image: "/team/team26/prof.rajesh.png",
     },
     {
       name: "Prof.Subhadip Das",
@@ -35,13 +35,13 @@ var team26 = [
     },
 {
       id: "8",
-      name: "Saudamini Nikam ",
+      name: "Nikita Joshi ",
       post: "Events ",
       fb: " ",
-      insta: "https://www.instagram.com/who__knows_5/",
-      linkedin: "https://www.linkedin.com/in/saudamininikam/",
-      mail: "mailto:saudaminisn25@iitk.ac.in",
-      image: "/team/team26/Saudamini.jpeg",
+      insta: "https://www.instagram.com/nikkijoshi165/",
+      linkedin: "https://www.linkedin.com/in/nikita-joshi-b60415215",
+      mail: "mailto:nikitaj23@iitk.ac.in",
+      image: "/team/team26/SaudaminI.jpeg",
     },
 
 

@@ -25,7 +25,7 @@ export default function Hero() {
         playsInline
         preload="auto"
       >
-        <source src="/videos/hero.mp4" type="video/mp4" />
+        <source src="/videos/Hero.mp4" type="video/mp4" />
       </video>
 
       <div className="hero-overlay"></div>
