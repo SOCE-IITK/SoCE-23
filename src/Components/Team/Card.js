@@ -56,7 +56,8 @@ export default function Card() {
 
   const heads = teamData[0];
   const managers = teamData[1];
-  const others = teamData[2];
+  const secretary = teamData[2];
+  const others = teamData[3];
 
   return (
     <>
@@ -66,7 +67,6 @@ export default function Card() {
 
       {heads && heads.length > 0 && (
         <div className="team-section">
-
           <div className="team-grid heads-grid">
 
             {heads.map((member, index) => (
@@ -122,19 +122,18 @@ export default function Card() {
             ))}
 
           </div>
-
         </div>
       )}
-
-      <h2 className="team-heading">{heading}</h2>
 
       {/* ===========================
               MANAGERS
       =========================== */}
 
+      <h2 className="team-heading">{heading}</h2>
+
       <div className="team-grid">
 
-        {managers.map((member, index) => (
+        {managers && managers.map((member, index) => (
 
           <div className="team-card-modern" key={index}>
 
@@ -187,7 +186,100 @@ export default function Card() {
         ))}
 
       </div>
-            {/* ===========================
+
+
+      {/* ===========================
+              SECRETARY
+      =========================== */}
+
+      {secretary && secretary.length > 0 && (
+        <>
+          <h2 className="team-heading">
+            Secretary
+          </h2>
+
+          <div className="team-grid">
+
+            {secretary.map((member, index) => (
+
+              <div className="team-card-modern" key={index}>
+
+                {member.image && (
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="team-image"
+                  />
+                )}
+
+                <h3>{member.name}</h3>
+
+                <span>{member.post}</span>
+
+                <div className="team-icons">
+
+                  {member.fb && (
+                    <a
+                      href={member.fb}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className="fa fa-facebook"></i>
+                    </a>
+                  )}
+
+                  {member.insta && (
+                    <a
+                      href={member.insta}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className="fa fa-instagram"></i>
+                    </a>
+                  )}
+
+                  {member.linkedin && (
+                    <a
+                      href={member.linkedin}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className="fa fa-linkedin"></i>
+                    </a>
+                  )}
+
+                  {member.mail && (
+                    <a
+                      href={member.mail}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className="fa fa-envelope"></i>
+                    </a>
+                  )}
+
+                  {member.website && (
+                    <a
+                      href={member.website}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className="fa fa-globe"></i>
+                    </a>
+                  )}
+
+                </div>
+
+              </div>
+
+            ))}
+
+          </div>
+        </>
+      )}
+
+
+      {/* ===========================
               OTHER MEMBERS
       =========================== */}
 
