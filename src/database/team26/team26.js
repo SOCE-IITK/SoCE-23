@@ -286,7 +286,7 @@ var team26 = [
       linkedin:
         "www.linkedin.com/in/ lalita-patil-1857b5245 Vanity URL name",
       mail: "mailto:lalitacp25@iitk.ac.in",
-      image: "/team/team26/Lalita Patil.heic",
+      image: "/team/team26/lalitapatil.jpeg",
     },
     {
       id: "18",
