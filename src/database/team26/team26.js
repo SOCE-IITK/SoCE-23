@@ -31,7 +31,7 @@ var team26 = [
       insta: "#",
       linkedin: "https://www.linkedin.com/feed/",
       mail: "mailto:saksham24@iitk.ac.in",
-      image: "/team/team26/Saksham.jpg",
+      image: "/team/team26/Saksham_Event.jpg",
     },
     {
       id: "8",
@@ -41,7 +41,7 @@ var team26 = [
       insta: "https://www.instagram.com/who__knows_5/",
       linkedin: "https://www.linkedin.com/in/saudamininikam/",
       mail: "mailto:saudaminisn25@iitk.ac.in",
-      image: "/team/team26/Saudamini Nikam.jpg",
+      image: "/team/team26/Saudamini.jpeg",
     },
     {
       id: "2",
@@ -51,7 +51,7 @@ var team26 = [
       insta: "https://www.instagram.com/nikhilprajapati_01_/",
       linkedin: "https://www.linkedin.com/in/nikhil-prajapati-15bbab298/",
       mail: "mailto:nikhilr24@iitk.ac.in",
-      image: "/team/team26/Nikhil Prajapati.jpg",
+      image: "/team/team26/Nikhil.jpg",
     },
     {
       id: "3",
@@ -63,7 +63,7 @@ var team26 = [
       linkedin:
         "https://www.linkedin.com/in/shubham-bharati-03286035b?utm_source=share_via&utm_content=profile&utm_medium=member_android",
       mail: "mailto:shubhamb24@iitk.ac.in",
-      image: "/team/team26/Shubham Bharati.jpg",
+      image: "/team/team26/Shubham_Design.png",
     },
     {
       id: "9",
@@ -74,7 +74,7 @@ var team26 = [
       linkedin:
         "https://www.linkedin.com/in/sruja-bg-57a49a393?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
       mail: "mailto:rohitu24@iitk.ac.in",
-      image: "/team/team26/Sruja BG.jpg",
+      image: "/team/team26/Sruja.jpg",
     },
     {
       id: "5",
@@ -84,7 +84,7 @@ var team26 = [
       insta: "https://www.instagram.com/girish.iitk/",
       linkedin: "https://www.linkedin.com/in/girish-bhojwani-b1315a323",
       mail: "mailto:girishb24@iitk.ac.in",
-      image: "/team/team26/Girish Bhojwani.jpg",
+      image: "/team/team26/Girish_Media.jpg",
     },
     {
       id: "6",
@@ -94,7 +94,7 @@ var team26 = [
       insta: "https://www.instagram.com/agarwal.k._/",
       linkedin: "https://www.linkedin.com/in/kartikey-agarwal-48769b31b",
       mail: "mailto:akartikey24@iitk.ac.in",
-      image: "/team/team26/Kartikey Agarwal.jpg",
+      image: "/team/team26/Kartikey_Design.jpg",
     },
     {
       id: "7",
@@ -104,7 +104,7 @@ var team26 = [
       insta: "https://www.instagram.com/pinkyreddy_ch/",
       linkedin: "https://www.linkedin.com/in/pinky-chiluveri/",
       mail: "mailto:chiluverip24@iitk.ac.in",
-      image: "/team/team26/Pinky.jpg",
+      image: "/team/team26/pinky.jpg",
     },
   ],
   [
