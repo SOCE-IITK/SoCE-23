@@ -545,3 +545,409 @@
     transform:translateY(-3px);
 
 }
+/* ===========================================
+   STUDENT PAGE
+=========================================== */
+
+#student {
+    background: #0b1014;
+    color: #fff;
+
+    /* Space for fixed navbar */
+    padding: 120px 0 100px;
+}
+
+
+/* ===========================================
+   STUDENT HERO
+=========================================== */
+
+.stu {
+
+    width: 100%;
+
+    padding: 45px 40px;
+
+    margin-bottom: 50px;
+
+    border-radius: 30px;
+
+    background: linear-gradient(
+        135deg,
+        #11191b,
+        #123b4c
+    );
+
+    border: 1px solid rgba(255,255,255,.08);
+
+    box-shadow:
+        0 15px 40px rgba(0,0,0,.25);
+
+}
+
+
+/* ===========================================
+   BADGE
+=========================================== */
+
+.student-badge {
+
+    display: inline-block;
+
+    color: #19bfff;
+
+    border: 1px solid rgba(25,191,255,.35);
+
+    background: rgba(25,191,255,.05);
+
+    padding: 10px 22px;
+
+    border-radius: 40px;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    margin-bottom: 30px;
+
+}
+
+
+/* ===========================================
+   STUDENT TITLE
+=========================================== */
+
+.stu h1 {
+
+    color: #fff;
+
+    font-size: 58px;
+
+    font-weight: 800;
+
+    line-height: 1.1;
+
+    margin-bottom: 30px;
+
+}
+
+
+/* ===========================================
+   STUDENT DESCRIPTION
+=========================================== */
+
+.stu p {
+
+    max-width: 1050px;
+
+    color: #d1d9e3;
+
+    font-size: 20px;
+
+    line-height: 1.8;
+
+    margin: 0;
+
+}
+
+
+/* ===========================================
+   5TH SEM RESOURCES
+=========================================== */
+
+.sem-resources-section {
+    width: 50%;
+    margin: 100px auto -90px;  /* reduced bottom space */
+
+    padding: 35px 40px;
+
+    border-radius: 30px;
+
+    background: linear-gradient(
+        135deg,
+        #11191b,
+        /* #123b4c */
+    );
+
+    border: 1px solid rgba(25,191,255,.20);
+
+    box-shadow:
+        0 15px 40px rgba(0,0,0,.25);
+
+    transition: .35s;
+}
+
+.sem-resources-section:hover {
+    border-color: #19bfff;
+
+    box-shadow:
+        0 18px 45px rgba(25,191,255,.10);
+}
+
+
+/* ===========================================
+   RESOURCES CONTENT
+=========================================== */
+
+.sem-resources-content {
+
+    max-width: 1050px;
+
+}
+
+
+/* ===========================================
+   RESOURCES BADGE
+=========================================== */
+
+.sem-resources-section .student-badge {
+
+    margin-bottom: 25px;
+
+}
+
+
+/* ===========================================
+   RESOURCES TITLE
+=========================================== */
+
+.sem-resources-section h1 {
+
+    color: #fff;
+
+    font-size: 38px;
+
+    font-weight: 700;
+
+    line-height: 1.15;
+
+    margin-bottom: 22px;
+
+}
+
+
+/* ===========================================
+   RESOURCES DESCRIPTION
+=========================================== */
+
+.sem-resources-section p {
+
+    max-width: 900px;
+
+    color: #d1d9e3;
+
+    font-size: 19px;
+
+    line-height: 1.8;
+
+    margin-bottom: 30px;
+
+}
+
+
+/* ===========================================
+   RESOURCES BUTTON
+=========================================== */
+
+.sem-resources-btn {
+
+    display: inline-block;
+
+    text-decoration: none;
+
+    background: #192f50;
+
+    color: #fff;
+
+    padding: 14px 30px;
+
+    border-radius: 40px;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    transition: .3s;
+
+}
+
+
+.sem-resources-btn:hover {
+
+    background: #19bfff;
+
+    color: #071016;
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 10px 25px rgba(25,191,255,.25);
+
+}
+
+
+/* ===========================================
+   RESPONSIVE
+=========================================== */
+
+@media (max-width: 992px) {
+
+    .stu {
+
+        padding: 40px 30px;
+
+    }
+
+    .stu h1 {
+
+        font-size: 48px;
+
+    }
+
+    .stu p {
+
+        font-size: 18px;
+
+    }
+
+    .sem-resources-section {
+
+        padding: 40px 30px;
+
+    }
+
+    .sem-resources-section h1 {
+
+        font-size: 42px;
+
+    }
+
+}
+
+
+/* ===========================================
+   TABLET / MOBILE
+=========================================== */
+
+@media (max-width: 768px) {
+
+    #student {
+
+        padding: 25px 0 70px;
+
+    }
+
+    .stu {
+
+        padding: 32px 24px;
+
+        border-radius: 24px;
+
+        margin-bottom: 30px;
+
+    }
+
+    .student-badge {
+
+        font-size: 13px;
+
+        padding: 8px 16px;
+
+        margin-bottom: 22px;
+
+    }
+
+    .stu h1 {
+
+        font-size: 38px;
+
+        margin-bottom: 22px;
+
+    }
+
+    .stu p {
+
+        font-size: 16px;
+
+        line-height: 1.7;
+
+    }
+
+    .sem-resources-section {
+
+        padding: 32px 24px;
+
+        margin: 30px 0;
+
+        border-radius: 24px;
+
+    }
+
+    .sem-resources-section h1 {
+
+        font-size: 34px;
+
+    }
+
+    .sem-resources-section p {
+
+        font-size: 16px;
+
+        line-height: 1.7;
+
+    }
+
+    .sem-resources-btn {
+
+        padding: 12px 24px;
+
+        font-size: 15px;
+
+    }
+
+}
+
+
+/* ===========================================
+   SMALL MOBILE
+=========================================== */
+
+@media (max-width: 480px) {
+
+    .stu {
+
+        padding: 28px 20px;
+
+    }
+
+    .stu h1 {
+
+        font-size: 32px;
+
+    }
+
+    .stu p {
+
+        font-size: 15px;
+
+    }
+
+    .sem-resources-section {
+
+        padding: 28px 20px;
+
+    }
+
+    .sem-resources-section h1 {
+
+        font-size: 30px;
+
+    }
+
+    .sem-resources-section p {
+
+        font-size: 15px;
+
+    }
+
+}

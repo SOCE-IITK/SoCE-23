@@ -9,7 +9,7 @@ var team26 = [
         "https://www.linkedin.com/in/rajesh-sathiyamoorthy-3695a64b/",
       website: "https://home.iitk.ac.in/~hsrajesh/",
       mail: "mailto:hsrajesh@iitk.ac.in",
-      image: "/team/team26/prof.rajesh.png",
+      image: "/team/team26/prof.Rajesh.png",
     },
     {
       name: "Prof.Subhadip Das",
@@ -41,7 +41,7 @@ var team26 = [
       insta: "https://www.instagram.com/nikkijoshi165/",
       linkedin: "https://www.linkedin.com/in/nikita-joshi-b60415215",
       mail: "mailto:nikitaj23@iitk.ac.in",
-      image: "/team/team26/SaudaminI.jpeg",
+      image: "/team/team26/nikita.png",
     },
 
 
@@ -95,7 +95,7 @@ var team26 = [
     insta: "https://www.instagram.com/agarwal.k._/",
     linkedin: "https://www.linkedin.com/in/kartikey-agarwal-48769b31b",
     mail: "mailto:akartikey24@iitk.ac.in",
-    image: "/team/team26/Kartikey_Design.jpg"
+    image: "/team/team26/kartikey.png"
     },
     {
       id: "7",
