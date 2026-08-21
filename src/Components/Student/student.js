@@ -27,24 +27,19 @@ export default function Student() {
 
         </div>
 
-
         {/* =========================
-            5TH SEM RESOURCES
+            3RD SEM RESOURCES
         ========================= */}
 
         <div className="sem-resources-section">
 
           <div className="sem-resources-content">
 
-            {/* <div className="student-badge">
-              ● ACADEMIC RESOURCES
-            </div> */}
-
             <h1>UG 3rd Sem Resources</h1>
 
             <p>
               Access study materials, notes, previous resources and other
-              useful academic content for the 5th semester.
+              useful academic content for the 3rd semester.
             </p>
 
             <a
@@ -59,7 +54,6 @@ export default function Student() {
           </div>
 
         </div>
-
 
         {/* =========================
             STUDENT CARDS

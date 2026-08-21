@@ -126,7 +126,7 @@ function Slider() {
 
       </div>
 
-      <div className="section-divider"></div>
+      {/* <div className="section-divider"></div> */}
 
       {/* ================= CONTACT ================= */}
 
