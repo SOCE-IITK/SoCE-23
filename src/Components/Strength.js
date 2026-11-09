@@ -35,16 +35,20 @@ const strengths = [
     open:
       "https://drive.google.com/file/d/1HUqoCZ-sqmppWxT_-BCdGLFtBlW79did/view",
   },
+  {
+    title: "Strengths'25",
+    download:
+      "https://drive.google.com/file/d/1dzWDVVtqhPkKzhiJf9w87HKLLesrbFsU/view?usp=sharing",
+    open:
+      "https://drive.google.com/file/d/1dzWDVVtqhPkKzhiJf9w87HKLLesrbFsU/view?usp=sharing",
+  },
 ];
 
 export default function Strength() {
   return (
     <div className="container" id="strength">
-
       {/* Hero Section */}
-
       <div className="strength-hero">
-
         <h1>Strengths</h1>
 
         <p>
@@ -55,60 +59,41 @@ export default function Strength() {
           year while celebrating the contributions of the civil
           engineering community.
         </p>
-
       </div>
 
-      {/* Cards */}
-
+      {/* Magazine Cards */}
       <div className="row g-4 mt-2">
-
         {strengths.map((item, index) => (
-
           <div
             key={index}
             className="col-xl-4 col-lg-4 col-md-6"
           >
-
             <div className="strength-card">
-
               <div>
-
                 <h2>{item.title}</h2>
-
               </div>
 
               <div className="strength-buttons">
-
                 <a href={item.download} download>
-
                   <button className="strength-btn">
                     Download
                   </button>
-
                 </a>
 
                 <a
                   href={item.open}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
-
                   <button className="strength-btn outline">
                     Open
                   </button>
-
                 </a>
-
               </div>
-
             </div>
-
           </div>
-
         ))}
-
       </div>
-
     </div>
   );
 }
