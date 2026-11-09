@@ -36,7 +36,7 @@ const strengths = [
       "https://drive.google.com/file/d/1HUqoCZ-sqmppWxT_-BCdGLFtBlW79did/view",
   },
   {
-    title: "Strengths'25",
+    title: "Strengths'26",
     download:
       "https://drive.google.com/file/d/1dzWDVVtqhPkKzhiJf9w87HKLLesrbFsU/view?usp=sharing",
     open:
